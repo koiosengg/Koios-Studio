@@ -15,7 +15,7 @@ function Footer() {
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => setIsInView(entry.isIntersecting),
-      { threshold: 0.9 }
+      { threshold: 0.8 }
     );
 
     if (bigLogoRef.current) {
@@ -68,9 +68,11 @@ function Footer() {
         </div>
       </div>
       <div
-        className={`footer-bottom ${isInView ? "in-view" : ""}`}
+        className={`footer-bottom ${isInView ? "footer-bottom-in-view" : ""}`}
         ref={bigLogoRef}
-      > <img src={FooterBottomBackground} />
+      >
+        {" "}
+        <img src={FooterBottomBackground} />
         <div className="footer-bottom-container">
           <FooterStar />
           <p>THE KOIOS STUDIO</p>
