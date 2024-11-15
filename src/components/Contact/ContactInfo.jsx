@@ -48,6 +48,7 @@ function ContactInfo() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={contact.label}
+              className="contact-info-set-div"
             >
               <div className="heading">
                 <img src={contact.icon} alt="" aria-hidden="true" />
