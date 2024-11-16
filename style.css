@@ -273,6 +273,7 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 8px;
+  z-index: 10;
 }
 
 .section-heading h2 {
