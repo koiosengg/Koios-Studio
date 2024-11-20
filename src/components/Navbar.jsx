@@ -11,9 +11,11 @@ function Navbar() {
       </Link>
       <nav>
         <div className="nav-links">
-          <Link to="/services">Designing</Link>
-          <Link to="/projects">Projects</Link>
-          <Link to="/about">About</Link>
+          <Link to="/designing">Designing</Link>
+          <Link to="/development">Development</Link>
+          <Link to="/branding">Branding</Link>
+          {/* <Link to="/projects">Projects</Link> */}
+          <Link to="/about">About Us</Link>
         </div>
         <Link to="/contact" className="white-button">
           <span>Contact Us </span>

@@ -13,9 +13,9 @@ html {
 
 header {
   display: flex;
-  width: calc(100% - 400px);
+  width: calc(100% - 320px);
   padding: 24px 48px;
-  margin: 32px 200px;
+  margin: 32px 160px;
   justify-content: space-between;
   align-items: center;
   border-radius: 16px;
