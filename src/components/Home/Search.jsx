@@ -1,8 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 
 function Search() {
   const [query, setQuery] = useState("");
+  const inputRef = useRef(null);
+
+  useEffect(() => {
+    if (inputRef.current) {
+      inputRef.current.focus();
+    }
+  });
 
   const searchOptions = [
     {
@@ -44,6 +51,7 @@ function Search() {
       </div>
       <div className="search-container">
         <input
+          ref={inputRef}
           placeholder="Search pages..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}

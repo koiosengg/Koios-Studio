@@ -283,12 +283,7 @@ nav {
   font-style: normal;
   font-weight: 600;
   line-height: 24px;
-  background: linear-gradient(
-    93deg,
-    #ffbf00 40.92%,
-    #ffebb0 49.52%,
-    #ffbf00 58.45%
-  );
+  background: linear-gradient(93deg, #ffbf00, #ffebb0, #ffbf00);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -595,15 +590,11 @@ nav {
   background: linear-gradient(90deg, #121212, #fff, #121212);
 }
 
-.our-success .contact-info-set #footer-star {
+.our-success .contact-info-set #stars {
   position: absolute;
-  top: -40px;
+  top: -20px;
   right: -40px;
   left: auto;
-}
-
-.our-success .contact-info-set #footer-star path {
-  fill: #ffbf00;
 }
 
 .why-us {
@@ -615,6 +606,158 @@ nav {
   gap: 40px;
   align-self: stretch;
   background: var(--Black-Primary, #121212);
+}
+
+.why-us-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  align-self: stretch;
+  overflow: hidden;
+}
+
+.why-us-cards-container {
+  padding: 0px 160px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  transition: all 0.5s;
+}
+
+.why-us-cards {
+  display: flex;
+  width: 356px;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 19px;
+  border-radius: 8px;
+  background: rgba(18, 18, 18, 0.8);
+}
+
+.why-us-cards-frame {
+  display: flex;
+  width: 312.888px;
+  height: 231.294px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 0.5px solid rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  position: relative;
+}
+
+.why-us-cards-frame-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.5s;
+  opacity: 0.2;
+}
+
+.why-us-cards:hover .why-us-cards-frame-background {
+  opacity: 1;
+}
+.why-us-cards-icon {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  background: url("./src/assets/Home/Why%20Us%20Card%20Icon%20Background.png")
+    no-repeat center / cover;
+  transition: all 0.5s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.why-us-cards:hover .why-us-cards-icon {
+  box-shadow: 0px 2px 50px 0px rgba(255, 191, 0, 0.25);
+}
+
+
+.why-us-cards-icon img {
+  object-fit: cover;
+  height: 60px;
+  opacity: 0.3;
+  flex-shrink: 0;
+  transition: all 0.5s;
+}
+
+.why-us-cards:hover .why-us-cards-icon img {
+  opacity: 1;
+}
+
+.why-us-cards-info {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  transition: all 0.5s;
+  opacity: 0.8;
+}
+
+.why-us-cards:hover .why-us-cards-info {
+  opacity: 1;
+}
+
+
+.why-us-cards-info h3 {
+  color: var(--White-text, #fff);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.why-us-cards-info p {
+  color: var(--Grey-text-grey-text-300, #b9b9b9);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.why-us-buttons-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.gallery-button {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  background: var(--Woodsmoke-BG-woodsmoke-bg-900, #343333);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.disable-button {
+  border-radius: 100px;
+  background: var(--Black-Primary, #212121);
+}
+
+.disable-button svg {
+  opacity: 0.3;
 }
 
 /* Contact */
@@ -1082,7 +1225,7 @@ footer nav section a:hover {
 .footer-bottom-container p {
   color: #fff;
   font-family: Poppins;
-  font-size: 8vw;
+  font-size: 10vw;
   font-style: normal;
   font-weight: 800;
   letter-spacing: -6.25px;
@@ -1107,7 +1250,7 @@ footer nav section a:hover {
 .footer-bottom-container span {
   color: #fff;
   font-family: Poppins;
-  font-size: 8vw;
+  font-size: 10vw;
   font-style: normal;
   font-weight: 800;
   letter-spacing: -6.25px;

@@ -75,8 +75,8 @@ function Footer() {
         <img src={FooterBottomBackground} />
         <div className="footer-bottom-container">
           <FooterStar />
-          <p>THE KOIOS STUDIO</p>
-          <span>THE KOIOS STUDIO</span>
+          <p>KOIOS STUDIO</p>
+          <span>KOIOS STUDIO</span>
         </div>
       </div>
     </footer>

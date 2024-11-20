@@ -8,9 +8,9 @@ function ContactInfo() {
   const contacts = [
     {
       label: "Mail Us",
-      link: "mailto:info@koios.com",
+      link: "mailto:info@koiosengg.com",
       icon: MailIcon,
-      text: "info@koios.com",
+      text: "info@koiosengg.com",
     },
     {
       label: "Location",
@@ -25,9 +25,9 @@ function ContactInfo() {
     },
     {
       label: "Call Us",
-      link: "tel:+918909765654",
+      link: "tel:+917338658118",
       icon: CallIcon,
-      text: "+91 8909765654",
+      text: "+91 7338658118",
     },
   ];
 

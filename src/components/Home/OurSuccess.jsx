@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import Search from "./Search";
-import FooterStar from "../Footer/FooterStar";
+import Stars from "../../assets/Home/Home Stars.png";
 
 function OurSuccess() {
   const projectRef = useRef(null);
@@ -14,7 +14,7 @@ function OurSuccess() {
           setHasAnimated(true);
           let current = 1;
           const target = 54;
-          const increment = 1;
+          const increment = 3;
           const duration = 5000;
           const intervalTime = duration / (target - current);
 
@@ -75,7 +75,7 @@ function OurSuccess() {
           </div>
         </div>
         <div className="our-success-contact-info-set-bottom-line"></div>
-        <FooterStar />
+        <img src={Stars} id="stars" />
       </div>
     </div>
   );
