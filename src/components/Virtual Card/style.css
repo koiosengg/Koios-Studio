@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.virtual-card h2 {
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 2px 20px rgba(255, 255, 255, 0.3);
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -2.88px;
+}
+
+/* Lets Connect */
+
+.virtual-card-connect {
+  width: 100%;
+  display: flex;
+  padding: 64px 160px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  align-self: stretch;
+  background: var(--Black-Primary, #121212);
+}
+
+.virtual-card-connect-container {
+  width: 834px;
+  position: relative;
+}
+
+.virtual-card-connect-container img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.virtual-card-connect-container .heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.virtual-card-socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.virtual-card-socials a {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  padding: 6px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  aspect-ratio: 1/1;
+  border-radius: 4px;
+  background: linear-gradient(
+      0deg,
+      rgba(18, 18, 18, 0.7) 0%,
+      rgba(18, 18, 18, 0.7) 100%
+    ),
+    #414141;
+}
+
+.virtual-card-socials a svg {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+}
+
+.virtual-card-socials a svg path {
+  transition: all 0.3s;
+}
+
+.virtual-card-socials a:hover svg path {
+  fill: #ffbf00;
+}
+
+/* Testimony */
+
+.virtual-card-testimony {
+  width: 100%;
+  display: flex;
+  padding: 54px 160px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  background: var(--Black-Primary, #121212);
+}
+
+.virtual-card-testimony-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+.virtual-card-testimony-set-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  overflow: hidden;
+}
+
+.virtual-card-testimony-set-slide {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  transition: all 0.3s;
+}
+
+.virtual-card-testimony-set {
+  width: 50%;
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid #414141;
+  background: linear-gradient(159deg, #1d1d1d 0.49%, #121212 58.97%);
+}
+
+.virtual-card-testimony-set p {
+  width: 100%;
+  color: var(--Grey-grey-300, #a7a7a7);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.64px;
+}
+
+.virtual-card-testimony-set section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.virtual-card-testimony-info {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+    "box-1 box-2"
+    "box-1 box-3";
+}
+
+.virtual-card-testimony-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background: #5f5f5f;
+  margin-right: 8px;
+}
+
+.virtual-card-testimony-info h4 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.56px;
+}
+
+.virtual-card-testimony-info span {
+  color: var(--Black-black-300, #606060);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.48px;
+}
+
+.virtual-card-testimony-star {
+  display: flex;
+  align-items: center;
+}
+
+.virtual-card-testimony-star img {
+  width: 16px;
+  object-fit: cover;
+}
+
+.virtual-card-testimony-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  align-self: stretch;
+}
+
+.virtual-card-testimony-button-container button {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  border: 0;
+  background: var(--Woodsmoke-BG-woodsmoke-bg-900, #343333);
+  cursor: pointer;
+}
+
+.virtual-card-testimony-button-container button img {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+/* Footer */
+
+.virtual-card-footer {
+  width: 100%;
+  display: flex;
+  padding: 64px 160px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  background: var(--Black-Primary, #121212);
+}
+
+.virtual-card-footer-container {
+  display: flex;
+  width: 800px;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 16px;
+  border: 1px solid var(--Black-black-400, #414141);
+  background: var(--Black-Primary, #121212);
+}
+
+.virtual-card-footer-container section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.virtual-card-footer-container section img {
+  height: 16px;
+  object-fit: cover;
+}
+
+.virtual-card-footer-container section p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.64px;
+}
+
+.virtual-card-footer-container section span {
+  text-decoration: none;
+  color: var(--Grey-grey-700, #575757);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.64px;
+}
+
+.virtual-card-footer-container section span a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.64px;
+  transition: all 0.3s;
+}
+
+.virtual-card-footer-container section span a:hover {
+  color: #ffbf00;
+}
+
+.virtual-card-footer-link-container {
+  display: flex;
+  height: 24px;
+  align-items: center;
+  gap: 8px;
+}
+
+.virtual-card-footer-link-container a {
+  text-decoration: none;
+  color: var(--Grey-grey-700, #575757);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.64px;
+  transition: all 0.3s;
+}
+
+.virtual-card-footer-link-container a:hover {
+  color: #fff;
+}
+
+.virtual-card-footer-link-container span {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #575757;
+}
+
+.virtual-card-footer-line {
+  width: 100%;
+  height: 1px;
+  background: #414141;
+}
