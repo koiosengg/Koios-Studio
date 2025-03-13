@@ -4,10 +4,10 @@ import Testimony from "./components/Testimony";
 import Footer from "./components/Footer";
 import "./style.css";
 
-function Template() {
+function MahiRastogi() {
   return (
     <div className="virtual-card">
-      <h1>Template</h1>
+      <h1>Mahi Rastogi</h1>
       <Testimony />
       <Connect />
       <Footer />
@@ -15,4 +15,4 @@ function Template() {
   );
 }
 
-export default Template;
+export default MahiRastogi;

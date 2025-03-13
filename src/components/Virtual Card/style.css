@@ -23,77 +23,6 @@ html {
   letter-spacing: -2.88px;
 }
 
-/* Lets Connect */
-
-.virtual-card-connect {
-  width: 100%;
-  display: flex;
-  padding: 64px 160px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 64px;
-  align-self: stretch;
-  background: var(--Black-Primary, #121212);
-}
-
-.virtual-card-connect-container {
-  width: 834px;
-  position: relative;
-}
-
-.virtual-card-connect-container img {
-  width: 100%;
-  object-fit: cover;
-}
-
-.virtual-card-connect-container .heading {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 0%);
-}
-
-.virtual-card-socials {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-}
-
-.virtual-card-socials a {
-  display: flex;
-  width: 48px;
-  height: 48px;
-  padding: 6px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  aspect-ratio: 1/1;
-  border-radius: 4px;
-  background: linear-gradient(
-      0deg,
-      rgba(18, 18, 18, 0.7) 0%,
-      rgba(18, 18, 18, 0.7) 100%
-    ),
-    #414141;
-}
-
-.virtual-card-socials a svg {
-  width: 24px;
-  height: 24px;
-  flex-shrink: 0;
-  aspect-ratio: 1/1;
-}
-
-.virtual-card-socials a svg path {
-  transition: all 0.3s;
-}
-
-.virtual-card-socials a:hover svg path {
-  fill: #ffbf00;
-}
-
 /* Testimony */
 
 .virtual-card-testimony {
@@ -239,6 +168,77 @@ html {
   flex-shrink: 0;
 }
 
+/* Lets Connect */
+
+.virtual-card-connect {
+  width: 100%;
+  display: flex;
+  padding: 64px 160px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  align-self: stretch;
+  background: var(--Black-Primary, #121212);
+}
+
+.virtual-card-connect-container {
+  width: 834px;
+  position: relative;
+}
+
+.virtual-card-connect-container img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.virtual-card-connect-container .heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.virtual-card-socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.virtual-card-socials a {
+  display: flex;
+  display: flex;
+  width: 60px;
+  height: 48px;
+  padding: 6px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: linear-gradient(
+      0deg,
+      rgba(18, 18, 18, 0.7) 0%,
+      rgba(18, 18, 18, 0.7) 100%
+    ),
+    #414141;
+}
+
+.virtual-card-socials a svg {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+}
+
+.virtual-card-socials a svg path {
+  transition: all 0.3s;
+}
+
+.virtual-card-socials a:hover svg path {
+  fill: #ffbf00;
+}
+
 /* Footer */
 
 .virtual-card-footer {
@@ -254,7 +254,7 @@ html {
 
 .virtual-card-footer-container {
   display: flex;
-  width: 800px;
+  width: 100%;
   padding: 32px;
   flex-direction: column;
   align-items: flex-start;
