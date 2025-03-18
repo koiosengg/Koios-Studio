@@ -34,6 +34,8 @@ html {
   align-items: center;
   gap: 64px;
   background: var(--Black-Primary, #121212);
+  position: relative;
+  overflow: hidden;
 }
 
 .virtual-card-testimony-container {
@@ -46,24 +48,35 @@ html {
 
 .virtual-card-testimony-set-container {
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 24px;
   overflow: hidden;
 }
 
 .virtual-card-testimony-set-slide {
-  width: 100%;
-  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  gap: 24px;
-  transition: all 0.3s;
+  gap: 48px;
+  animation: marquee 30s linear infinite;
+}
+
+.virtual-card-testimony-set-slide:hover {
+  animation-play-state: paused;
+  cursor: grab;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
 }
 
 .virtual-card-testimony-set {
-  width: 50%;
+  white-space: wrap;
+  width: 500px;
   display: flex;
   padding: 24px;
   flex-direction: column;
@@ -140,32 +153,24 @@ html {
   object-fit: cover;
 }
 
-.virtual-card-testimony-button-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 6px;
-  align-self: stretch;
-}
-
-.virtual-card-testimony-button-container button {
-  display: flex;
-  width: 40px;
-  height: 40px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border-radius: 100px;
-  border: 0;
-  background: var(--Woodsmoke-BG-woodsmoke-bg-900, #343333);
-  cursor: pointer;
-}
-
-.virtual-card-testimony-button-container button img {
-  width: 20px;
-  height: 20px;
+.virtual-card-testimony-dark {
+  width: 640px;
+  height: 100%;
   flex-shrink: 0;
+  border-radius: 823px;
+  background: var(--Black-Primary, #121212);
+  filter: blur(80px);
+  position: absolute;
+  z-index: 10;
+  bottom: -20%;
+}
+
+.virtual-card-testimony-left {
+  left: -195px;
+}
+
+.virtual-card-testimony-right {
+  right: -195px;
 }
 
 /* Lets Connect */
