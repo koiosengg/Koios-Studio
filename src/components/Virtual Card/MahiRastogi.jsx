@@ -1,6 +1,10 @@
 import React from "react";
 import Banner from "./components/Banner";
+import Communication from "./components/Communication";
 import About from "./components/About";
+import Services from "./components/Services";
+import Products from "./components/Products";
+import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Testimony from "./components/Testimony";
@@ -12,7 +16,11 @@ function MahiRastogi() {
   return (
     <div className="virtual-card">
       <Banner />
+      <Communication />
       <About />
+      <Services />
+      <Products />
+      <Skills />
       <Experience />
       <Contact />
       <Testimony />
