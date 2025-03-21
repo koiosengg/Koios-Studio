@@ -17,6 +17,29 @@
 <body>
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const classList = [
+        "virtual-card-contact-background", "virtual-card-services-background", "virtual-card-products-background",
+        "another-class",
+        "yet-another-class"
+      ];
+
+      const handleScroll = () => {
+        classList.forEach((className) => {
+          document.querySelectorAll(`.${className}`).forEach((el) => {
+            const rect = el.getBoundingClientRect();
+            if (rect.top < window.innerHeight * 0.8) {
+              el.classList.add("virtual-card-inview");
+            }
+          });
+        });
+      };
+
+      window.addEventListener("scroll", handleScroll);
+      handleScroll();
+    });
+  </script>
 </body>
 
 </html>

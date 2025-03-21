@@ -39,6 +39,17 @@ html {
   z-index: 1;
 }
 
+.virtual-card-contact-background,
+.virtual-card-services-background,
+.virtual-card-products-background {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.virtual-card-inview {
+  opacity: 1;
+}
+
 /* Banner */
 
 .virtual-card-banner {
