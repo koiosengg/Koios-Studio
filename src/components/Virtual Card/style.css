@@ -43,7 +43,7 @@ html {
 .virtual-card-services-background,
 .virtual-card-products-background {
   opacity: 0;
-  transition: all 1s;
+  transition: all 2s;
 }
 
 .virtual-card-inview {
