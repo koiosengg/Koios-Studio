@@ -1,5 +1,6 @@
 import React from "react";
 import DesktopBackground from "../assets/TKS Desktop About.png";
+import DesktopStar from "../assets/TKS Desktop Star.png";
 
 function About() {
   return (
@@ -14,6 +15,7 @@ function About() {
           viverra.
         </p>
       </div>
+      <img className="star" src={DesktopStar} />
     </div>
   );
 }

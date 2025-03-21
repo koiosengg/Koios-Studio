@@ -4,6 +4,7 @@ import Communication from "./components/Communication";
 import About from "./components/About";
 import Services from "./components/Services";
 import Products from "./components/Products";
+import Watch from "./components/Watch";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
@@ -16,10 +17,11 @@ function MahiRastogi() {
   return (
     <div className="virtual-card">
       <Banner />
-      <Communication />
       <About />
+      <Communication />
       <Services />
       <Products />
+      <Watch />
       <Skills />
       <Experience />
       <Contact />
