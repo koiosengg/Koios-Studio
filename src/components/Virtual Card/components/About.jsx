@@ -16,6 +16,76 @@ function About() {
         </p>
       </div>
       <img className="star" src={DesktopStar} />
+      <div className="virtual-star-twinkle twinkle-1">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="6"
+          height="8"
+          viewBox="0 0 6 8"
+          fill="none"
+        >
+          <path
+            d="M2.93422 0.179199L3.56794 2.82532L5.28054 3.80447L3.56794 4.78362L2.93422 7.42974L2.30049 4.78362L0.587891 3.80447L2.30049 2.82532L2.93422 0.179199Z"
+            fill="#D6D6D6"
+          />
+        </svg>
+      </div>
+      <div className="virtual-star-twinkle twinkle-2">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="6"
+          height="8"
+          viewBox="0 0 6 8"
+          fill="none"
+        >
+          <path
+            d="M2.93422 0.179199L3.56794 2.82532L5.28054 3.80447L3.56794 4.78362L2.93422 7.42974L2.30049 4.78362L0.587891 3.80447L2.30049 2.82532L2.93422 0.179199Z"
+            fill="#D6D6D6"
+          />
+        </svg>
+      </div>
+      <div className="virtual-star-twinkle twinkle-3">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="6"
+          height="8"
+          viewBox="0 0 6 8"
+          fill="none"
+        >
+          <path
+            d="M2.93422 0.179199L3.56794 2.82532L5.28054 3.80447L3.56794 4.78362L2.93422 7.42974L2.30049 4.78362L0.587891 3.80447L2.30049 2.82532L2.93422 0.179199Z"
+            fill="#D6D6D6"
+          />
+        </svg>
+      </div>
+      <div className="virtual-star-twinkle twinkle-4">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="6"
+          height="8"
+          viewBox="0 0 6 8"
+          fill="none"
+        >
+          <path
+            d="M2.93422 0.179199L3.56794 2.82532L5.28054 3.80447L3.56794 4.78362L2.93422 7.42974L2.30049 4.78362L0.587891 3.80447L2.30049 2.82532L2.93422 0.179199Z"
+            fill="#D6D6D6"
+          />
+        </svg>
+      </div>
+      <div className="virtual-star-twinkle twinkle-5">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="6"
+          height="8"
+          viewBox="0 0 6 8"
+          fill="none"
+        >
+          <path
+            d="M2.93422 0.179199L3.56794 2.82532L5.28054 3.80447L3.56794 4.78362L2.93422 7.42974L2.30049 4.78362L0.587891 3.80447L2.30049 2.82532L2.93422 0.179199Z"
+            fill="#D6D6D6"
+          />
+        </svg>
+      </div>
     </div>
   );
 }

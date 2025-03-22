@@ -50,6 +50,56 @@ html {
   opacity: 1;
 }
 
+.virtual-star-twinkle {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.twinkle-1 {
+  top: 15%;
+  left: 30%;
+  animation: twinkleAnimation 5s infinite alternate ease-in-out;
+}
+
+.twinkle-2 {
+  top: 25%;
+  right: 30%;
+  animation: twinkleAnimation 3s infinite alternate ease-in-out;
+}
+.twinkle-3 {
+  bottom: 15%;
+  left: 40%;
+  animation: twinkleAnimation 4s infinite alternate ease-in-out;
+}
+
+.twinkle-4 {
+  top: 30%;
+  left: 50%;
+  animation: twinkleAnimation 7s infinite alternate ease-in-out;
+}
+.twinkle-5 {
+  top: 75%;
+  right: 30%;
+  animation: twinkleAnimation 3s infinite alternate ease-in-out;
+}
+
+@keyframes twinkleAnimation {
+  0% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(2);
+  }
+  100% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+}
+
 /* Banner */
 
 .virtual-card-banner {
