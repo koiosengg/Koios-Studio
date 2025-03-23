@@ -1367,3 +1367,86 @@ html {
   height: 1px;
   background: #414141;
 }
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+  .mobile {
+    display: flex;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .virtual-card-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .virtual-card-banner-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px 20px 20px;
+  }
+
+  .virtual-card-banner-left {
+    width: 100%;
+    height: auto;
+  }
+
+  .virtual-card-banner-left-text {
+    gap: 16px;
+  }
+
+  .virtual-card-banner-left-text section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .virtual-card-banner-left-text h1 {
+    color: var(--White, #fff);
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.44px;
+  }
+  .virtual-card-banner-left-text h1 img {
+    width: 24px;
+    height: 24px;
+    aspect-ratio: 1/1;
+    margin-left: 9px;
+  }
+
+  .virtual-card-banner-left-text p {
+    width: 100%;
+    color: var(--Grey-grey-300, #a7a7a7);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.64px;
+  }
+
+  .virtual-card-banner-right {
+    width: 100%;
+  }
+}
