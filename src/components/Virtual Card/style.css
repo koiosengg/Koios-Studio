@@ -57,34 +57,6 @@ html {
   justify-content: center;
 }
 
-.twinkle-1 {
-  top: 15%;
-  left: 30%;
-  animation: twinkleAnimation 5s infinite alternate ease-in-out;
-}
-
-.twinkle-2 {
-  top: 25%;
-  right: 30%;
-  animation: twinkleAnimation 3s infinite alternate ease-in-out;
-}
-.twinkle-3 {
-  bottom: 15%;
-  left: 40%;
-  animation: twinkleAnimation 4s infinite alternate ease-in-out;
-}
-
-.twinkle-4 {
-  top: 30%;
-  left: 50%;
-  animation: twinkleAnimation 7s infinite alternate ease-in-out;
-}
-.twinkle-5 {
-  top: 75%;
-  right: 30%;
-  animation: twinkleAnimation 3s infinite alternate ease-in-out;
-}
-
 @keyframes twinkleAnimation {
   0% {
     opacity: 0.2;
@@ -223,6 +195,14 @@ html {
   letter-spacing: -0.8px;
 }
 
+.virtual-card-left-buttons {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
 .virtual-card-white-button {
   text-decoration: none;
   display: inline-flex;
@@ -245,6 +225,7 @@ html {
   font-weight: 500;
   line-height: 24px;
   transition: all 0.3s;
+  flex-shrink: 0;
 }
 
 .virtual-card-white-button svg path {
@@ -261,11 +242,50 @@ html {
 }
 
 .virtual-card-white-button:hover p {
-  color: var(--White-text, #fff);
+  color: #fff;
 }
 
 .virtual-card-white-button:hover svg path {
   fill: #fff;
+}
+
+.virtual-card-black-button {
+  text-decoration: none;
+  text-decoration: none;
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  border-radius: 8px;
+  background: linear-gradient(
+      0deg,
+      rgba(18, 18, 18, 0.7) 0%,
+      rgba(18, 18, 18, 0.7) 100%
+    ),
+    #414141;
+  backdrop-filter: blur(2px);
+  transition: all 0.3s;
+}
+
+.virtual-card-black-button p {
+  color: var(--White-text, #fff);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  flex-shrink: 0;
+  transition: all 0.3s;
+}
+
+.virtual-card-black-button:hover {
+  background: #fff;
+}
+
+.virtual-card-black-button:hover p {
+  color: var(--Black-Primary, #121212);
 }
 
 .virtual-card-banner-right {
@@ -377,6 +397,34 @@ html {
 .virtual-card-about-container p {
   width: 720px;
   text-align: center;
+}
+
+.virtual-card-about .twinkle-1 {
+  top: 15%;
+  left: 30%;
+  animation: twinkleAnimation 1s infinite alternate ease-in-out;
+}
+
+.virtual-card-about .twinkle-2 {
+  top: 25%;
+  right: 30%;
+  animation: twinkleAnimation 3s infinite alternate ease-in-out;
+}
+.virtual-card-about .twinkle-3 {
+  bottom: 15%;
+  left: 40%;
+  animation: twinkleAnimation 2s infinite alternate ease-in-out;
+}
+
+.virtual-card-about .twinkle-4 {
+  top: 30%;
+  left: 50%;
+  animation: twinkleAnimation 4s infinite alternate ease-in-out;
+}
+.virtual-card-about .twinkle-5 {
+  top: 75%;
+  right: 30%;
+  animation: twinkleAnimation 5s infinite alternate ease-in-out;
 }
 
 /* Communication */
@@ -1385,6 +1433,30 @@ html {
     display: none;
   }
 
+  .virtual-card h2 {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 2px 20px rgba(255, 255, 255, 0.3);
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.68px;
+  }
+
+  .virtual-card p {
+    color: var(--Grey-grey-300, #a7a7a7);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.64px;
+  }
+
+  /* Banner */
+
   .virtual-card-banner {
     display: flex;
     flex-direction: column;
@@ -1446,7 +1518,136 @@ html {
     letter-spacing: -0.64px;
   }
 
+  .virtual-card-left-buttons {
+    z-index: 10;
+  }
+
+  .virtual-card-white-button {
+    width: 100%;
+  }
+  .virtual-card-white-button p {
+    color: var(--Black-Primary, #121212);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .virtual-card-black-button {
+    width: 100%;
+  }
+
+  .virtual-card-black-button p {
+    color: var(--White-text, #fff);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
   .virtual-card-banner-right {
     width: 100%;
+  }
+
+  /* About */
+
+  .virtual-card-about {
+    padding: 40px 0px 0px 0px;
+  }
+
+  .virtual-card-about-container {
+    width: 100%;
+    padding: 0px 20px;
+  }
+
+  .virtual-card-about-container p {
+    width: 100%;
+  }
+
+  .virtual-card-about .star {
+    height: 173px;
+    object-fit: cover;
+    top: -87px;
+  }
+
+  /* Services */
+
+  .virtual-card-services {
+    padding: 40px 20px;
+    gap: 32px;
+  }
+
+  .virtual-card-services-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .virtual-card-services-set {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    height: 272px;
+    padding: 14px;
+    border-radius: 4px;
+    border: 1px solid var(--Black-black-400, #414141);
+    background: linear-gradient(
+      148deg,
+      rgba(18, 18, 18, 0.2) 0%,
+      rgba(18, 18, 18, 0.4) 99.15%
+    );
+    backdrop-filter: blur(30px);
+  }
+
+  .virtual-card-services-set img {
+    transform: translate(-50%, -50%);
+  }
+
+  .virtual-card-services-set h3 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 28px */
+    letter-spacing: -1.12px;
+  }
+
+  /* Products */
+
+  .virtual-card-products {
+    padding: 40px 20px;
+    gap: 32px;
+  }
+
+  .virtual-card-products-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .virtual-card-products-background {
+    top: 0;
+  }
+
+  .virtual-card-products-set-img {
+    height: 296px;
+  }
+
+  .virtual-card-products-set h3 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.96px;
   }
 }
