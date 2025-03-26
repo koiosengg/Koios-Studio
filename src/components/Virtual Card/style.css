@@ -152,6 +152,7 @@ html {
   flex-shrink: 0;
   aspect-ratio: 1/1;
   object-fit: cover;
+  margin-left: 9px;
 }
 
 .virtual-card-banner-designation {
@@ -193,14 +194,6 @@ html {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: -0.8px;
-}
-
-.virtual-card-left-buttons {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  gap: 8px;
-  flex-shrink: 0;
 }
 
 .virtual-card-white-button {
@@ -402,7 +395,7 @@ html {
 .virtual-card-about .twinkle-1 {
   top: 15%;
   left: 30%;
-  animation: twinkleAnimation 1s infinite alternate ease-in-out;
+  animation: twinkleAnimation 3.5s infinite alternate ease-in-out;
 }
 
 .virtual-card-about .twinkle-2 {
@@ -427,95 +420,73 @@ html {
   animation: twinkleAnimation 5s infinite alternate ease-in-out;
 }
 
-/* Communication */
+/* Reach */
 
-.virtual-card-communication {
+.virtual-card-reach {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 40px;
-  padding: 80px 160px;
+  gap: 64px;
   position: relative;
+  overflow: hidden;
 }
 
-.virtual-card-communication-background {
-  position: absolute;
+.virtual-card-reach-background {
   width: 100%;
   object-fit: cover;
 }
 
-.virtual-card-communication-container {
-  width: 100%;
-  display: flex;
+.virtual-card-reach-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-flex;
   flex-direction: column;
-  align-items: center;
-  gap: 48px;
-  align-self: stretch;
-  z-index: 1;
-}
-
-.virtual-card-communication-set {
-  display: flex;
   justify-content: center;
   align-items: center;
-  gap: 48px;
-  flex: 1 0 0;
+  gap: 20px;
 }
 
-.virtual-card-communication-set a {
+.virtual-card-reach-container section {
   display: flex;
-  width: 64px;
-  height: 64px;
-  padding: 6px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  aspect-ratio: 1/1;
-  border-radius: 48px;
-  background: linear-gradient(
-      0deg,
-      rgba(18, 18, 18, 0.7) 0%,
-      rgba(18, 18, 18, 0.7) 100%
-    ),
-    #414141;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.virtual-card-reach-set {
   text-decoration: none;
-}
-
-.virtual-card-communication-set a svg path {
-  transition: all 0.3s;
-}
-
-.virtual-card-communication-set a:hover svg path {
-  fill: #ffbf00;
-}
-
-.virtual-card-communication-set:last-child {
-  gap: 64px;
-}
-
-.virtual-card-communication section {
   display: flex;
   align-items: center;
   gap: 9px;
+  transition: all 0.3s;
 }
 
-.virtual-card-communication section img {
+.virtual-card-reach-set img {
   width: 48px;
   height: 48px;
   object-fit: cover;
+  border-radius: 4px;
 }
 
-.virtual-card-communication section p {
+.virtual-card-reach-set p {
   color: #fff;
   text-align: center;
   font-family: Poppins;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
-  line-height: normal;
-  letter-spacing: -1.44px;
+  line-height: 140%;
+}
+
+.virtual-card-reach-set:hover {
+  scale: 1.1;
+}
+
+.virtual-card-reach-set:hover p {
+  color: #ffbf00;
 }
 
 /* Services */
@@ -894,7 +865,7 @@ html {
   padding: 64px 0px;
 }
 
-.virtual-card-experienc-background {
+.virtual-card-experience-background {
   position: absolute;
   width: 100%;
   object-fit: cover;
@@ -1073,6 +1044,34 @@ html {
   width: 100%;
   border: none;
   cursor: pointer;
+}
+
+.virtual-card-contact .twinkle-1 {
+  top: 15%;
+  left: 10%;
+  animation: twinkleAnimation 3.5s infinite alternate ease-in-out;
+}
+
+.virtual-card-contact .twinkle-2 {
+  top: 20%;
+  right: 15%;
+  animation: twinkleAnimation 3s infinite alternate ease-in-out;
+}
+.virtual-card-contact .twinkle-3 {
+  bottom: 25%;
+  left: 10%;
+  animation: twinkleAnimation 2s infinite alternate ease-in-out;
+}
+
+.virtual-card-contact .twinkle-4 {
+  top: 30%;
+  left: 5%;
+  animation: twinkleAnimation 4s infinite alternate ease-in-out;
+}
+.virtual-card-contact .twinkle-5 {
+  top: 75%;
+  right: 5%;
+  animation: twinkleAnimation 5s infinite alternate ease-in-out;
 }
 
 /* Testimony */
@@ -1518,8 +1517,24 @@ html {
     letter-spacing: -0.64px;
   }
 
-  .virtual-card-left-buttons {
-    z-index: 10;
+  .virtual-card-bottom-bar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    padding: 0px 16px;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    background: linear-gradient(
+      97deg,
+      rgba(27, 27, 27, 0.5) 2.92%,
+      rgba(18, 18, 18, 0.5) 101.74%
+    );
+    backdrop-filter: blur(20px);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10000;
   }
 
   .virtual-card-white-button {
@@ -1660,5 +1675,219 @@ html {
     font-weight: 600;
     line-height: normal;
     letter-spacing: -0.96px;
+  }
+
+  /* Watch */
+
+  .virtual-card-watch {
+    padding: 40px 20px;
+    gap: 32px;
+  }
+
+  .virtual-card-watch-container {
+    gap: 32px;
+  }
+
+  .virtual-card-watch-weeks {
+    width: 100%;
+  }
+
+  .virtual-card-watch-weeks button {
+    width: 100%;
+    aspect-ratio: auto;
+    color: var(--Black-black-300, #606060);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.64px;
+  }
+
+  .virtual-card-watch-display {
+    width: 100%;
+  }
+
+  .virtual-card-watch-frame {
+    width: 100%;
+  }
+
+  .virtual-card-watch-content {
+    gap: 24px;
+  }
+
+  .virtual-card-watch-content h3 {
+    color: #fff;
+    text-align: center;
+    font-family: Orbitron;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.64px;
+  }
+
+  .virtual-card-watch-content section {
+    gap: 16px;
+  }
+
+  .virtual-card-watch-content section span {
+    color: #21bc27;
+    font-family: Orbitron;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.64px;
+  }
+
+  .virtual-card-watch-red section span {
+    color: #e20f0f;
+  }
+
+  .virtual-card-watch-content section p {
+    color: #fff;
+    text-align: center;
+    font-family: Orbitron;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -1.12px;
+  }
+
+  .virtual-card-watch-content img {
+    height: 8px;
+  }
+
+  /* Skills */
+
+  .virtual-card-skills {
+    padding: 40px 20px;
+    gap: 32px;
+  }
+
+  .virtual-card-skills-container {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .virtual-card-skills-set {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+
+  /* Experience */
+
+  .virtual-card-experience {
+    padding: 40px 20px;
+    gap: 32px;
+  }
+
+  .virtual-card-experience-container {
+    width: 100%;
+    gap: 20px;
+    padding-bottom: 300px;
+  }
+
+  .virtual-card-experience-set {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+  }
+
+  .virtual-card-experience-set h3 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.8px;
+  }
+
+  .virtual-card-experience-set section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+  }
+
+  .virtual-card-experience-set section h4 {
+    color: var(--Black-black-100, #b6b6b6);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.64px;
+  }
+
+  .virtual-card p {
+    color: var(--Black-black-200, #929292);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.56px;
+  }
+
+  /* Contact */
+
+  .virtual-card-contact {
+    gap: 32px;
+  }
+
+  .virtual-card-contact-container {
+    padding: 40px 20px;
+    gap: 32px;
+  }
+
+  .virtual-card-contact-container form {
+    width: 100%;
+    display: flex;
+    padding: 32px 16px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 0.7px solid var(--Woodsmoke-BG-woodsmoke-bg-600, #706f6f);
+    background: linear-gradient(
+      273deg,
+      #121212 15%,
+      rgba(18, 18, 18, 0.6) 94.52%
+    );
+  }
+
+  .virtual-card-contact-container form .form-section {
+    flex-direction: column;
+  }
+
+  .virtual-card-white-button p {
+    color: var(--Black-Primary, #121212);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .virtual-card-black-button p {
+    color: var(--White-text, #fff);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
   }
 }

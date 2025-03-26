@@ -1,6 +1,5 @@
 import React from "react";
 import Banner from "./components/Banner";
-import Communication from "./components/Communication";
 import About from "./components/About";
 import Services from "./components/Services";
 import Products from "./components/Products";
@@ -18,7 +17,6 @@ function MahiRastogi() {
     <div className="virtual-card">
       <Banner />
       <About />
-      <Communication />
       <Services />
       <Products />
       <Watch />
