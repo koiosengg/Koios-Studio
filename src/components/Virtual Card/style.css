@@ -39,9 +39,16 @@ html {
   z-index: 1;
 }
 
-.virtual-card-contact-background,
+.virtual-card-about-background,
+.virtual-card-reach-background,
+.virtual-card-find-icon-label,
 .virtual-card-services-background,
-.virtual-card-products-background {
+.virtual-card-products-background,
+.virtual-card-watch-frame,
+.virtual-card-skills-background,
+.virtual-card-experience-background,
+.virtual-card-contact-background,
+.virtual-card-connect-background {
   opacity: 0;
   transition: all 2s;
 }
@@ -89,6 +96,17 @@ html {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  opacity: 0;
+  animation: VirtualCardBanner 1s forwards ease-in;
+}
+
+@keyframes VirtualCardBanner {
+  form {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .virtual-card-banner-container {
@@ -489,6 +507,78 @@ html {
   color: #ffbf00;
 }
 
+/* Find and Follow */
+
+.virtual-card-find {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 64px;
+  position: relative;
+  overflow: hidden;
+  padding: 64px 160px;
+}
+
+.virtual-card-find-background {
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+}
+
+.virtual-card-find-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  z-index: 1;
+}
+
+.virtual-card-find-set {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.virtual-card-find-icon {
+  display: flex;
+  width: 160px;
+  height: 160px;
+  padding: 6px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+  border-radius: 100px;
+  background: linear-gradient(
+      0deg,
+      rgba(18, 18, 18, 0.7) 0%,
+      rgba(18, 18, 18, 0.7) 100%
+    ),
+    #414141;
+  transition: all 0.5s;
+}
+
+.virtual-card-find-set:hover .virtual-card-find-icon {
+  box-shadow: 0 0 80px -10px #f8b711;
+}
+
+.virtual-card-find-icon-label {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 /* Services */
 
 .virtual-card-services {
@@ -833,12 +923,39 @@ html {
   align-items: center;
   justify-content: center;
   gap: 8px;
+  cursor: pointer;
 }
 
-.virtual-card-skills-set img {
+.virtual-card-skills-set section {
+  display: flex;
   width: 36px;
   height: 36px;
-  object-fit: cover;
+  padding: 6px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: linear-gradient(
+      0deg,
+      rgba(18, 18, 18, 0.7) 0%,
+      rgba(18, 18, 18, 0.7) 100%
+    ),
+    #414141;
+}
+
+.virtual-card-skills-set svg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+}
+
+.virtual-card-skills-set svg path {
+  transition: all 0.3s;
+}
+
+.virtual-card-skills-set:hover svg path {
+  stroke: #ffbf00;
 }
 
 .virtual-card-skills-set h3 {
@@ -1102,6 +1219,10 @@ html {
   overflow: hidden;
 }
 
+.virtual-card-testimony-set-container .desktop {
+  display: inline-flex;
+}
+
 .virtual-card-testimony-set-slide {
   white-space: nowrap;
   overflow: hidden;
@@ -1302,6 +1423,34 @@ html {
 
 .virtual-card-socials a:hover svg path {
   fill: #ffbf00;
+}
+
+.virtual-card-connect .twinkle-1 {
+  top: 0%;
+  left: 30%;
+  animation: twinkleAnimation 3.5s infinite alternate ease-in-out;
+}
+
+.virtual-card-connect .twinkle-2 {
+  top: 5%;
+  right: 10%;
+  animation: twinkleAnimation 3s infinite alternate ease-in-out;
+}
+.virtual-card-connect .twinkle-3 {
+  bottom: 5%;
+  left: 10%;
+  animation: twinkleAnimation 2s infinite alternate ease-in-out;
+}
+
+.virtual-card-connect .twinkle-4 {
+  top: 50%;
+  left: 5%;
+  animation: twinkleAnimation 4s infinite alternate ease-in-out;
+}
+.virtual-card-connect .twinkle-5 {
+  top: 75%;
+  right: 10%;
+  animation: twinkleAnimation 5s infinite alternate ease-in-out;
 }
 
 /* Footer */
@@ -1889,5 +2038,136 @@ html {
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
+  }
+
+  /* Testimony */
+
+  .virtual-card-testimony {
+    padding: 40px 20px;
+    gap: 32px;
+  }
+
+  .virtual-card-testimony-dark {
+    display: none;
+  }
+
+  .virtual-card-testimony-set-container .desktop {
+    display: none;
+  }
+
+  .virtual-card-testimony-set-slide {
+    animation: none;
+    gap: 20px;
+    overflow: scroll;
+  }
+
+  .virtual-card-testimony-set {
+    width: 80%;
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    border: 1px solid #414141;
+    background: linear-gradient(159deg, #1d1d1d 0.49%, #121212 58.97%);
+    backdrop-filter: blur(20px);
+    align-self: stretch;
+  }
+
+  .virtual-card-connect {
+    padding: 40px 0px;
+  }
+
+  .virtual-card-connect-container {
+    width: 100%;
+  }
+
+  .virtual-card-connect-container h2 {
+    padding: 0;
+  }
+
+  .virtual-card-socials a {
+    display: flex;
+    width: 36px;
+    height: 36px;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: linear-gradient(
+        0deg,
+        rgba(18, 18, 18, 0.7) 0%,
+        rgba(18, 18, 18, 0.7) 100%
+      ),
+      #414141;
+  }
+
+  .virtual-card-socials a svg {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+  }
+
+  .virtual-card-footer {
+    padding: 48px 20px 88px 20px;
+    gap: 32px;
+  }
+
+  .virtual-card-footer-container {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    border-radius: 4px;
+    border: 1px solid var(--Black-black-400, #414141);
+    background: var(--Black-Primary, #121212);
+  }
+
+  .virtual-card-footer-container section img {
+    height: 12px;
+  }
+
+  .virtual-card-footer-link-container {
+    gap: 4px;
+  }
+
+  .virtual-card-footer-link-container a {
+    color: var(--Grey-grey-700, #575757);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .virtual-card-footer-container section span {
+    color: var(--Grey-grey-700, #575757);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .virtual-card-footer-container section p {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .virtual-card-footer-container section span a {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
   }
 }

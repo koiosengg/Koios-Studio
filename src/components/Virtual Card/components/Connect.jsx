@@ -1,11 +1,11 @@
 import React from "react";
-import DesktopBackground from "../assets/Connect Desktop Background.png";
+import ConnectDesktopBackground from "../assets/Connect Desktop Background.png";
 
 function Connect() {
   return (
     <div className="virtual-card-connect">
       <div className="virtual-card-connect-container">
-        <img src={DesktopBackground} alt="Lets Connect Background Image" />
+        <img src={ConnectDesktopBackground} alt="Lets Connect Background Image" />
         <div className="heading">
           <h2>Lets Connect</h2>
           <div className="virtual-card-socials">

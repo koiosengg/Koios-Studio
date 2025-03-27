@@ -1,5 +1,5 @@
 import React from "react";
-import Sample from "../assets/Testimony.jpg";
+import TestimonySample from "../assets/Testimony.jpg";
 import Star from "../assets/Testimony Star.png";
 
 function Testimony() {
@@ -20,7 +20,7 @@ function Testimony() {
               <section>
                 <div className="virtual-card-testimony-info">
                   <img
-                    src={Sample}
+                    src={TestimonySample}
                     style={{ gridArea: "box-1" }}
                     alt="Shreyas Photo"
                   />
@@ -28,10 +28,10 @@ function Testimony() {
                   <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
                 </div>
                 <div className="virtual-card-testimony-star">
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
                 </div>
               </section>
             </div>
@@ -44,7 +44,7 @@ function Testimony() {
               <section>
                 <div className="virtual-card-testimony-info">
                   <img
-                    src={Sample}
+                    src={TestimonySample}
                     style={{ gridArea: "box-1" }}
                     alt="Shreyas Photo"
                   />
@@ -52,10 +52,10 @@ function Testimony() {
                   <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
                 </div>
                 <div className="virtual-card-testimony-star">
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
                 </div>
               </section>
             </div>
@@ -68,7 +68,7 @@ function Testimony() {
               <section>
                 <div className="virtual-card-testimony-info">
                   <img
-                    src={Sample}
+                    src={TestimonySample}
                     style={{ gridArea: "box-1" }}
                     alt="Shreyas Photo"
                   />
@@ -76,10 +76,10 @@ function Testimony() {
                   <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
                 </div>
                 <div className="virtual-card-testimony-star">
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
                 </div>
               </section>
             </div>
@@ -92,7 +92,7 @@ function Testimony() {
               <section>
                 <div className="virtual-card-testimony-info">
                   <img
-                    src={Sample}
+                    src={TestimonySample}
                     style={{ gridArea: "box-1" }}
                     alt="Shreyas Photo"
                   />
@@ -100,10 +100,10 @@ function Testimony() {
                   <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
                 </div>
                 <div className="virtual-card-testimony-star">
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
                 </div>
               </section>
             </div>
@@ -116,7 +116,7 @@ function Testimony() {
               <section>
                 <div className="virtual-card-testimony-info">
                   <img
-                    src={Sample}
+                    src={TestimonySample}
                     style={{ gridArea: "box-1" }}
                     alt="Shreyas Photo"
                   />
@@ -124,10 +124,10 @@ function Testimony() {
                   <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
                 </div>
                 <div className="virtual-card-testimony-star">
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
                 </div>
               </section>
             </div>
@@ -140,7 +140,7 @@ function Testimony() {
               <section>
                 <div className="virtual-card-testimony-info">
                   <img
-                    src={Sample}
+                    src={TestimonySample}
                     style={{ gridArea: "box-1" }}
                     alt="Shreyas Photo"
                   />
@@ -148,10 +148,10 @@ function Testimony() {
                   <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
                 </div>
                 <div className="virtual-card-testimony-star">
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
                 </div>
               </section>
             </div>
@@ -164,7 +164,7 @@ function Testimony() {
               <section>
                 <div className="virtual-card-testimony-info">
                   <img
-                    src={Sample}
+                    src={TestimonySample}
                     style={{ gridArea: "box-1" }}
                     alt="Shreyas Photo"
                   />
@@ -172,10 +172,10 @@ function Testimony() {
                   <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
                 </div>
                 <div className="virtual-card-testimony-star">
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
                 </div>
               </section>
             </div>
@@ -188,7 +188,7 @@ function Testimony() {
               <section>
                 <div className="virtual-card-testimony-info">
                   <img
-                    src={Sample}
+                    src={TestimonySample}
                     style={{ gridArea: "box-1" }}
                     alt="Shreyas Photo"
                   />
@@ -196,10 +196,10 @@ function Testimony() {
                   <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
                 </div>
                 <div className="virtual-card-testimony-star">
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
                 </div>
               </section>
             </div>
@@ -212,7 +212,7 @@ function Testimony() {
               <section>
                 <div className="virtual-card-testimony-info">
                   <img
-                    src={Sample}
+                    src={TestimonySample}
                     style={{ gridArea: "box-1" }}
                     alt="Shreyas Photo"
                   />
@@ -220,10 +220,10 @@ function Testimony() {
                   <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
                 </div>
                 <div className="virtual-card-testimony-star">
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
                 </div>
               </section>
             </div>
@@ -236,7 +236,7 @@ function Testimony() {
               <section>
                 <div className="virtual-card-testimony-info">
                   <img
-                    src={Sample}
+                    src={TestimonySample}
                     style={{ gridArea: "box-1" }}
                     alt="Shreyas Photo"
                   />
@@ -244,10 +244,10 @@ function Testimony() {
                   <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
                 </div>
                 <div className="virtual-card-testimony-star">
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
                 </div>
               </section>
             </div>
@@ -260,7 +260,7 @@ function Testimony() {
               <section>
                 <div className="virtual-card-testimony-info">
                   <img
-                    src={Sample}
+                    src={TestimonySample}
                     style={{ gridArea: "box-1" }}
                     alt="Shreyas Photo"
                   />
@@ -268,10 +268,10 @@ function Testimony() {
                   <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
                 </div>
                 <div className="virtual-card-testimony-star">
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
                 </div>
               </section>
             </div>
@@ -284,7 +284,7 @@ function Testimony() {
               <section>
                 <div className="virtual-card-testimony-info">
                   <img
-                    src={Sample}
+                    src={TestimonySample}
                     style={{ gridArea: "box-1" }}
                     alt="Shreyas Photo"
                   />
@@ -292,10 +292,10 @@ function Testimony() {
                   <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
                 </div>
                 <div className="virtual-card-testimony-star">
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
                 </div>
               </section>
             </div>
@@ -308,7 +308,7 @@ function Testimony() {
               <section>
                 <div className="virtual-card-testimony-info">
                   <img
-                    src={Sample}
+                    src={TestimonySample}
                     style={{ gridArea: "box-1" }}
                     alt="Shreyas Photo"
                   />
@@ -316,10 +316,10 @@ function Testimony() {
                   <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
                 </div>
                 <div className="virtual-card-testimony-star">
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
                 </div>
               </section>
             </div>
@@ -332,7 +332,7 @@ function Testimony() {
               <section>
                 <div className="virtual-card-testimony-info">
                   <img
-                    src={Sample}
+                    src={TestimonySample}
                     style={{ gridArea: "box-1" }}
                     alt="Shreyas Photo"
                   />
@@ -340,10 +340,10 @@ function Testimony() {
                   <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
                 </div>
                 <div className="virtual-card-testimony-star">
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
                 </div>
               </section>
             </div>
@@ -356,7 +356,7 @@ function Testimony() {
               <section>
                 <div className="virtual-card-testimony-info">
                   <img
-                    src={Sample}
+                    src={TestimonySample}
                     style={{ gridArea: "box-1" }}
                     alt="Shreyas Photo"
                   />
@@ -364,10 +364,10 @@ function Testimony() {
                   <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
                 </div>
                 <div className="virtual-card-testimony-star">
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
                 </div>
               </section>
             </div>
@@ -380,7 +380,7 @@ function Testimony() {
               <section>
                 <div className="virtual-card-testimony-info">
                   <img
-                    src={Sample}
+                    src={TestimonySample}
                     style={{ gridArea: "box-1" }}
                     alt="Shreyas Photo"
                   />
@@ -388,10 +388,10 @@ function Testimony() {
                   <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
                 </div>
                 <div className="virtual-card-testimony-star">
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
                 </div>
               </section>
             </div>
@@ -404,7 +404,7 @@ function Testimony() {
               <section>
                 <div className="virtual-card-testimony-info">
                   <img
-                    src={Sample}
+                    src={TestimonySample}
                     style={{ gridArea: "box-1" }}
                     alt="Shreyas Photo"
                   />
@@ -412,10 +412,10 @@ function Testimony() {
                   <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
                 </div>
                 <div className="virtual-card-testimony-star">
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
-                  <img src={Star} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
+                  <img src={TestimonyStar} />
                 </div>
               </section>
             </div>
@@ -428,7 +428,7 @@ function Testimony() {
               <section>
                 <div className="virtual-card-testimony-info">
                   <img
-                    src={Sample}
+                    src={TestimonySample}
                     style={{ gridArea: "box-1" }}
                     alt="Shreyas Photo"
                   />
@@ -452,7 +452,7 @@ function Testimony() {
               <section>
                 <div className="virtual-card-testimony-info">
                   <img
-                    src={Sample}
+                    src={TestimonySample}
                     style={{ gridArea: "box-1" }}
                     alt="Shreyas Photo"
                   />
@@ -476,7 +476,7 @@ function Testimony() {
               <section>
                 <div className="virtual-card-testimony-info">
                   <img
-                    src={Sample}
+                    src={TestimonySample}
                     style={{ gridArea: "box-1" }}
                     alt="Shreyas Photo"
                   />
