@@ -341,7 +341,7 @@ html {
   gap: 8px;
 }
 
-.virtual-card-banner-marquee-marquee p {
+.virtual-card .virtual-card-banner-marquee-marquee p {
   color: var(--Black-Primary, #121212);
   text-align: center;
   font-family: Poppins;
@@ -1568,7 +1568,7 @@ html {
     width: 100%;
   }
 
-  .virtual-card-banner-marquee-marquee p {
+  .virtual-card .virtual-card-banner-marquee-marquee p {
     color: var(--Black-Primary, #121212);
     text-align: center;
     font-family: Poppins;
