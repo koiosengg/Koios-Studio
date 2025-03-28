@@ -39,7 +39,7 @@
         classList.forEach((className) => {
           document.querySelectorAll(`.${className}`).forEach((el) => {
             const rect = el.getBoundingClientRect();
-            if (rect.top < window.innerHeight * 0.8) {
+            if (rect.top < window.innerHeight * 0.9) {
               el.classList.add("virtual-card-inview");
             }
           });

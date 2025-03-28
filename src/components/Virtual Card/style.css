@@ -466,6 +466,7 @@ html {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  padding-top: 40px;
 }
 
 .virtual-card-reach-container section {
@@ -497,10 +498,7 @@ html {
   font-style: normal;
   font-weight: 500;
   line-height: 140%;
-}
-
-.virtual-card-reach-set:hover {
-  scale: 1.1;
+  transition: all 0.3s;
 }
 
 .virtual-card-reach-set:hover p {
@@ -1069,6 +1067,7 @@ html {
   justify-content: center;
   flex-direction: column;
   gap: 64px;
+  z-index: 10;
 }
 
 .virtual-card-contact-container form {
@@ -1185,9 +1184,16 @@ html {
   left: 5%;
   animation: twinkleAnimation 4s infinite alternate ease-in-out;
 }
-.virtual-card-contact .twinkle-5 {
-  top: 75%;
-  right: 5%;
+
+.virtual-card-contact .twinkle-6 {
+  top: 35%;
+  right: 15%;
+  animation: twinkleAnimation 5s infinite alternate ease-in-out;
+}
+
+.virtual-card-contact .twinkle-7 {
+  top: 55%;
+  right: 15%;
   animation: twinkleAnimation 5s infinite alternate ease-in-out;
 }
 
@@ -1617,7 +1623,7 @@ html {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    padding: 40px 20px 20px 20px;
+    padding: 40px 20px 40px 20px;
   }
 
   .virtual-card-banner-left {
@@ -1747,6 +1753,77 @@ html {
     height: 173px;
     object-fit: cover;
     top: -87px;
+  }
+
+  /* Reach */
+
+  .virtual-card-reach-container {
+    width: 100%;
+    padding: 0px 20px;
+  }
+
+  .virtual-card-reach-container section {
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .virtual-card-reach-set img {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+  }
+
+  .virtual-card .virtual-card-reach-set p {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 19.6px */
+  }
+
+  /* Find */
+
+  .virtual-card-find {
+    padding: 40px 20px;
+    gap: 32px;
+  }
+
+  .virtual-card-find-container {
+    width: 100%;
+    gap: 20px;
+  }
+
+  .virtual-card-find-set {
+    width: 100%;
+    flex-shrink: 1;
+  }
+
+  .virtual-card-find-icon {
+    width: 100%;
+    height: auto;
+
+    height: auto;
+    flex-shrink: 1;
+  }
+
+  .virtual-card-find-icon svg {
+    width: 70%;
+    height: 70%;
+  }
+
+  .virtual-card-find-icon-label {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
   }
 
   /* Services */
@@ -1915,6 +1992,7 @@ html {
   .virtual-card-skills {
     padding: 40px 20px;
     gap: 32px;
+    padding-top: 0;
   }
 
   .virtual-card-skills-container {
@@ -2059,6 +2137,12 @@ html {
     animation: none;
     gap: 20px;
     overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .virtual-card-testimony-set-slide::-webkit-scrollbar {
+    display: none;
   }
 
   .virtual-card-testimony-set {

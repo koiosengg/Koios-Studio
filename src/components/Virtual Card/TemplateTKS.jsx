@@ -11,6 +11,7 @@ import AboutDesktopBackground from "./assets/TKS Desktop About.png";
 import AboutMobileBackground from "./assets/TKS Mobile About.png";
 import DesktopStar from "./assets/TKS Desktop Star.png";
 import ReachDesktopBackground from "./assets/TKS Desktop Reach.png";
+import ReachMobileBackground from "./assets/TKS Mobile Reach.png";
 import CallIcon from "./assets/TKS Call Icon.png";
 import EmailIcon from "./assets/TKS Email Icon.png";
 import LocationIcon from "./assets/TKS Location Icon.png";
@@ -320,7 +321,11 @@ function TemplateTKS() {
       <div className="virtual-card-reach">
         <img
           src={ReachDesktopBackground}
-          className="virtual-card-reach-background"
+          className="virtual-card-reach-background desktop"
+        />
+        <img
+          src={ReachMobileBackground}
+          className="virtual-card-reach-background mobile"
         />
         <div className="virtual-card-reach-container">
           <section>
@@ -332,18 +337,9 @@ function TemplateTKS() {
               <img src={EmailIcon} />
               <p>you@company.com</p>
             </a>
-            <a href="#" className="virtual-card-reach-set">
+            <a href="#" className="virtual-card-reach-set desktop">
               <img src={LocationIcon} />
               <p>Bangalore</p>
-            </a>
-          </section>
-          <section>
-            <a href="#" className="virtual-card-reach-set">
-              <img src={LocationIcon} />
-              <p>
-                No.315/64, off Holiday Village Road, Thalaghattapura Post,
-                Mallasandra, Bengaluru, Karnataka 560109
-              </p>
             </a>
           </section>
         </div>
@@ -365,8 +361,8 @@ function TemplateTKS() {
                 fill="none"
               >
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M93 15.5C97.1109 15.5 101.053 17.133 103.96 20.0398C106.867 22.9467 108.5 26.8891 108.5 31V93C108.5 97.1109 106.867 101.053 103.96 103.96C101.053 106.867 97.1109 108.5 93 108.5H31C26.8891 108.5 22.9467 106.867 20.0398 103.96C17.133 101.053 15.5 97.1109 15.5 93V31C15.5 26.8891 17.133 22.9467 20.0398 20.0398C22.9467 17.133 26.8891 15.5 31 15.5H93ZM41.3333 51.6667C39.963 51.6667 38.6489 52.211 37.6799 53.1799C36.711 54.1489 36.1667 55.463 36.1667 56.8333V82.6667C36.1667 84.0369 36.711 85.3511 37.6799 86.3201C38.6489 87.289 39.963 87.8333 41.3333 87.8333C42.7036 87.8333 44.0178 87.289 44.9867 86.3201C45.9557 85.3511 46.5 84.0369 46.5 82.6667V56.8333C46.5 55.463 45.9557 54.1489 44.9867 53.1799C44.0178 52.211 42.7036 51.6667 41.3333 51.6667ZM56.8333 46.5C55.463 46.5 54.1489 47.0443 53.1799 48.0133C52.211 48.9822 51.6667 50.2964 51.6667 51.6667V82.6667C51.6667 84.0369 52.211 85.3511 53.1799 86.3201C54.1489 87.289 55.463 87.8333 56.8333 87.8333C58.2036 87.8333 59.5178 87.289 60.4867 86.3201C61.4557 85.3511 62 84.0369 62 82.6667V63.7567C63.5758 61.9793 66.2367 59.892 69.1972 58.6262C70.9177 57.8925 73.5062 57.5928 75.3042 58.1612C75.9006 58.3125 76.4319 58.6533 76.818 59.1325C77.0867 59.4942 77.5 60.3002 77.5 62V82.6667C77.5 84.0369 78.0443 85.3511 79.0133 86.3201C79.9822 87.289 81.2964 87.8333 82.6667 87.8333C84.0369 87.8333 85.3511 87.289 86.3201 86.3201C87.289 85.3511 87.8333 84.0369 87.8333 82.6667V62C87.8333 58.5383 86.955 55.459 85.126 52.9893C83.443 50.7499 81.0875 49.1077 78.4042 48.3032C73.7438 46.841 68.5823 47.6522 65.1362 49.1298C64.0329 49.6044 62.9581 50.1426 61.9173 50.7418C61.7007 49.5514 61.0732 48.4747 60.1441 47.6995C59.215 46.9243 58.0433 46.4998 56.8333 46.5ZM41.3333 36.1667C39.963 36.1667 38.6489 36.711 37.6799 37.6799C36.711 38.6489 36.1667 39.963 36.1667 41.3333C36.1667 42.7036 36.711 44.0178 37.6799 44.9867C38.6489 45.9557 39.963 46.5 41.3333 46.5C42.7036 46.5 44.0178 45.9557 44.9867 44.9867C45.9557 44.0178 46.5 42.7036 46.5 41.3333C46.5 39.963 45.9557 38.6489 44.9867 37.6799C44.0178 36.711 42.7036 36.1667 41.3333 36.1667Z"
                   fill="white"
                 />
@@ -922,6 +918,34 @@ function TemplateTKS() {
           </svg>
         </div>
         <div className="virtual-star-twinkle twinkle-5">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="6"
+            height="8"
+            viewBox="0 0 6 8"
+            fill="none"
+          >
+            <path
+              d="M2.93422 0.179199L3.56794 2.82532L5.28054 3.80447L3.56794 4.78362L2.93422 7.42974L2.30049 4.78362L0.587891 3.80447L2.30049 2.82532L2.93422 0.179199Z"
+              fill="#D6D6D6"
+            />
+          </svg>
+        </div>
+        <div className="virtual-star-twinkle twinkle-6">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="6"
+            height="8"
+            viewBox="0 0 6 8"
+            fill="none"
+          >
+            <path
+              d="M2.93422 0.179199L3.56794 2.82532L5.28054 3.80447L3.56794 4.78362L2.93422 7.42974L2.30049 4.78362L0.587891 3.80447L2.30049 2.82532L2.93422 0.179199Z"
+              fill="#D6D6D6"
+            />
+          </svg>
+        </div>
+        <div className="virtual-star-twinkle twinkle-7">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="6"
