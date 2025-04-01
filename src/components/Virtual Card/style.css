@@ -974,13 +974,25 @@ html {
   gap: 64px;
   position: relative;
   overflow: hidden;
-  padding: 64px 160px;
 }
 
 .virtual-card-skills-background {
-  position: absolute;
   width: 100%;
   object-fit: cover;
+}
+
+.virtual-card-skills-div {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  padding: 64px 160px;
 }
 
 .virtual-card-skills-container {
@@ -1747,6 +1759,14 @@ html {
     letter-spacing: -0.64px;
   }
 
+  .virtual-card-banner-button::before {
+    background: linear-gradient(
+      var(--gradient-angle),
+      rgba(255, 191, 0, 0.6),
+      transparent 70%
+    );
+  }
+
   .virtual-card-bottom-bar {
     width: 100%;
     height: 80px;
@@ -1998,9 +2018,21 @@ html {
 
   .virtual-card-products-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
+    overflow-x: scroll;
     gap: 20px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .virtual-card-products-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .virtual-card-products-set {
+    width: 80%;
+    flex-shrink: 0;
   }
 
   .virtual-card-products-background {
@@ -2009,6 +2041,10 @@ html {
 
   .virtual-card-products-set-img {
     height: 296px;
+  }
+
+  .virtual-card-products-set:hover img {
+    scale: 1;
   }
 
   .virtual-card-products-set h3 {
@@ -2108,6 +2144,15 @@ html {
   /* Skills */
 
   .virtual-card-skills {
+    padding: 0;
+  }
+
+  .virtual-card-skills-background {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .virtual-card-skills-div {
     padding: 40px 20px;
     gap: 32px;
     padding-top: 0;
@@ -2312,6 +2357,8 @@ html {
     flex-shrink: 0;
     aspect-ratio: 1/1;
   }
+
+  /* Footer */
 
   .virtual-card-footer {
     padding: 48px 20px 88px 20px;
