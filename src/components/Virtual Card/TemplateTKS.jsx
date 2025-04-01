@@ -139,13 +139,13 @@ function TemplateTKS() {
                 <p>View Portfolio</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
+                  width="8"
+                  height="14"
+                  viewBox="0 0 8 14"
                   fill="none"
                 >
                   <path
-                    d="M9 18L15 12L9 6"
+                    d="M1 13L7 7L1 1"
                     stroke="white"
                     strokeWidth="1.4"
                     strokeLinecap="round"
@@ -427,10 +427,10 @@ function TemplateTKS() {
           src={ServicesDesktopBackground}
           className="virtual-card-services-background desktop"
         />
-        <div className="virtual-card-services-background-wrapper">
+        <div className="virtual-card-services-background-wrapper mobile">
           <img
             src={ServicesMobileBackground}
-            className="virtual-card-services-background mobile"
+            className="virtual-card-services-background "
           />
         </div>
         <h2>Our Services</h2>
@@ -1493,9 +1493,10 @@ function TemplateTKS() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                  lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
-                  Quam eleifend magna aliquet ut. Turpis gravida quis.
+                  Lorem ipsum dolor sit amet consectetur. Quam eleifend magna
+                  aliquet ut. Turpis gravida quis. Lectus cursus platea lobortis
+                  id. Sit nibh ullamcorper in libero donec enim auctor. Quam
+                  eleifend magna aliquet ut. Turpis gravida quis.
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">

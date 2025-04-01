@@ -277,6 +277,7 @@ html {
   align-items: center;
   gap: 20px;
   padding: 14px 28px;
+  z-index: 1;
 }
 
 .virtual-card-banner-button p {
@@ -1415,7 +1416,7 @@ html {
 }
 
 .virtual-card-testimony-dark {
-  width: 640px;
+  width: 540px;
   height: 100%;
   flex-shrink: 0;
   border-radius: 823px;
@@ -1934,6 +1935,7 @@ html {
   }
 
   .virtual-card-services-background-wrapper {
+    display: block;
     position: absolute;
     top: 0;
     left: 0;
@@ -2266,6 +2268,7 @@ html {
     padding: 16px;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-between;
     gap: 24px;
     border-radius: 8px;
     border: 1px solid #414141;
