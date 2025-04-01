@@ -214,6 +214,80 @@ html {
   letter-spacing: -0.8px;
 }
 
+.virtual-card-banner-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 26px;
+  position: relative;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+@property --gradient-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@keyframes rotateGradient {
+  0% {
+    --gradient-angle: 0deg;
+  }
+  100% {
+    --gradient-angle: 360deg;
+  }
+}
+
+.virtual-card-banner-button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 26px;
+  padding: 2px;
+  background: linear-gradient(
+    var(--gradient-angle),
+    rgba(225, 225, 225, 0.3),
+    transparent 70%
+  );
+  mask: linear-gradient(#414141cc 0 0) content-box, linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  animation: rotateGradient 5s linear infinite;
+  z-index: 2;
+}
+
+.virtual-card-banner-button:hover::before {
+  background: linear-gradient(
+    var(--gradient-angle),
+    rgba(255, 191, 0, 0.6),
+    transparent 70%
+  );
+}
+
+.virtual-card-banner-button-background {
+  position: absolute;
+  width: 120%;
+  height: 100%;
+  left: -10px;
+  object-fit: cover;
+}
+
+.virtual-card-banner-button section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 14px 28px;
+}
+
+.virtual-card-banner-button p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
 .virtual-card-white-button {
   text-decoration: none;
   display: inline-flex;
@@ -1692,8 +1766,32 @@ html {
     z-index: 10000;
   }
 
+  .virtual-card-banner-button {
+    width: 100%;
+  }
+
+  .virtual-card .virtual-card-banner-button p {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    flex-shrink: 0;
+  }
+
+  .virtual-card-banner-button section {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
   .virtual-card-white-button {
     width: 100%;
+    padding: 12px 24px;
+    border-radius: 30px;
+    background: #fff;
+    backdrop-filter: blur(2px);
   }
   .virtual-card-white-button p {
     color: var(--Black-Primary, #121212);
@@ -1801,6 +1899,7 @@ html {
   .virtual-card-find-set {
     width: 100%;
     flex-shrink: 1;
+    max-width: 128px;
   }
 
   .virtual-card-find-icon {
@@ -1831,6 +1930,22 @@ html {
   .virtual-card-services {
     padding: 40px 20px;
     gap: 32px;
+    overflow: visible;
+  }
+
+  .virtual-card-services-background-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .virtual-card-services-background {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    object-fit: cover;
   }
 
   .virtual-card-services-container {
@@ -1838,6 +1953,7 @@ html {
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
+    position: relative;
   }
 
   .virtual-card-services-set {
@@ -2018,7 +2134,6 @@ html {
   .virtual-card-experience-container {
     width: 100%;
     gap: 20px;
-    padding-bottom: 300px;
   }
 
   .virtual-card-experience-set {

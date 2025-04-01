@@ -5,6 +5,7 @@ import Logo from "./assets/Footer Company Logo.png";
 import BannerDesktopBackround from "./assets/TKS Desktop Banner.png";
 import BannerMobileBackround from "./assets/TKS Mobile Banner.png";
 import Verified from "./assets/Verified.png";
+import BannerButton from "./assets/TKS Banner Button Background.png";
 import MahiRastogi from "./assets/TemplateTKS Person.png";
 import MarqueeStar from "./assets/Marquee Star.png";
 import AboutDesktopBackground from "./assets/TKS Desktop About.png";
@@ -92,8 +93,14 @@ function TemplateTKS() {
         <a href="#" className="virtual-card-white-button">
           <p>Save Contact</p>
         </a>
-        <a href="#" className="virtual-card-black-button">
-          <p>View Portfolio</p>
+        <a href="#" className="virtual-card-banner-button">
+          <img
+            src={BannerButton}
+            className="virtual-card-banner-button-background"
+          />
+          <section>
+            <p>View Portfolio</p>
+          </section>
         </a>
       </div>
       <div className="virtual-card-banner">
@@ -123,20 +130,29 @@ function TemplateTKS() {
                 lobortis id. Sit nibh ullamcorper in libero.
               </p>
             </div>
-            <a href="#" className="virtual-card-white-button desktop">
-              <p>View Portfolio</p>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="8"
-                height="14"
-                viewBox="0 0 8 14"
-                fill="none"
-              >
-                <path
-                  d="M1.81111 13.707L0.400116 12.293L5.68911 6.99998L0.400116 1.70698L1.81511 0.292976L7.1001 5.58598C7.47505 5.96103 7.68568 6.46965 7.68568 6.99998C7.68568 7.5303 7.47505 8.03892 7.1001 8.41397L1.81111 13.707Z"
-                  fill="#121212"
-                />
-              </svg>
+            <a href="#" className="virtual-card-banner-button desktop">
+              <img
+                src={BannerButton}
+                className="virtual-card-banner-button-background"
+              />
+              <section>
+                <p>View Portfolio</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M9 18L15 12L9 6"
+                    stroke="white"
+                    strokeWidth="1.4"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </section>
             </a>
           </div>
           <div className="virtual-card-banner-right">
@@ -337,7 +353,7 @@ function TemplateTKS() {
               <img src={EmailIcon} />
               <p>you@company.com</p>
             </a>
-            <a href="#" className="virtual-card-reach-set desktop">
+            <a href="#" className="virtual-card-reach-set">
               <img src={LocationIcon} />
               <p>Bangalore</p>
             </a>
@@ -411,10 +427,12 @@ function TemplateTKS() {
           src={ServicesDesktopBackground}
           className="virtual-card-services-background desktop"
         />
-        <img
-          src={ServicesMobileBackground}
-          className="virtual-card-services-background mobile"
-        />
+        <div className="virtual-card-services-background-wrapper">
+          <img
+            src={ServicesMobileBackground}
+            className="virtual-card-services-background mobile"
+          />
+        </div>
         <h2>Our Services</h2>
         <div className="virtual-card-services-container">
           <div className="virtual-card-services-set">
