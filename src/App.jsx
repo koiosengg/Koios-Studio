@@ -8,11 +8,12 @@ import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 
 import TemplateTKS from "./components/Virtual Card/TemplateTKS";
+import MudigetiSantosh from "./components/Virtual Card/MudigetiSantosh";
 import Error from "./components/Error";
 
 function Layout({ children }) {
   const location = useLocation();
-  const hideLayoutFor = ["/TemplateTKS"];
+  const hideLayoutFor = ["/TemplateTKS", "/MudigetiSantosh"];
 
   const shouldHideLayout = hideLayoutFor.includes(location.pathname);
 
@@ -35,6 +36,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="contact" element={<Contact />} />
             <Route path="TemplateTKS" element={<TemplateTKS />} />
+            <Route path="MudigetiSantosh" element={<MudigetiSantosh />} />
             <Route path="*" element={<Error />} />
           </Routes>
         </Layout>

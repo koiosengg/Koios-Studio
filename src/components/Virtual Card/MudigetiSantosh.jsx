@@ -7,7 +7,7 @@ import BannerDesktopBackround from "./assets/TKS Desktop Banner.png";
 import BannerMobileBackround from "./assets/TKS Mobile Banner.png";
 import Verified from "./assets/Verified.png";
 import BannerButton from "./assets/TKS Banner Button Background.png";
-import PersonPhoto from "/TemplatePerson.png";
+import PersonPhoto from "/MudigetiSantosh.jpg";
 import MarqueeStar from "./assets/Marquee Star.png";
 import AboutDesktopBackground from "./assets/TKS Desktop About.png";
 import AboutMobileBackground from "./assets/TKS Mobile About.png";
@@ -77,19 +77,19 @@ const schedule = {
   },
 };
 
-function TemplateTKS() {
+function MudigetiSantosh() {
   const handleDownloadVCard = async () => {
     const vCard = vCardsJS();
 
-    vCard.firstName = "M Sunny";
+    vCard.firstName = "M Santosh";
     vCard.cellPhone = "+919347744407";
     vCard.email = "sunny92002@gmail.com";
     vCard.organization = "Koios Studio";
 
     const imageBase64 = await getBase64FromImage(
-      `${window.location.origin}/TemplatePerson.png`
+      `${window.location.origin}/MudigetiSantosh.jpg`
     );
-    vCard.photo.embedFromString(imageBase64, "image/png");
+    vCard.photo.embedFromString(imageBase64, "image/jpg");
 
     const vCardData = vCard.getFormattedString();
     const blob = new Blob([vCardData], { type: "text/vcard;charset=utf-8" });
@@ -135,7 +135,11 @@ function TemplateTKS() {
         <a onClick={handleDownloadVCard} className="virtual-card-white-button">
           <p>Save Contact</p>
         </a>
-        <a href="#" className="virtual-card-banner-button">
+        <a
+          href="https://www.linkedin.com/in/santosh09062002/"
+          target="_blank"
+          className="virtual-card-banner-button"
+        >
           <img
             src={BannerButton}
             className="virtual-card-banner-button-background"
@@ -160,19 +164,23 @@ function TemplateTKS() {
               <section>
                 <img src={Logo} alt="Koios Studios Logo" />
                 <h1>
-                  Daniel Jacob
+                  Mudigeti Santosh
                   <img src={Verified} />
                 </h1>
                 <div className="virtual-card-banner-designation">
-                  <span>UX Designer</span>
+                  <span>Frontend Developer</span>
                 </div>
               </section>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                lobortis id. Sit nibh ullamcorper in libero.
+                Aspiring React Frontend Developer | Passionate about Crafting
+                Intuitive and Efficient User Experiences
               </p>
             </div>
-            <a href="#" className="virtual-card-banner-button desktop">
+            <a
+              href="https://www.linkedin.com/in/santosh09062002/"
+              target="_blank"
+              className="virtual-card-banner-button desktop"
+            >
               <img
                 src={BannerButton}
                 className="virtual-card-banner-button-background"
@@ -202,41 +210,41 @@ function TemplateTKS() {
             <div className="virtual-card-banner-marquee white">
               <div className="virtual-card-banner-marquee-wrapper ">
                 <div className="virtual-card-banner-marquee-marquee">
-                  <p>Website Design</p>
+                  <p>Website Development</p>
                   <img src={MarqueeStar} />
-                  <p>App Design</p>
+                  <p>Responsive Development</p>
                   <img src={MarqueeStar} />
-                  <p>Responsive Design</p>
+                  <p>Redux</p>
                   <img src={MarqueeStar} />
-                  <p>Wireframes</p>
+                  <p>React</p>
                   <img src={MarqueeStar} />
-                  <p>User Research</p>
+                  <p>HTML</p>
                   <img src={MarqueeStar} />
-                  <p>User Experience</p>
+                  <p>CSS</p>
                   <img src={MarqueeStar} />
-                  <p>User Interface</p>
+                  <p>JavaScript</p>
                   <img src={MarqueeStar} />
-                  <p>Design Thinking</p>
+                  <p>TypeScript</p>
                   <img src={MarqueeStar} />
-                  <p>Typography</p>
+                  <p>GIT</p>
                   <img src={MarqueeStar} />
-                  <p>Website Design</p>
+                  <p>Website Development</p>
                   <img src={MarqueeStar} />
-                  <p>App Design</p>
+                  <p>Responsive Development</p>
                   <img src={MarqueeStar} />
-                  <p>Responsive Design</p>
+                  <p>Redux</p>
                   <img src={MarqueeStar} />
-                  <p>Wireframes</p>
+                  <p>React</p>
                   <img src={MarqueeStar} />
-                  <p>User Research</p>
+                  <p>HTML</p>
                   <img src={MarqueeStar} />
-                  <p>User Experience</p>
+                  <p>CSS</p>
                   <img src={MarqueeStar} />
-                  <p>User Interface</p>
+                  <p>JavaScript</p>
                   <img src={MarqueeStar} />
-                  <p>Design Thinking</p>
+                  <p>TypeScript</p>
                   <img src={MarqueeStar} />
-                  <p>Typography</p>
+                  <p>GIT</p>
                   <img src={MarqueeStar} />
                 </div>
               </div>
@@ -244,41 +252,41 @@ function TemplateTKS() {
             <div className="virtual-card-banner-marquee yellow">
               <div className="virtual-card-banner-marquee-wrapper ">
                 <div className="virtual-card-banner-marquee-marquee">
-                  <p>Website Design</p>
+                  <p>Website Development</p>
                   <img src={MarqueeStar} />
-                  <p>App Design</p>
+                  <p>Responsive Development</p>
                   <img src={MarqueeStar} />
-                  <p>Responsive Design</p>
+                  <p>Redux</p>
                   <img src={MarqueeStar} />
-                  <p>Wireframes</p>
+                  <p>React</p>
                   <img src={MarqueeStar} />
-                  <p>User Research</p>
+                  <p>HTML</p>
                   <img src={MarqueeStar} />
-                  <p>User Experience</p>
+                  <p>CSS</p>
                   <img src={MarqueeStar} />
-                  <p>User Interface</p>
+                  <p>JavaScript</p>
                   <img src={MarqueeStar} />
-                  <p>Design Thinking</p>
+                  <p>TypeScript</p>
                   <img src={MarqueeStar} />
-                  <p>Typography</p>
+                  <p>GIT</p>
                   <img src={MarqueeStar} />
-                  <p>Website Design</p>
+                  <p>Website Development</p>
                   <img src={MarqueeStar} />
-                  <p>App Design</p>
+                  <p>Responsive Development</p>
                   <img src={MarqueeStar} />
-                  <p>Responsive Design</p>
+                  <p>Redux</p>
                   <img src={MarqueeStar} />
-                  <p>Wireframes</p>
+                  <p>React</p>
                   <img src={MarqueeStar} />
-                  <p>User Research</p>
+                  <p>HTML</p>
                   <img src={MarqueeStar} />
-                  <p>User Experience</p>
+                  <p>CSS</p>
                   <img src={MarqueeStar} />
-                  <p>User Interface</p>
+                  <p>JavaScript</p>
                   <img src={MarqueeStar} />
-                  <p>Design Thinking</p>
+                  <p>TypeScript</p>
                   <img src={MarqueeStar} />
-                  <p>Typography</p>
+                  <p>GIT</p>
                   <img src={MarqueeStar} />
                 </div>
               </div>
@@ -296,12 +304,12 @@ function TemplateTKS() {
           className="virtual-card-about-background mobile"
         />
         <div className="virtual-card-about-container">
-          <h2>Project Manager</h2>
+          <h2>Frontend Developer</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-            lobortis id. Sit nibh ullamcorper in libero donec enim auctor. Quam
-            eleifend magna aliquet ut. Turpis gravida quis ut ipsum vestibulum
-            justo viverra.
+            A React Frontend Developer with a strong grasp of the MERN stack,
+            skilled in building and optimizing React components. Committed to
+            writing clean, efficient code to deliver seamless and
+            high-performance user experiences.
           </p>
         </div>
         <img className="star" src={DesktopStar} />
@@ -387,15 +395,29 @@ function TemplateTKS() {
         />
         <div className="virtual-card-reach-container">
           <section>
-            <a href="#" className="virtual-card-reach-set">
+            <a
+              href="tel:+919347744815"
+              className="virtual-card-reach-set"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={CallIcon} />
-              <p>0191819101910</p>
+              <p>+91 93477 44815</p>
             </a>
-            <a href="#" className="virtual-card-reach-set">
+            <a
+              href="https://mail.google.com/mail/?view=cm&to=sunny962002@gmail.com"
+              className="virtual-card-reach-set"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={EmailIcon} />
-              <p>you@company.com</p>
+              <p>sunny962002@gmail.com</p>
             </a>
-            <a href="#" className="virtual-card-reach-set">
+            <a
+              href="https://maps.app.goo.gl/e2NBaPiNyMoR7eqE9"
+              target="_blank"
+              className="virtual-card-reach-set"
+            >
               <img src={LocationIcon} />
               <p>Bangalore</p>
             </a>
@@ -409,7 +431,11 @@ function TemplateTKS() {
         />
         <h2>Find and Follow</h2>
         <div className="virtual-card-find-container">
-          <a href="#" className="virtual-card-find-set">
+          <a
+            href="https://www.linkedin.com/in/santosh09062002/"
+            target="_blank"
+            className="virtual-card-find-set"
+          >
             <div className="virtual-card-find-icon">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -426,9 +452,13 @@ function TemplateTKS() {
                 />
               </svg>
             </div>
-            <h3 className="virtual-card-find-icon-label">Username</h3>
+            <h3 className="virtual-card-find-icon-label">LinkedIn</h3>
           </a>
-          <a href="#" className="virtual-card-find-set">
+          <a
+            href="https://github.com/Santosh-7124"
+            target="_blank"
+            className="virtual-card-find-set"
+          >
             <div className="virtual-card-find-icon">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -443,9 +473,13 @@ function TemplateTKS() {
                 />
               </svg>
             </div>
-            <h3 className="virtual-card-find-icon-label">Username</h3>
+            <h3 className="virtual-card-find-icon-label">GitHub</h3>
           </a>
-          <a href="#" className="virtual-card-find-set">
+          <a
+            href="https://wa.me/919347744815"
+            target="_blank"
+            className="virtual-card-find-set"
+          >
             <div className="virtual-card-find-icon">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -460,7 +494,7 @@ function TemplateTKS() {
                 />
               </svg>
             </div>
-            <h3 className="virtual-card-find-icon-label">Username</h3>
+            <h3 className="virtual-card-find-icon-label">WhatsApp</h3>
           </a>
         </div>
       </div>
@@ -667,7 +701,7 @@ function TemplateTKS() {
                   />
                 </svg>
               </section>
-              <h3>UI Design</h3>
+              <h3>HTML</h3>
             </div>
             <div className="virtual-card-skills-set">
               <section>
@@ -694,7 +728,7 @@ function TemplateTKS() {
                   />
                 </svg>
               </section>
-              <h3>UI Design</h3>
+              <h3>CSS</h3>
             </div>
             <div className="virtual-card-skills-set">
               <section>
@@ -721,7 +755,7 @@ function TemplateTKS() {
                   />
                 </svg>
               </section>
-              <h3>UI Design</h3>
+              <h3>JavaScript</h3>
             </div>
             <div className="virtual-card-skills-set">
               <section>
@@ -748,7 +782,7 @@ function TemplateTKS() {
                   />
                 </svg>
               </section>
-              <h3>UI Design</h3>
+              <h3>React</h3>
             </div>
             <div className="virtual-card-skills-set">
               <section>
@@ -775,7 +809,7 @@ function TemplateTKS() {
                   />
                 </svg>
               </section>
-              <h3>UI Design</h3>
+              <h3>Redux</h3>
             </div>
             <div className="virtual-card-skills-set">
               <section>
@@ -802,7 +836,7 @@ function TemplateTKS() {
                   />
                 </svg>
               </section>
-              <h3>UI Design</h3>
+              <h3>TypeScript</h3>
             </div>
           </div>
         </div>
@@ -819,31 +853,17 @@ function TemplateTKS() {
         <h2>Work Experience</h2>
         <div className="virtual-card-experience-container">
           <div className="virtual-card-experience-set">
-            <h3>User Experience Designer</h3>
+            <h3>Frontend Developer</h3>
             <section>
-              <h4>Microsoft </h4>
-              <p>2023 - Present</p>
+              <h4>Koios Engineering Solution </h4>
+              <p>May 2024 - Present</p>
             </section>
           </div>
           <div className="virtual-card-experience-set">
-            <h3>User Research</h3>
+            <h3>Frontend Developer Intern</h3>
             <section>
-              <h4>Microsoft </h4>
-              <p>2023 - Present</p>
-            </section>
-          </div>
-          <div className="virtual-card-experience-set">
-            <h3>UI Designer</h3>
-            <section>
-              <h4>Microsoft </h4>
-              <p>2023 - Present</p>
-            </section>
-          </div>
-          <div className="virtual-card-experience-set">
-            <h3>Intern Designer</h3>
-            <section>
-              <h4>Microsoft </h4>
-              <p>2023 - Present</p>
+              <h4>Koios Engineering Solution </h4>
+              <p>January 2024 - April 2024</p>
             </section>
           </div>
         </div>
@@ -1793,4 +1813,4 @@ function TemplateTKS() {
   );
 }
 
-export default TemplateTKS;
+export default MudigetiSantosh;

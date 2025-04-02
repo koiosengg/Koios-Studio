@@ -268,7 +268,8 @@ html {
   position: absolute;
   width: 120%;
   height: 100%;
-  left: -10px;
+  left: 50%;
+  transform: translateX(-50%);
   object-fit: cover;
 }
 
@@ -532,11 +533,12 @@ html {
 }
 
 .virtual-card-reach-container {
+  width: 80%;
   position: absolute;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -545,8 +547,10 @@ html {
 }
 
 .virtual-card-reach-container section {
+  width: 100%;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   gap: 32px;
 }
 
@@ -574,6 +578,7 @@ html {
   font-weight: 500;
   line-height: 140%;
   transition: all 0.3s;
+  flex-shrink: 0;
 }
 
 .virtual-card-reach-set:hover p {
@@ -1006,7 +1011,7 @@ html {
 .virtual-card-skills-set {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 8px;
   cursor: pointer;
 }
@@ -1051,6 +1056,11 @@ html {
   font-weight: 600;
   line-height: normal;
   letter-spacing: -0.64px;
+  transition: all 0.3s;
+}
+
+.virtual-card-skills-set:hover h3 {
+  color: #ffbf00;
 }
 
 /* Experience */
