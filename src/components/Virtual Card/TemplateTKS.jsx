@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 import Logo from "./assets/Footer Company Logo.png";
@@ -7,7 +7,6 @@ import BannerMobileBackround from "./assets/TKS Mobile Banner.png";
 import Verified from "./assets/Verified.png";
 import BannerButton from "./assets/TKS Banner Button Background.png";
 import MahiRastogi from "./assets/TemplateTKS Person.png";
-import photo from "./assets/TemplateTKS Person.png";
 import MarqueeStar from "./assets/Marquee Star.png";
 import AboutDesktopBackground from "./assets/TKS Desktop About.png";
 import AboutMobileBackground from "./assets/TKS Mobile About.png";
@@ -36,27 +35,6 @@ import TestimonySample from "./assets/Testimony.jpg";
 import TestimonyStar from "./assets/Testimony Star.png";
 import ConnectDesktopBackground from "./assets/TKS Desktop Connect.png";
 import ConnectMobileBackground from "./assets/TKS Mobile Connect.png";
-
-const generateVCF = (photoBase64) => {
-  const vCardData = `BEGIN:VCARD
-VERSION:3.0
-FN:John Doe
-TEL:+1234567890
-EMAIL:john@example.com
-PHOTO;TYPE=PNG;ENCODING=BASE64,${photoBase64}
-END:VCARD`;
-
-  const blob = new Blob([vCardData], { type: "text/vcard" });
-  const vcfURL = URL.createObjectURL(blob);
-
-  const a = document.createElement("a");
-  a.href = vcfURL;
-  a.download = "contact.vcf";
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-};
-
 
 const schedule = {
   S: {
@@ -99,22 +77,6 @@ const schedule = {
 };
 
 function TemplateTKS() {
-
-  const [photoBase64, setPhotoBase64] = useState("");
-
-  useEffect(() => {
-    fetch(photo)
-      .then((res) => res.blob())
-      .then((blob) => {
-        const reader = new FileReader();
-        reader.onloadend = () => {
-          setPhotoBase64(reader.result.split(",")[1]); 
-        };
-        reader.readAsDataURL(blob);
-      });
-  }, []);
-
-
   const [selectedDay, setSelectedDay] = useState("S");
 
   const handleDayClick = (day) => {
@@ -128,13 +90,21 @@ function TemplateTKS() {
   return (
     <div className="virtual-card">
       <div className="virtual-card-bottom-bar mobile">
-      <a
-      href="#"
-      className="virtual-card-white-button"
-      onClick={() => generateVCF(photoBase64)}
-    >
-      <p>Save Contact</p>
-    </a>
+        <a
+          href={`data:text/vcard;charset=utf-8,${encodeURIComponent(
+            `BEGIN:VCARD
+            VERSION:3.0
+            FN:John Doe Singh
+            TEL:+1234567890
+            EMAIL:john@example.com
+            PHOTO;VALUE=URI:https://drive.google.com/file/d/1kMiVrpdPh41CWNtQC2fnuHFGX14PNNRG/view?usp=sharing
+            END:VCARD`
+          )}`}
+          download="contact.vcf"
+          className="virtual-card-white-button"
+        >
+          <p>Save Contact</p>
+        </a>
         <a href="#" className="virtual-card-banner-button">
           <img
             src={BannerButton}
