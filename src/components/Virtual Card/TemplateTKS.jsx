@@ -7,7 +7,7 @@ import BannerDesktopBackround from "./assets/TKS Desktop Banner.png";
 import BannerMobileBackround from "./assets/TKS Mobile Banner.png";
 import Verified from "./assets/Verified.png";
 import BannerButton from "./assets/TKS Banner Button Background.png";
-import MahiRastogi from "./assets/TemplateTKS Person.png";
+import PersonPhoto from "/TemplatePerson.png";
 import MarqueeStar from "./assets/Marquee Star.png";
 import AboutDesktopBackground from "./assets/TKS Desktop About.png";
 import AboutMobileBackground from "./assets/TKS Mobile About.png";
@@ -80,26 +80,27 @@ const schedule = {
 function TemplateTKS() {
   const handleDownloadVCard = () => {
     const vCard = vCardsJS();
-
-    vCard.firstName = "M Santosh";
-    vCard.cellPhone = "+919347744815";
-    vCard.email = "sunny962002@gmail.com";
-
-    // Convert vCard to string
+  
+    vCard.firstName = "M Sunny";
+    vCard.cellPhone = "+919347744407";
+    vCard.email = "sunny92002@gmail.com";
+  
+    vCard.photo.attachFromUrl(`${window.location.origin}/TemplatePerson.png`, "image/png");
+  
     const vCardData = vCard.getFormattedString();
-
-    // Create Blob for correct file format
     const blob = new Blob([vCardData], { type: "text/vcard;charset=utf-8" });
     const url = URL.createObjectURL(blob);
-
-    // Create a link and trigger download
+  
     const a = document.createElement("a");
     a.href = url;
     a.download = "contact.vcf";
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
+
+    console.log(vCard.getFormattedString());
   };
+  
 
   const [selectedDay, setSelectedDay] = useState("S");
 
@@ -181,7 +182,7 @@ function TemplateTKS() {
             </a>
           </div>
           <div className="virtual-card-banner-right">
-            <img src={MahiRastogi} />
+            <img src={PersonPhoto} />
             <div className="virtual-card-banner-marquee white">
               <div className="virtual-card-banner-marquee-wrapper ">
                 <div className="virtual-card-banner-marquee-marquee">
