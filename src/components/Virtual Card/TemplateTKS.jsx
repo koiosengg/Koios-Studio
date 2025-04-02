@@ -78,49 +78,46 @@ const schedule = {
 };
 
 function TemplateTKS() {
+  const handleDownloadVCard = async () => {
+    const vCard = vCardsJS();
 
- const handleDownloadVCard = async () => {
-  const vCard = vCardsJS();
+    vCard.firstName = "M Sunny";
+    vCard.cellPhone = "+919347744407";
+    vCard.email = "sunny92002@gmail.com";
+    vCard.organization = "Koios Studio";
 
-  vCard.firstName = "M Sunny";
-  vCard.cellPhone = "+919347744407";
-  vCard.email = "sunny92002@gmail.com";
-  vCard.organization = "Koios Studio";
-
-  // Convert the image to Base64
-  const imageBase64 = await getBase64FromImage(`${window.location.origin}/TemplatePerson.png`);
-  vCard.photo.embedFromString(imageBase64, "image/png");
-
-  const vCardData = vCard.getFormattedString();
-  const blob = new Blob([vCardData], { type: "text/vcard;charset=utf-8" });
-  const url = URL.createObjectURL(blob);
-
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = "contact.vcf";
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-
-  console.log(vCard.getFormattedString());
-};
-
-// Helper function to fetch the image and convert it to Base64
-const getBase64FromImage = (imageUrl) => {
-  return fetch(imageUrl)
-    .then((response) => response.blob())
-    .then(
-      (blob) =>
-        new Promise((resolve, reject) => {
-          const reader = new FileReader();
-          reader.onloadend = () => resolve(reader.result.split(",")[1]); // Extract Base64
-          reader.onerror = reject;
-          reader.readAsDataURL(blob);
-        })
+    const imageBase64 = await getBase64FromImage(
+      `${window.location.origin}/TemplatePerson.png`
     );
-};
+    vCard.photo.embedFromString(imageBase64, "image/png");
 
-  
+    const vCardData = vCard.getFormattedString();
+    const blob = new Blob([vCardData], { type: "text/vcard;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "contact.vcf";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+
+    console.log(vCard.getFormattedString());
+  };
+
+  const getBase64FromImage = (imageUrl) => {
+    return fetch(imageUrl)
+      .then((response) => response.blob())
+      .then(
+        (blob) =>
+          new Promise((resolve, reject) => {
+            const reader = new FileReader();
+            reader.onloadend = () => resolve(reader.result.split(",")[1]);
+            reader.onerror = reject;
+            reader.readAsDataURL(blob);
+          })
+      );
+  };
 
   const [selectedDay, setSelectedDay] = useState("S");
 
@@ -135,10 +132,12 @@ const getBase64FromImage = (imageUrl) => {
   return (
     <div className="virtual-card">
       <div className="virtual-card-bottom-bar mobile">
-        <a onClick={handleDownloadVCard} className="virtual-card-white-button">
+        {/* <a onClick={handleDownloadVCard} className="virtual-card-white-button">
+          <p>Save Contact</p>
+        </a> */}
+        <a href="#" className="virtual-card-white-button">
           <p>Save Contact</p>
         </a>
-
         <a href="#" className="virtual-card-banner-button">
           <img
             src={BannerButton}
