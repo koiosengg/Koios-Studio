@@ -91,9 +91,7 @@ function TemplateTKS() {
     <div className="virtual-card">
       <div className="virtual-card-bottom-bar mobile">
         <a
-          href={`data:text/vcard;charset=utf-8,${encodeURIComponent(
-            `BEGIN:VCARD%0AVERSION:3.0%0AFN:John Doe Singh%0ATEL:+1234567890%0AEMAIL:john@example.com%0AEND:VCARD`
-          )}`}
+          href="data:text/vcard;charset=utf-8,BEGIN:VCARD%0AVERSION:3.0%0AFN:M Santosh%0ATEL:+919347744815%0AEMAIL:sunny962002@gmail.com%0AEND:VCARD"
           download="contact.vcf"
           className="virtual-card-white-button"
         >
