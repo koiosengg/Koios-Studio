@@ -87,6 +87,7 @@ function TemplateTKS() {
   
     vCard.photo.attachFromUrl(`${window.location.origin}/TemplatePerson.png`, "image/png");
     vCard.logo.attachFromUrl(`${window.location.origin}/TemplatePerson.png`, "image/png");
+    vCard.organization = 'koios Sutio';
   
     const vCardData = vCard.getFormattedString();
     const blob = new Blob([vCardData], { type: "text/vcard;charset=utf-8" });
