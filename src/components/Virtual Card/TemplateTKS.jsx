@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import vCardsJS from "vcards-js";
 import { Link } from "react-router-dom";
 import "./style.css";
 import Logo from "./assets/Footer Company Logo.png";
@@ -77,6 +78,29 @@ const schedule = {
 };
 
 function TemplateTKS() {
+  const handleDownloadVCard = () => {
+    const vCard = vCardsJS();
+
+    vCard.firstName = "M Santosh";
+    vCard.cellPhone = "+919347744815";
+    vCard.email = "sunny962002@gmail.com";
+
+    // Convert vCard to string
+    const vCardData = vCard.getFormattedString();
+
+    // Create Blob for correct file format
+    const blob = new Blob([vCardData], { type: "text/vcard;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+
+    // Create a link and trigger download
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "contact.vcf";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  };
+
   const [selectedDay, setSelectedDay] = useState("S");
 
   const handleDayClick = (day) => {
@@ -90,11 +114,7 @@ function TemplateTKS() {
   return (
     <div className="virtual-card">
       <div className="virtual-card-bottom-bar mobile">
-        <a
-          href="data:text/vcard;charset=utf-8,BEGIN:VCARD%0AVERSION:3.0%0AFN:M Santosh%0ATEL:+919347744815%0AEMAIL:sunny962002@gmail.com%0AEND:VCARD"
-          download="contact.vcf"
-          className="virtual-card-white-button"
-        >
+        <a onClick={handleDownloadVCard} className="virtual-card-white-button">
           <p>Save Contact</p>
         </a>
 
