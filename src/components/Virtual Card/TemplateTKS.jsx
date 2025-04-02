@@ -92,19 +92,14 @@ function TemplateTKS() {
       <div className="virtual-card-bottom-bar mobile">
         <a
           href={`data:text/vcard;charset=utf-8,${encodeURIComponent(
-            `BEGIN:VCARD
-            VERSION:3.0
-            FN:John Doe Singh
-            TEL:+1234567890
-            EMAIL:john@example.com
-            PHOTO;VALUE=URI:https://drive.google.com/file/d/1kMiVrpdPh41CWNtQC2fnuHFGX14PNNRG/view?usp=sharing
-            END:VCARD`
+            `BEGIN:VCARD%0AVERSION:3.0%0AFN:John Doe Singh%0ATEL:+1234567890%0AEMAIL:john@example.com%0APHOTO;VALUE=URI:https://drive.google.com/uc?export=view&id=1kMiVrpdPh41CWNtQC2fnuHFGX14PNNRG%0AEND:VCARD`
           )}`}
           download="contact.vcf"
           className="virtual-card-white-button"
         >
           <p>Save Contact</p>
         </a>
+
         <a href="#" className="virtual-card-banner-button">
           <img
             src={BannerButton}
