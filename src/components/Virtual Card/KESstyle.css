@@ -1,0 +1,166 @@
+.virtual-card-KES .virtual-card-banner-container {
+  flex-direction: column-reverse;
+  padding: 40px 160px 0px 160px;
+}
+
+.virtual-card-KES .virtual-card-banner-right {
+  height: 100%;
+  width: auto;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.virtual-card-KES .virtual-card-banner-left {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.virtual-card-KES .virtual-card-banner-left img {
+  object-fit: cover;
+}
+
+.virtual-card-KES .virtual-card-banner-left-text {
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+}
+
+.virtual-card-KES .virtual-card-banner-left-text section {
+  align-items: center;
+  justify-content: center;
+}
+
+.virtual-card-KES .virtual-card-banner-left-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.virtual-card-KES .virtual-card-banner-left-logo img {
+  height: 28px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+.virtual-card-KES .virtual-card-banner-left-logo span {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.virtual-card-KES .virtual-card-banner-left-text p {
+  text-align: center;
+}
+
+.virtual-card-KES .virtual-card-reach {
+  display: flex;
+  padding: 80px 160px;
+  justify-content: center;
+  align-items: center;
+}
+
+.virtual-card-KES .virtual-card-reach-container {
+  width: 100%;
+  position: static;
+  transform: none;
+  padding: 0;
+}
+
+.virtual-card-KES .virtual-card-reach-container section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+}
+
+.virtual-card-KES .virtual-card-reach-set {
+  width: 100%;
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid var(--Grey-grey-800, #444);
+  background: linear-gradient(90deg, #121212 0%, #1f1f1f 100%);
+}
+
+.virtual-card-KES .virtual-card-reach-set:hover {
+  box-shadow: 0px 4px 20px 0px rgba(208, 208, 208, 0.25);
+}
+
+.virtual-card-KES .virtual-card-reach-set img {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+
+.virtual-card-KES .virtual-card-reach-set-text {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.virtual-card-KES .virtual-card-reach-set-text img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+
+.virtual-card-KES .virtual-card-reach-set-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.virtual-card-KES .virtual-card-reach-set-content h3 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.72px;
+}
+
+.virtual-card-KES .virtual-card-reach-set-content p {
+  color: var(--Black-black-100, #b6b6b6);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.64px;
+}
+
+.virtual-card-KES .virtual-card-find-icon {
+  display: flex;
+  width: 124px;
+  height: 124px;
+  padding: 27px 27.816px 27.816px 27px;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+  border-radius: 8px;
+  border: 1px solid var(--Grey-grey-800, #444);
+  background: rgba(18, 18, 18, 0.6);
+  backdrop-filter: blur(20px);
+  overflow: hidden;
+}
+
+.virtual-card-KES .virtual-card-find-icon svg {
+  transition: all 0.3s;
+}
+
+.virtual-card-KES .virtual-card-find-set:hover .virtual-card-find-icon {
+  box-shadow: none;
+}
+
+.virtual-card-KES .virtual-card-find-set:hover .virtual-card-find-icon svg {
+  filter: drop-shadow(0px 4px 30px rgba(255, 255, 255, 0.5));
+}

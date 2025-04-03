@@ -41,6 +41,7 @@ html {
 
 .virtual-card-about-background,
 .virtual-card-reach-background,
+.virtual-card-find-background,
 .virtual-card-find-icon-label,
 .virtual-card-services-background,
 .virtual-card-products-background,
@@ -1045,7 +1046,7 @@ html {
 }
 
 .virtual-card-skills-set:hover svg path {
-  stroke: #ffbf00;
+  fill: #ffbf00;
 }
 
 .virtual-card-skills-set h3 {
