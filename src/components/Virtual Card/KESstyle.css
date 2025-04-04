@@ -138,6 +138,51 @@
   letter-spacing: -0.64px;
 }
 
+.virtual-card-KES .virtual-card-find-yellow {
+  width: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform-origin: center;
+  animation: KESfindYellowAnimation 3s linear infinite;
+}
+
+.virtual-card-KES .virtual-card-find-white {
+  width: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform-origin: center;
+  animation: KESfindYellowAnimation 5s linear infinite;
+  z-index: 1;
+}
+
+@keyframes KESfindYellowAnimation {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(20px) rotate(0deg);
+  }
+  25% {
+    transform: translate(-50%, -50%) rotate(90deg) translateX(20px)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg) translateX(20px)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(-50%, -50%) rotate(270deg) translateX(20px)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(20px)
+      rotate(-360deg);
+  }
+}
+
+.virtual-card-KES .virtual-card-find-set {
+  z-index: 2;
+}
+
 .virtual-card-KES .virtual-card-find-icon {
   display: flex;
   width: 124px;
@@ -163,4 +208,39 @@
 
 .virtual-card-KES .virtual-card-find-set:hover .virtual-card-find-icon svg {
   filter: drop-shadow(0px 4px 30px rgba(255, 255, 255, 0.5));
+}
+
+/* Services */
+
+.virtual-card-KES .virtual-card-services-set {
+  height: 281px;
+}
+
+.virtual-card-KES .virtual-card-services-set img {
+  transform: translate(-70%, -50%);
+}
+
+.virtual-card-KES .virtual-card-services-set:hover img {
+  transform: translate(-50%, -50%);
+}
+
+/* Watch */
+
+.virtual-card-KES .virtual-card-watch-frame-logo {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  background: #121212;
+}
+
+.virtual-card-KES .virtual-card-skills-background {
+  position: absolute;
+  top: 0;
+}
+
+.virtual-card-KES .virtual-card-skills-div {
+  position: static;
+  transform: none;
+  padding-top: 120px;
 }
