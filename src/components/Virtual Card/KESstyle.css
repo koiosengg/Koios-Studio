@@ -18,7 +18,7 @@
   gap: 32px;
 }
 
-.virtual-card-KES .virtual-card-banner-left img {
+.virtual-card-KES .virtual-card-banner-left-img {
   object-fit: cover;
 }
 
@@ -358,5 +358,53 @@
 
   .virtual-card-KES .virtual-card-banner-container {
     padding: 40px 20px 40px 20px;
+  }
+
+  .virtual-card-KES .virtual-card-banner-left-img {
+    width: 100%;
+  }
+
+  .virtual-card-KES .virtual-card-banner-right {
+    height: 50%;
+  }
+
+  .virtual-card-KES .virtual-card-banner-right img {
+    aspect-ratio: 1/1;
+  }
+
+  /* Get in Touch*/
+
+  .virtual-card-KES .virtual-card-reach {
+    padding: 40px 20px;
+    gap: 32px;
+  }
+
+  .virtual-card-KES .virtual-card-reach-container section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .virtual-card-KES .virtual-card-find-container {
+    flex-wrap: wrap;
+  }
+
+  .virtual-card-KES .virtual-card-find-set {
+    gap: 8px;
+  }
+
+  .virtual-card-KES .virtual-card-find-icon {
+    padding: 16px;
+  }
+
+  .virtual-card-KES .virtual-card-find-icon svg {
+    width: 80%;
+    height: 80%;
+  }
+
+  /* Products*/
+
+  .virtual-card-KES .virtual-card-products {
+    overflow: visible;
   }
 }

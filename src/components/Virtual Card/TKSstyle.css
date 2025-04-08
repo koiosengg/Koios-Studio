@@ -1500,7 +1500,7 @@ html {
   display: flex;
   display: flex;
   width: 60px;
-  height: 48px;
+  height: 60px;
   padding: 6px;
   justify-content: center;
   align-items: center;
@@ -1515,10 +1515,10 @@ html {
 }
 
 .virtual-card-socials a svg {
-  width: 24px;
-  height: 24px;
+  width: 48px;
+  height: 40px;
   flex-shrink: 0;
-  aspect-ratio: 1/1;
+  aspect-ratio: 6/5;
 }
 
 .virtual-card-socials a svg path {

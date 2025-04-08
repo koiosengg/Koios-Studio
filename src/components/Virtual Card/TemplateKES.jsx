@@ -1,24 +1,24 @@
 import React, { useState } from "react";
+import vCardsJS from "vcards-js";
 import { Link } from "react-router-dom";
 import "./TKSstyle.css";
 import "./KESstyle.css";
 import Logo from "./assets/KES Logo.png";
 import TKSLogo from "./assets/Footer Company Logo.png";
 import BannerDesktopBackround from "./assets/KES Desktop Banner.png";
-import BannerMobileBackround from "./assets/TKS Mobile Banner.png";
+import BannerMobileBackround from "./assets/KES Mobile Banner.png";
 import BannerPart from "./assets/KES Desktop Banner Part.png";
 import Verified from "./assets/Verified.png";
 import PersonPhoto from "/MudigetiSantosh.jpg";
 import AboutDesktopBackground from "./assets/KES Desktop About.png";
-import AboutMobileBackground from "./assets/TKS Mobile About.png";
+import AboutMobileBackground from "./assets/KES Mobile About.png";
 import CallIcon from "./assets/KES Call Icon.png";
 import EmailIcon from "./assets/KES Email Icon.png";
 import LocationIcon from "./assets/KES Location Icon.png";
 import AboutArrow from "./assets/KES Get in Touch Arrow.png";
 import ServicesDesktopCardBackground from "./assets/KES Desktop Services Card.png";
-import ServicesMobileCardBackground from "./assets/TKS Mobile Services Card.png";
 import ProductsDesktopBackground from "./assets/KES Desktop Products.png";
-import ProductsMobileBackground from "./assets/TKS Mobile Products.png";
+import ProductsMobileBackground from "./assets/KES Mobile Products.png";
 import ProductsSampleServices from "./assets/Sample Services.png";
 import WatchDesktopBackground from "./assets/KES Desktop Watch.png";
 import SkillsDesktopBackground from "./assets/KES Desktop Skills.png";
@@ -76,6 +76,47 @@ const schedule = {
 };
 
 function TemplateKES() {
+  const handleDownloadVCard = async () => {
+    const vCard = vCardsJS();
+
+    vCard.firstName = "M Santosh";
+    vCard.cellPhone = "+919347744407";
+    vCard.email = "sunny92002@gmail.com";
+    vCard.organization = "Koios Studio";
+
+    const imageBase64 = await getBase64FromImage(
+      `${window.location.origin}/MudigetiSantosh.jpg`
+    );
+    vCard.photo.embedFromString(imageBase64, "image/jpg");
+
+    const vCardData = vCard.getFormattedString();
+    const blob = new Blob([vCardData], { type: "text/vcard;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "contact.vcf";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+
+    console.log(vCard.getFormattedString());
+  };
+
+  const getBase64FromImage = (imageUrl) => {
+    return fetch(imageUrl)
+      .then((response) => response.blob())
+      .then(
+        (blob) =>
+          new Promise((resolve, reject) => {
+            const reader = new FileReader();
+            reader.onloadend = () => resolve(reader.result.split(",")[1]);
+            reader.onerror = reject;
+            reader.readAsDataURL(blob);
+          })
+      );
+  };
+
   const [selectedDay, setSelectedDay] = useState("S");
   const [rotation, setRotation] = useState(0);
 
@@ -91,6 +132,20 @@ function TemplateKES() {
   const currentYear = new Date().getFullYear();
   return (
     <div className="virtual-card virtual-card-KES">
+      <div className="virtual-card-bottom-bar mobile">
+        <a onClick={handleDownloadVCard} className="virtual-card-white-button">
+          <p>Save Contact</p>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/santosh09062002/"
+          target="_blank"
+          className="virtual-card-banner-button"
+        >
+          <section>
+            <p>View Portfolio</p>
+          </section>
+        </a>
+      </div>
       <div className="virtual-card-banner">
         <img
           src={BannerDesktopBackround}
@@ -118,10 +173,10 @@ function TemplateKES() {
                 lobortis id. Sit nibh ullamcor er in libero.
               </p>
             </div>
-            <a href="#" className="virtual-card-white-button">
+            <a href="#" className="virtual-card-white-button desktop">
               <p>View Portfolio</p>
             </a>
-            <img src={BannerPart} />
+            <img src={BannerPart} className="virtual-card-banner-left-img" />
           </div>
           <div className="virtual-card-banner-right">
             <img src={PersonPhoto} />
@@ -371,8 +426,7 @@ function TemplateKES() {
               Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
               lobortis id sit nibh ullamcorpo.
             </p>
-            <img src={ServicesDesktopCardBackground} className="desktop" />
-            <img src={ServicesMobileCardBackground} className="mobile" />
+            <img src={ServicesDesktopCardBackground} />
           </div>
           <div className="virtual-card-services-set">
             <h3>Website Development</h3>
@@ -380,8 +434,7 @@ function TemplateKES() {
               Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
               lobortis id sit nibh ullamcorpo.
             </p>
-            <img src={ServicesDesktopCardBackground} className="desktop" />
-            <img src={ServicesMobileCardBackground} className="mobile" />
+            <img src={ServicesDesktopCardBackground} />
           </div>
           <div className="virtual-card-services-set">
             <h3>Website Development</h3>
@@ -389,8 +442,7 @@ function TemplateKES() {
               Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
               lobortis id sit nibh ullamcorpo.
             </p>
-            <img src={ServicesDesktopCardBackground} className="desktop" />
-            <img src={ServicesMobileCardBackground} className="mobile" />
+            <img src={ServicesDesktopCardBackground} />
           </div>
           <div className="virtual-card-services-set">
             <h3>Website Development</h3>
@@ -398,8 +450,7 @@ function TemplateKES() {
               Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
               lobortis id sit nibh ullamcorpo.
             </p>
-            <img src={ServicesDesktopCardBackground} className="desktop" />
-            <img src={ServicesMobileCardBackground} className="mobile" />
+            <img src={ServicesDesktopCardBackground} />
           </div>
           <div className="virtual-card-services-set">
             <h3>Website Development</h3>
@@ -407,8 +458,7 @@ function TemplateKES() {
               Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
               lobortis id sit nibh ullamcorpo.
             </p>
-            <img src={ServicesDesktopCardBackground} className="desktop" />
-            <img src={ServicesMobileCardBackground} className="mobile" />
+            <img src={ServicesDesktopCardBackground} />
           </div>
           <div className="virtual-card-services-set">
             <h3>Website Development</h3>
@@ -416,8 +466,7 @@ function TemplateKES() {
               Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
               lobortis id sit nibh ullamcorpo.
             </p>
-            <img src={ServicesDesktopCardBackground} className="desktop" />
-            <img src={ServicesMobileCardBackground} className="mobile" />
+            <img src={ServicesDesktopCardBackground} />
           </div>
         </div>
       </div>
