@@ -1825,7 +1825,7 @@ html {
     background: #fff;
     backdrop-filter: blur(2px);
   }
-  .virtual-card-white-button p {
+  .virtual-card .virtual-card-white-button p {
     color: var(--Black-Primary, #121212);
     text-align: center;
     font-family: Poppins;

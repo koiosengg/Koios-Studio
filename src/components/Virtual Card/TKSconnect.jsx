@@ -19,7 +19,10 @@ function TKSconnect() {
         <div className="heading">
           <h2>Lets Connect</h2>
           <div className="virtual-card-socials">
-            <a href="#">
+            <a
+              href="https://www.linkedin.com/company/koiostudio/"
+              target="_blank"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="44"
@@ -33,7 +36,10 @@ function TKSconnect() {
                 />
               </svg>
             </a>
-            <a href="#">
+            <a
+              href="https://www.instagram.com/koiostudio?igsh=MXg4OTJ5bHlkaGc3Nw=="
+              target="_blank"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -47,7 +53,10 @@ function TKSconnect() {
                 />
               </svg>
             </a>
-            <a href="#">
+            <a
+              href="https://www.facebook.com/profile.php?id=61570978105729&mibextid=ZbWKwL"
+              target="_blank"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -73,7 +82,7 @@ function TKSconnect() {
                 </defs>
               </svg>
             </a>
-            <a href="#">
+            <a href="http://www.youtube.com/@Koiosengg" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="48"

@@ -17,13 +17,6 @@ import CallIcon from "./assets/TKS Call Icon.png";
 import EmailIcon from "./assets/TKS Email Icon.png";
 import LocationIcon from "./assets/TKS Location Icon.png";
 import FindDesktopBackground from "./assets/TKS Desktop Find.png";
-import ServicesDesktopBackground from "./assets/TKS Desktop Services.png";
-import ServicesMobileBackground from "./assets/TKS Mobile Services.png";
-import ServicesDesktopCardBackground from "./assets/TKS Desktop Services Card.png";
-import ServicesMobileCardBackground from "./assets/TKS Mobile Services Card.png";
-import ProductsDesktopBackground from "./assets/TKS Desktop Products.png";
-import ProductsMobileBackground from "./assets/TKS Mobile Products.png";
-import ProductsSampleServices from "./assets/Sample Services.png";
 import WatchDesktopBackground from "./assets/TKS Desktop Watch.png";
 import SkillsDesktopBackground from "./assets/TKS Desktop Skills.png";
 import SkillsMobileBackground from "./assets/TKS Mobile Skills.png";
@@ -495,124 +488,6 @@ function MudigetiSantosh() {
             </div>
             <h3 className="virtual-card-find-icon-label">Instagram</h3>
           </a>
-        </div>
-      </div>
-      <div className="virtual-card-services">
-        <img
-          src={ServicesDesktopBackground}
-          className="virtual-card-services-background desktop"
-        />
-        <div className="virtual-card-services-background-wrapper mobile">
-          <img
-            src={ServicesMobileBackground}
-            className="virtual-card-services-background "
-          />
-        </div>
-        <h2>Our Services</h2>
-        <div className="virtual-card-services-container">
-          <div className="virtual-card-services-set">
-            <h3>Website Development</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-              lobortis id sit nibh ullamcorpo.
-            </p>
-            <img src={ServicesDesktopCardBackground} className="desktop" />
-            <img src={ServicesMobileCardBackground} className="mobile" />
-          </div>
-          <div className="virtual-card-services-set">
-            <h3>Website Development</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-              lobortis id sit nibh ullamcorpo.
-            </p>
-            <img src={ServicesDesktopCardBackground} className="desktop" />
-            <img src={ServicesMobileCardBackground} className="mobile" />
-          </div>
-          <div className="virtual-card-services-set">
-            <h3>Website Development</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-              lobortis id sit nibh ullamcorpo.
-            </p>
-            <img src={ServicesDesktopCardBackground} className="desktop" />
-            <img src={ServicesMobileCardBackground} className="mobile" />
-          </div>
-          <div className="virtual-card-services-set">
-            <h3>Website Development</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-              lobortis id sit nibh ullamcorpo.
-            </p>
-            <img src={ServicesDesktopCardBackground} className="desktop" />
-            <img src={ServicesMobileCardBackground} className="mobile" />
-          </div>
-          <div className="virtual-card-services-set">
-            <h3>Website Development</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-              lobortis id sit nibh ullamcorpo.
-            </p>
-            <img src={ServicesDesktopCardBackground} className="desktop" />
-            <img src={ServicesMobileCardBackground} className="mobile" />
-          </div>
-          <div className="virtual-card-services-set">
-            <h3>Website Development</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-              lobortis id sit nibh ullamcorpo.
-            </p>
-            <img src={ServicesDesktopCardBackground} className="desktop" />
-            <img src={ServicesMobileCardBackground} className="mobile" />
-          </div>
-        </div>
-      </div>
-      <div className="virtual-card-products">
-        <img
-          src={ProductsDesktopBackground}
-          className="virtual-card-products-background desktop"
-        />
-        <img
-          src={ProductsMobileBackground}
-          className="virtual-card-products-background mobile"
-        />
-        <h2>Our Products</h2>
-        <div className="virtual-card-products-container">
-          <div className="virtual-card-products-set">
-            <div className="virtual-card-products-set-img">
-              <img src={ProductsSampleServices} />
-            </div>
-            <h3>Website Development</h3>
-          </div>
-          <div className="virtual-card-products-set">
-            <div className="virtual-card-products-set-img">
-              <img src={ProductsSampleServices} />
-            </div>
-            <h3>Website Development</h3>
-          </div>
-          <div className="virtual-card-products-set">
-            <div className="virtual-card-products-set-img">
-              <img src={ProductsSampleServices} />
-            </div>
-            <h3>Website Development</h3>
-          </div>
-          <div className="virtual-card-products-set">
-            <div className="virtual-card-products-set-img">
-              <img src={ProductsSampleServices} />
-            </div>
-            <h3>Website Development</h3>
-          </div>
-          <div className="virtual-card-products-set">
-            <div className="virtual-card-products-set-img">
-              <img src={ProductsSampleServices} />
-            </div>
-            <h3>Website Development</h3>
-          </div>
-          <div className="virtual-card-products-set">
-            <div className="virtual-card-products-set-img">
-              <img src={ProductsSampleServices} />
-            </div>
-            <h3>Website Development</h3>
-          </div>
         </div>
       </div>
       <div className="virtual-card-watch">

@@ -228,8 +228,8 @@
 
 .virtual-card-KES .virtual-card-watch-frame-logo {
   position: absolute;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   object-fit: cover;
   background: #121212;
   transition: all 0.5s;
@@ -365,7 +365,8 @@
   }
 
   .virtual-card-KES .virtual-card-banner-right {
-    height: 50%;
+    height: auto;
+    width: 100%;
   }
 
   .virtual-card-KES .virtual-card-banner-right img {
@@ -391,10 +392,13 @@
 
   .virtual-card-KES .virtual-card-find-set {
     gap: 8px;
+    max-width: 80px;
   }
 
   .virtual-card-KES .virtual-card-find-icon {
     padding: 16px;
+    width: 80px;
+    height: 80px;
   }
 
   .virtual-card-KES .virtual-card-find-icon svg {
@@ -406,5 +410,54 @@
 
   .virtual-card-KES .virtual-card-products {
     overflow: visible;
+  }
+
+  /* Watch */
+
+  .virtual-card-KES .virtual-card-watch-frame {
+    max-width: 300px;
+  }
+
+  .virtual-card-KES .virtual-card-watch-frame-logo {
+    width: 24px;
+    height: 24px;
+  }
+
+  /* Experience */
+
+  .virtual-card-KES .virtual-card-experience {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+
+  .virtual-card-KES .virtual-card-experience-background {
+    position: static;
+    max-width: 273px;
+  }
+
+  /* Connect */
+
+  .virtual-card-KES .virtual-card-connect-container .heading h2 {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -3.84px;
+  }
+
+  .virtual-card-KES .virtual-card-connect-container .heading h2:first-child {
+    transform: translate(-40px, 20px);
+  }
+
+  .virtual-card-KES .virtual-card-connect-container .heading h2:nth-child(2) {
+    transform: translate(20px, -10px);
+  }
+
+  .virtual-card-KES .virtual-card-socials {
+    transform: translateY(0px);
   }
 }
