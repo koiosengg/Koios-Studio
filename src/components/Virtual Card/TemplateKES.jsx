@@ -9,7 +9,7 @@ import BannerDesktopBackround from "./assets/KES Desktop Banner.png";
 import BannerMobileBackround from "./assets/KES Mobile Banner.png";
 import BannerPart from "./assets/KES Desktop Banner Part.png";
 import Verified from "./assets/Verified.png";
-import PersonPhoto from "/MudigetiSantosh.jpg";
+import PersonPhoto from "/TemplatePerson.png";
 import AboutDesktopBackground from "./assets/KES Desktop About.png";
 import AboutMobileBackground from "./assets/KES Mobile About.png";
 import CallIcon from "./assets/KES Call Icon.png";
@@ -83,9 +83,9 @@ function TemplateKES() {
     vCard.organization = "Koios Studio";
 
     const imageBase64 = await getBase64FromImage(
-      `${window.location.origin}/MudigetiSantosh.jpg`
+      `${window.location.origin}/TemplatePerson.png`
     );
-    vCard.photo.embedFromString(imageBase64, "image/jpg");
+    vCard.photo.embedFromString(imageBase64, "image/png");
 
     const vCardData = vCard.getFormattedString();
     const blob = new Blob([vCardData], { type: "text/vcard;charset=utf-8" });
