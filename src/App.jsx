@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import ScrollToTop from "./components/ScrollToTop";
 import TemplateTKS from "./components/Virtual Card/TemplateTKS";
 import MudigetiSantosh from "./components/Virtual Card/MudigetiSantosh";
+import PriyankaKP from "./components/Virtual Card/PriyankaKP";
 import TemplateKES from "./components/Virtual Card/TemplateKES";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="portfolio/*" element={<Portfolio />} />
           <Route path="TemplateTKS" element={<TemplateTKS />} />
           <Route path="MudigetiSantosh" element={<MudigetiSantosh />} />
+          <Route path="PriyankaKP" element={<PriyankaKP />} />
           <Route path="TemplateKES" element={<TemplateKES />} />
         </Routes>
       </BrowserRouter>
