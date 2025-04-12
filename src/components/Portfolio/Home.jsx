@@ -6,12 +6,12 @@ import Footer from "./Footer";
 
 function Home() {
   return (
-    <>
+    <div className="portfolio portfolio-home">
       <Banner />
       <Marquee />
       <Numbers />
       <Footer />
-    </>
+    </div>
   );
 }
 
