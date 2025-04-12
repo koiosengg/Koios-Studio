@@ -78,7 +78,7 @@ function LakshitJain() {
 
     vCard.firstName = "Lakshit Jain";
     vCard.cellPhone = "+917073067977";
-    vCard.email = "lakshit.00jain@gmail.com";
+    vCard.email = "lakshitdesigningstudio@gmail.com";
     vCard.organization = "Koios Studio";
 
     const imageBase64 = await getBase64FromImage(
@@ -406,13 +406,13 @@ function LakshitJain() {
               <p>+91 70730 67977</p>
             </a>
             <a
-              href="https://mail.google.com/mail/?view=cm&to=lakshit.00jain@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&to=lakshitdesigningstudio@gmail.com"
               className="virtual-card-reach-set"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src={EmailIcon} />
-              <p>lakshit.00jain@gmail.com</p>
+              <p>lakshitdesigningstudio@gmail.com</p>
             </a>
             <a
               href="https://maps.app.goo.gl/W8Rhj6cgxmxJTwdE6"
