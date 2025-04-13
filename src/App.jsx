@@ -13,6 +13,7 @@ import ShvethaS from "./components/Virtual Card/ShvethaS";
 import AbhayNayak from "./components/Virtual Card/AbhayNayak";
 import Payal from "./components/Virtual Card/Payal";
 import TemplateKES from "./components/Virtual Card/TemplateKES";
+import BalasubramanyamM from "./components/Virtual Card/BalasubramanyamM";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="AbhayNayak" element={<AbhayNayak />} />
           <Route path="Payal" element={<Payal />} />
           <Route path="TemplateKES" element={<TemplateKES />} />
+          <Route path="BalasubramanyamM" element={<BalasubramanyamM />} />
         </Routes>
       </BrowserRouter>
     </HelmetProvider>
