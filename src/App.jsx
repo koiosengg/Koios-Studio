@@ -11,6 +11,7 @@ import PriyankaKP from "./components/Virtual Card/PriyankaKP";
 import LakshitJain from "./components/Virtual Card/LakshitJain";
 import ShvethaS from "./components/Virtual Card/ShvethaS";
 import AbhayNayak from "./components/Virtual Card/AbhayNayak";
+import Payal from "./components/Virtual Card/Payal";
 import TemplateKES from "./components/Virtual Card/TemplateKES";
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
           <Route path="PriyankaKP" element={<PriyankaKP />} />
           <Route path="LakshitJain" element={<LakshitJain />} />
           <Route path="ShvethaS" element={<ShvethaS />} />
-          <Route path="AbhayNayak" element={<AbhayNayak/>}/>
+          <Route path="AbhayNayak" element={<AbhayNayak />} />
+          <Route path="Payal" element={<Payal />} />
           <Route path="TemplateKES" element={<TemplateKES />} />
         </Routes>
       </BrowserRouter>

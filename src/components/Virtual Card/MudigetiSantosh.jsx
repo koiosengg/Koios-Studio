@@ -72,8 +72,8 @@ function MudigetiSantosh() {
     const vCard = vCardsJS();
 
     vCard.firstName = "M Santosh";
-    vCard.cellPhone = "+919347744407";
-    vCard.email = "sunny92002@gmail.com";
+    vCard.cellPhone = "+919347744815";
+    vCard.email = "sunny962002@gmail.com";
     vCard.organization = "Koios Studio";
 
     const imageBase64 = await getBase64FromImage(

@@ -6,7 +6,7 @@ import BannerDesktopBackround from "./assets/TKS Desktop Banner.png";
 import BannerMobileBackround from "./assets/TKS Mobile Banner.png";
 import Verified from "./assets/Verified.png";
 import BannerButton from "./assets/TKS Banner Button Background.png";
-import PersonPhoto from "/AbhayNayak.jpeg";
+import PersonPhoto from "/Payal.jpeg";
 import MarqueeStar from "./assets/Marquee Star.png";
 import AboutDesktopBackground from "./assets/TKS Desktop About.png";
 import AboutMobileBackground from "./assets/TKS Mobile About.png";
@@ -37,52 +37,52 @@ const schedule = {
   M: {
     day: "MONDAY",
     available: true,
-    startTime: "10:00 AM",
-    endTime: "06:00 PM",
+    startTime: "09:00 AM",
+    endTime: "05:00 PM",
   },
   T: {
     day: "TUESDAY",
     available: true,
-    startTime: "10:00 AM",
-    endTime: "06:00 PM",
+    startTime: "09:00 AM",
+    endTime: "05:00 PM",
   },
   W: {
     day: "WEDNESDAY",
     available: true,
-    startTime: "10:00 AM",
-    endTime: "06:00 PM",
+    startTime: "09:00 AM",
+    endTime: "05:00 PM",
   },
   T2: {
     day: "THURSDAY",
     available: true,
-    startTime: "10:00 AM",
-    endTime: "06:00 PM",
+    startTime: "09:00 AM",
+    endTime: "05:00 PM",
   },
   F: {
     day: "FRIDAY",
     available: true,
-    startTime: "10:00 AM",
-    endTime: "06:00 PM",
+    startTime: "09:00 AM",
+    endTime: "05:00 PM",
   },
   S2: {
     day: "SATURDAY",
     available: true,
-    startTime: "10:00 AM",
-    endTime: "06:00 PM",
+    startTime: "09:00 AM",
+    endTime: "05:00 PM",
   },
 };
 
-function AbhayNayak() {
+function Payal() {
   const handleDownloadVCard = async () => {
     const vCard = vCardsJS();
 
-    vCard.firstName = "Abhay Nayak";
-    vCard.cellPhone = "+919902765986";
-    vCard.email = "abhaynayak0307@gmail.com";
+    vCard.firstName = "Payal Sunilrao Kathiwale ";
+    vCard.cellPhone = "+917385312748";
+    vCard.email = "kathiwalepayal@gmail.com";
     vCard.organization = "Koios Studio";
 
     const imageBase64 = await getBase64FromImage(
-      `${window.location.origin}/AbhayNayak.jpeg`
+      `${window.location.origin}/Payal.jpeg`
     );
     vCard.photo.embedFromString(imageBase64, "image/jpeg");
 
@@ -129,7 +129,7 @@ function AbhayNayak() {
           <p>Save Contact</p>
         </a>
         <a
-          href="https://www.abhaynayak.com/"
+          href="https://www.linkedin.com/in/payal-kathiwale-5667a7320/"
           target="_blank"
           className="virtual-card-banner-button"
         >
@@ -157,20 +157,21 @@ function AbhayNayak() {
               <section>
                 <img src={Logo} alt="Koios Studios Logo" />
                 <h1>
-                  Abhay Nayak
+                  Payal Sunilrao Kathiwale
                   <img src={Verified} />
                 </h1>
                 <div className="virtual-card-banner-designation">
-                  <span>UX Designer</span>
+                  <span>Business Development Executive </span>
                 </div>
               </section>
               <p>
-                Creative and detail-oriented UI/UX Designer with a passion for
-                crafting user-centered solutions that enhance user experience.
+                Serving as the bridge between an organization's offerings and
+                the ever-evolving needs of the market, constantly seeking out
+                new avenues for growth and competitive advantage.
               </p>
             </div>
             <a
-              href="https://www.abhaynayak.com/"
+              href="https://www.linkedin.com/in/payal-kathiwale-5667a7320/"
               target="_blank"
               className="virtual-card-banner-button desktop"
             >
@@ -203,41 +204,37 @@ function AbhayNayak() {
             <div className="virtual-card-banner-marquee white">
               <div className="virtual-card-banner-marquee-wrapper ">
                 <div className="virtual-card-banner-marquee-marquee">
-                  <p>Website Design</p>
+                  <p>Business Development</p>
                   <img src={MarqueeStar} />
-                  <p>App Design</p>
+                  <p>Sales Strategy</p>
                   <img src={MarqueeStar} />
-                  <p>Responsive Design</p>
+                  <p>Client Acquisition</p>
                   <img src={MarqueeStar} />
-                  <p>Wireframes</p>
+                  <p>Market Expansion</p>
                   <img src={MarqueeStar} />
-                  <p>User Research</p>
+                  <p>Revenue Growth</p>
                   <img src={MarqueeStar} />
-                  <p>User Experience</p>
+                  <p>Business Proposals</p>
                   <img src={MarqueeStar} />
-                  <p>User Interface</p>
+                  <p>Negotiation</p>
                   <img src={MarqueeStar} />
-                  <p>Design Thinking</p>
+                  <p>Forecasting</p>
                   <img src={MarqueeStar} />
-                  <p>Typography</p>
+                  <p>Business Development</p>
                   <img src={MarqueeStar} />
-                  <p>Website Design</p>
+                  <p>Sales Strategy</p>
                   <img src={MarqueeStar} />
-                  <p>App Design</p>
+                  <p>Client Acquisition</p>
                   <img src={MarqueeStar} />
-                  <p>Responsive Design</p>
+                  <p>Market Expansion</p>
                   <img src={MarqueeStar} />
-                  <p>Wireframes</p>
+                  <p>Revenue Growth</p>
                   <img src={MarqueeStar} />
-                  <p>User Research</p>
+                  <p>Business Proposals</p>
                   <img src={MarqueeStar} />
-                  <p>User Experience</p>
+                  <p>Negotiation</p>
                   <img src={MarqueeStar} />
-                  <p>User Interface</p>
-                  <img src={MarqueeStar} />
-                  <p>Design Thinking</p>
-                  <img src={MarqueeStar} />
-                  <p>Typography</p>
+                  <p>Forecasting</p>
                   <img src={MarqueeStar} />
                 </div>
               </div>
@@ -245,41 +242,37 @@ function AbhayNayak() {
             <div className="virtual-card-banner-marquee yellow">
               <div className="virtual-card-banner-marquee-wrapper ">
                 <div className="virtual-card-banner-marquee-marquee">
-                  <p>Website Design</p>
+                  <p>Business Development</p>
                   <img src={MarqueeStar} />
-                  <p>App Design</p>
+                  <p>Sales Strategy</p>
                   <img src={MarqueeStar} />
-                  <p>Responsive Design</p>
+                  <p>Client Acquisition</p>
                   <img src={MarqueeStar} />
-                  <p>Wireframes</p>
+                  <p>Market Expansion</p>
                   <img src={MarqueeStar} />
-                  <p>User Research</p>
+                  <p>Revenue Growth</p>
                   <img src={MarqueeStar} />
-                  <p>User Experience</p>
+                  <p>Business Proposals</p>
                   <img src={MarqueeStar} />
-                  <p>User Interface</p>
+                  <p>Negotiation</p>
                   <img src={MarqueeStar} />
-                  <p>Design Thinking</p>
+                  <p>Forecasting</p>
                   <img src={MarqueeStar} />
-                  <p>Typography</p>
+                  <p>Business Development</p>
                   <img src={MarqueeStar} />
-                  <p>Website Design</p>
+                  <p>Sales Strategy</p>
                   <img src={MarqueeStar} />
-                  <p>App Design</p>
+                  <p>Client Acquisition</p>
                   <img src={MarqueeStar} />
-                  <p>Responsive Design</p>
+                  <p>Market Expansion</p>
                   <img src={MarqueeStar} />
-                  <p>Wireframes</p>
+                  <p>Revenue Growth</p>
                   <img src={MarqueeStar} />
-                  <p>User Research</p>
+                  <p>Business Proposals</p>
                   <img src={MarqueeStar} />
-                  <p>User Experience</p>
+                  <p>Negotiation</p>
                   <img src={MarqueeStar} />
-                  <p>User Interface</p>
-                  <img src={MarqueeStar} />
-                  <p>Design Thinking</p>
-                  <img src={MarqueeStar} />
-                  <p>Typography</p>
+                  <p>Forecasting</p>
                   <img src={MarqueeStar} />
                 </div>
               </div>
@@ -297,11 +290,12 @@ function AbhayNayak() {
           className="virtual-card-about-background mobile"
         />
         <div className="virtual-card-about-container">
-          <h2>UX Designer</h2>
+          <h2>BDE</h2>
           <p>
-            Specializes in crafting intuitive, user-centered digital experiences
-            by translating user needs and business goals into seamless designs
-            through research, wireframing, and interactive prototypes.
+            A Business Development Executive (BDE) is a strategic professional
+            who drives company growth by identifying and pursuing new business
+            opportunities, building relationships with potential clients, and
+            developing strategies to expand market presence.
           </p>
         </div>
         <img className="star" src={DesktopStar} />
@@ -388,30 +382,30 @@ function AbhayNayak() {
         <div className="virtual-card-reach-container">
           <section>
             <a
-              href="tel:+919902765986"
+              href="tel:+917385312748"
               className="virtual-card-reach-set"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src={CallIcon} />
-              <p>+91 99027 65986</p>
+              <p>+91 73853 12748</p>
             </a>
             <a
-              href="https://mail.google.com/mail/?view=cm&to=abhaynayak0307@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&to=kathiwalepayal@gmail.com"
               className="virtual-card-reach-set"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src={EmailIcon} />
-              <p>abhaynayak0307@gmail.com</p>
+              <p>kathiwalepayal@gmail.com</p>
             </a>
             <a
-              href="https://www.google.com/maps/place/Veera+Vittala+Temple/@13.3032548,74.7400952,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbcbafc6009585d:0x122f89ef7f2d5d4a!8m2!3d13.3032496!4d74.7426701!16s%2Fg%2F1pyqls3vc?authuser=0&entry=ttu&g_ep=EgoyMDI1MDQwOC4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D"
+              href="https://maps.app.goo.gl/5Q7CG1i6MpXWMuJAA"
               target="_blank"
               className="virtual-card-reach-set"
             >
               <img src={LocationIcon} />
-              <p>Udupi</p>
+              <p>Amravati</p>
             </a>
           </section>
         </div>
@@ -424,7 +418,7 @@ function AbhayNayak() {
         <h2>Find and Follow</h2>
         <div className="virtual-card-find-container">
           <a
-            href="https://www.linkedin.com/in/abhay-nayak-k-187b42198/"
+            href="https://www.linkedin.com/in/payal-kathiwale-5667a7320/"
             target="_blank"
             className="virtual-card-find-set"
           >
@@ -447,7 +441,7 @@ function AbhayNayak() {
             <h3 className="virtual-card-find-icon-label">LinkedIn</h3>
           </a>
           <a
-            href="https://www.behance.net/abhaynayakk"
+            href="https://www.facebook.com/payal.kathiwale?mibextid=ZbWKwL"
             target="_blank"
             className="virtual-card-find-set"
           >
@@ -460,33 +454,12 @@ function AbhayNayak() {
                 fill="none"
               >
                 <path
-                  d="M87 59.6923C87.7692 60.8461 88.5385 62 88.9231 63.9231H76.6154C76.6154 63.5385 76.6154 62.7692 77 62C77.3846 61.2308 77.3846 60.8462 78.1538 60.0769C78.5385 59.3077 79.3077 58.9231 80.0769 58.5385C80.8462 58.1538 82 57.7692 83.1538 57.7692C84.6923 58.1538 86.2308 58.5385 87 59.6923ZM51.6154 57C52.3846 56.2308 53.1538 55.0769 53.1538 53.5385C53.1538 52.7692 53.1538 52 52.7692 51.2308C52.3846 50.8462 52 50.0769 51.6154 50.0769C51.2308 49.6923 50.4615 49.6923 49.6923 49.3077H39.6923V58.1538H48.1538C49.3077 58.1538 50.4615 57.7692 51.6154 57ZM48.5385 63.5385H39.6923V73.9231H48.5385C49.3077 73.9231 50.0769 73.9231 50.8462 73.5385C51.6154 73.5385 52.3846 73.1538 52.7692 72.7692C53.1538 72.3846 53.9231 72 54.3077 71.2308C54.6923 70.4615 54.6923 69.6923 54.6923 68.9231C54.6923 67 54.3077 65.4615 53.1538 64.6923C52 63.9231 50.4615 63.5385 48.5385 63.5385ZM112 30.8462V93.1538C112 103.538 103.538 112 93.1538 112H30.8462C20.4615 112 12 103.538 12 93.1538V30.8462C12 20.4615 20.4615 12 30.8462 12H93.1538C103.538 12 112 20.4615 112 30.8462ZM75.0769 48.9231H90.4615V45.0769H75.0769V48.9231ZM62.7692 69.6923C62.7692 67.3846 62.3846 65.4615 61.2308 63.5385C60.0769 62 58.5385 60.8462 56.2308 60.0769C57.7692 59.3077 59.3077 58.1538 60.0769 57C60.8462 55.8462 61.2308 54.3077 61.2308 52.3846C61.2308 49.5 60.8462 49.3077 60.4615 47.7692C59.6923 46.6154 58.9231 45.4615 58.1538 45.0769C57 44.3077 55.8462 43.9231 54.3077 43.5385C52.3846 42.7692 50.8462 42.7692 48.9231 42.7692H31.2308V80.4615H49.6923C51.2308 80.4615 53.1538 80.0769 54.6923 79.6923C56.2308 79.3077 57.7692 78.5385 58.9231 77.7692C60.0769 77 61.2308 75.8462 62 74.3077C62.3846 73.1538 62.7692 71.6154 62.7692 69.6923ZM76.6154 68.5385H96.2308C96.2308 66.2308 96.2308 64.3077 95.8461 62.3846C95.4615 60.4615 94.6923 58.5385 93.5385 57.3846C92.3846 55.8462 90.8462 54.6923 89.3077 53.9231C87.3846 53.1538 85.4615 52.3846 83.1538 52.3846C81.2308 52.3846 79.3077 52.7692 77.3846 53.5385C75.8462 54.3077 74.3077 55.4615 72.7692 56.6154C71.6154 57.7692 70.4615 59.3077 70.0769 61.2308C69.3077 63.1538 68.9231 65.0769 68.9231 67C68.9231 69.8846 69.3077 71.2308 70.0769 72.7692C70.8462 74.6923 71.6154 76.2308 72.7692 77.3846C73.9231 78.5385 75.4615 79.6923 77 80.4615C78.9231 81.2308 80.8462 81.6154 82.7692 81.6154C85.8462 81.6154 88.5385 80.8462 90.8462 79.3077C93.1538 77.7692 94.6923 75.4615 95.8461 72.3846H89.3077C88.9231 73.1538 88.5385 73.9231 87.3846 74.6923C86.2308 75.4615 85.0769 75.8462 83.5385 75.8462C81.6154 75.8462 79.6923 75.4615 78.5385 74.3077C77.3846 72.7692 76.6154 70.8462 76.6154 68.5385Z"
+                  d="M113.667 62C113.667 33.48 90.5206 10.3334 62.0006 10.3334C33.4806 10.3334 10.334 33.48 10.334 62C10.334 87.0067 28.1073 107.828 51.6673 112.633V77.5H41.334V62H51.6673V49.0834C51.6673 39.1117 59.779 31 69.7506 31H82.6673V46.5H72.334C69.4923 46.5 67.1673 48.825 67.1673 51.6667V62H82.6673V77.5H67.1673V113.408C93.259 110.825 113.667 88.815 113.667 62Z"
                   fill="white"
                 />
               </svg>
             </div>
-            <h3 className="virtual-card-find-icon-label">Behance</h3>
-          </a>
-          <a
-            href="https://www.instagram.com/nayak.abhayy/"
-            target="_blank"
-            className="virtual-card-find-set"
-          >
-            <div className="virtual-card-find-icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="124"
-                height="124"
-                viewBox="0 0 124 124"
-                fill="none"
-              >
-                <path
-                  d="M67.311 10.3334C73.1235 10.3489 76.0737 10.3799 78.6208 10.4522L79.6232 10.4884C80.7805 10.5297 81.9223 10.5814 83.3018 10.6434C88.7992 10.9017 92.5502 11.7697 95.8413 13.0459C99.2513 14.3582 102.124 16.1355 104.997 19.003C107.625 21.585 109.658 24.7095 110.954 28.1584C112.23 31.4495 113.098 35.2005 113.356 40.703C113.418 42.0774 113.47 43.2192 113.511 44.3817L113.542 45.384C113.62 47.926 113.651 50.8762 113.661 56.6887L113.666 60.543V67.3114C113.679 71.08 113.639 74.8485 113.548 78.616L113.517 79.6184C113.475 80.7809 113.424 81.9227 113.362 83.297C113.103 88.7995 112.225 92.5454 110.954 95.8417C109.658 99.2906 107.625 102.415 104.997 104.997C102.415 107.625 99.2902 109.658 95.8413 110.954C92.5502 112.23 88.7992 113.098 83.3018 113.357L79.6232 113.512L78.6208 113.543C76.0737 113.615 73.1235 113.651 67.311 113.662L63.4567 113.667H56.6935C52.9232 113.68 49.1529 113.64 45.3837 113.548L44.3814 113.517C43.1548 113.47 41.9286 113.417 40.7027 113.357C35.2053 113.098 31.4543 112.23 28.158 110.954C24.711 109.658 21.5883 107.625 19.0078 104.997C16.3777 102.416 14.3429 99.2911 13.0455 95.8417C11.7694 92.5505 10.9013 88.7995 10.643 83.297L10.488 79.6184L10.4622 78.616C10.3669 74.8486 10.3239 71.08 10.333 67.3114V56.6887C10.3187 52.9201 10.3566 49.1516 10.4467 45.384L10.4829 44.3817C10.5242 43.2192 10.5759 42.0774 10.6379 40.703C10.8962 35.2005 11.7642 31.4547 13.0403 28.1584C14.3408 24.7081 16.3792 21.5835 19.013 19.003C21.592 16.376 24.7128 14.3431 28.158 13.0459C31.4543 11.7697 35.2002 10.9017 40.7027 10.6434C42.077 10.5814 43.224 10.5297 44.3814 10.4884L45.3837 10.4574C49.1512 10.3656 52.9198 10.326 56.6883 10.3385L67.311 10.3334ZM61.9997 36.1667C55.1483 36.1667 48.5774 38.8884 43.7328 43.7331C38.8881 48.5778 36.1663 55.1486 36.1663 62C36.1663 68.8515 38.8881 75.4223 43.7328 80.267C48.5774 85.1117 55.1483 87.8334 61.9997 87.8334C68.8511 87.8334 75.4219 85.1117 80.2666 80.267C85.1113 75.4223 87.833 68.8515 87.833 62C87.833 55.1486 85.1113 48.5778 80.2666 43.7331C75.4219 38.8884 68.8511 36.1667 61.9997 36.1667ZM61.9997 46.5C64.0352 46.4997 66.0508 46.9003 67.9315 47.6789C69.8121 48.4576 71.521 49.599 72.9606 51.0381C74.4001 52.4771 75.5421 54.1856 76.3214 56.0661C77.1007 57.9465 77.5019 59.962 77.5023 61.9975C77.5026 64.033 77.102 66.0486 76.3234 67.9293C75.5448 69.8099 74.4033 71.5188 72.9642 72.9584C71.5252 74.3979 69.8167 75.5399 67.9362 76.3192C66.0558 77.0984 64.0403 77.4997 62.0048 77.5C57.894 77.5 53.9515 75.867 51.0447 72.9602C48.1379 70.0534 46.5049 66.1109 46.5049 62C46.5049 57.8892 48.1379 53.9467 51.0447 51.0399C53.9515 48.1331 57.894 46.5 62.0048 46.5M89.1298 28.4167C87.417 28.4167 85.7743 29.0971 84.5631 30.3083C83.3519 31.5195 82.6715 33.1622 82.6715 34.875C82.6715 36.5879 83.3519 38.2306 84.5631 39.4418C85.7743 40.6529 87.417 41.3334 89.1298 41.3334C90.8427 41.3334 92.4854 40.6529 93.6966 39.4418C94.9078 38.2306 95.5882 36.5879 95.5882 34.875C95.5882 33.1622 94.9078 31.5195 93.6966 30.3083C92.4854 29.0971 90.8427 28.4167 89.1298 28.4167Z"
-                  fill="white"
-                />
-              </svg>
-            </div>
-            <h3 className="virtual-card-find-icon-label">Instagram</h3>
+            <h3 className="virtual-card-find-icon-label">Facebook</h3>
           </a>
         </div>
       </div>
@@ -538,7 +511,7 @@ function AbhayNayak() {
           </div>
         </div>
       </div>
-      <div className="virtual-card-skills">
+      {/* <div className="virtual-card-skills">
         <img
           src={SkillsDesktopBackground}
           className="virtual-card-skills-background desktop"
@@ -565,7 +538,7 @@ function AbhayNayak() {
                   />
                 </svg>
               </section>
-              <h3>UI Design</h3>
+              <h3>HTML</h3>
             </div>
             <div className="virtual-card-skills-set">
               <section>
@@ -582,25 +555,7 @@ function AbhayNayak() {
                   />
                 </svg>
               </section>
-              <h3>UX Design</h3>
-            </div>
-
-            <div className="virtual-card-skills-set">
-              <section>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="28"
-                  height="28"
-                  viewBox="0 0 28 28"
-                  fill="none"
-                >
-                  <path
-                    d="M28 14.0366C18.3546 12.6113 15.1263 9.70043 14.0183 0C12.6826 10.0198 9.29057 12.5671 0 14.0366C9.56085 15.0461 12.3361 17.9639 14.0183 28C15.078 18.9926 17.4864 15.3851 28 14.0366Z"
-                    fill="white"
-                  />
-                </svg>
-              </section>
-              <h3>Wireframing</h3>
+              <h3>CSS</h3>
             </div>
             <div className="virtual-card-skills-set">
               <section>
@@ -617,7 +572,7 @@ function AbhayNayak() {
                   />
                 </svg>
               </section>
-              <h3> Prototyping</h3>
+              <h3>JavaScript</h3>
             </div>
             <div className="virtual-card-skills-set">
               <section>
@@ -634,7 +589,7 @@ function AbhayNayak() {
                   />
                 </svg>
               </section>
-              <h3> User Research</h3>
+              <h3>React</h3>
             </div>
             <div className="virtual-card-skills-set">
               <section>
@@ -651,11 +606,28 @@ function AbhayNayak() {
                   />
                 </svg>
               </section>
-              <h3>Design Thinking </h3>
+              <h3>Redux</h3>
+            </div>
+            <div className="virtual-card-skills-set">
+              <section>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="28"
+                  viewBox="0 0 28 28"
+                  fill="none"
+                >
+                  <path
+                    d="M28 14.0366C18.3546 12.6113 15.1263 9.70043 14.0183 0C12.6826 10.0198 9.29057 12.5671 0 14.0366C9.56085 15.0461 12.3361 17.9639 14.0183 28C15.078 18.9926 17.4864 15.3851 28 14.0366Z"
+                    fill="white"
+                  />
+                </svg>
+              </section>
+              <h3>TypeScript</h3>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="virtual-card-experience">
         <img
           src={ExperienceDesktopBackground}
@@ -668,10 +640,10 @@ function AbhayNayak() {
         <h2>Work Experience</h2>
         <div className="virtual-card-experience-container">
           <div className="virtual-card-experience-set">
-            <h3>UX Designer</h3>
+            <h3>Business Development Executive</h3>
             <section>
-              <h4>Koios Stuidos</h4>
-              <p>June 2024 - Present</p>
+              <h4>Koios Studio </h4>
+              <p>July 2024 - Present</p>
             </section>
           </div>
         </div>
@@ -856,4 +828,4 @@ function AbhayNayak() {
   );
 }
 
-export default AbhayNayak;
+export default Payal;
