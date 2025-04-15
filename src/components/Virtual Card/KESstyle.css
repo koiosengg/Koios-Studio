@@ -145,7 +145,7 @@
 
 /* Find */
 
-.virtual-card-KES .virtual-card-find{
+.virtual-card-KES .virtual-card-find {
   overflow: visible;
 }
 
@@ -389,6 +389,8 @@
     border-radius: 50%;
   }
 
+ 
+
   /* Get in Touch*/
 
   .virtual-card-KES .virtual-card-reach {
@@ -400,6 +402,23 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
+  }
+
+   /* Find */
+
+   .virtual-card-KES .virtual-card-find {
+    overflow: hidden;
+  }
+
+  .virtual-card-KES .virtual-card-find-white {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .virtual-card-KES .virtual-card-find-yellow {
+    width: 50%;
+    height: 50%;
   }
 
   .virtual-card-KES .virtual-card-find-container {
