@@ -9,7 +9,7 @@ import BannerDesktopBackround from "./assets/KES Desktop Banner.png";
 import BannerMobileBackround from "./assets/KES Mobile Banner.png";
 import BannerPart from "./assets/KES Desktop Banner Part.png";
 import Verified from "./assets/Verified.png";
-import PersonPhoto from "/TemplatePerson.png";
+import PersonPhoto from "/VishalPujar.jpeg";
 import AboutDesktopBackground from "./assets/KES Desktop About.png";
 import AboutMobileBackground from "./assets/KES Mobile About.png";
 import CallIcon from "./assets/KES Call Icon.png";
@@ -17,9 +17,6 @@ import EmailIcon from "./assets/KES Email Icon.png";
 import LocationIcon from "./assets/KES Location Icon.png";
 import AboutArrow from "./assets/KES Get in Touch Arrow.png";
 import ServicesDesktopCardBackground from "./assets/KES Desktop Services Card.png";
-import ProductsDesktopBackground from "./assets/KES Desktop Products.png";
-import ProductsMobileBackground from "./assets/KES Mobile Products.png";
-import ProductsSampleServices from "./assets/Sample Services.png";
 import WatchDesktopBackground from "./assets/KES Desktop Watch.png";
 import SkillsDesktopBackground from "./assets/KES Desktop Skills.png";
 import SkillsMobileBackground from "./assets/KES Mobile Skills.png";
@@ -36,56 +33,61 @@ const rotationPerStep = 360 / 7;
 const schedule = {
   S: {
     day: "SUNDAY",
+    available: false,
+    startTime: "",
+    endTime: "",
+  },
+  M: {
+    day: "MONDAY",
     available: true,
     startTime: "09:00 AM",
-    endTime: "05:00 PM",
+    endTime: "07:00 PM",
   },
-  M: { day: "MONDAY", available: false, startTime: "", endTime: "" },
   T: {
     day: "TUESDAY",
     available: true,
     startTime: "09:00 AM",
-    endTime: "05:00 PM",
+    endTime: "07:00 PM",
   },
   W: {
     day: "WEDNESDAY",
     available: true,
     startTime: "09:00 AM",
-    endTime: "05:00 PM",
+    endTime: "07:00 PM",
   },
   T2: {
     day: "THURSDAY",
     available: true,
     startTime: "09:00 AM",
-    endTime: "05:00 PM",
+    endTime: "07:00 PM",
   },
   F: {
     day: "FRIDAY",
     available: true,
     startTime: "09:00 AM",
-    endTime: "05:00 PM",
+    endTime: "07:00 PM",
   },
   S2: {
     day: "SATURDAY",
     available: true,
     startTime: "09:00 AM",
-    endTime: "05:00 PM",
+    endTime: "07:00 PM",
   },
 };
 
-function TemplateKES() {
+function VishalPujar() {
   const handleDownloadVCard = async () => {
     const vCard = vCardsJS();
 
-    vCard.firstName = "M Santosh";
-    vCard.cellPhone = "+919347744407";
-    vCard.email = "sunny92002@gmail.com";
+    vCard.firstName = "Vishal Pujar";
+    vCard.cellPhone = "+916360788781";
+    vCard.email = "vishalpujar14261@gmail.com";
     vCard.organization = "Koios Studio";
 
     const imageBase64 = await getBase64FromImage(
-      `${window.location.origin}/TemplatePerson.png`
+      `${window.location.origin}/VishalPujar.jpeg`
     );
-    vCard.photo.embedFromString(imageBase64, "image/png");
+    vCard.photo.embedFromString(imageBase64, "image/jpeg");
 
     const vCardData = vCard.getFormattedString();
     const blob = new Blob([vCardData], { type: "text/vcard;charset=utf-8" });
@@ -143,7 +145,7 @@ function TemplateKES() {
           <p>Save Contact</p>
         </a>
         <a
-          href="https://www.linkedin.com/in/santosh09062002/"
+          href="https://www.linkedin.com/in/vishal-pujar-58a249136/"
           target="_blank"
           className="virtual-card-banner-button"
         >
@@ -170,16 +172,21 @@ function TemplateKES() {
                   <span>Koios Engineering Solutions</span>
                 </div>
                 <h1>
-                  Matt Henry
+                  Vishal Pujar
                   <img src={Verified} />
                 </h1>
               </section>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                lobortis id. Sit nibh ullamcor er in libero.
+                Handle mechanical engineering side of company. Track projects,
+                give design inputs and ensure smooth functioning of the
+                vertical.
               </p>
             </div>
-            <a href="#" className="virtual-card-white-button desktop">
+            <a
+              href="https://www.linkedin.com/in/vishal-pujar-58a249136/"
+              target="_blank"
+              className="virtual-card-white-button desktop"
+            >
               <p>Know More</p>
             </a>
             <img src={BannerPart} className="virtual-card-banner-left-img" />
@@ -199,12 +206,11 @@ function TemplateKES() {
           className="virtual-card-about-background mobile"
         />
         <div className="virtual-card-about-container">
-          <h2>Software Engineerr</h2>
+          <h2>CTO</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-            lobortis id. Sit nibh ullamcorper in libero donec enim auctor. Quam
-            eleifend magna aliquet ut. Turpis gravida quis ut ipsum vestibulum
-            justo viverra.
+            Competitive, detail oriented by nature and engineer by profession.
+            Work everyday to make best use of both ends to get best possible
+            outcome.
           </p>
         </div>
       </div>
@@ -212,32 +218,44 @@ function TemplateKES() {
         <h2>Get in Touch</h2>
         <div className="virtual-card-reach-container">
           <section>
-            <a href="#" className="virtual-card-reach-set">
+            <a
+              href="https://mail.google.com/mail/?view=cm&to=vishalpujar14261@gmail.com"
+              target="_blank"
+              className="virtual-card-reach-set"
+            >
               <div className="virtual-card-reach-set-text">
                 <img src={EmailIcon} />
                 <div className="virtual-card-reach-set-content">
                   <h3>Email Me</h3>
-                  <p>you@company.com</p>
+                  <p>vishalpujar14261@gmail.com</p>
                 </div>
               </div>
               <img src={AboutArrow} />
             </a>
-            <a href="#" className="virtual-card-reach-set">
+            <a
+              href="tel:+916360788781"
+              target="_blank"
+              className="virtual-card-reach-set"
+            >
               <div className="virtual-card-reach-set-text">
                 <img src={CallIcon} />
                 <div className="virtual-card-reach-set-content">
                   <h3>Contact</h3>
-                  <p>+91 839383938</p>
+                  <p>+91 63607 88781</p>
                 </div>
               </div>
               <img src={AboutArrow} />
             </a>
-            <a href="#" className="virtual-card-reach-set">
+            <a
+              href="https://maps.app.goo.gl/xjjtRet4ZB5sZuz7A"
+              target="_blank"
+              className="virtual-card-reach-set"
+            >
               <div className="virtual-card-reach-set-text">
                 <img src={LocationIcon} />
                 <div className="virtual-card-reach-set-content">
                   <h3>Location</h3>
-                  <p>Manipal</p>
+                  <p>Office</p>
                 </div>
               </div>
               <img src={AboutArrow} />
@@ -324,7 +342,11 @@ function TemplateKES() {
         </svg>
         <h2>Discover X Follow</h2>
         <div className="virtual-card-find-container">
-          <a href="#" target="_blank" className="virtual-card-find-set">
+          <a
+            href="https://www.linkedin.com/in/vishal-pujar-58a249136/"
+            target="_blank"
+            className="virtual-card-find-set"
+          >
             <div className="virtual-card-find-icon">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -343,24 +365,11 @@ function TemplateKES() {
             </div>
             <h3 className="virtual-card-find-icon-label">LinkedIn</h3>
           </a>
-          <a href="#" target="_blank" className="virtual-card-find-set">
-            <div className="virtual-card-find-icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="81"
-                height="80"
-                viewBox="0 0 81 80"
-                fill="none"
-              >
-                <path
-                  d="M80.5999 40.1003C80.5999 17.9649 62.635 0 40.4997 0C18.3643 0 0.399414 17.9649 0.399414 40.1003C0.399414 59.5088 14.1939 75.6692 32.4796 79.3985V52.1303H24.4596V40.1003H32.4796V30.0752C32.4796 22.3358 38.7753 16.0401 46.5147 16.0401H56.5398V28.0702H48.5197C46.3142 28.0702 44.5097 29.8747 44.5097 32.0802V40.1003H56.5398V52.1303H44.5097V80C64.7603 77.995 80.5999 60.9123 80.5999 40.1003Z"
-                  fill="white"
-                />
-              </svg>
-            </div>
-            <h3 className="virtual-card-find-icon-label">Facebook</h3>
-          </a>
-          <a href="#" target="_blank" className="virtual-card-find-set">
+          <a
+            href="https://www.instagram.com/vish_mpujar"
+            target="_blank"
+            className="virtual-card-find-set"
+          >
             <div className="virtual-card-find-icon">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -383,101 +392,53 @@ function TemplateKES() {
         <h2>Our Services</h2>
         <div className="virtual-card-services-container">
           <div className="virtual-card-services-set">
-            <h3>Website Development</h3>
+            <h3>Vehicle Design</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-              lobortis id sit nibh ullamcorpo.
+              We provide design services for Ev 2 wheelers , 3 Wheelers and
+              customized Vehicles requirements.
             </p>
             <img src={ServicesDesktopCardBackground} />
           </div>
           <div className="virtual-card-services-set">
-            <h3>Website Development</h3>
+            <h3>Vehicle Manufacturing</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-              lobortis id sit nibh ullamcorpo.
+              We specialize in Vehicle prototype manufacturing and integration
+              and testing.
             </p>
             <img src={ServicesDesktopCardBackground} />
           </div>
           <div className="virtual-card-services-set">
-            <h3>Website Development</h3>
+            <h3>Product Manufacturing</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-              lobortis id sit nibh ullamcorpo.
+              We specialize in product manufacturing for various application
+              with high end manufacturing equipment to meeting the manufacturing
+              accuracy needed.
             </p>
             <img src={ServicesDesktopCardBackground} />
           </div>
           <div className="virtual-card-services-set">
-            <h3>Website Development</h3>
+            <h3>3D Scanning</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-              lobortis id sit nibh ullamcorpo.
+              We provide vehicle specific 3d scanning services for product
+              development.
             </p>
             <img src={ServicesDesktopCardBackground} />
           </div>
           <div className="virtual-card-services-set">
-            <h3>Website Development</h3>
+            <h3>3D Printing</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-              lobortis id sit nibh ullamcorpo.
+              We have 3d Printing facility to manufacture prototypes and batch
+              production with material such as : pla , abs , Nylon , petg.
             </p>
             <img src={ServicesDesktopCardBackground} />
           </div>
           <div className="virtual-card-services-set">
-            <h3>Website Development</h3>
+            <h3>3D Modeling</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-              lobortis id sit nibh ullamcorpo.
+              We provide design services for special purpose machine design and
+              mechanical products.
             </p>
             <img src={ServicesDesktopCardBackground} />
-          </div>
-        </div>
-      </div>
-      <div className="virtual-card-products">
-        <img
-          src={ProductsDesktopBackground}
-          className="virtual-card-products-background desktop"
-        />
-        <img
-          src={ProductsMobileBackground}
-          className="virtual-card-products-background mobile"
-        />
-        <h2>Our Products</h2>
-        <div className="virtual-card-products-container">
-          <div className="virtual-card-products-set">
-            <div className="virtual-card-products-set-img">
-              <img src={ProductsSampleServices} />
-            </div>
-            <h3>Website Development</h3>
-          </div>
-          <div className="virtual-card-products-set">
-            <div className="virtual-card-products-set-img">
-              <img src={ProductsSampleServices} />
-            </div>
-            <h3>Website Development</h3>
-          </div>
-          <div className="virtual-card-products-set">
-            <div className="virtual-card-products-set-img">
-              <img src={ProductsSampleServices} />
-            </div>
-            <h3>Website Development</h3>
-          </div>
-          <div className="virtual-card-products-set">
-            <div className="virtual-card-products-set-img">
-              <img src={ProductsSampleServices} />
-            </div>
-            <h3>Website Development</h3>
-          </div>
-          <div className="virtual-card-products-set">
-            <div className="virtual-card-products-set-img">
-              <img src={ProductsSampleServices} />
-            </div>
-            <h3>Website Development</h3>
-          </div>
-          <div className="virtual-card-products-set">
-            <div className="virtual-card-products-set-img">
-              <img src={ProductsSampleServices} />
-            </div>
-            <h3>Website Development</h3>
           </div>
         </div>
       </div>
@@ -568,7 +529,7 @@ function TemplateKES() {
                   />
                 </svg>
               </section>
-              <h3>HTML</h3>
+              <h3>3D Modeling</h3>
             </div>
             <div className="virtual-card-skills-set">
               <section>
@@ -585,7 +546,7 @@ function TemplateKES() {
                   />
                 </svg>
               </section>
-              <h3>CSS</h3>
+              <h3>Vehicle Engineering</h3>
             </div>
             <div className="virtual-card-skills-set">
               <section>
@@ -602,91 +563,33 @@ function TemplateKES() {
                   />
                 </svg>
               </section>
-              <h3>JavaScript</h3>
-            </div>
-            <div className="virtual-card-skills-set">
-              <section>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="28"
-                  height="28"
-                  viewBox="0 0 28 28"
-                  fill="none"
-                >
-                  <path
-                    d="M28 14.0366C18.3546 12.6113 15.1263 9.70043 14.0183 0C12.6826 10.0198 9.29057 12.5671 0 14.0366C9.56085 15.0461 12.3361 17.9639 14.0183 28C15.078 18.9926 17.4864 15.3851 28 14.0366Z"
-                    fill="white"
-                  />
-                </svg>
-              </section>
-              <h3>React</h3>
-            </div>
-            <div className="virtual-card-skills-set">
-              <section>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="28"
-                  height="28"
-                  viewBox="0 0 28 28"
-                  fill="none"
-                >
-                  <path
-                    d="M28 14.0366C18.3546 12.6113 15.1263 9.70043 14.0183 0C12.6826 10.0198 9.29057 12.5671 0 14.0366C9.56085 15.0461 12.3361 17.9639 14.0183 28C15.078 18.9926 17.4864 15.3851 28 14.0366Z"
-                    fill="white"
-                  />
-                </svg>
-              </section>
-              <h3>Redux</h3>
-            </div>
-            <div className="virtual-card-skills-set">
-              <section>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="28"
-                  height="28"
-                  viewBox="0 0 28 28"
-                  fill="none"
-                >
-                  <path
-                    d="M28 14.0366C18.3546 12.6113 15.1263 9.70043 14.0183 0C12.6826 10.0198 9.29057 12.5671 0 14.0366C9.56085 15.0461 12.3361 17.9639 14.0183 28C15.078 18.9926 17.4864 15.3851 28 14.0366Z"
-                    fill="white"
-                  />
-                </svg>
-              </section>
-              <h3>TypeScript</h3>
+              <h3> Project Management</h3>
             </div>
           </div>
         </div>
       </div>
-      <div className="virtual-card-experience">
+      {/* <div className="virtual-card-experience">
         <h2>Work Experience</h2>
         <div className="virtual-card-experience-container">
           <div className="virtual-card-experience-set">
-            <h3>Frontend Developer</h3>
+            <h3>CEO</h3>
             <section>
-              <h4>Koios Engineering Solution </h4>
-              <p>May 2024 - Present</p>
+              <h4>Koios Engineering Solutions </h4>
+              <p>October 2022 - Present</p>
             </section>
           </div>
           <div className="virtual-card-experience-set">
             <h3>Frontend Developer Intern</h3>
             <section>
-              <h4>Koios Engineering Solution </h4>
-              <p>January 2024 - April 2024</p>
+              <h4>Wulkin Innovation </h4>
+              <p>March 2022 - October 2022</p>
             </section>
           </div>
           <div className="virtual-card-experience-set">
             <h3>Frontend Developer</h3>
             <section>
-              <h4>Koios Engineering Solution </h4>
-              <p>May 2024 - Present</p>
-            </section>
-          </div>
-          <div className="virtual-card-experience-set">
-            <h3>Frontend Developer Intern</h3>
-            <section>
-              <h4>Koios Engineering Solution </h4>
-              <p>January 2024 - April 2024</p>
+              <h4>Trelleborg sealing solutions</h4>
+              <p>February 2021 - Hebruary 2022</p>
             </section>
           </div>
         </div>
@@ -694,7 +597,7 @@ function TemplateKES() {
           src={ExperienceDesktopBackground}
           className="virtual-card-experience-background"
         />
-      </div>
+      </div> */}
       <div className="virtual-card-contact">
         <img
           src={ContactDesktopBackground}
@@ -1412,4 +1315,4 @@ function TemplateKES() {
   );
 }
 
-export default TemplateKES;
+export default VishalPujar;

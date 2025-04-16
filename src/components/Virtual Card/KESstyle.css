@@ -3,10 +3,12 @@
 .virtual-card-KES .virtual-card-banner-container {
   flex-direction: column-reverse;
   padding: 40px 160px 0px 160px;
+  justify-content: center;
 }
 
 .virtual-card-KES .virtual-card-banner-right {
   height: 100%;
+  max-height: 400px;
   width: auto;
   aspect-ratio: 1/1;
   border-radius: 50%;
@@ -59,6 +61,31 @@
 
 .virtual-card-KES .virtual-card-banner-left-text p {
   text-align: center;
+}
+
+/* About */
+
+.virtual-card-KES .virtual-card-about {
+  overflow: hidden;
+}
+
+.virtual-card-KES .virtual-card-about-background {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.virtual-card-KES .virtual-card-about-container {
+  width: 100%;
+  position: static;
+  padding: 100px 160px;
+  transform: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
 }
 
 /* Reach */
@@ -269,6 +296,7 @@
   flex-direction: row;
   align-items: flex-start;
   padding: 100px 160px;
+  min-height: 400px;
   overflow: visible;
 }
 
@@ -389,8 +417,6 @@
     border-radius: 50%;
   }
 
- 
-
   /* Get in Touch*/
 
   .virtual-card-KES .virtual-card-reach {
@@ -404,9 +430,9 @@
     gap: 24px;
   }
 
-   /* Find */
+  /* Find */
 
-   .virtual-card-KES .virtual-card-find {
+  .virtual-card-KES .virtual-card-find {
     overflow: hidden;
   }
 
