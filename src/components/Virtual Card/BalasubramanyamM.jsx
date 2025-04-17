@@ -173,7 +173,7 @@ function BalasubramanyamM() {
                 compliance and Books of accounts management.
               </p>
             </div>
-            <a href="#" className="virtual-card-white-button desktop">
+            <a href="#virtual-card-about" className="virtual-card-white-button desktop">
               <p>Know More</p>
             </a>
             <img src={BannerPart} className="virtual-card-banner-left-img" />
@@ -183,7 +183,7 @@ function BalasubramanyamM() {
           </div>
         </div>
       </div>
-      <div className="virtual-card-about">
+      <div className="virtual-card-about" id="virtual-card-about">
         <img
           src={AboutDesktopBackground}
           className="virtual-card-about-background desktop"

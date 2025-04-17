@@ -7,7 +7,7 @@ import BannerDesktopBackround from "./assets/KES Desktop Banner.png";
 import BannerMobileBackround from "./assets/KES Mobile Banner.png";
 import BannerPart from "./assets/KES Desktop Banner Part.png";
 import Verified from "./assets/Verified.png";
-import PersonPhoto from "/JayeshPV.jpg";
+import PersonPhoto from "/JayeshPV.jpeg";
 import AboutDesktopBackground from "./assets/KES Desktop About.png";
 import AboutMobileBackground from "./assets/KES Mobile About.png";
 import CallIcon from "./assets/KES Call Icon.png";
@@ -81,9 +81,9 @@ function JayeshPV() {
     vCard.organization = "Koios Studio";
 
     const imageBase64 = await getBase64FromImage(
-      `${window.location.origin}/JayeshPV.jpg`
+      `${window.location.origin}/JayeshPV.jpeg`
     );
-    vCard.photo.embedFromString(imageBase64, "image/jpg");
+    vCard.photo.embedFromString(imageBase64, "image/jpeg");
 
     const vCardData = vCard.getFormattedString();
     const blob = new Blob([vCardData], { type: "text/vcard;charset=utf-8" });
@@ -173,11 +173,15 @@ function JayeshPV() {
                 </h1>
               </section>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                lobortis id. Sit nibh ullamcor er in libero.
+                Oversee end-to-end product development—from concept and CAD to
+                fabrication and prototyping—while managing production workflows.
               </p>
             </div>
-            <a href="#" className="virtual-card-white-button desktop">
+            <a
+              href="https://www.linkedin.com/in/pvjayesh/"
+              target="_blank"
+              className="virtual-card-white-button desktop"
+            >
               <p>Know More</p>
             </a>
             <img src={BannerPart} className="virtual-card-banner-left-img" />
@@ -187,7 +191,7 @@ function JayeshPV() {
           </div>
         </div>
       </div>
-      <div className="virtual-card-about">
+      <div className="virtual-card-about" id="virtual-card-about">
         <img
           src={AboutDesktopBackground}
           className="virtual-card-about-background desktop"
@@ -201,10 +205,15 @@ function JayeshPV() {
             Facility Manager &<br /> Development Engineer
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-            lobortis id. Sit nibh ullamcorper in libero donec enim auctor. Quam
-            eleifend magna aliquet ut. Turpis gravida quis ut ipsum vestibulum
-            justo viverra.
+            I'm a mechanical engineer with a passion for design, development,
+            and prototyping. I specialize in vehicle fabrication—from concept to
+            final build—and love bringing ideas to life through hands-on
+            engineering. My workflow often includes 3D scanning and 3D printing,
+            which helps speed up development and nail down precision in custom
+            parts and assemblies. Whether it’s designing a new component,
+            building a full-scale prototype, or refining a complex system, I
+            enjoy solving real-world problems with practical, creative
+            solutions.
           </p>
         </div>
       </div>
@@ -442,7 +451,7 @@ function JayeshPV() {
           </div>
         </div>
       </div>
-      {/* <div className="virtual-card-skills">
+      <div className="virtual-card-skills">
         <img
           src={SkillsDesktopBackground}
           className="virtual-card-skills-background desktop"
@@ -469,7 +478,7 @@ function JayeshPV() {
                   />
                 </svg>
               </section>
-              <h3>HTML</h3>
+              <h3>3D Scanning</h3>
             </div>
             <div className="virtual-card-skills-set">
               <section>
@@ -486,7 +495,7 @@ function JayeshPV() {
                   />
                 </svg>
               </section>
-              <h3>CSS</h3>
+              <h3>3D Printing</h3>
             </div>
             <div className="virtual-card-skills-set">
               <section>
@@ -503,7 +512,7 @@ function JayeshPV() {
                   />
                 </svg>
               </section>
-              <h3>JavaScript</h3>
+              <h3>Vehicle Fabrication</h3>
             </div>
             <div className="virtual-card-skills-set">
               <section>
@@ -520,7 +529,7 @@ function JayeshPV() {
                   />
                 </svg>
               </section>
-              <h3>React</h3>
+              <h3>Product Development</h3>
             </div>
             <div className="virtual-card-skills-set">
               <section>
@@ -537,7 +546,7 @@ function JayeshPV() {
                   />
                 </svg>
               </section>
-              <h3>Redux</h3>
+              <h3>Prorotype Development</h3>
             </div>
             <div className="virtual-card-skills-set">
               <section>
@@ -554,11 +563,11 @@ function JayeshPV() {
                   />
                 </svg>
               </section>
-              <h3>TypeScript</h3>
+              <h3> EV Integration</h3>
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
       <div className="virtual-card-experience">
         <h2>Work Experience</h2>
         <div className="virtual-card-experience-container">

@@ -568,28 +568,14 @@ function VishalPujar() {
           </div>
         </div>
       </div>
-      {/* <div className="virtual-card-experience">
+      <div className="virtual-card-experience">
         <h2>Work Experience</h2>
         <div className="virtual-card-experience-container">
           <div className="virtual-card-experience-set">
-            <h3>CEO</h3>
+            <h3>CTO</h3>
             <section>
               <h4>Koios Engineering Solutions </h4>
               <p>October 2022 - Present</p>
-            </section>
-          </div>
-          <div className="virtual-card-experience-set">
-            <h3>Frontend Developer Intern</h3>
-            <section>
-              <h4>Wulkin Innovation </h4>
-              <p>March 2022 - October 2022</p>
-            </section>
-          </div>
-          <div className="virtual-card-experience-set">
-            <h3>Frontend Developer</h3>
-            <section>
-              <h4>Trelleborg sealing solutions</h4>
-              <p>February 2021 - Hebruary 2022</p>
             </section>
           </div>
         </div>
@@ -597,7 +583,7 @@ function VishalPujar() {
           src={ExperienceDesktopBackground}
           className="virtual-card-experience-background"
         />
-      </div> */}
+      </div>
       <div className="virtual-card-contact">
         <img
           src={ContactDesktopBackground}

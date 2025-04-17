@@ -600,17 +600,17 @@ function ShreeDattaT() {
             </section>
           </div>
           <div className="virtual-card-experience-set">
-            <h3>Frontend Developer Intern</h3>
+            <h3>Project Manager</h3>
             <section>
               <h4>Wulkin Innovation </h4>
               <p>March 2022 - October 2022</p>
             </section>
           </div>
           <div className="virtual-card-experience-set">
-            <h3>Frontend Developer</h3>
+            <h3>Engineer Trainee</h3>
             <section>
               <h4>Trelleborg sealing solutions</h4>
-              <p>February 2021 - Hebruary 2022</p>
+              <p>February 2021 - February 2022</p>
             </section>
           </div>
         </div>
