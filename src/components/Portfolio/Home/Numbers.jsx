@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react";
+import { Link } from "react-router-dom";
 import DesktopBackground from "../assests/Home/Desktop Numbers.png";
 import HeadingDesign from "../assests/Home/Section Heading Design.png";
 
@@ -44,7 +45,10 @@ function Numbers() {
             adipiscing tellus pretium varius nunc. Turpis morbi praesent ac
             velit. Non in adipiscing tortor.
           </p>
-          <a href="#" className="portfolio-white-button">Your turn to shine</a>
+          <Link to="/portfolio/website" className="portfolio-primary-button">
+            <div className="portfolio-primary-button-background"></div>
+            <p>My turn to shine</p>
+          </Link>
         </div>
         <div className="portfolio-home-numbers-div">
           <section>
