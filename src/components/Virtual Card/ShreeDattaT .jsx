@@ -26,6 +26,7 @@ import ContactMobileBackground from "./assets/KES Mobile Contact.png";
 import TestimonySample from "./assets/Testimony.jpg";
 import TestimonyStar from "./assets/Testimony Star.png";
 import KESconnect from "./KESconnect";
+import KESfooter from "./KESfooter";
 
 const scheduleKeys = ["S", "M", "T", "W", "T2", "F", "S2"];
 const rotationPerStep = 360 / 7;
@@ -695,7 +696,7 @@ function ShreeDattaT() {
           </form>
         </div>
       </div>
-      <div className="virtual-card-testimony">
+      {/* <div className="virtual-card-testimony">
         <h2>What People Say</h2>
         <div className="virtual-card-testimony-container">
           <div className="virtual-card-testimony-dark virtual-card-testimony-left"></div>
@@ -1308,30 +1309,9 @@ function ShreeDattaT() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <KESconnect />
-      <div className="virtual-card-footer">
-        <div className="virtual-card-footer-container">
-          <section>
-            <Link to="/">
-              <img src={TKSLogo} alt="Koios Studio Logo" />
-            </Link>
-
-            <div className="virtual-card-footer-link-container">
-              <a href="#">Privacy Policy</a>
-              <span></span>
-              <a href="#">T&C</a>
-            </div>
-          </section>
-          <div className="virtual-card-footer-line"></div>
-          <section>
-            <p>© {currentYear} Reserved </p>
-            <span>
-              Crafted by <Link to="/">Koios Studio</Link>
-            </span>
-          </section>
-        </div>
-      </div>
+      <KESfooter />
     </div>
   );
 }

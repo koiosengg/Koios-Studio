@@ -20,6 +20,8 @@ import SkillsMobileBackground from "./assets/KES Mobile Skills.png";
 import ExperienceDesktopBackground from "./assets/KES Desktop Experience.png";
 import ContactDesktopBackground from "./assets/KES Desktop Contact.png";
 import ContactMobileBackground from "./assets/KES Mobile Contact.png";
+import TestimonySample from "./assets/Testimony.jpg";
+import TestimonyStar from "./assets/Testimony Star.png";
 import KESconnect from "./KESconnect";
 import KESfooter from "./KESfooter";
 
@@ -660,6 +662,620 @@ function JayeshPV() {
           </form>
         </div>
       </div>
+      {/* <div className="virtual-card-testimony">
+              <h2>What People Say</h2>
+              <div className="virtual-card-testimony-container">
+                <div className="virtual-card-testimony-dark virtual-card-testimony-left"></div>
+                <div className="virtual-card-testimony-dark virtual-card-testimony-right"></div>
+                <div className="virtual-card-testimony-set-container">
+                  <div className="virtual-card-testimony-set-slide desktop">
+                    <div className="virtual-card-testimony-set">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
+                        lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
+                        Quam eleifend magna aliquet ut. Turpis gravida quis
+                      </p>
+                      <section>
+                        <div className="virtual-card-testimony-info">
+                          <img
+                            src={TestimonySample}
+                            style={{ gridArea: "box-1" }}
+                            alt="Shreyas Photo"
+                          />
+                          <h4 style={{ gridArea: "box-2" }}>Shreyas 1</h4>
+                          <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                        </div>
+                        <div className="virtual-card-testimony-star">
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                        </div>
+                      </section>
+                    </div>
+                    <div className="virtual-card-testimony-set">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
+                        lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
+                        Quam eleifend magna aliquet ut. Turpis gravida quis
+                      </p>
+                      <section>
+                        <div className="virtual-card-testimony-info">
+                          <img
+                            src={TestimonySample}
+                            style={{ gridArea: "box-1" }}
+                            alt="Shreyas Photo"
+                          />
+                          <h4 style={{ gridArea: "box-2" }}>Shreyas 2</h4>
+                          <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                        </div>
+                        <div className="virtual-card-testimony-star">
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                        </div>
+                      </section>
+                    </div>
+                    <div className="virtual-card-testimony-set">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
+                        lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
+                        Quam eleifend magna aliquet ut. Turpis gravida quis
+                      </p>
+                      <section>
+                        <div className="virtual-card-testimony-info">
+                          <img
+                            src={TestimonySample}
+                            style={{ gridArea: "box-1" }}
+                            alt="Shreyas Photo"
+                          />
+                          <h4 style={{ gridArea: "box-2" }}>Shreyas 3</h4>
+                          <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                        </div>
+                        <div className="virtual-card-testimony-star">
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                        </div>
+                      </section>
+                    </div>
+                    <div className="virtual-card-testimony-set">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
+                        lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
+                        Quam eleifend magna aliquet ut. Turpis gravida quis
+                      </p>
+                      <section>
+                        <div className="virtual-card-testimony-info">
+                          <img
+                            src={TestimonySample}
+                            style={{ gridArea: "box-1" }}
+                            alt="Shreyas Photo"
+                          />
+                          <h4 style={{ gridArea: "box-2" }}>Shreyas 4</h4>
+                          <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                        </div>
+                        <div className="virtual-card-testimony-star">
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                        </div>
+                      </section>
+                    </div>
+                    <div className="virtual-card-testimony-set">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
+                        lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
+                        Quam eleifend magna aliquet ut. Turpis gravida quis
+                      </p>
+                      <section>
+                        <div className="virtual-card-testimony-info">
+                          <img
+                            src={TestimonySample}
+                            style={{ gridArea: "box-1" }}
+                            alt="Shreyas Photo"
+                          />
+                          <h4 style={{ gridArea: "box-2" }}>Shreyas 5</h4>
+                          <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                        </div>
+                        <div className="virtual-card-testimony-star">
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                        </div>
+                      </section>
+                    </div>
+                    <div className="virtual-card-testimony-set">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
+                        lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
+                        Quam eleifend magna aliquet ut. Turpis gravida quis
+                      </p>
+                      <section>
+                        <div className="virtual-card-testimony-info">
+                          <img
+                            src={TestimonySample}
+                            style={{ gridArea: "box-1" }}
+                            alt="Shreyas Photo"
+                          />
+                          <h4 style={{ gridArea: "box-2" }}>Shreyas 1</h4>
+                          <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                        </div>
+                        <div className="virtual-card-testimony-star">
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                        </div>
+                      </section>
+                    </div>
+                    <div className="virtual-card-testimony-set">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
+                        lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
+                        Quam eleifend magna aliquet ut. Turpis gravida quis
+                      </p>
+                      <section>
+                        <div className="virtual-card-testimony-info">
+                          <img
+                            src={TestimonySample}
+                            style={{ gridArea: "box-1" }}
+                            alt="Shreyas Photo"
+                          />
+                          <h4 style={{ gridArea: "box-2" }}>Shreyas 2</h4>
+                          <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                        </div>
+                        <div className="virtual-card-testimony-star">
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                        </div>
+                      </section>
+                    </div>
+                    <div className="virtual-card-testimony-set">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
+                        lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
+                        Quam eleifend magna aliquet ut. Turpis gravida quis
+                      </p>
+                      <section>
+                        <div className="virtual-card-testimony-info">
+                          <img
+                            src={TestimonySample}
+                            style={{ gridArea: "box-1" }}
+                            alt="Shreyas Photo"
+                          />
+                          <h4 style={{ gridArea: "box-2" }}>Shreyas 3</h4>
+                          <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                        </div>
+                        <div className="virtual-card-testimony-star">
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                        </div>
+                      </section>
+                    </div>
+                    <div className="virtual-card-testimony-set">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
+                        lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
+                        Quam eleifend magna aliquet ut. Turpis gravida quis
+                      </p>
+                      <section>
+                        <div className="virtual-card-testimony-info">
+                          <img
+                            src={TestimonySample}
+                            style={{ gridArea: "box-1" }}
+                            alt="Shreyas Photo"
+                          />
+                          <h4 style={{ gridArea: "box-2" }}>Shreyas 4</h4>
+                          <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                        </div>
+                        <div className="virtual-card-testimony-star">
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                        </div>
+                      </section>
+                    </div>
+                    <div className="virtual-card-testimony-set">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
+                        lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
+                        Quam eleifend magna aliquet ut. Turpis gravida quis
+                      </p>
+                      <section>
+                        <div className="virtual-card-testimony-info">
+                          <img
+                            src={TestimonySample}
+                            style={{ gridArea: "box-1" }}
+                            alt="Shreyas Photo"
+                          />
+                          <h4 style={{ gridArea: "box-2" }}>Shreyas 5</h4>
+                          <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                        </div>
+                        <div className="virtual-card-testimony-star">
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                        </div>
+                      </section>
+                    </div>
+                    <div className="virtual-card-testimony-set">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
+                        lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
+                        Quam eleifend magna aliquet ut. Turpis gravida quis
+                      </p>
+                      <section>
+                        <div className="virtual-card-testimony-info">
+                          <img
+                            src={TestimonySample}
+                            style={{ gridArea: "box-1" }}
+                            alt="Shreyas Photo"
+                          />
+                          <h4 style={{ gridArea: "box-2" }}>Shreyas 1</h4>
+                          <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                        </div>
+                        <div className="virtual-card-testimony-star">
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                        </div>
+                      </section>
+                    </div>
+                    <div className="virtual-card-testimony-set">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
+                        lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
+                        Quam eleifend magna aliquet ut. Turpis gravida quis
+                      </p>
+                      <section>
+                        <div className="virtual-card-testimony-info">
+                          <img
+                            src={TestimonySample}
+                            style={{ gridArea: "box-1" }}
+                            alt="Shreyas Photo"
+                          />
+                          <h4 style={{ gridArea: "box-2" }}>Shreyas 2</h4>
+                          <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                        </div>
+                        <div className="virtual-card-testimony-star">
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                        </div>
+                      </section>
+                    </div>
+                    <div className="virtual-card-testimony-set">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
+                        lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
+                        Quam eleifend magna aliquet ut. Turpis gravida quis
+                      </p>
+                      <section>
+                        <div className="virtual-card-testimony-info">
+                          <img
+                            src={TestimonySample}
+                            style={{ gridArea: "box-1" }}
+                            alt="Shreyas Photo"
+                          />
+                          <h4 style={{ gridArea: "box-2" }}>Shreyas 3</h4>
+                          <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                        </div>
+                        <div className="virtual-card-testimony-star">
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                        </div>
+                      </section>
+                    </div>
+                    <div className="virtual-card-testimony-set">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
+                        lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
+                        Quam eleifend magna aliquet ut. Turpis gravida quis
+                      </p>
+                      <section>
+                        <div className="virtual-card-testimony-info">
+                          <img
+                            src={TestimonySample}
+                            style={{ gridArea: "box-1" }}
+                            alt="Shreyas Photo"
+                          />
+                          <h4 style={{ gridArea: "box-2" }}>Shreyas 4</h4>
+                          <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                        </div>
+                        <div className="virtual-card-testimony-star">
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                        </div>
+                      </section>
+                    </div>
+                    <div className="virtual-card-testimony-set">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
+                        lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
+                        Quam eleifend magna aliquet ut. Turpis gravida quis
+                      </p>
+                      <section>
+                        <div className="virtual-card-testimony-info">
+                          <img
+                            src={TestimonySample}
+                            style={{ gridArea: "box-1" }}
+                            alt="Shreyas Photo"
+                          />
+                          <h4 style={{ gridArea: "box-2" }}>Shreyas 5</h4>
+                          <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                        </div>
+                        <div className="virtual-card-testimony-star">
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                        </div>
+                      </section>
+                    </div>
+                    <div className="virtual-card-testimony-set">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
+                        lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
+                        Quam eleifend magna aliquet ut. Turpis gravida quis
+                      </p>
+                      <section>
+                        <div className="virtual-card-testimony-info">
+                          <img
+                            src={TestimonySample}
+                            style={{ gridArea: "box-1" }}
+                            alt="Shreyas Photo"
+                          />
+                          <h4 style={{ gridArea: "box-2" }}>Shreyas 1</h4>
+                          <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                        </div>
+                        <div className="virtual-card-testimony-star">
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                        </div>
+                      </section>
+                    </div>
+                    <div className="virtual-card-testimony-set">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
+                        lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
+                        Quam eleifend magna aliquet ut. Turpis gravida quis
+                      </p>
+                      <section>
+                        <div className="virtual-card-testimony-info">
+                          <img
+                            src={TestimonySample}
+                            style={{ gridArea: "box-1" }}
+                            alt="Shreyas Photo"
+                          />
+                          <h4 style={{ gridArea: "box-2" }}>Shreyas 2</h4>
+                          <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                        </div>
+                        <div className="virtual-card-testimony-star">
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                        </div>
+                      </section>
+                    </div>
+                    <div className="virtual-card-testimony-set">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
+                        lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
+                        Quam eleifend magna aliquet ut. Turpis gravida quis
+                      </p>
+                      <section>
+                        <div className="virtual-card-testimony-info">
+                          <img
+                            src={TestimonySample}
+                            style={{ gridArea: "box-1" }}
+                            alt="Shreyas Photo"
+                          />
+                          <h4 style={{ gridArea: "box-2" }}>Shreyas 3</h4>
+                          <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                        </div>
+                        <div className="virtual-card-testimony-star">
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                        </div>
+                      </section>
+                    </div>
+                    <div className="virtual-card-testimony-set">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
+                        lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
+                        Quam eleifend magna aliquet ut. Turpis gravida quis
+                      </p>
+                      <section>
+                        <div className="virtual-card-testimony-info">
+                          <img
+                            src={TestimonySample}
+                            style={{ gridArea: "box-1" }}
+                            alt="Shreyas Photo"
+                          />
+                          <h4 style={{ gridArea: "box-2" }}>Shreyas 4</h4>
+                          <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                        </div>
+                        <div className="virtual-card-testimony-star">
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                        </div>
+                      </section>
+                    </div>
+                    <div className="virtual-card-testimony-set">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
+                        lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
+                        Quam eleifend magna aliquet ut. Turpis gravida quis
+                      </p>
+                      <section>
+                        <div className="virtual-card-testimony-info">
+                          <img
+                            src={TestimonySample}
+                            style={{ gridArea: "box-1" }}
+                            alt="Shreyas Photo"
+                          />
+                          <h4 style={{ gridArea: "box-2" }}>Shreyas 5</h4>
+                          <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                        </div>
+                        <div className="virtual-card-testimony-star">
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                  <div className="virtual-card-testimony-set-slide mobile">
+                    <div className="virtual-card-testimony-set">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
+                        lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
+                        Quam eleifend magna aliquet ut. Turpis gravida quis
+                      </p>
+                      <section>
+                        <div className="virtual-card-testimony-info">
+                          <img
+                            src={TestimonySample}
+                            style={{ gridArea: "box-1" }}
+                            alt="Shreyas Photo"
+                          />
+                          <h4 style={{ gridArea: "box-2" }}>Shreyas 1</h4>
+                          <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                        </div>
+                        <div className="virtual-card-testimony-star">
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                        </div>
+                      </section>
+                    </div>
+                    <div className="virtual-card-testimony-set">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Quam eleifend magna
+                        aliquet ut. Turpis gravida quis. Lectus cursus platea lobortis
+                        id. Sit nibh ullamcorper in libero donec enim auctor. Quam
+                        eleifend magna aliquet ut. Turpis gravida quis.
+                      </p>
+                      <section>
+                        <div className="virtual-card-testimony-info">
+                          <img
+                            src={TestimonySample}
+                            style={{ gridArea: "box-1" }}
+                            alt="Shreyas Photo"
+                          />
+                          <h4 style={{ gridArea: "box-2" }}>Shreyas 2</h4>
+                          <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                        </div>
+                        <div className="virtual-card-testimony-star">
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                        </div>
+                      </section>
+                    </div>
+                    <div className="virtual-card-testimony-set">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
+                        lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
+                        Quam eleifend magna aliquet ut. Turpis gravida quis
+                      </p>
+                      <section>
+                        <div className="virtual-card-testimony-info">
+                          <img
+                            src={TestimonySample}
+                            style={{ gridArea: "box-1" }}
+                            alt="Shreyas Photo"
+                          />
+                          <h4 style={{ gridArea: "box-2" }}>Shreyas 3</h4>
+                          <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                        </div>
+                        <div className="virtual-card-testimony-star">
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                        </div>
+                      </section>
+                    </div>
+                    <div className="virtual-card-testimony-set">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
+                        lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
+                        Quam eleifend magna aliquet ut. Turpis gravida quis
+                      </p>
+                      <section>
+                        <div className="virtual-card-testimony-info">
+                          <img
+                            src={TestimonySample}
+                            style={{ gridArea: "box-1" }}
+                            alt="Shreyas Photo"
+                          />
+                          <h4 style={{ gridArea: "box-2" }}>Shreyas 4</h4>
+                          <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                        </div>
+                        <div className="virtual-card-testimony-star">
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                        </div>
+                      </section>
+                    </div>
+                    <div className="virtual-card-testimony-set">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
+                        lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
+                        Quam eleifend magna aliquet ut. Turpis gravida quis
+                      </p>
+                      <section>
+                        <div className="virtual-card-testimony-info">
+                          <img
+                            src={TestimonySample}
+                            style={{ gridArea: "box-1" }}
+                            alt="Shreyas Photo"
+                          />
+                          <h4 style={{ gridArea: "box-2" }}>Shreyas 5</h4>
+                          <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                        </div>
+                        <div className="virtual-card-testimony-star">
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                          <img src={TestimonyStar} />
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> */}
       <KESconnect />
       <KESfooter />
     </div>
