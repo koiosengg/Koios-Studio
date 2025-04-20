@@ -8,7 +8,6 @@ function Services() {
   return (
     <div className="portfolio-home-services">
       <Link to="/portfolio/website" className="portfolio-home-services-set">
-        <div className="portfolio-home-services-set-background"></div>
         <img src={Website} className="portfolio-home-services-set-icon" />
         <h2>Websites</h2>
         <div className="portfolio-home-services-set-line">
@@ -36,7 +35,6 @@ function Services() {
         </div>
       </Link>
       <Link to="/portfolio/application" className="portfolio-home-services-set">
-        <div className="portfolio-home-services-set-background"></div>
         <img src={Application} className="portfolio-home-services-set-icon" />
         <h2>Application</h2>
         <div className="portfolio-home-services-set-line">
@@ -64,7 +62,6 @@ function Services() {
         </div>
       </Link>
       <Link to="/portfolio/branding" className="portfolio-home-services-set">
-        <div className="portfolio-home-services-set-background"></div>
         <img src={Branding} className="portfolio-home-services-set-icon" />
         <h2>Branding</h2>
         <div className="portfolio-home-services-set-line">

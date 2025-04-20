@@ -6,7 +6,7 @@ import Icon3 from "../assests/Home/Icon 3.png";
 
 function Banner() {
   return (
-    <div className="portfolio-home-banner">
+    <div className="portfolio-home-banner" id="banner">
       <img src={DesktopBanner} className="portfolio-home-banner-background" />
       <div className="portfolio-home-banner-container">
         <section>
