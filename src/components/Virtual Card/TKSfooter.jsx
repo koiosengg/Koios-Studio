@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "./assets/Footer Company Logo.png";
+import Logo from "./assets/Footer My Link Logo.png";
 
 function TKSfooter() {
   const currentYear = new Date().getFullYear();

@@ -1,5 +1,5 @@
 import React from "react";
-import TKSLogo from "./assets/Footer Company Logo.png";
+import TKSLogo from "./assets/Footer My Link Logo.png";
 import { Link } from "react-router-dom";
 
 function KESfooter() {
