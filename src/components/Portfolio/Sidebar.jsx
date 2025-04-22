@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Sidebar({ isOnBanner }) {
   return (
-    <div className={`portfolio-sidebar ${isOnBanner ? "hidden" : ""}`}>
+    <div className={`portfolio-sidebar ${!isOnBanner ? "visible" : ""}`}>
       <div className="portfolio-sidebar-container">
         <nav>
           <section>

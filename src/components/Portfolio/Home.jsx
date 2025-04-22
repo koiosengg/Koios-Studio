@@ -8,6 +8,7 @@ import ViewPorjects from "./Home/ViewPorjects";
 import Sidebar from "./Sidebar";
 import Identities from "./Home/Identities";
 import FAQ from "./Home/FAQ";
+import Gallery from "./Home/Gallery";
 
 function Home() {
   const [isOnBanner, setIsOnBanner] = useState(true);
@@ -36,6 +37,7 @@ function Home() {
       <Services />
       <ViewPorjects />
       <Numbers />
+      <Gallery />
       <Identities />
       <FAQ />
       <Footer />

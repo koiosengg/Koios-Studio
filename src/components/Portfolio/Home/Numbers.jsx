@@ -27,20 +27,7 @@ function Numbers() {
         src={DesktopBackground}
         className="portfolio-home-numbers-background"
       />
-      <div
-        className="portfolio-home-cursor-glow"
-        style={{
-          left: `${cursorPos.x}px`,
-          top: `${cursorPos.y}px`,
-        }}
-      ></div>
-      <div
-        className="portfolio-home-flashlight-overlay"
-        style={{
-          maskImage: `radial-gradient(circle 180px at ${cursorPos.x}px ${cursorPos.y}px, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 1) 80%)`,
-          WebkitMaskImage: `radial-gradient(circle 180px at ${cursorPos.x}px ${cursorPos.y}px, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 1) 80%)`,
-        }}
-      ></div>
+
       <div className="portfolio-home-numbers-container">
         <div className="portfolio-section-heading">
           <img src={HeadingDesign} className="portfolio-section-heading-img" />
@@ -58,6 +45,20 @@ function Numbers() {
           </Link>
         </div>
         <div className="portfolio-home-numbers-div">
+          <div
+            className="portfolio-home-cursor-glow"
+            style={{
+              left: `${cursorPos.x}px`,
+              top: `${cursorPos.y}px`,
+            }}
+          ></div>
+          <div
+            className="portfolio-home-flashlight-overlay"
+            style={{
+              maskImage: `radial-gradient(circle 180px at ${cursorPos.x}px ${cursorPos.y}px, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 1) 80%)`,
+              WebkitMaskImage: `radial-gradient(circle 180px at ${cursorPos.x}px ${cursorPos.y}px, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 1) 80%)`,
+            }}
+          ></div>
           <section>
             <div className="portfolio-home-numbers-set">
               <h3>45+</h3>
