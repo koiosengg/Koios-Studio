@@ -12,6 +12,7 @@ import LakshitJain from "./components/Virtual Card/LakshitJain";
 import ShvethaS from "./components/Virtual Card/ShvethaS";
 import AbhayNayak from "./components/Virtual Card/AbhayNayak";
 import Payal from "./components/Virtual Card/Payal";
+import MahiRastogi from "./components/Virtual Card/MahiRastogi";
 import TemplateKES from "./components/Virtual Card/TemplateKES";
 import BalasubramanyamM from "./components/Virtual Card/BalasubramanyamM";
 import JayeshPV from "./components/Virtual Card/JayeshPV";
@@ -34,6 +35,7 @@ function App() {
           <Route path="ShvethaS" element={<ShvethaS />} />
           <Route path="AbhayNayak" element={<AbhayNayak />} />
           <Route path="Payal" element={<Payal />} />
+          <Route path="MahiRastogi" element={<MahiRastogi />} />
           <Route path="TemplateKES" element={<TemplateKES />} />
           <Route path="BalasubramanyamM" element={<BalasubramanyamM />} />
           <Route path="JayeshPV" element={<JayeshPV />} />

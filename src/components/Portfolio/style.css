@@ -26,9 +26,18 @@
   background: #111;
 }
 
+.portfolio-navbar-logo {
+  text-decoration: none;
+}
+
+.portfolio-navbar-logo:hover svg {
+  scale: 1.2;
+}
+
 .portfolio-navbar svg {
   width: 40px;
   height: 32px;
+  transition: all 0.3s;
 }
 
 .portfolio-navbar nav {
@@ -615,7 +624,7 @@
   height: 250px;
   background: radial-gradient(
     circle,
-    #ffbf00 -80%,
+    #ffbf00 -150%,
     rgba(255, 191, 0, 0.3) 50%,
     transparent 80%
   );
@@ -641,7 +650,6 @@
   width: 100%;
   display: flex;
   align-items: flex-start;
-  gap: 100px;
 }
 
 .portfolio-home-numbers-container .portfolio-section-heading {
@@ -655,7 +663,9 @@
   display: flex;
   align-items: flex-start;
   gap: 90px;
-  padding: 80px 160px 80px 0px;
+  padding: 80px 160px 80px 200px;
+  position: relative;
+  overflow: hidden;
 }
 
 .portfolio-home-numbers-div section {
@@ -1058,7 +1068,7 @@
   inset: 0;
   border-radius: 10px;
   padding: 1px;
-  background: linear-gradient(195deg, #ffbf00 , #111111 40%);
+  background: linear-gradient(195deg, #ffbf00, #111111 40%);
   mask: linear-gradient(#0f0e0f 0 0) content-box, linear-gradient(#0f0e0f 0 0);
   mask-composite: exclude;
 }
@@ -1166,4 +1176,138 @@
 
 .portfolio-footer-bottom section a:hover {
   color: #ffbf00;
+}
+
+/* Websites */
+
+.portfolio-websites-banner {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.portfolio-websites-banner-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0px 150px 0px 160px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.portfolio-websites-banner .portfolio-home-banner-container {
+  position: static;
+  transform: none;
+  padding: 0;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.portfolio-websites-banner .portfolio-home-banner-container section {
+  align-items: flex-start;
+}
+
+.portfolio-websites-banner .portfolio-home-banner-container section h1 {
+  text-align: left;
+}
+
+.portfolio-websites-banner-imgs {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  perspective: 100%;
+  position: relative;
+}
+
+.portfolio-websites-banner-imgs img {
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateX(25deg) rotateY(45deg) rotateZ(0deg);
+  z-index: 3;
+  border-radius: 8px;
+  animation: portfolioWebsitesBannerImg 2s forwards;
+}
+
+@keyframes portfolioWebsitesBannerImg {
+  0% {
+    transform: translate(calc(-50% + 80px), calc(-50% - 40px)) rotateX(25deg)
+      rotateY(45deg) rotateZ(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotateX(25deg) rotateY(45deg) rotateZ(0deg);
+  }
+}
+
+.portfolio-websites-banner-img-1 {
+  width: 100%;
+  aspect-ratio: 4096/2091;
+  background: #ffbf00;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  border-radius: 8px;
+  transform: translate(calc(-50% + 80px), calc(-50% - 40px)) rotateX(25deg)
+    rotateY(45deg) rotateZ(0deg);
+  animation: portfolioWebsitesBannerImg1 2s forwards;
+}
+
+@keyframes portfolioWebsitesBannerImg1 {
+  from {
+    transform: translate(calc(-50% + 80px), calc(-50% - 40px)) rotateX(25deg)
+      rotateY(45deg) rotateZ(0deg);
+  }
+  to {
+    transform: translate(calc(-50% + 40px), calc(-50% - 20px)) rotateX(25deg)
+      rotateY(45deg) rotateZ(0deg);
+  }
+}
+
+.portfolio-websites-banner-img-2 {
+  width: 100%;
+  aspect-ratio: 4096/2091;
+  background: #ffee00;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(calc(-50% + 80px), calc(-50% - 40px)) rotateX(25deg)
+    rotateY(45deg) rotateZ(0deg);
+  z-index: 1;
+  border-radius: 8px;
+}
+
+/* Responsive */
+
+.portfolio-websites-responsive {
+  width: 100%;
+  display: flex;
+  padding: 80px 160px;
+  align-items: center;
+  gap: 165px;
+}
+
+.portfolio-websites-responsive .portfolio-section-heading {
+  width: 100%;
+}
+
+.portfolio-websites-responsive-img {
+  width: 100%;
+}
+
+.portfolio-websites-responsive-img img {
+  width: 100%;
+  object-fit: cover;
 }

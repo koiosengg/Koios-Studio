@@ -10,24 +10,19 @@ function Numbers() {
   const handleMouseMove = (e) => {
     if (divRef.current) {
       const rect = divRef.current.getBoundingClientRect();
-      setCursorPos({
-        x: e.clientX - rect.left,
-        y: e.clientY - rect.top,
-      });
+
+      const rawX = e.clientX - rect.left;
+      const rawY = e.clientY - rect.top;
+
+      const x = Math.max(250, Math.min(rawX, rect.width - 100));
+      const y = Math.max(150, Math.min(rawY, rect.height - 150));
+
+      setCursorPos({ x, y });
     }
   };
 
   return (
-    <div
-      ref={divRef}
-      className="portfolio-home-numbers"
-      onMouseMove={handleMouseMove}
-    >
-      <img
-        src={DesktopBackground}
-        className="portfolio-home-numbers-background"
-      />
-
+    <div className="portfolio-home-numbers">
       <div className="portfolio-home-numbers-container">
         <div className="portfolio-section-heading">
           <img src={HeadingDesign} className="portfolio-section-heading-img" />
@@ -44,7 +39,15 @@ function Numbers() {
             <p>My turn to shine</p>
           </Link>
         </div>
-        <div className="portfolio-home-numbers-div">
+        <div
+          className="portfolio-home-numbers-div"
+          ref={divRef}
+          onMouseMove={handleMouseMove}
+        >
+          <img
+            src={DesktopBackground}
+            className="portfolio-home-numbers-background"
+          />
           <div
             className="portfolio-home-cursor-glow"
             style={{
