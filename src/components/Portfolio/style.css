@@ -620,12 +620,12 @@
 
 .portfolio-home-cursor-glow {
   position: absolute;
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   background: radial-gradient(
     circle,
-    #ffbf00 -150%,
-    rgba(255, 191, 0, 0.3) 50%,
+    #ffbf00 -200%,
+    rgba(255, 191, 0, 0.3) 0%,
     transparent 80%
   );
   pointer-events: none;
@@ -1310,4 +1310,184 @@
 .portfolio-websites-responsive-img img {
   width: 100%;
   object-fit: cover;
+}
+
+/* Branding */
+
+.portfolio-branding-banner {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.portfolio-branding-banner .portfolio-home-banner-container {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 200px;
+}
+
+.portfolio-branding-banner .portfolio-home-banner-container section {
+  width: 600px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.portfolio-branding-banner .portfolio-home-banner-container section h1 {
+  text-align: left;
+}
+
+/* Branding Gallery */
+
+.portfolio-branding-gallery {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+  padding-bottom: 0;
+}
+
+.portfolio-branding-gallery-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px 80px 0px 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-branding-gallery-container h2 {
+  text-transform: uppercase;
+  opacity: 0.12;
+  position: absolute;
+  top: 0px;
+  transition: all 0.3s;
+}
+
+.portfolio-branding-gallery-container .even {
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #ffbf00;
+  font-family: Raleway;
+  font-size: 18vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 8px;
+}
+
+.portfolio-branding-gallery-container .odd {
+  color: #ffbf00;
+  font-family: Raleway;
+  font-size: 180px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.portfolio-branding-gallery-background {
+  width: 100%;
+  height: 743px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 1;
+}
+
+.portfolio-branding-gallery-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  animation: portfolioBrandingGalleryBackground 0.5s forwards;
+}
+
+@keyframes portfolioBrandingGalleryBackground {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.portfolio-branding-gallery-options {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  overflow: hidden;
+}
+
+.portfolio-branding-gallery-options-slide {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.5s;
+  transform: translateX(-100px);
+  position: relative;
+}
+
+.portfolio-branding-gallery-options .image-container {
+  width: 244px;
+  height: 154px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.portfolio-branding-gallery-options .image-container::before {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(17, 17, 17, 0.8);
+  pointer-events: none;
+  transition: all 0.5s;
+  opacity: 1;
+  border: 0.1px solid rgba(17, 17, 17, 0.1);
+}
+
+.portfolio-branding-gallery-options img {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+  cursor: pointer;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.portfolio-branding-gallery-options .active-option {
+  width: 528px;
+  height: 528px;
+  flex-shrink: 0;
+  cursor: default;
+}
+
+.portfolio-branding-gallery-options .active-option::before {
+  opacity: 0;
 }

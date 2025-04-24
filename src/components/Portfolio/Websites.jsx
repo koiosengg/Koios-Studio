@@ -23,7 +23,7 @@ function Websites() {
     };
   }, []);
   return (
-    <div className="portfolio portfolio-home">
+    <div className="portfolio portfolio-website">
       <Banner />
       <Sidebar isOnBanner={isOnBanner} />
       <Responsive />

@@ -304,7 +304,7 @@ function MahiRastogi() {
           className="virtual-card-about-background mobile"
         />
         <div className="virtual-card-about-container">
-          <h2>Chief Design and Technology Officer</h2>
+          <h2>CTDO</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
             lobortis id. Sit nibh ullamcorper in libero donec enim auctor. Quam
@@ -567,7 +567,7 @@ function MahiRastogi() {
           </div>
         </div>
       </div>
-      <div className="virtual-card-products">
+      {/* <div className="virtual-card-products">
         <img
           src={ProductsDesktopBackground}
           className="virtual-card-products-background desktop"
@@ -615,7 +615,7 @@ function MahiRastogi() {
             <h3>Company Branding </h3>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="virtual-card-watch">
         <h2>Working Hours</h2>
         <div className="virtual-card-watch-container">
