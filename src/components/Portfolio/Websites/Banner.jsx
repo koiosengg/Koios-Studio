@@ -1,6 +1,8 @@
 import React from "react";
 import DesktopBanner from "../assests/Websites/Desktop Banner.png";
 import DesktopBannerImg from "../assests/Websites/Desktop Banner Img.png";
+import DesktopBannerImg1 from "../assests/Websites/Desktop Banner Img 1.png";
+import DesktopBannerImg2 from "../assests/Websites/Desktop Banner Img 2.png";
 import Navbar from "../Navbar";
 
 function Banner() {
@@ -27,9 +29,17 @@ function Banner() {
           </a>
         </div>
         <div className="portfolio-websites-banner-imgs">
-          <img src={DesktopBannerImg} />
-          <div className="portfolio-websites-banner-img-1"> </div>
-          <div className="portfolio-websites-banner-img-2"> </div>
+          <img className="portfolio-websites-banner-img" src={DesktopBannerImg} />
+          <img
+            src={DesktopBannerImg1}
+            className="portfolio-websites-banner-img-1"
+          >
+          </img>
+          <img
+            src={DesktopBannerImg2}
+            className="portfolio-websites-banner-img-2"
+          >
+          </img>
         </div>
       </div>
     </div>

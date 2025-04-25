@@ -20,12 +20,12 @@ function Gallery() {
       big: GalleryImg1Big,
     },
     {
-      thumb: GalleryImg3,
-      big: GalleryImg3Big,
-    },
-    {
       thumb: GalleryImg2,
       big: GalleryImg2Big,
+    },
+    {
+      thumb: GalleryImg3,
+      big: GalleryImg3Big,
     },
   ];
 

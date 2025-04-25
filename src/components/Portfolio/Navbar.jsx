@@ -27,13 +27,12 @@ function Navbar() {
           />
         </svg>
       </Link>
-
       <nav>
         <Link to="/portfolio/websites">Websites</Link>
         <span></span>
-        <Link to="/portfolio/website">Application</Link>
+        <Link to="/portfolio/application">Application</Link>
         <span></span>
-        <Link to="/portfolio/website">Branding</Link>
+        <Link to="/portfolio/branding">Branding</Link>
       </nav>
     </div>
   );

@@ -3,6 +3,8 @@ import Banner from "./Branding/Banner";
 import Sidebar from "./Sidebar";
 import Footer from "./Footer";
 import Gallery from "./Branding/Gallery";
+import Designs from "./Branding/Designs";
+import Mission from "./Branding/Mission";
 
 function Branding() {
   const [isOnBanner, setIsOnBanner] = useState(true);
@@ -27,6 +29,8 @@ function Branding() {
       <Banner />
       <Sidebar isOnBanner={isOnBanner} />
       <Gallery />
+      <Designs />
+      <Mission />
       <Footer />
     </div>
   );

@@ -7,9 +7,9 @@ function Sidebar({ isOnBanner }) {
       <div className="portfolio-sidebar-container">
         <nav>
           <section>
-            <Link to="/portfolio/design">Design</Link>
+            <Link to="/portfolio/websites">Websites</Link>
             <span></span>
-            <Link to="/portfolio/development">Development</Link>
+            <Link to="/portfolio/application">Application</Link>
             <span></span>
             <Link to="/portfolio/branding">Branding</Link>
           </section>

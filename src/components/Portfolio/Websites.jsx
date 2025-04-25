@@ -3,6 +3,7 @@ import Banner from "./Websites/Banner";
 import Sidebar from "./Sidebar";
 import Footer from "./Footer";
 import Responsive from "./Websites/Responsive";
+import Porjects from "./Websites/Porjects";
 
 function Websites() {
   const [isOnBanner, setIsOnBanner] = useState(true);
@@ -27,6 +28,7 @@ function Websites() {
       <Banner />
       <Sidebar isOnBanner={isOnBanner} />
       <Responsive />
+      <Porjects />
       <Footer />
     </div>
   );

@@ -4,7 +4,7 @@ import DesktopBackground from "../assests/Home/Desktop Numbers.png";
 import HeadingDesign from "../assests/Home/Section Heading Design.png";
 
 function Numbers() {
-  const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
+  const [cursorPos, setCursorPos] = useState({ x: 250, y: 250 });
   const divRef = useRef(null);
 
   const handleMouseMove = (e) => {
