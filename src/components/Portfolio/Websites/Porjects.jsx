@@ -127,6 +127,7 @@ function Porjects() {
               </section>
               <p>Pre-Engineered Buildings</p>
             </div>
+            <div className="portfolio-websites-porjects-set-glow"></div>
           </a>
           <a href="#" className="portfolio-websites-porjects-set">
             <div className="portfolio-websites-porjects-set-img">
@@ -154,6 +155,7 @@ function Porjects() {
               </section>
               <p>Staffing Solutions in Semiconductors</p>
             </div>
+            <div className="portfolio-websites-porjects-set-glow"></div>
           </a>
           <a href="#" className="portfolio-websites-porjects-set">
             <div className="portfolio-websites-porjects-set-img">
@@ -181,6 +183,7 @@ function Porjects() {
               </section>
               <p>Lorem ipsum dolor amet</p>
             </div>
+            <div className="portfolio-websites-porjects-set-glow"></div>
           </a>
           <a href="#" className="portfolio-websites-porjects-set">
             <div className="portfolio-websites-porjects-set-img">
@@ -208,6 +211,7 @@ function Porjects() {
               </section>
               <p>Lorem ipsum dolor amet</p>
             </div>
+            <div className="portfolio-websites-porjects-set-glow"></div>
           </a>
           <a href="#" className="portfolio-websites-porjects-set">
             <div className="portfolio-websites-porjects-set-img">
@@ -235,6 +239,7 @@ function Porjects() {
               </section>
               <p>Staffing Solutions in Semiconductors</p>
             </div>
+            <div className="portfolio-websites-porjects-set-glow"></div>
           </a>
           <a href="#" className="portfolio-websites-porjects-set">
             <div className="portfolio-websites-porjects-set-img">
@@ -262,6 +267,7 @@ function Porjects() {
               </section>
               <p>Lorem ipsum dolor amet</p>
             </div>
+            <div className="portfolio-websites-porjects-set-glow"></div>
           </a>
           <a href="#" className="portfolio-websites-porjects-set">
             <div className="portfolio-websites-porjects-set-img">
@@ -289,6 +295,7 @@ function Porjects() {
               </section>
               <p>Pre-Engineered Buildings</p>
             </div>
+            <div className="portfolio-websites-porjects-set-glow"></div>
           </a>
         </div>
       </div>

@@ -113,37 +113,42 @@ function Gallery() {
             </div>
             <div
               className={`image-container ${
-                activeIndex === 0 ? "active-option" : ""
+                activeIndex === 0 ? "active-option" : "inactive-option"
               }`}
             >
+              <div className="image-container-background"></div>
               <img src={GalleryOption1} onClick={handleOptionClick} />
             </div>
             <div
               className={`image-container ${
-                activeIndex === 1 ? "active-option" : ""
+                activeIndex === 1 ? "active-option" : "inactive-option"
               }`}
             >
+              <div className="image-container-background"></div>
               <img src={GalleryOption2} onClick={handleOptionClick} />
             </div>
             <div
               className={`image-container ${
-                activeIndex === 2 ? "active-option" : ""
+                activeIndex === 2 ? "active-option" : "inactive-option"
               }`}
             >
+              <div className="image-container-background"></div>
               <img src={GalleryOption3} onClick={handleOptionClick} />
             </div>
             <div
               className={`image-container ${
-                activeIndex === 3 ? "active-option" : ""
+                activeIndex === 3 ? "active-option" : "inactive-option"
               }`}
             >
+              <div className="image-container-background"></div>
               <img src={GalleryOption4} onClick={handleOptionClick} />
             </div>
             <div
               className={`image-container ${
-                activeIndex === 4 ? "active-option" : ""
+                activeIndex === 4 ? "active-option" : "inactive-option"
               }`}
             >
+              <div className="image-container-background"></div>
               <img src={GalleryOption5} onClick={handleOptionClick} />
             </div>
             <div className="image-container" style={{ visibility: "hidden" }}>

@@ -1242,6 +1242,12 @@
   z-index: 3;
   border-radius: 8px;
   animation: portfolioWebsitesBannerImg 2s forwards;
+  fill: rgba(27, 32, 35, 0.6);
+  stroke-width: 1px;
+  stroke: #ffbf00;
+  box-shadow: 0px 0.991px 0px 0px rgba(255, 255, 255, 0.1) inset;
+  filter: drop-shadow(40.651px -0.991px 8.923px rgba(0, 0, 0, 0.2));
+  backdrop-filter: blur(53.539756774902344px);
 }
 
 @keyframes portfolioWebsitesBannerImg {
@@ -1266,9 +1272,9 @@
     rotateY(45deg) rotateZ(0deg);
   animation: portfolioWebsitesBannerImg1 2s forwards;
   border-radius: 7.932px;
-  background: rgba(255, 191, 0, 0.3);
-  box-shadow: 0px 0.991px 0px 0px rgba(255, 255, 255, 0.1) inset,
-    0px 6.94px 10.906px 0px rgba(0, 0, 0, 0.28);
+  fill: rgba(255, 191, 0, 0.2);
+  box-shadow: 0px 0.991px 0px 0px rgba(255, 255, 255, 0.1) inset;
+  filter: drop-shadow(40.651px -0.991px 8.923px rgba(0, 0, 0, 0.2));
   backdrop-filter: blur(53.539756774902344px);
 }
 
@@ -1293,9 +1299,9 @@
     rotateY(45deg) rotateZ(0deg);
   z-index: 1;
   border-radius: 7.932px;
-  background: rgba(255, 191, 0, 0.2);
-  box-shadow: 40.651px -0.991px 8.923px 0px rgba(0, 0, 0, 0.2),
-    0px 0.991px 0px 0px rgba(255, 255, 255, 0.1) inset;
+  fill: rgba(255, 191, 0, 0.3);
+  box-shadow: 0px 0.991px 0px 0px rgba(255, 255, 255, 0.1) inset;
+  filter: drop-shadow(0px 6.94px 10.906px rgba(0, 0, 0, 0.28));
   backdrop-filter: blur(53.539756774902344px);
 }
 
@@ -1405,6 +1411,42 @@
   background: #111;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   text-decoration: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-websites-porjects-set::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  padding: 2px;
+  background: linear-gradient(220deg, #ffbf00cc, #111111 60%);
+  mask: linear-gradient(#0f0e0f 0 0) content-box, linear-gradient(#0f0e0f 0 0);
+  mask-composite: exclude;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.portfolio-websites-porjects-set:hover::before {
+  opacity: 1;
+  background: linear-gradient(215deg, #ffbf00cc, #111111 60%);
+}
+
+.portfolio-websites-porjects-set-glow {
+  position: absolute;
+  bottom: -5px;
+  width: 100%;
+  height: 10px;
+  border-radius: 100%;
+  background: #ffbf00;
+  filter: blur(20px);
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.portfolio-websites-porjects-set:hover .portfolio-websites-porjects-set-glow {
+  opacity: 1;
 }
 
 .portfolio-websites-porjects-set-img {
@@ -1617,6 +1659,53 @@
   transition: all 0.3s;
 }
 
+.portfolio-branding-gallery-options .image-container-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #ffbf00;
+  border: 1px solid #111;
+  transition: all 0.5s;
+}
+
+.portfolio-branding-gallery-options .active-option .image-container-background {
+  animation: portfolioBrandingGallerySetBackground 1s forwards;
+}
+
+@keyframes portfolioBrandingGallerySetBackground {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(95deg);
+  }
+  60% {
+    transform: rotate(95deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}
+
+.portfolio-branding-gallery-options .inactive-option .image-container-background {
+  animation: portfolioBrandingGallerySetBackgroundRemove 1s forwards;
+}
+
+@keyframes portfolioBrandingGallerySetBackgroundRemove {
+  0% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  60% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 .portfolio-branding-gallery-options .image-container::before {
   content: " ";
   position: absolute;
@@ -1766,10 +1855,11 @@
 
 .portfolio-branding-mission-heading {
   display: flex;
-  width: 324px;
+  width: 350px;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
+  flex-shrink: 0;
 }
 
 .portfolio-branding-mission-option-container {
@@ -1930,3 +2020,49 @@
   grid-column: span 2;
 }
 
+.portfolio-branding-mission-brochure {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.portfolio-branding-mission-brochure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.portfolio-branding-mission-brochure img:first-child {
+  grid-column: span 3;
+}
+
+.portfolio-branding-mission-catalog {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.portfolio-branding-mission-catalog img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.portfolio-branding-mission-listings {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.portfolio-branding-mission-listings img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.portfolio-branding-mission-listings img:first-child {
+  grid-column: span 3;
+}

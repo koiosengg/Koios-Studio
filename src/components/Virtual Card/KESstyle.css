@@ -404,6 +404,10 @@
     width: 100%;
   }
 
+  .virtual-card-KES .virtual-card-banner-left-text p{
+    width: 100%;
+  }
+
   .virtual-card-KES .virtual-card-banner-right {
     height: auto;
     width: 100%;
@@ -416,6 +420,17 @@
     height: 100%;
     width: auto;
     border-radius: 50%;
+  }
+
+  /* About */
+
+  .virtual-card-KES .virtual-card-about-background{
+    width: 100%;
+    height: 100%;
+  }
+
+  .virtual-card-KES .virtual-card-about-container{
+    padding: 40px 20px;
   }
 
   /* Get in Touch*/
