@@ -30,7 +30,7 @@ function Navbar() {
       <nav>
         <Link to="/portfolio/websites">Websites</Link>
         <span></span>
-        <Link to="/portfolio/application">Application</Link>
+        <Link to="/portfolio/applications">Applications</Link>
         <span></span>
         <Link to="/portfolio/branding">Branding</Link>
       </nav>

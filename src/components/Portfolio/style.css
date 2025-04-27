@@ -105,7 +105,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .portfolio-home-banner-container section h1 {
@@ -1117,7 +1117,8 @@
 }
 
 .portfolio-footer-top form button {
-  width: 30%;
+  width: auto;
+  padding: 0px 18px;
   height: 100%;
   border: 0;
   border-radius: 4px;
@@ -1129,6 +1130,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  flex-shrink: 0;
 }
 
 .portfolio-footer-bottom {
@@ -1687,7 +1689,9 @@
   }
 }
 
-.portfolio-branding-gallery-options .inactive-option .image-container-background {
+.portfolio-branding-gallery-options
+  .inactive-option
+  .image-container-background {
   animation: portfolioBrandingGallerySetBackgroundRemove 1s forwards;
 }
 
@@ -2065,4 +2069,36 @@
 
 .portfolio-branding-mission-listings img:first-child {
   grid-column: span 3;
+}
+
+/* Applications Banner */
+
+.portfolio-applications-banner {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.portfolio-applications-banner .portfolio-home-banner-container {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 200px;
+}
+
+.portfolio-applications-banner .portfolio-home-banner-container section {
+  width: 550px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.portfolio-applications-banner .portfolio-home-banner-container section h1 {
+  text-align: left;
+}
+
+.portfolio-applications .portfolio-websites-porjects-set {
+  width: calc((100% - 24px) / 3);
 }

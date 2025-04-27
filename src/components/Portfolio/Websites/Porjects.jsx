@@ -118,10 +118,10 @@ function Porjects() {
                   <path
                     d="M14 16L18 12M18 12L14 8M18 12H6"
                     stroke="white"
-                    stroke-width="2"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </section>
@@ -146,10 +146,10 @@ function Porjects() {
                   <path
                     d="M14 16L18 12M18 12L14 8M18 12H6"
                     stroke="white"
-                    stroke-width="2"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </section>
@@ -174,10 +174,10 @@ function Porjects() {
                   <path
                     d="M14 16L18 12M18 12L14 8M18 12H6"
                     stroke="white"
-                    stroke-width="2"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </section>
@@ -202,10 +202,10 @@ function Porjects() {
                   <path
                     d="M14 16L18 12M18 12L14 8M18 12H6"
                     stroke="white"
-                    stroke-width="2"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </section>
@@ -230,10 +230,10 @@ function Porjects() {
                   <path
                     d="M14 16L18 12M18 12L14 8M18 12H6"
                     stroke="white"
-                    stroke-width="2"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </section>
@@ -258,10 +258,10 @@ function Porjects() {
                   <path
                     d="M14 16L18 12M18 12L14 8M18 12H6"
                     stroke="white"
-                    stroke-width="2"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </section>
@@ -286,10 +286,10 @@ function Porjects() {
                   <path
                     d="M14 16L18 12M18 12L14 8M18 12H6"
                     stroke="white"
-                    stroke-width="2"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </section>

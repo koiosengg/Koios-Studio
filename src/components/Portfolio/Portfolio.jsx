@@ -4,6 +4,7 @@ import "./style.css";
 import Home from "./Home";
 import Websites from "./Websites";
 import Branding from "./Branding";
+import Applications from "./Applications";
 
 function Portfolio() {
   return (
@@ -11,6 +12,7 @@ function Portfolio() {
       <Route path="/" element={<Home />} />
       <Route path="/websites" element={<Websites />} />
       <Route path="/branding" element={<Branding />} />
+      <Route path="/applications" element={<Applications />} />
     </Routes>
   );
 }
