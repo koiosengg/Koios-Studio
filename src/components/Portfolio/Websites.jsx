@@ -3,7 +3,7 @@ import Banner from "./Websites/Banner";
 import Sidebar from "./Sidebar";
 import Footer from "./Footer";
 import Responsive from "./Websites/Responsive";
-import Porjects from "./Websites/Porjects";
+import Porjects from "./Websites/Projects";
 
 function Websites() {
   const [isOnBanner, setIsOnBanner] = useState(true);

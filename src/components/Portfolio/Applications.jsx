@@ -4,7 +4,7 @@ import Sidebar from "./Sidebar";
 import Footer from "./Footer";
 import Numbers from "./Applications/Numbers";
 import Gallery from "./Applications/Gallery";
-import Projects from "./Applications/Porjects";
+import Projects from "./Applications/Projects";
 
 function Applications() {
   const [isOnBanner, setIsOnBanner] = useState(true);

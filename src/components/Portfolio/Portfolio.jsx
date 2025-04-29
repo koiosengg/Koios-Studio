@@ -5,6 +5,7 @@ import Home from "./Home";
 import Websites from "./Websites";
 import Branding from "./Branding";
 import Applications from "./Applications";
+import Mobiglide from "./Projects/Mobiglide ";
 
 function Portfolio() {
   return (
@@ -13,6 +14,7 @@ function Portfolio() {
       <Route path="/websites" element={<Websites />} />
       <Route path="/branding" element={<Branding />} />
       <Route path="/applications" element={<Applications />} />
+      <Route path="/projects/Mobiglide" element={<Mobiglide />} />
     </Routes>
   );
 }
