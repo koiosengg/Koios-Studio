@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import Frame from "./assets/Footer/Rectangle 7.png";
 import Icon from "./assets/Footer/svgt.png";
-import Logo from "./assets/Footer/Koios logo.svg";
+import Logo from "./assets/Navbar/Navbar Logo.png";
 import Location from "./assets/Footer/location svg.png";
 
 function Footer() {
@@ -124,33 +125,32 @@ function Footer() {
             alt="koios logo"
             style={{ margin: "0px" }}
           />
-          <h1>Koios Engineering Solutions</h1>
         </div>
         <div className="p-rights-reserved mobile">
           © 2023 All rights reserved.
         </div>
         <div className="p-links">
           <div className="p-link-three">
-            <a href="./Engineering-Solutions.html" className="p-hover engg">
-              Engineering
-            </a>
+            <Link to="/web_desgining" className="p-hover engg">
+              Web Designing
+            </Link>
             <a
               href="https://koiostudio.com/"
               target="_blank"
               className="p-hover software"
             >
-              Koios Studio
+              Web Development
             </a>
             <a href="./3Dscan.html" className="p-hover edutech">
-              3D Scanning
+              Mobile Application
             </a>
           </div>
           <div className="p-link-two">
             <a href="./aboutus.html" className="p-hover software">
-              About Us
+              Compnay Branding
             </a>
             <a href="./career.html" className="p-hover software">
-              Careers
+              Contact
             </a>
           </div>
         </div>
@@ -213,7 +213,7 @@ function Footer() {
         <div className="p-line"></div>
 
         <div className="p-address-container">
-          <div className="p-call-div">
+          <a href="#" className="p-call-div">
             <div className="p-gd">
               <svg
                 width="24"
@@ -229,8 +229,8 @@ function Footer() {
               </svg>
               <p>+91 6361668024</p>
             </div>
-          </div>
-          <div className="p-location-div">
+          </a>
+          <a href="#" className="p-location-div">
             <div className="p-gd location">
               <img
                 src={Location}
@@ -244,8 +244,8 @@ function Footer() {
                 560109
               </p>
             </div>
-          </div>
-          <div className="p-mail-div">
+          </a>
+          <a href="#" className="p-mail-div">
             <div className="p-gd">
               <svg
                 width="24"
@@ -271,7 +271,7 @@ function Footer() {
               </svg>
               <p>info@koiosengg.com</p>
             </div>
-          </div>
+          </a>
         </div>
         <div id="desktop-content">
           <div>
@@ -286,7 +286,7 @@ function Footer() {
           </div>
         </div>
         <div className="p-content-box">
-          <div className="p-rights-reserved">© 2023 All rights reserved.</div>
+          <div className="p-rights-reserved">© 2025 All rights reserved.</div>
           <div className="p-social-icons">
             <a
               href="https://www.facebook.com/profile.php?id=61571189924699&mibextid=ZbWKwL"

@@ -759,7 +759,6 @@ html {
   transition: 1s ease-in-out;
 }
 
-
 .we-deliver-main {
   overflow: hidden;
   height: 0;
@@ -806,8 +805,7 @@ html {
   gap: 10px;
 }
 
-
-.we-deliver-main p{
+.we-deliver-main p {
   flex-shrink: 0;
   text-align: center;
   font-family: Quicksand;
@@ -817,10 +815,10 @@ html {
   line-height: 60px;
   letter-spacing: -0.96px;
   background: linear-gradient(
-  93deg,
-  #fff 8.57%,
-  rgba(255, 255, 255, 0.75) 95.46%
-);
+    93deg,
+    #fff 8.57%,
+    rgba(255, 255, 255, 0.75) 95.46%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -895,6 +893,11 @@ html {
   justify-content: center;
 }
 
+.p-koios img {
+  height: 32px;
+  object-fit: cover;
+}
+
 .p-koios h1 {
   align-self: center;
   color: #fff;
@@ -946,11 +949,27 @@ html {
   text-decoration: none;
 }
 
+.p-hover.engg:hover {
+  color: #0d9bbf;
+}
+
+.p-hover.software:hover {
+  color: #ffbf00;
+}
+
+.p-hover.edutech:hover {
+  color: #ffffff;
+}
+
 .p-social-icons {
   cursor: pointer;
   display: flex;
   gap: 20px;
   align-items: center;
+}
+
+.p-social-icons a:hover svg path {
+  fill: #ffbf00;
 }
 
 .p-line {
@@ -969,6 +988,11 @@ html {
 .p-mail-div {
   width: fit-content;
   gap: 24px;
+  text-decoration: none;
+}
+
+.p-gd:hover p {
+  color: #ffbf00;
 }
 
 .p-gd {
@@ -986,10 +1010,12 @@ html {
   line-height: 24px;
   color: #98a2b3;
   text-align: center;
+  transition: all 0.3s;
 }
 
 .p-location-div {
   width: 230px;
+  text-decoration: none;
 }
 
 .p-gd.location img {
@@ -1012,7 +1038,6 @@ html {
   font-weight: 400;
   line-height: 28px;
 }
-
 
 .p-content-box {
   color: var(--gray---for-text-400, #98a2b3);
@@ -1051,4 +1076,483 @@ html {
   line-height: 28px;
   cursor: pointer;
   justify-content: inherit;
+}
+
+/* Web Desigining */
+
+.p-mechanical-design {
+  padding-top: 80px;
+  background-color: #1a1a1a;
+}
+
+.p-breadcrumb {
+  width: 100%;
+  height: 64px;
+}
+
+.p-breadcrumb a {
+  color: var(--Woodsmoke----BG-400, #888);
+  text-decoration: none;
+  font-family: Quicksand;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.p-breadcrumb p {
+  color: var(--Woodsmoke----BG-400, #888);
+  text-decoration: none;
+  font-family: Quicksand;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.p-breadcrumb-text {
+  display: flex;
+  width: 100%;
+  padding: 20px 500px 20px 200px;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.p-breadcrumb-text a:hover {
+  color: #ffbf00;
+}
+
+.p-breadcrumb-text.blue a:hover {
+  color: #01cfdc;
+}
+
+.p-breadcrumb-text.white a:hover {
+  color: white;
+}
+
+span {
+  color: var(--Woodsmoke----BG-400, #888);
+}
+
+.p-mechanical-text-container {
+  width: 100%;
+  height: calc(100svh - 124px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  align-items: center;
+  padding: 0px 200px 0px 200px;
+}
+
+.p-blue-gradient-text {
+  background: linear-gradient(90deg, #0d9bbf 19.69%, #fff 105.83%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.p-blue-gradient-text.engineering {
+  text-align: left;
+}
+
+.p-blue-gradient-text.edutech {
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  background: linear-gradient(
+    90deg,
+    #fff 19.69%,
+    rgba(255, 255, 255, 0.6) 105.83%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.p-yellow-gradient-text {
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  background: linear-gradient(90deg, #ffbf00 19.69%, #fff 105.83%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.p-big-mechanical-title {
+  color: #fff;
+  text-align: center;
+  font-family: "Allerta Stencil";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -1.2px;
+}
+
+.p-title-description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.p-title-description p {
+  color: var(--gray---for-text-100, #f2f4f7);
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.p-md-heading {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 200px;
+}
+
+.p-circle-cover {
+  border-radius: 15px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0%;
+}
+
+.p-circle-svg {
+  transition: box-shadow 1s ease-in-out;
+  border-radius: 15px;
+  position: relative;
+  display: inline-block;
+}
+
+.p-md-heading.engineering {
+  margin-top: -124px;
+}
+
+.p-left-text-container,
+.p-right-text-container {
+  width: 50%;
+}
+
+.p-right-text-container {
+  width: fit-content;
+}
+
+.p-left-text-container {
+  padding-top: 40px;
+  width: 368px;
+}
+
+.p-text-div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.p-text-div p {
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.p-md-title {
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.p-rectangle-text {
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 38px;
+}
+
+.p-rectangle-text.edutech {
+  gap: 24px;
+}
+
+.p-rectangle-text.edutech li {
+  width: 608px;
+}
+
+.p-shopnow-btn {
+  cursor: pointer;
+  border-radius: 50px;
+  background: var(--Amber-500----Primary, #ffbf00);
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  gap: 8px;
+  width: 127px;
+  height: 36px;
+}
+
+.p-shopnow-btn p {
+  width: 67px !important;
+  color: var(--Woodsmoke----BG-950----bg, #1a1a1a) !important;
+  text-align: center !important;
+  font-family: Quicksand !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: normal !important;
+}
+
+.p-shopnow-btn.eng:hover {
+  box-shadow: none;
+}
+
+.p-shopnow-btn.eng {
+  background: #1a1a1a;
+  padding-left: 0;
+  text-align: left;
+}
+
+.p-shopnow-text.eng {
+  text-align: left;
+  color: #ffbf00;
+  width: fit-content;
+}
+
+.p-shopnow-btn:hover {
+  box-shadow: 0px 4px 20px 0px rgba(255, 191, 0, 0.15);
+}
+
+.p-right-arr-container {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  padding: 4.411px 6.095px 4.411px 7.833px;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-right-arr-container.yellow {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  padding: 4.411px 6.095px 4.411px 7.833px;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-rectangle-text p {
+  color: var(--gray---for-text-400, #98a2b3);
+  width: 608px;
+  font-family: Quicksand;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.p-rectangle-shape {
+  width: 608px;
+}
+
+.p-various-types {
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.p-left-service-text p {
+  width: 248px;
+}
+
+.p-left-service-text,
+.p-right-service-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.p-btm-line {
+  margin-top: 8px;
+}
+
+.p-right-service-text,
+.p-left-service-text,
+.p-right-service-text p {
+  width: 248px;
+}
+
+.p-various-types-text {
+  color: var(--gray---for-text-400, #98a2b3);
+  width: 608px;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.p-service-offering {
+  width: 502px;
+  display: flex;
+  gap: 40px;
+}
+
+.p-service-offering p {
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.p-btm-line {
+  background: rgba(255, 191, 0, 0.25);
+  width: 231px;
+  height: 0.5px;
+}
+
+.p-btm-line.blue {
+  background: #01cfdc;
+}
+
+.p-eng-solutions-tab {
+  display: flex;
+  flex-direction: column;
+  padding: 200px 320px 67px 320px;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.p-eng-icon-container {
+  display: flex;
+  width: 227px;
+  height: 213px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 25px 0px rgba(255, 255, 255, 0.2);
+}
+
+.p-eng-icon-main {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.p-eng-icon {
+  height: 197px;
+}
+
+.p-sol-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 800px;
+}
+
+.p-sol-container p {
+  color: var(--gray---for-text-100, #f2f4f7);
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.p-load-more-div {
+  cursor: pointer;
+  border-radius: 50px;
+  border: 1px solid #ffbf00;
+  background: var(--Grey-10, #1a1a1a);
+  display: flex;
+  height: 56px;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 60px;
+}
+
+.p-load-more-div p {
+  color: #ffbf00;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.p-mobile-svg-text-container,
+.p-mobile-spotlight {
+  display: none;
+}
+
+.p-mobile-horizontal-line,
+.p-mobile-title-text-btn {
+  display: none;
+}
+
+.p-hover.engg:hover {
+  color: #0d9bbf;
+}
+
+.p-hover.software:hover {
+  color: #ffbf00;
+}
+
+.p-hover.edutech:hover {
+  color: #ffffff;
+}
+.p-submit-button {
+  background-color: #1a1a1a !important;
+  background: #1a1a1a !important;
+  color: #ffbf00 !important;
+  text-align: center !important;
+  font-family: Quicksand !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: normal !important;
+}
+.contain {
+  object-fit: contain !important;
+}
+.none {
+  object-fit: none !important;
+}
+.cover {
+  object-fit: cover !important;
 }

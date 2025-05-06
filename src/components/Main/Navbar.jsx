@@ -10,7 +10,7 @@ function Navbar() {
       </Link>
       <div className="s-nav-link">
         <div className="s-nav-link-heading">
-          <Link href="./3Dscan.html" className="s-nav-link-text">
+          <Link to="/web_desgining" className="s-nav-link-text">
             <p>Web Designing</p>
           </Link>
         </div>
