@@ -142,7 +142,7 @@ function Footer() {
               Web Development
             </a>
             <a href="./3Dscan.html" className="p-hover edutech">
-              Mobile Application
+              Web Development
             </a>
           </div>
           <div className="p-link-two">

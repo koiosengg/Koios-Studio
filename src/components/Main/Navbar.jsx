@@ -15,13 +15,13 @@ function Navbar() {
           </Link>
         </div>
         <div className="s-nav-link-heading">
-          <Link href="./3Dscan.html" className="s-nav-link-text">
+          <Link to="/web_development" className="s-nav-link-text">
             <p>Web Development </p>
           </Link>
         </div>
         <div className="s-nav-link-heading">
-          <Link href="./3Dscan.html" className="s-nav-link-text">
-            <p>Mobile Application</p>
+          <Link to="/app_development" className="s-nav-link-text">
+            <p>App Development</p>
           </Link>
         </div>
         <div className="s-nav-link-heading">
