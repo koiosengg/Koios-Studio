@@ -134,24 +134,20 @@ function Footer() {
             <Link to="/web_desgining" className="p-hover engg">
               Web Designing
             </Link>
-            <a
-              href="https://koiostudio.com/"
-              target="_blank"
-              className="p-hover software"
-            >
+            <Link to="/web_development" className="p-hover software">
               Web Development
-            </a>
-            <a href="./3Dscan.html" className="p-hover edutech">
-              Web Development
-            </a>
+            </Link>
+            <Link to="/app_development" className="p-hover edutech">
+              App Development
+            </Link>
           </div>
           <div className="p-link-two">
-            <a href="./aboutus.html" className="p-hover software">
+            <Link to="/company_branding" className="p-hover software">
               Compnay Branding
-            </a>
-            <a href="./career.html" className="p-hover software">
+            </Link>
+            <Link to="/contact" className="p-hover software">
               Contact
-            </a>
+            </Link>
           </div>
         </div>
         <div id="mobile-content">
@@ -213,7 +209,7 @@ function Footer() {
         <div className="p-line"></div>
 
         <div className="p-address-container">
-          <a href="#" className="p-call-div">
+          <a href="tel:+917338658118" target="_blank" className="p-call-div">
             <div className="p-gd">
               <svg
                 width="24"
@@ -230,7 +226,11 @@ function Footer() {
               <p>+91 6361668024</p>
             </div>
           </a>
-          <a href="#" className="p-location-div">
+          <a
+            href="https://maps.app.goo.gl/iJr65KCFonfXSV2z6"
+            target="_blank"
+            className="p-location-div"
+          >
             <div className="p-gd location">
               <img
                 src={Location}
@@ -245,7 +245,11 @@ function Footer() {
               </p>
             </div>
           </a>
-          <a href="#" className="p-mail-div">
+          <a
+            href="https://mail.google.com/mail/?view=cm&to=info@koiostudio.com"
+            target="_blank"
+            className="p-mail-div"
+          >
             <div className="p-gd">
               <svg
                 width="24"
@@ -269,7 +273,7 @@ function Footer() {
                   strokeLinejoin="round"
                 />
               </svg>
-              <p>info@koiosengg.com</p>
+              <p>info@koiostudio.com</p>
             </div>
           </a>
         </div>
@@ -289,7 +293,7 @@ function Footer() {
           <div className="p-rights-reserved">© 2025 All rights reserved.</div>
           <div className="p-social-icons">
             <a
-              href="https://www.facebook.com/profile.php?id=61571189924699&mibextid=ZbWKwL"
+              href="https://www.facebook.com/profile.php?id=61570978105729&mibextid=ZbWKwL"
               target="_blank"
             >
               <svg
@@ -306,7 +310,7 @@ function Footer() {
               </svg>
             </a>
             <a
-              href="https://www.instagram.com/koios_engineering/profilecard/?igsh=cW5oZG9mdnpnMGsz"
+              href="https://www.instagram.com/koiostudio?igsh=MXg4OTJ5bHlkaGc3Nw=="
               target="_blank"
             >
               <svg
@@ -323,7 +327,7 @@ function Footer() {
               </svg>
             </a>
             <a
-              href="https://www.linkedin.com/company/koios-engineering-solutions/"
+              href="https://www.linkedin.com/company/koiostudio/"
               target="_blank"
             >
               <svg
@@ -341,9 +345,11 @@ function Footer() {
             </a>
           </div>
           <div className="p-policy-tos">
-            <p className="p-privacy-policy">Privacy Policy</p>
+            <a href="/privacy_policy" className="p-privacy-policy">
+              Privacy Policy
+            </a>
             <p>|</p>
-            <p>Terms of Service</p>
+            <a href="/privacy_policy">Terms of Service</a>
           </div>
         </div>
       </div>

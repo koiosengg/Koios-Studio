@@ -25,12 +25,12 @@ function Navbar() {
           </Link>
         </div>
         <div className="s-nav-link-heading">
-          <Link href="./aboutus.html" className="s-nav-link-text">
+          <Link to="/company_branding" className="s-nav-link-text">
             <p>Company Branding</p>
           </Link>
         </div>
         <div className="s-contact-us">
-          <Link href="./contact.html" className="s-nav-link-text">
+          <Link to="/contact" className="s-nav-link-text">
             <p>Contact Us</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -9,7 +9,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 .s-whatsapp {
   display: flex;
   width: 80px;
@@ -1108,6 +1107,21 @@ html {
   justify-content: inherit;
 }
 
+.p-policy-tos a {
+  font-family: Quicksand;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #98a2b3;
+  text-align: center;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.p-policy-tos a:hover {
+  color: #ffbf00;
+}
+
 /* Web Desigining */
 
 .p-mechanical-design {
@@ -1585,4 +1599,402 @@ span {
 }
 .cover {
   object-fit: cover !important;
+}
+
+/* Contact */
+
+.p-contact {
+  padding-top: 80px;
+  background: #111;
+}
+
+.p-text {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.p-get-in-touch {
+  background: linear-gradient(
+    90deg,
+    #fff 3.85%,
+    rgba(255, 255, 255, 0.6) 143.9%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Allerta Stencil";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px;
+  text-align: center;
+}
+
+.p-talk-to-us {
+  color: var(--gray---for-text-400, #98a2b3);
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.p-form-logo {
+  padding-bottom: 30px;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 160px;
+  padding-right: 160px;
+}
+
+.p-contact-form,
+.p-moving-logo {
+  width: 50%;
+}
+
+.p-contact-form {
+  height: 615px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background: linear-gradient(#1a1a1a, #1a1a1a) padding-box,
+    linear-gradient(
+        to bottom,
+        #ffbf00 0%,
+        #ffffff 25.08%,
+        #0d9bbf 51.45%,
+        #ffffff 84.24%,
+        #ffbf00 100%
+      )
+      border-box;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+
+.p-contact-form input {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.p-moving-logo {
+  gap: 4px;
+}
+
+.p-fullname,
+.p-email,
+.p-number,
+.p-how-can-we-help {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: var(--gray---for-text-25, #fcfcfd);
+  font-family: Quicksand;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.p-input {
+  padding: 12px 16px;
+  border-radius: 4px;
+  border: 2px solid var(--Woodsmoke----BG-600, #5d5d5d);
+  background-color: transparent;
+  color: white;
+}
+
+.p-input::placeholder {
+  font-family: Quicksand;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+
+.p-textarea {
+  resize: none;
+  height: 180px;
+  padding: 12px 16px;
+  border-radius: 4px;
+  border: 2px solid var(--Woodsmoke----BG-600, #5d5d5d);
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Quicksand;
+  font-size: 16px;
+}
+
+.p-textarea::placeholder {
+  font-family: Quicksand;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+
+.p-submit-button {
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50px;
+  border: 1px solid #ffbf00;
+  background: var(--Grey-10, #1a1a1a);
+  cursor: pointer;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.p-submit-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.p-submit-button:hover {
+  box-shadow: 0px 4px 20px 0px rgba(255, 191, 0, 0.15);
+}
+
+.p-submit-text p {
+  color: #ffbf00;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.p-explore-services {
+  padding-top: 250px;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.5px;
+  letter-spacing: 0.14em;
+  text-align: center;
+  color: #98a2b3;
+  width: 370px;
+  margin: auto;
+}
+
+.p-list1,
+.p-list2 {
+  padding-top: 4px;
+  width: 370px;
+  height: 75px;
+  margin: auto;
+}
+
+.p-logo-slider {
+  height: 75px;
+  background: none;
+  -webkit-box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.125);
+  box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.125);
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.p-logo-slider::before,
+.p-logo-slider::after {
+  height: 75px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#1a1a1a),
+    to(rgba(255, 255, 255, 0))
+  );
+  content: "";
+  position: absolute;
+  width: 45px;
+  z-index: 1;
+}
+
+.p-logo-slider::after {
+  right: 0;
+  top: 0;
+  -webkit-transform: rotateZ(180deg);
+  transform: rotateZ(180deg);
+  border-radius: 0 50px 50px 0;
+}
+
+.p-logo-slider::before {
+  left: 0;
+  top: 0;
+  border-radius: 0 50px 50px 0;
+}
+
+.p-logo-slider .p-logo-slide-track {
+  -webkit-animation: logo-scroll 10s linear infinite;
+  animation: logo-scroll 10s linear infinite;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  width: auto;
+  gap: 56px;
+}
+
+.p-logo-slider .p-slide {
+  height: 75px;
+  width: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.p-logo-slider .p-slide p {
+  background: linear-gradient(99deg, #0d9bbf 12.43%, #fff 81.72%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 128.571%;
+  letter-spacing: -0.28px;
+}
+
+@-webkit-keyframes logo-scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(calc(-100% - 375px));
+    transform: translateX(calc(-100% - 375px));
+  }
+}
+
+@keyframes logo-scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(calc(-100% - 375px));
+    transform: translateX(calc(-100% - 375px));
+  }
+}
+
+.p-logo-slider.rev .p-logo-slide-track.rev {
+  -webkit-animation: logo-scroll-reverse 10s linear infinite;
+  animation: logo-scroll-reverse 10s linear infinite;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  gap: 56px;
+  -webkit-transform: translateX(calc(-100% - 375px));
+  transform: translateX(calc(-100% - 375px));
+}
+
+.p-logo-slider.rev .p-slide.rev {
+  height: 75px;
+  width: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.p-logo-slider.rev .p-slide.rev p {
+  background: linear-gradient(99deg, #ffbf00 12.43%, #fff 81.72%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 128.571%;
+  letter-spacing: -0.28px;
+}
+
+@-webkit-keyframes logo-scroll-reverse {
+  0% {
+    -webkit-transform: translateX(calc(-100% - 375px));
+    /* Adjusted initial position */
+    transform: translateX(calc(-100% - 375px));
+    /* Adjusted initial position */
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes logo-scroll-reverse {
+  0% {
+    -webkit-transform: translateX(calc(-100% - 375px));
+    transform: translateX(calc(-100% - 375px));
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+/* Prinacy Policy */
+
+.p-privacy-policy-main {
+  width: 100%;
+  padding: 80px 160px;
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #111;
+}
+
+.p-privacy-policy-main h1 {
+  color: #fff;
+  text-align: center;
+  font-family: "Allerta Stencil";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -0.96px;
+}
+
+.p-privacy-policy-text {
+  color: #ffbf00 !important;
+}
+
+.p-privacy-policy-main p {
+  color: var(--gray---for-text-400, #98a2b3);
+  text-align: left;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 100%;
+}
+
+.p-privacy-policy-main h2 {
+  color: #fff;
+  text-align: left;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -0.96px;
+  width: 100%;
 }
