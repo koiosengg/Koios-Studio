@@ -1,11 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import Branding from "./assets/Company Branding/Company Branding.webp";
 import Merchandise from "./assets/Company Branding/Promotional Merchandise.webp";
 
 function CompanyBranding() {
   return (
     <div class="p-mechanical-design">
+      <Helmet>
+        <title>Company Branding</title>
+        <meta
+          name="description"
+          content="Explore Koios' Website Designing services including responsive design and UI/UX development."
+        />
+      </Helmet>
       <div class="p-breadcrumb">
         <div class="p-breadcrumb-text">
           <Link to="/">

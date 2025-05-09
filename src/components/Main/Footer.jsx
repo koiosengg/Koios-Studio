@@ -150,18 +150,6 @@ function Footer() {
             </Link>
           </div>
         </div>
-        <div id="mobile-content">
-          <div>
-            <div className="p-linkedin-extended mobile">
-              <a href="https://www.linkedin.com/company/101990815/admin/feed/posts/">
-                Engineering
-              </a>
-              <a href="https://www.linkedin.com/company/91321345/admin/feed/posts/">
-                Software
-              </a>
-            </div>
-          </div>
-        </div>
         <div className="p-social-icons mobile">
           <a href="https://www.facebook.com/profile.php?id=61558132420825">
             <svg
@@ -223,7 +211,7 @@ function Footer() {
                   fill="#FFBF00"
                 />
               </svg>
-              <p>+91 6361668024</p>
+              <p>+91 7338658118</p>
             </div>
           </a>
           <a

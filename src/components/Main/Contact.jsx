@@ -1,8 +1,16 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 
 function Contact() {
   return (
     <div className="p-contact">
+      <Helmet>
+        <title>Contact Us</title>
+        <meta
+          name="description"
+          content="Explore Koios' Website Designing services including responsive design and UI/UX development."
+        />
+      </Helmet>
       <div className="p-text">
         <div className="p-get-in-touch">Get In Touch</div>
         <div className="p-talk-to-us">

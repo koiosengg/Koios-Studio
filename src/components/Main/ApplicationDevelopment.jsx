@@ -1,11 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import Design from "./assets/Application Development/mobile application design.webp";
 import Development from "./assets/Application Development/mobile application development.webp";
 
 function ApplicationDevelopment() {
   return (
     <div className="p-mechanical-design">
+      <Helmet>
+        <title>Application Development</title>
+        <meta
+          name="description"
+          content="Explore Koios' Website Designing services including responsive design and UI/UX development."
+        />
+      </Helmet>
       <div className="p-breadcrumb">
         <div className="p-breadcrumb-text">
           <Link to="/">

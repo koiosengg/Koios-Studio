@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import Home from "./Home";
 import Navbar from "./Navbar";
 import Whatsapp from "./Whatsapp";
@@ -14,6 +15,13 @@ import PrivacyPolicy from "./PrivacyPolicy";
 function Main() {
   return (
     <>
+      <Helmet>
+        <title>Koios Studios</title>
+        <meta
+          name="description"
+          content="Explore Koios' Website Designing services including responsive design and UI/UX development."
+        />
+      </Helmet>
       <Navbar />
       <Whatsapp />
       <Routes>
