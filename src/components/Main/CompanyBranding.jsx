@@ -23,7 +23,7 @@ function CompanyBranding() {
         </div>
       </div>
       <div class="p-mechanical-text-container">
-        <div class="p-yellow-gradient-text">SOFTWARE</div>
+        <div class="p-yellow-gradient-text">Company Collaterals</div>
         <div class="p-title-description">
           <div class="p-big-mechanical-title">Company Branding</div>
           <p>

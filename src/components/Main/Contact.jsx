@@ -80,32 +80,44 @@ function Contact() {
               <div className="p-list1">
                 <div className="p-logo-slider">
                   <div className="p-logo-slide-track">
-                    <div className="p-slide">
-                      <p>MECHANICAL DESIGN</p>
+                    <div className="p-slide rev">
+                      <p>WEBSITE DESIGNING</p>
                     </div>
-                    <div className="p-slide">
-                      <p>MECHANICAL MANUFACTURING</p>
+                    <div className="p-slide rev">
+                      <p>WEBSITE DEVELOPMENT</p>
                     </div>
-                    <div className="p-slide">
-                      <p>FEA</p>
+                    <div className="p-slide rev">
+                      <p>APP DEVELOPMENT</p>
                     </div>
-                    <div className="p-slide">
-                      <p>STYLING</p>
+                    <div className="p-slide rev">
+                      <p>COMPANY BRANDING</p>
                     </div>
-                    <div className="p-slide">
-                      <p>AUTOMOTIVE DESIGN</p>
+                    <div className="p-slide rev">
+                      <p>WEBSITE DESIGNING</p>
                     </div>
-                    <div className="p-slide">
-                      <p>AUTOMOTIVE MANUFACTURING</p>
+                    <div className="p-slide rev">
+                      <p>WEBSITE DEVELOPMENT</p>
                     </div>
-                    <div className="p-slide">
-                      <p>ELECTRIC VEHICLE</p>
+                    <div className="p-slide rev">
+                      <p>APP DEVELOPMENT</p>
                     </div>
-                    <div className="p-slide">
-                      <p>3D SCANNER</p>
+                    <div className="p-slide rev">
+                      <p>COMPANY BRANDING</p>
                     </div>
-                    <div className="p-slide">
-                      <p>3D PRINTING</p>
+                    <div className="p-slide rev">
+                      <p>WEBSITE DESIGNING</p>
+                    </div>
+                    <div className="p-slide rev">
+                      <p>UI/UX</p>
+                    </div>
+                    <div className="p-slide rev">
+                      <p>Social Media Marketing</p>
+                    </div>
+                    <div className="p-slide rev">
+                      <p>Digital Marketing</p>
+                    </div>
+                    <div className="p-slide rev">
+                      <p>SEO</p>
                     </div>
                   </div>
                 </div>
@@ -139,6 +151,18 @@ function Contact() {
                     </div>
                     <div className="p-slide rev">
                       <p>WEBSITE DESIGNING</p>
+                    </div>
+                    <div className="p-slide rev">
+                      <p>UI/UX</p>
+                    </div>
+                    <div className="p-slide rev">
+                      <p>Social Media Marketing</p>
+                    </div>
+                    <div className="p-slide rev">
+                      <p>Digital Marketing</p>
+                    </div>
+                    <div className="p-slide rev">
+                      <p>SEO</p>
                     </div>
                   </div>
                 </div>

@@ -23,7 +23,7 @@ function ApplicationDevelopment() {
         </div>
       </div>
       <div className="p-mechanical-text-container">
-        <div className="p-yellow-gradient-text">SOFTWARE</div>
+        <div className="p-yellow-gradient-text">Applications</div>
         <div className="p-title-description">
           <div className="p-big-mechanical-title">Application Development</div>
           <p>

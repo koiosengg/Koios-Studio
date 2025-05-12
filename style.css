@@ -1605,7 +1605,7 @@ span {
 
 .p-contact {
   padding-top: 80px;
-  background: #111;
+  background: #1a1a1a;
 }
 
 .p-text {
@@ -1809,7 +1809,7 @@ span {
 .p-logo-slider::after {
   width: 100px;
   height: 75px;
-  background: linear-gradient(-90deg, transparent, #111);
+  background: linear-gradient(-90deg, transparent, #1a1a1a);
   content: "";
   position: absolute;
   width: 45px;
@@ -2007,6 +2007,36 @@ span {
     display: block;
   }
 
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+    }
+
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideOut {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(100%);
+    }
+  }
+
+  .activeMobileNavbar {
+    transform: translateX(0);
+    animation: slideIn 0.3s forwards;
+  }
+
+  .nonactiveMobileNavbar {
+    transform: translateX(100%);
+    animation: slideOut 0.3s forwards;
+  }
+
   .s-navbar {
     height: auto;
     padding: 12px 30px;
@@ -2060,6 +2090,7 @@ span {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    transform: translateX(100%);
   }
 
   .s-mobile-navbar-cancel-button {
@@ -2266,10 +2297,6 @@ span {
 
   .s-rotate {
     transform: rotate(180deg);
-  }
-
-  .s-mobile-navbar {
-    display: none;
   }
 
   .s-product-banner {
@@ -3367,7 +3394,7 @@ span {
 
   .p-koios img {
     height: 24px;
-    margin-bottom: 20px  !important;
+    margin-bottom: 20px !important;
   }
 
   .p-links {
@@ -3524,6 +3551,12 @@ span {
     /* 171.429% */
   }
 
+  .p-mail-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .p-mail-button p {
     text-align: center;
     font-family: Quicksand;
@@ -3542,5 +3575,110 @@ span {
   .p-mail-button svg {
     height: 20px;
     width: 20px;
+  }
+
+  /* Product Pages */
+
+  .p-breadcrumb {
+    display: none;
+  }
+
+  .p-mechanical-text-container {
+    height: calc(100svh - 80px);
+    padding: 0px 20px;
+  }
+
+  .p-big-mechanical-title {
+    width: 335px;
+    align-self: center;
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.72px;
+  }
+
+  .p-title-description p {
+    align-self: center;
+    color: var(--Woodsmoke----BG-300, #b0b0b0);
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .p-btm-line {
+    width: 100%;
+  }
+
+  .p-right-service-text,
+  .p-left-service-text,
+  .p-right-service-text p {
+    width: 100%;
+  }
+
+  .p-service-offering {
+    width: 100%;
+  }
+
+  .p-various-types-text {
+    width: 100%;
+  }
+
+  /* Contact */
+
+  .p-get-in-touch {
+    align-self: center;
+    width: fit-content;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: linear-gradient(
+      90deg,
+      #fff 3.85%,
+      rgba(255, 255, 255, 0.6) 143.9%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46.02px;
+    letter-spacing: -0.02em;
+    padding-top: 100px;
+  }
+
+  .p-talk-to-us {
+    padding-left: 0px;
+    padding-right: 0px;
+    color: var(--gray---for-text-400, #98a2b3);
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    padding: 0px 20px;
+    align-self: center;
+  }
+
+  .p-form-logo {
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .p-contact-form {
+    width: 100%;
+  }
+
+  .p-explore-services {
+    padding-top: 80px;
   }
 }
