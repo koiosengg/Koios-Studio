@@ -1,17 +1,12 @@
 import React from "react";
 import Icon from "../assets/Home/software icon.png";
+import Logo from "../assets/Home/Koios logo.png";
 
 function Banner() {
   return (
     <div className="s-product-banner">
       <div className="s-product-banner-container">
-        <div className="s-product-banner-logo">
-          <img loading="lazy" src={Icon} alt="software icon" />
-          <div
-            className="s-product-banner-logo-bg-software"
-            id="s-productBanner"
-          ></div>
-        </div>
+        <img src={Logo} />
         <div className="s-product-banner-text">
           <p>Koios Studio</p>
           <span>

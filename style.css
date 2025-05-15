@@ -151,6 +151,11 @@ html {
   gap: 60px;
 }
 
+.s-product-banner-container img {
+  height: 213px;
+  object-fit: cover;
+}
+
 .s-product-banner-logo {
   position: relative;
   display: flex;
