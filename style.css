@@ -151,9 +151,29 @@ html {
   gap: 60px;
 }
 
-.s-product-banner-container img {
+.s-product-banner-container-logo {
+  display: flex;
   height: 213px;
-  object-fit: cover;
+  padding-right: 0px;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10.103px;
+  flex-shrink: 0;
+  aspect-ratio: 264.36/213;
+}
+
+.s-product-banner-container-logo svg:first-child {
+  filter: grayscale(100%);
+  animation: BannerGlow forwards 2s;
+}
+
+@keyframes BannerGlow {
+  from {
+    filter: grayscale(100%);
+  }
+  to {
+    filter: grayscale(0%);
+  }
 }
 
 .s-product-banner-logo {
@@ -227,14 +247,14 @@ html {
 }
 
 .s-product-banner-text p {
-  color: #fff;
-  text-align: center;
-  font-family: "Allerta Stencil";
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 72px;
-  letter-spacing: -1.2px;
+ color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 60px;
+font-style: normal;
+font-weight: 600;
+line-height: 72px; /* 120% */
+letter-spacing: -2.4px;
 }
 
 .s-product-banner-text span {
