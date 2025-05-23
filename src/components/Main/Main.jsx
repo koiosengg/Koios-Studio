@@ -32,6 +32,7 @@ function Main() {
         <Route path="/company_branding" element={<CompanyBranding />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/privacy_policy" element={<PrivacyPolicy />} />
+        <Route path="*" element={<Home />} />
       </Routes>
       <Footer />
     </>

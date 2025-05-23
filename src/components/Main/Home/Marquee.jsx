@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import DesktopFrame from "../assets/Home/Marquee/Desktop Frame.png";
 import Img1 from "../assets/Home/Marquee/Img 1.png";
 import Img2 from "../assets/Home/Marquee/Img 2.png";
@@ -39,7 +40,7 @@ function Marquee() {
             engaging experiences.
           </p>
         </section>
-        <div className="p-mail-button">
+        <Link to="/portfolio" className="p-mail-button">
           <p>Explore Now</p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +54,7 @@ function Marquee() {
               fill="#FFBF00"
             />
           </svg>
-        </div>
+        </Link>
       </div>
     </div>
   );
