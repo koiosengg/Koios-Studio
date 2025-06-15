@@ -2150,12 +2150,21 @@
   object-fit: cover;
 }
 
+.portfolio-projects-info-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 48px;
+  padding: 80px 160px;
+}
+
 .portfolio-projects-info {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 48px;
-  padding: 80px 160px;
   align-self: stretch;
 }
 
@@ -2184,7 +2193,7 @@
   color: rgba(255, 191, 0, 0.9);
 }
 
-.portfolio-projects-info-set p {
+.portfolio-projects-info-container p {
   color: rgba(255, 255, 255, 0.58);
   font-family: Poppins;
   font-size: 20px;
@@ -2223,4 +2232,3 @@
   width: 100%;
   object-fit: cover;
 }
-

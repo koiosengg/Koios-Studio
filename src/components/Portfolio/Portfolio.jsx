@@ -6,6 +6,7 @@ import Websites from "./Websites";
 import Branding from "./Branding";
 import Applications from "./Applications";
 import Mobiglide from "./Projects/Mobiglide ";
+import NE_Structures from "./Projects/NE_Structures";
 
 function Portfolio() {
   return (
@@ -15,6 +16,7 @@ function Portfolio() {
       <Route path="/branding" element={<Branding />} />
       <Route path="/applications" element={<Applications />} />
       <Route path="/projects/Mobiglide" element={<Mobiglide />} />
+      <Route path="/projects/NE_Structures" element={<NE_Structures />} />
     </Routes>
   );
 }

@@ -1,11 +1,12 @@
 import React, { useRef, useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import HeadingDesign from "../assests/Home/Section Heading Design.png";
 import Project1 from "../assests/Websites/Project 1.png";
 import Project2 from "../assests/Websites/Project 2.png";
 import Project3 from "../assests/Websites/Project 3.png";
 import Project4 from "../assests/Websites/Project 4.png";
 
-function projects() {
+function Projects() {
   const containerRef = useRef(null);
   const [slideIndex, setSlideIndex] = useState(0);
   const [slideWidth, setSlideWidth] = useState(0);
@@ -101,7 +102,10 @@ function projects() {
             gap: "12px",
           }}
         >
-          <a href="#" className="portfolio-websites-projects-set">
+          <Link
+            to="/portfolio/projects/NE_Structures"
+            className="portfolio-websites-projects-set"
+          >
             <div className="portfolio-websites-projects-set-img">
               <img src={Project1} />
             </div>
@@ -128,9 +132,9 @@ function projects() {
               <p>Pre-Engineered Buildings</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
-          </a>
-          <a
-            href="/portfolio/projects/Mobiglide"
+          </Link>
+          <Link
+            to="/portfolio/projects/Mobiglide"
             className="portfolio-websites-projects-set"
           >
             <div className="portfolio-websites-projects-set-img">
@@ -159,7 +163,7 @@ function projects() {
               <p>Staffing Solutions in Semiconductors</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
-          </a>
+          </Link>
           <a href="#" className="portfolio-websites-projects-set">
             <div className="portfolio-websites-projects-set-img">
               <img src={Project3} />
@@ -306,4 +310,4 @@ function projects() {
   );
 }
 
-export default projects;
+export default Projects;
