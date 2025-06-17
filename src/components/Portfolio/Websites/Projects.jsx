@@ -1,10 +1,10 @@
 import React, { useRef, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import HeadingDesign from "../assests/Home/Section Heading Design.png";
-import Project1 from "../assests/Websites/Project 1.png";
-import Project2 from "../assests/Websites/Project 2.png";
-import Project3 from "../assests/Websites/Project 3.png";
-import Project4 from "../assests/Websites/Project 4.png";
+import NEStructures from "../assests/Websites/NE Structures.png";
+import Mobiglide from "../assests/Websites/Mobiglide.png";
+import ISKAutoIndustries from "../assests/Websites/ISK Auto Industries.png";
+import Cilkencave from "../assests/Websites/Cilkencave.png";
 
 function Projects() {
   const containerRef = useRef(null);
@@ -107,7 +107,7 @@ function Projects() {
             className="portfolio-websites-projects-set"
           >
             <div className="portfolio-websites-projects-set-img">
-              <img src={Project1} />
+              <img src={NEStructures} />
             </div>
             <div className="portfolio-websites-projects-set-info">
               <section>
@@ -138,7 +138,7 @@ function Projects() {
             className="portfolio-websites-projects-set"
           >
             <div className="portfolio-websites-projects-set-img">
-              <img src={Project2} />
+              <img src={Mobiglide} />
             </div>
             <div className="portfolio-websites-projects-set-info">
               <section>
@@ -164,13 +164,17 @@ function Projects() {
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
-          <a href="#" className="portfolio-websites-projects-set">
+          <Link
+            to="/portfolio/projects/ISK_Auto_Industries"
+            href="#"
+            className="portfolio-websites-projects-set"
+          >
             <div className="portfolio-websites-projects-set-img">
-              <img src={Project3} />
+              <img src={ISKAutoIndustries} />
             </div>
             <div className="portfolio-websites-projects-set-info">
               <section>
-                <h3>XLR8</h3>
+                <h3>ISK Auto Industries</h3>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -191,10 +195,10 @@ function Projects() {
               <p>Lorem ipsum dolor amet</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
-          </a>
+          </Link>
           <a href="#" className="portfolio-websites-projects-set">
             <div className="portfolio-websites-projects-set-img">
-              <img src={Project4} />
+              <img src={Cilkencave} />
             </div>
             <div className="portfolio-websites-projects-set-info">
               <section>
@@ -222,7 +226,7 @@ function Projects() {
           </a>
           <a href="#" className="portfolio-websites-projects-set">
             <div className="portfolio-websites-projects-set-img">
-              <img src={Project2} />
+              <img src={Mobiglide} />
             </div>
             <div className="portfolio-websites-projects-set-info">
               <section>
@@ -250,7 +254,7 @@ function Projects() {
           </a>
           <a href="#" className="portfolio-websites-projects-set">
             <div className="portfolio-websites-projects-set-img">
-              <img src={Project3} />
+              <img src={ISKAutoIndustries} />
             </div>
             <div className="portfolio-websites-projects-set-info">
               <section>
@@ -278,7 +282,7 @@ function Projects() {
           </a>
           <a href="#" className="portfolio-websites-projects-set">
             <div className="portfolio-websites-projects-set-img">
-              <img src={Project1} />
+              <img src={NEStructures} />
             </div>
             <div className="portfolio-websites-projects-set-info">
               <section>

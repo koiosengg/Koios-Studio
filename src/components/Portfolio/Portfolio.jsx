@@ -7,6 +7,7 @@ import Branding from "./Branding";
 import Applications from "./Applications";
 import Mobiglide from "./Projects/Mobiglide ";
 import NE_Structures from "./Projects/NE_Structures";
+import ISK_Auto_Industries from "./Projects/ISK_Auto_Industries";
 
 function Portfolio() {
   return (
@@ -17,6 +18,10 @@ function Portfolio() {
       <Route path="/applications" element={<Applications />} />
       <Route path="/projects/Mobiglide" element={<Mobiglide />} />
       <Route path="/projects/NE_Structures" element={<NE_Structures />} />
+      <Route
+        path="/projects/ISK_Auto_Industries"
+        element={<ISK_Auto_Industries />}
+      />
     </Routes>
   );
 }

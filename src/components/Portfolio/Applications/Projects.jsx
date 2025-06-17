@@ -1,9 +1,9 @@
 import React, { useRef, useState, useEffect } from "react";
 import HeadingDesign from "../assests/Home/Section Heading Design.png";
-import Project1 from "../assests/Websites/Project 1.png";
-import Project2 from "../assests/Websites/Project 2.png";
-import Project3 from "../assests/Websites/Project 3.png";
-import Project4 from "../assests/Websites/Project 4.png";
+import Project1 from "../assests/Applications/NE Structures.png";
+import Project2 from "../assests/Applications/Mobiglide.png";
+import Project3 from "../assests/Applications/ISK Auto Industries.png";
+import Project4 from "../assests/Applications/Cilkencave.png";
 
 function projects() {
   const containerRef = useRef(null);
@@ -70,7 +70,7 @@ function projects() {
           <button
             className="portfolio-websites-projects-control"
             onClick={handleNext}
-            disabled={slideIndex >= totalSlides - 3} 
+            disabled={slideIndex >= totalSlides - 3}
             style={{
               opacity: slideIndex >= totalSlides - 3 ? 0.2 : 1,
               pointerEvents: slideIndex >= totalSlides - 3 ? "none" : "auto",
@@ -129,7 +129,10 @@ function projects() {
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </a>
-          <a href="/portfolio/projects/Mobiglide" className="portfolio-websites-projects-set">
+          <a
+            href="/portfolio/projects/Mobiglide"
+            className="portfolio-websites-projects-set"
+          >
             <div className="portfolio-websites-projects-set-img">
               <img src={Project2} />
             </div>
