@@ -268,11 +268,39 @@ html {
   line-height: 32px;
 }
 
+.s-product-banner-labels {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.s-product-banner-labels label {
+  display: flex;
+  min-width: 183px;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.1) -66.22%,
+    rgba(255, 255, 255, 0) 85.46%
+  );
+  color: #fff;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
 /* Home Benefits */
 
 .s-benefits {
   width: 100%;
-  padding: 80px 160px;
+  padding: 48px 160px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2488,6 +2516,22 @@ span {
   .s-product-banner-text span {
     width: 100%;
     color: var(--Woodsmoke----BG-300, #b0b0b0);
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .s-product-banner-labels {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .s-product-banner-labels label {
+    min-width: auto;
     text-align: center;
     font-family: Quicksand;
     font-size: 14px;
