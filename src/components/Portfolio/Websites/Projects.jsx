@@ -196,13 +196,13 @@ function Projects() {
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
-          <a href="#" className="portfolio-websites-projects-set">
+          <Link to="/portfolio/projects/Balaji_Proto_Tools" className="portfolio-websites-projects-set">
             <div className="portfolio-websites-projects-set-img">
               <img src={Cilkencave} />
             </div>
             <div className="portfolio-websites-projects-set-info">
               <section>
-                <h3>Cilkencave</h3>
+                <h3>Balaji Proto Tools</h3>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -223,7 +223,7 @@ function Projects() {
               <p>Lorem ipsum dolor amet</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
-          </a>
+          </Link>
           <a href="#" className="portfolio-websites-projects-set">
             <div className="portfolio-websites-projects-set-img">
               <img src={Mobiglide} />

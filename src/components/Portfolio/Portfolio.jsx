@@ -8,6 +8,7 @@ import Applications from "./Applications";
 import Mobiglide from "./Projects/Mobiglide ";
 import NE_Structures from "./Projects/NE_Structures";
 import ISK_Auto_Industries from "./Projects/ISK_Auto_Industries";
+import Balaji_Proto_Tools from "./Projects/Balaji_Proto_Tools";
 
 function Portfolio() {
   return (
@@ -22,6 +23,7 @@ function Portfolio() {
         path="/projects/ISK_Auto_Industries"
         element={<ISK_Auto_Industries />}
       />
+      <Route path="/projects/Balaji_Proto_Tools" element={<Balaji_Proto_Tools/>}/>
     </Routes>
   );
 }
