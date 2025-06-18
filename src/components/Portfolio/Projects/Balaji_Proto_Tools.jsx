@@ -127,21 +127,28 @@ function Balaji_Proto_Tools() {
           </p>
         </div>
       </div>
-
+      
       <div className="portfolio-projects-gallery">
-        <section>
-          <img src={Img11} alt="Balaji Proto Tools Project Image" />
-          <img src={Img12} alt="Balaji Proto Tools Project Image" />
-          <img src={Img13} alt="Balaji Proto Tools Project Image" />
-          <img src={Img14} alt="Balaji Proto Tools Project Image" />
-        </section>
-        <section>
-          <img src={Img21} alt="Balaji Proto Tools Project Image" />
-          <img src={Img22} alt="Balaji Proto Tools Project Image" />
-          <img src={Img23} alt="Balaji Proto Tools Project Image" />
-          <img src={Img24} alt="Balaji Proto Tools Project Image" />
-        </section>
+        <div className="portfolio-section-heading">
+          <img src={HeadingDesign} className="portfolio-section-heading-img" />
+          <h2>Wireframes</h2>
+        </div>
+        <div className="portfolio-projects-gallery-container">
+          <section>
+            <img src={Img11} alt="Balaji Proto Tools Project Image" />
+            <img src={Img12} alt="Balaji Proto Tools Project Image" />
+            <img src={Img13} alt="Balaji Proto Tools Project Image" />
+            <img src={Img14} alt="Balaji Proto Tools Project Image" />
+          </section>
+          <section>
+            <img src={Img21} alt="Balaji Proto Tools Project Image" />
+            <img src={Img22} alt="Balaji Proto Tools Project Image" />
+            <img src={Img23} alt="Balaji Proto Tools Project Image" />
+            <img src={Img24} alt="Balaji Proto Tools Project Image" />
+          </section>
+        </div>
       </div>
+
       <Projects />
       <Footer />
     </div>

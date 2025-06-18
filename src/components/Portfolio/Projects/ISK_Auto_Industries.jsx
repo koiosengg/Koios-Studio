@@ -128,19 +128,26 @@ function ISK_Auto_Industries() {
       </div>
 
       <div className="portfolio-projects-gallery">
-        <section>
-          <img src={Img11} alt="ISK Auto Industries Project Image" />
-          <img src={Img12} alt="ISK Auto Industries Project Image" />
-          <img src={Img13} alt="ISK Auto Industries Project Image" />
-          <img src={Img14} alt="ISK Auto Industries Project Image" />
-        </section>
-        <section>
-          <img src={Img21} alt="ISK Auto Industries Project Image" />
-          <img src={Img22} alt="ISK Auto Industries Project Image" />
-          <img src={Img23} alt="ISK Auto Industries Project Image" />
-          <img src={Img24} alt="ISK Auto Industries Project Image" />
-        </section>
+        <div className="portfolio-section-heading">
+          <img src={HeadingDesign} className="portfolio-section-heading-img" />
+          <h2>Wireframes</h2>
+        </div>
+        <div className="portfolio-projects-gallery-container">
+          <section>
+            <img src={Img11} alt="ISK Auto Industries Project Image" />
+            <img src={Img12} alt="ISK Auto Industries Project Image" />
+            <img src={Img13} alt="ISK Auto Industries Project Image" />
+            <img src={Img14} alt="ISK Auto Industries Project Image" />
+          </section>
+          <section>
+            <img src={Img21} alt="ISK Auto Industries Project Image" />
+            <img src={Img22} alt="ISK Auto Industries Project Image" />
+            <img src={Img23} alt="ISK Auto Industries Project Image" />
+            <img src={Img24} alt="ISK Auto Industries Project Image" />
+          </section>
+        </div>
       </div>
+
       <Projects />
       <Footer />
     </div>

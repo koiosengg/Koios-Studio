@@ -4,6 +4,7 @@ import HeadingDesign from "../assests/Home/Section Heading Design.png";
 import NEStructures from "../assests/Websites/NE Structures.png";
 import Mobiglide from "../assests/Websites/Mobiglide.png";
 import ISKAutoIndustries from "../assests/Websites/ISK Auto Industries.png";
+import HappyGummies from "../assests/Websites/Happy Gummies.png";
 import Cilkencave from "../assests/Websites/Cilkencave.png";
 
 function Projects() {
@@ -166,7 +167,6 @@ function Projects() {
           </Link>
           <Link
             to="/portfolio/projects/ISK_Auto_Industries"
-            href="#"
             className="portfolio-websites-projects-set"
           >
             <div className="portfolio-websites-projects-set-img">
@@ -196,7 +196,10 @@ function Projects() {
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
-          <Link to="/portfolio/projects/Balaji_Proto_Tools" className="portfolio-websites-projects-set">
+          <Link
+            to="/portfolio/projects/Balaji_Proto_Tools"
+            className="portfolio-websites-projects-set"
+          >
             <div className="portfolio-websites-projects-set-img">
               <img src={Cilkencave} />
             </div>
@@ -224,13 +227,16 @@ function Projects() {
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
-          <a href="#" className="portfolio-websites-projects-set">
+          <Link
+            to="/portfolio/projects/Happy_Gummies"
+            className="portfolio-websites-projects-set"
+          >
             <div className="portfolio-websites-projects-set-img">
-              <img src={Mobiglide} />
+              <img src={HappyGummies} />
             </div>
             <div className="portfolio-websites-projects-set-info">
               <section>
-                <h3>Mobiglide</h3>
+                <h3>Happy Gummies</h3>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -251,7 +257,7 @@ function Projects() {
               <p>Staffing Solutions in Semiconductors</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
-          </a>
+          </Link>
           <a href="#" className="portfolio-websites-projects-set">
             <div className="portfolio-websites-projects-set-img">
               <img src={ISKAutoIndustries} />

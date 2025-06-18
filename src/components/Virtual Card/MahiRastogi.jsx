@@ -512,28 +512,28 @@ function MahiRastogi() {
         <h2>Our Services</h2>
         <div className="virtual-card-services-container">
           <div className="virtual-card-services-set">
+            <h3>Website Design</h3>
+            <p>
+              We design clean, modern, and responsive websites (desktop +
+              mobile) focused on user experience and brand identity.
+            </p>
+            <img src={ServicesDesktopCardBackground} className="desktop" />
+            <img src={ServicesMobileCardBackground} className="mobile" />
+          </div>
+          <div className="virtual-card-services-set">
             <h3>Website Development</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-              lobortis id sit nibh ullamcorpo.
+              We build websites using MERN stack, WordPress, or custom code —
+              suited for personal, professional, or enterprise needs.
             </p>
             <img src={ServicesDesktopCardBackground} className="desktop" />
             <img src={ServicesMobileCardBackground} className="mobile" />
           </div>
           <div className="virtual-card-services-set">
-            <h3> Website Design</h3>
+            <h3>App Design</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-              lobortis id sit nibh ullamcorpo.
-            </p>
-            <img src={ServicesDesktopCardBackground} className="desktop" />
-            <img src={ServicesMobileCardBackground} className="mobile" />
-          </div>
-          <div className="virtual-card-services-set">
-            <h3>UI/UX Designing</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-              lobortis id sit nibh ullamcorpo.
+              We create intuitive, user-friendly mobile app interfaces that
+              align with your brand and deliver smooth user experiences.
             </p>
             <img src={ServicesDesktopCardBackground} className="desktop" />
             <img src={ServicesMobileCardBackground} className="mobile" />
@@ -541,26 +541,71 @@ function MahiRastogi() {
           <div className="virtual-card-services-set">
             <h3>App development</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-              lobortis id sit nibh ullamcorpo.
+              We develop custom mobile apps for Android and iOS that are
+              scalable, reliable, and tailored to your goals.
             </p>
             <img src={ServicesDesktopCardBackground} className="desktop" />
             <img src={ServicesMobileCardBackground} className="mobile" />
           </div>
           <div className="virtual-card-services-set">
-            <h3>Logo Designing </h3>
+            <h3>Logo Design</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-              lobortis id sit nibh ullamcorpo.
+              We craft professional and impactful logos that help your business
+              stand out and leave a lasting impression.
             </p>
             <img src={ServicesDesktopCardBackground} className="desktop" />
             <img src={ServicesMobileCardBackground} className="mobile" />
           </div>
           <div className="virtual-card-services-set">
-            <h3>Company Branding </h3>
+            <h3>Brand Identity</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-              lobortis id sit nibh ullamcorpo.
+              We build complete branding systems — from logo, color palette, and
+              typography to tone of voice and design guidelines.
+            </p>
+            <img src={ServicesDesktopCardBackground} className="desktop" />
+            <img src={ServicesMobileCardBackground} className="mobile" />
+          </div>
+          <div className="virtual-card-services-set">
+            <h3>Brand Collaterals</h3>
+            <p>
+              We design business cards, letterheads, envelopes, packaging, and
+              other essentials to strengthen your brand presentation.
+            </p>
+            <img src={ServicesDesktopCardBackground} className="desktop" />
+            <img src={ServicesMobileCardBackground} className="mobile" />
+          </div>
+          <div className="virtual-card-services-set">
+            <h3>Creative Design</h3>
+            <p>
+              We create print-ready posters, flyers, brochures, and invitations
+              — professionally designed and delivered with DTP files.
+            </p>
+            <img src={ServicesDesktopCardBackground} className="desktop" />
+            <img src={ServicesMobileCardBackground} className="mobile" />
+          </div>
+          <div className="virtual-card-services-set">
+            <h3>Digital Marketing</h3>
+            <p>
+              We run ads, optimize SEO, manage Google Business, and create
+              strategies to grow your online presence.
+            </p>
+            <img src={ServicesDesktopCardBackground} className="desktop" />
+            <img src={ServicesMobileCardBackground} className="mobile" />
+          </div>
+          <div className="virtual-card-services-set">
+            <h3>Social Media Management</h3>
+            <p>
+              We manage content, creatives, and engagement across LinkedIn,
+              Instagram, and Facebook — aligned with your brand tone.
+            </p>
+            <img src={ServicesDesktopCardBackground} className="desktop" />
+            <img src={ServicesMobileCardBackground} className="mobile" />
+          </div>
+          <div className="virtual-card-services-set">
+            <h3>Video Editing</h3>
+            <p>
+              We edit promotional videos, reels, and branded content to create
+              professional, scroll-stopping visual stories.
             </p>
             <img src={ServicesDesktopCardBackground} className="desktop" />
             <img src={ServicesMobileCardBackground} className="mobile" />
@@ -835,7 +880,7 @@ function MahiRastogi() {
         />
         <div className="virtual-card-contact-container">
           <h2>Contact Me</h2>
-          <form>
+          <form action="https://formspree.io/f/mdoqjbpz" method="post">
             <div className="form-section">
               <section>
                 <label htmlFor="first-name">

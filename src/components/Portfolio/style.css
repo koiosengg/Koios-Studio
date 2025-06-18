@@ -2207,7 +2207,16 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 80px 120px;
+  flex-direction: column;
+  padding: 80px 160px;
+  gap: 48px;
+}
+
+.portfolio-projects-gallery-container {
+   width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: 50px;
 }
 
