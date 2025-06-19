@@ -43,10 +43,7 @@ function Mobiglide() {
             <h1>
               <span>Mobiglide </span>
             </h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Bibendum purus aliquam
-              sed.
-            </p>
+            <p>Human Resources</p>
           </section>
           <a className="portfolio-primary-button">
             <div className="portfolio-primary-button-background"></div>

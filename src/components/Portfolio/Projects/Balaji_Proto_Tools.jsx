@@ -44,8 +44,7 @@ function Balaji_Proto_Tools() {
               <span>Balaji Proto Tools </span>
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Bibendum purus aliquam
-              sed.
+            Automotive and Manufacturing Industry
             </p>
           </section>
           <a className="portfolio-primary-button">

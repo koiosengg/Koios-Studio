@@ -43,10 +43,7 @@ function Happy_Gummies() {
             <h1>
               <span>Happy Gummies </span>
             </h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Bibendum purus aliquam
-              sed.
-            </p>
+            <p>Healthcare Products</p>
           </section>
           <a className="portfolio-primary-button">
             <div className="portfolio-primary-button-background"></div>

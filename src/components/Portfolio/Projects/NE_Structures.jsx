@@ -43,10 +43,7 @@ function NE_Structures() {
             <h1>
               <span>NE Structures </span>
             </h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Bibendum purus aliquam
-              sed.
-            </p>
+            <p>Construction Industries</p>
           </section>
           <a className="portfolio-primary-button">
             <div className="portfolio-primary-button-background"></div>

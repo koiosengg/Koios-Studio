@@ -5,7 +5,9 @@ import NEStructures from "../assests/Websites/NE Structures.png";
 import Mobiglide from "../assests/Websites/Mobiglide.png";
 import ISKAutoIndustries from "../assests/Websites/ISK Auto Industries.png";
 import HappyGummies from "../assests/Websites/Happy Gummies.png";
+import BalajiProtoTools from "../assests/Websites/Balaji Proto Tools.png";
 import Cilkencave from "../assests/Websites/Cilkencave.png";
+import Fourstor from "../assests/Websites/Fourstor.png"
 
 function Projects() {
   const containerRef = useRef(null);
@@ -130,7 +132,7 @@ function Projects() {
                   />
                 </svg>
               </section>
-              <p>Pre-Engineered Buildings</p>
+              <p>Construction Industries</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
@@ -161,7 +163,7 @@ function Projects() {
                   />
                 </svg>
               </section>
-              <p>Staffing Solutions in Semiconductors</p>
+              <p>Human Resources</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
@@ -192,7 +194,7 @@ function Projects() {
                   />
                 </svg>
               </section>
-              <p>Lorem ipsum dolor amet</p>
+              <p>Automotive Component Manufacturers</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
@@ -201,7 +203,7 @@ function Projects() {
             className="portfolio-websites-projects-set"
           >
             <div className="portfolio-websites-projects-set-img">
-              <img src={Cilkencave} />
+              <img src={BalajiProtoTools} />
             </div>
             <div className="portfolio-websites-projects-set-info">
               <section>
@@ -223,7 +225,7 @@ function Projects() {
                   />
                 </svg>
               </section>
-              <p>Lorem ipsum dolor amet</p>
+              <p>Automotive and Manufacturing Industry</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
@@ -254,17 +256,17 @@ function Projects() {
                   />
                 </svg>
               </section>
-              <p>Staffing Solutions in Semiconductors</p>
+              <p>Healthcare Products</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
-          <a href="#" className="portfolio-websites-projects-set">
+          <Link to="/portfolio/projects/Fourstor" className="portfolio-websites-projects-set">
             <div className="portfolio-websites-projects-set-img">
-              <img src={ISKAutoIndustries} />
+              <img src={Fourstor} />
             </div>
             <div className="portfolio-websites-projects-set-info">
               <section>
-                <h3>XLR8</h3>
+                <h3>Fourstor</h3>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -282,38 +284,10 @@ function Projects() {
                   />
                 </svg>
               </section>
-              <p>Lorem ipsum dolor amet</p>
+              <p>Automation Industry</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
-          </a>
-          <a href="#" className="portfolio-websites-projects-set">
-            <div className="portfolio-websites-projects-set-img">
-              <img src={NEStructures} />
-            </div>
-            <div className="portfolio-websites-projects-set-info">
-              <section>
-                <h3>NE Structures</h3>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                >
-                  <path
-                    d="M14 16L18 12M18 12L14 8M18 12H6"
-                    stroke="white"
-                    strokeWidth="2"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </section>
-              <p>Pre-Engineered Buildings</p>
-            </div>
-            <div className="portfolio-websites-projects-set-glow"></div>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

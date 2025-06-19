@@ -44,8 +44,7 @@ function ISK_Auto_Industries() {
               <span>ISK Auto Industries </span>
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Bibendum purus aliquam
-              sed.
+             Automotive Component Manufacturers
             </p>
           </section>
           <a className="portfolio-primary-button">

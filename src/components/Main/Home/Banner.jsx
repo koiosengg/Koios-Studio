@@ -9,7 +9,7 @@ function Banner() {
         <div className="s-product-banner-text">
           <p>
             One Destination <br />
-            Endless Solution
+            Endless Solutions
           </p>
           <span>
             Our digital solutions encompass website and app design, company
@@ -20,8 +20,8 @@ function Banner() {
           </span>
         </div>
         <div className="s-product-banner-labels">
-          <label>Website Design</label>
-          <label>Website Development</label>
+          <label>Websites</label>
+          <label>Apps</label>
           <label>Digital Marketing</label>
         </div>
       </div>

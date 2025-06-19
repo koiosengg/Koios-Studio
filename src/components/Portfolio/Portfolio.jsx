@@ -10,6 +10,7 @@ import NE_Structures from "./Projects/NE_Structures";
 import ISK_Auto_Industries from "./Projects/ISK_Auto_Industries";
 import Balaji_Proto_Tools from "./Projects/Balaji_Proto_Tools";
 import Happy_Gummies from "./Projects/Happy_Gummies";
+import Fourstor from "./Projects/Fourstor";
 
 function Portfolio() {
   return (
@@ -29,6 +30,7 @@ function Portfolio() {
         element={<Balaji_Proto_Tools />}
       />
       <Route path="projects/Happy_Gummies" element={<Happy_Gummies />} />
+      <Route path="projects/Fourstor" element={<Fourstor />} />
     </Routes>
   );
 }
