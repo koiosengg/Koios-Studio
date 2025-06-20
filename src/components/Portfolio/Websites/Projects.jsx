@@ -1,13 +1,14 @@
 import React, { useRef, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import HeadingDesign from "../assests/Home/Section Heading Design.png";
-import NEStructures from "../assests/Websites/NE Structures.png";
-import Mobiglide from "../assests/Websites/Mobiglide.png";
-import ISKAutoIndustries from "../assests/Websites/ISK Auto Industries.png";
-import HappyGummies from "../assests/Websites/Happy Gummies.png";
-import BalajiProtoTools from "../assests/Websites/Balaji Proto Tools.png";
-import Cilkencave from "../assests/Websites/Cilkencave.png";
-import Fourstor from "../assests/Websites/Fourstor.png"
+import NEStructures from "../assests/Websites/Projects/NE Structures.png";
+import Mobiglide from "../assests/Websites/Projects/Mobiglide.png";
+import ISKAutoIndustries from "../assests/Websites/Projects/ISK Auto Industries.png";
+import HappyGummies from "../assests/Websites/Projects/Happy Gummies.png";
+import BalajiProtoTools from "../assests/Websites/Projects/Balaji Proto Tools.png";
+import Fourstor from "../assests/Websites/Projects/Fourstor.png";
+import Talankey from "../assests/Websites/Projects/Talankey.png";
+import UrbanSphere from "../assests/Websites/Projects/Urban Sphere.png";
 
 function Projects() {
   const containerRef = useRef(null);
@@ -260,7 +261,10 @@ function Projects() {
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
-          <Link to="/portfolio/projects/Fourstor" className="portfolio-websites-projects-set">
+          <Link
+            to="/portfolio/projects/Fourstor"
+            className="portfolio-websites-projects-set"
+          >
             <div className="portfolio-websites-projects-set-img">
               <img src={Fourstor} />
             </div>
@@ -285,6 +289,68 @@ function Projects() {
                 </svg>
               </section>
               <p>Automation Industry</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/projects/Talankey"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={Talankey} />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Talankey</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M14 16L18 12M18 12L14 8M18 12H6"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </section>
+              <p>Mechanical / Manufacturing Industry</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/projects/Urban_Sphere"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={UrbanSphere} />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Urban Sphere</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M14 16L18 12M18 12L14 8M18 12H6"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </section>
+              <p>Automotive Industry</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
