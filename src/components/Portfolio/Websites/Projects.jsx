@@ -9,6 +9,8 @@ import BalajiProtoTools from "../assests/Websites/Projects/Balaji Proto Tools.pn
 import Fourstor from "../assests/Websites/Projects/Fourstor.png";
 import Talankey from "../assests/Websites/Projects/Talankey.png";
 import UrbanSphere from "../assests/Websites/Projects/Urban Sphere.png";
+import Cilkencave from "../assests/Websites/Projects/Cilkencave.png";
+import MRIndustries from "../assests/Websites/Projects/MR Industries.png";
 
 function Projects() {
   const containerRef = useRef(null);
@@ -351,6 +353,68 @@ function Projects() {
                 </svg>
               </section>
               <p>Automotive Industry</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/projects/Cilkencave"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={Cilkencave} />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Cilkencave</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M14 16L18 12M18 12L14 8M18 12H6"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </section>
+              <p>Semi Conductor Industry</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/projects/MR_Industries"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={MRIndustries} />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>MR Industries</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M14 16L18 12M18 12L14 8M18 12H6"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </section>
+              <p>Automotive Wiring Harness Manufacturing Industry</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>

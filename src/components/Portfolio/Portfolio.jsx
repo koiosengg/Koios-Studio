@@ -13,6 +13,8 @@ import Happy_Gummies from "./Projects/Happy_Gummies";
 import Fourstor from "./Projects/Fourstor";
 import Talankey from "./Projects/Talankey";
 import Urban_Sphere from "./Projects/Urban_Sphere";
+import Cilkencave from "./Projects/Cilkencave";
+import MRIndustries from "./Projects/MR_Industries";
 
 function Portfolio() {
   return (
@@ -35,6 +37,8 @@ function Portfolio() {
       <Route path="projects/Fourstor" element={<Fourstor />} />
       <Route path="projects/Talankey" element={<Talankey />} />
       <Route path="projects/Urban_Sphere" element={<Urban_Sphere />} />
+      <Route path="projects/Cilkencave" element={<Cilkencave />} />
+      <Route path="projects/MR_Industries" element={<MRIndustries />} />
     </Routes>
   );
 }
