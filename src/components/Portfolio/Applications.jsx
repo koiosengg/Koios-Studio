@@ -26,7 +26,7 @@ function Applications() {
   }, []);
 
   return (
-    <div className="portfolio portfolio-applications">
+    <div className="portfolio">
       <Banner />
       <Sidebar isOnBanner={isOnBanner} />
       <Numbers />

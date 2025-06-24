@@ -15,6 +15,8 @@ import Talankey from "./Projects/Talankey";
 import Urban_Sphere from "./Projects/Urban_Sphere";
 import Cilkencave from "./Projects/Cilkencave";
 import MRIndustries from "./Projects/MR_Industries";
+import Ameya from "./Projects/Ameya";
+import LMG from "./Projects/LMG";
 
 function Portfolio() {
   return (
@@ -39,6 +41,8 @@ function Portfolio() {
       <Route path="projects/Urban_Sphere" element={<Urban_Sphere />} />
       <Route path="projects/Cilkencave" element={<Cilkencave />} />
       <Route path="projects/MR_Industries" element={<MRIndustries />} />
+      <Route path="projects/Ameya" element={<Ameya />} />
+      <Route path="projects/LMG" element={<LMG />} />
     </Routes>
   );
 }

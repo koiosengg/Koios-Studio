@@ -1,9 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import HeadingDesign from "../assests/Home/Section Heading Design.png";
-import Project1 from "../assests/Applications/NE Structures.png";
-import Project2 from "../assests/Applications/Mobiglide.png";
-import Project3 from "../assests/Applications/ISK Auto Industries.png";
-import Project4 from "../assests/Applications/Cilkencave.png";
+import LMG from "../assests/Applications/Projects/LMG.png"
 
 function projects() {
   const containerRef = useRef(null);
@@ -38,7 +36,7 @@ function projects() {
   };
 
   return (
-    <div className="portfolio-websites-projects">
+    <div className="portfolio-websites-projects portfolio-applications">
       <div className="portfolio-websites-projects-heading">
         <div className="portfolio-section-heading">
           <img src={HeadingDesign} className="portfolio-section-heading-img" />
@@ -101,13 +99,13 @@ function projects() {
             gap: "12px",
           }}
         >
-          <a href="#" className="portfolio-websites-projects-set">
+          <Link to="/portfolio/projects/LMG" className="portfolio-websites-projects-set">
             <div className="portfolio-websites-projects-set-img">
-              <img src={Project1} />
+              <img src={LMG} />
             </div>
             <div className="portfolio-websites-projects-set-info">
               <section>
-                <h3>NE Structures</h3>
+                <h3>LMG</h3>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -125,181 +123,10 @@ function projects() {
                   />
                 </svg>
               </section>
-              <p>Pre-Engineered Buildings</p>
+              <p>Tourism and Hospitality</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
-          </a>
-          <a
-            href="/portfolio/projects/Mobiglide"
-            className="portfolio-websites-projects-set"
-          >
-            <div className="portfolio-websites-projects-set-img">
-              <img src={Project2} />
-            </div>
-            <div className="portfolio-websites-projects-set-info">
-              <section>
-                <h3>Mobiglide</h3>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                >
-                  <path
-                    d="M14 16L18 12M18 12L14 8M18 12H6"
-                    stroke="white"
-                    strokeWidth="2"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </section>
-              <p>Staffing Solutions in Semiconductors</p>
-            </div>
-            <div className="portfolio-websites-projects-set-glow"></div>
-          </a>
-          <a href="#" className="portfolio-websites-projects-set">
-            <div className="portfolio-websites-projects-set-img">
-              <img src={Project3} />
-            </div>
-            <div className="portfolio-websites-projects-set-info">
-              <section>
-                <h3>XLR8</h3>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                >
-                  <path
-                    d="M14 16L18 12M18 12L14 8M18 12H6"
-                    stroke="white"
-                    strokeWidth="2"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </section>
-              <p>Lorem ipsum dolor amet</p>
-            </div>
-            <div className="portfolio-websites-projects-set-glow"></div>
-          </a>
-          <a href="#" className="portfolio-websites-projects-set">
-            <div className="portfolio-websites-projects-set-img">
-              <img src={Project4} />
-            </div>
-            <div className="portfolio-websites-projects-set-info">
-              <section>
-                <h3>Cilkencave</h3>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                >
-                  <path
-                    d="M14 16L18 12M18 12L14 8M18 12H6"
-                    stroke="white"
-                    strokeWidth="2"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </section>
-              <p>Lorem ipsum dolor amet</p>
-            </div>
-            <div className="portfolio-websites-projects-set-glow"></div>
-          </a>
-          <a href="#" className="portfolio-websites-projects-set">
-            <div className="portfolio-websites-projects-set-img">
-              <img src={Project2} />
-            </div>
-            <div className="portfolio-websites-projects-set-info">
-              <section>
-                <h3>Mobiglide</h3>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                >
-                  <path
-                    d="M14 16L18 12M18 12L14 8M18 12H6"
-                    stroke="white"
-                    strokeWidth="2"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </section>
-              <p>Staffing Solutions in Semiconductors</p>
-            </div>
-            <div className="portfolio-websites-projects-set-glow"></div>
-          </a>
-          <a href="#" className="portfolio-websites-projects-set">
-            <div className="portfolio-websites-projects-set-img">
-              <img src={Project3} />
-            </div>
-            <div className="portfolio-websites-projects-set-info">
-              <section>
-                <h3>XLR8</h3>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                >
-                  <path
-                    d="M14 16L18 12M18 12L14 8M18 12H6"
-                    stroke="white"
-                    strokeWidth="2"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </section>
-              <p>Lorem ipsum dolor amet</p>
-            </div>
-            <div className="portfolio-websites-projects-set-glow"></div>
-          </a>
-          <a href="#" className="portfolio-websites-projects-set">
-            <div className="portfolio-websites-projects-set-img">
-              <img src={Project1} />
-            </div>
-            <div className="portfolio-websites-projects-set-info">
-              <section>
-                <h3>NE Structures</h3>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                >
-                  <path
-                    d="M14 16L18 12M18 12L14 8M18 12H6"
-                    stroke="white"
-                    strokeWidth="2"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </section>
-              <p>Pre-Engineered Buildings</p>
-            </div>
-            <div className="portfolio-websites-projects-set-glow"></div>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

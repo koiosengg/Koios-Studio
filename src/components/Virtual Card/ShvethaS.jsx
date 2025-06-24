@@ -635,7 +635,7 @@ function ShvethaS() {
         />
         <div className="virtual-card-contact-container">
           <h2>Contact Me</h2>
-          <form>
+          <form action="https://formspree.io/f/xgvyzble" method="post">
             <div className="form-section">
               <section>
                 <label htmlFor="first-name">
