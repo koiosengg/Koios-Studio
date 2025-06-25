@@ -17,6 +17,8 @@ import Cilkencave from "./Projects/Cilkencave";
 import MRIndustries from "./Projects/MR_Industries";
 import Ameya from "./Projects/Ameya";
 import LMG from "./Projects/LMG";
+import Negilu from "./Projects/Negilu"
+import Airportr from "./Projects/Airportr";
 
 function Portfolio() {
   return (
@@ -43,6 +45,8 @@ function Portfolio() {
       <Route path="projects/MR_Industries" element={<MRIndustries />} />
       <Route path="projects/Ameya" element={<Ameya />} />
       <Route path="projects/LMG" element={<LMG />} />
+      <Route path="projects/Negilu" element={<Negilu/>} />
+      <Route path="projects/Airportr" element={<Airportr/>}/>
     </Routes>
   );
 }

@@ -1,7 +1,9 @@
 import React, { useRef, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import HeadingDesign from "../assests/Home/Section Heading Design.png";
-import LMG from "../assests/Applications/Projects/LMG.png"
+import LMG from "../assests/Applications/Projects/LMG.png";
+import Negilu from "../assests/Applications/Projects/Negilu.png";
+import Airportr from "../assests/Applications/Projects/Airportr.png";
 
 function projects() {
   const containerRef = useRef(null);
@@ -99,7 +101,10 @@ function projects() {
             gap: "12px",
           }}
         >
-          <Link to="/portfolio/projects/LMG" className="portfolio-websites-projects-set">
+          <Link
+            to="/portfolio/projects/LMG"
+            className="portfolio-websites-projects-set"
+          >
             <div className="portfolio-websites-projects-set-img">
               <img src={LMG} />
             </div>
@@ -124,6 +129,68 @@ function projects() {
                 </svg>
               </section>
               <p>Tourism and Hospitality</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/projects/Negilu"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={Negilu} />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Negilu</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M14 16L18 12M18 12L14 8M18 12H6"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </section>
+              <p>Farming Tech</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/projects/Airportr"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={Airportr} />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Airportr</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M14 16L18 12M18 12L14 8M18 12H6"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </section>
+              <p>Goods Tracking App</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
