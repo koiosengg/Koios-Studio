@@ -1,11 +1,19 @@
 import React from "react";
 import DesktopBackground from "./assests/Desktop Footer.png";
+import MobileBackground from "./assests/Mobile Footer.png";
 import Logo from "./assests/Koios Stuidos Logo.png";
 
 function Footer() {
   return (
     <div className="portfolio-footer">
-      <img src={DesktopBackground} className="portfolio-footer-background" />
+      <img
+        src={DesktopBackground}
+        className="portfolio-footer-background notMobile"
+      />
+      <img
+        src={MobileBackground}
+        className="portfolio-footer-background mobile"
+      />
       <div className="portfolio-footer-top">
         <h2>Collaborate with us</h2>
         <form>
