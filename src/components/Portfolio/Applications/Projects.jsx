@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import HeadingDesign from "../assests/Home/Section Heading Design.png";
 import LMG from "../assests/Applications/Projects/LMG.png";
 import Negilu from "../assests/Applications/Projects/Negilu.png";
@@ -11,18 +11,33 @@ function projects() {
   const [slideWidth, setSlideWidth] = useState(0);
   const [totalSlides, setTotalSlides] = useState(0);
 
-  const visibleSlides = 3;
+  const [visibleSlides, setVisibleSlides] = useState(
+    window.innerWidth < 1200 ? 1 : 3
+  );
+
+  const location = useLocation();
+  const isProjectPage = location.pathname.startsWith("/portfolio/projects");
 
   useEffect(() => {
-    if (containerRef.current) {
-      const sets = containerRef.current.querySelectorAll(
-        ".portfolio-websites-projects-set"
-      );
-      setTotalSlides(sets.length);
-      const containerWidth = containerRef.current.offsetWidth;
-      const calculatedWidth = (containerWidth - 24) / 3;
-      setSlideWidth(calculatedWidth);
-    }
+    const updateLayout = () => {
+      const newVisibleSlides = window.innerWidth < 1200 ? 1 : 3;
+      setVisibleSlides(newVisibleSlides);
+
+      if (containerRef.current) {
+        const sets = containerRef.current.querySelectorAll(
+          ".portfolio-websites-projects-set"
+        );
+        setTotalSlides(sets.length);
+        const containerWidth = containerRef.current.offsetWidth;
+        const calculatedWidth =
+          (containerWidth - 12 * (newVisibleSlides - 1)) / newVisibleSlides;
+        setSlideWidth(calculatedWidth);
+      }
+    };
+
+    updateLayout(); // Call on initial load
+    window.addEventListener("resize", updateLayout);
+    return () => window.removeEventListener("resize", updateLayout);
   }, []);
 
   const handlePrev = () => {
@@ -42,7 +57,7 @@ function projects() {
       <div className="portfolio-websites-projects-heading">
         <div className="portfolio-section-heading">
           <img src={HeadingDesign} className="portfolio-section-heading-img" />
-          <h2>Projects</h2>
+          <h2>{isProjectPage ? "Our Other Projects" : "Projects"}</h2>
         </div>
         <div className="portfolio-websites-projects-controls">
           <button
@@ -70,10 +85,11 @@ function projects() {
           <button
             className="portfolio-websites-projects-control"
             onClick={handleNext}
-            disabled={slideIndex >= totalSlides - 3}
+            disabled={slideIndex >= totalSlides - visibleSlides}
             style={{
-              opacity: slideIndex >= totalSlides - 3 ? 0.2 : 1,
-              pointerEvents: slideIndex >= totalSlides - 3 ? "none" : "auto",
+              opacity: slideIndex >= totalSlides - visibleSlides ? 0.2 : 1,
+              pointerEvents:
+                slideIndex >= totalSlides - visibleSlides ? "none" : "auto",
             }}
           >
             <svg

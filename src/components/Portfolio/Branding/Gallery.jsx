@@ -21,18 +21,28 @@ function Gallery() {
     const updateGap = () => {
       if (containerRef.current) {
         const containerWidth = containerRef.current.offsetWidth;
-        const newCalculatedGap = (containerWidth - 244 * 2 - 528) / 2;
+
+        let newCalculatedGap;
+
+        if (window.innerWidth < 1200) {
+          newCalculatedGap = (containerWidth - 80 * 2 - 120) / 2;
+        } else {
+          newCalculatedGap = (containerWidth - 244 * 2 - 528) / 2;
+        }
+
         setCalculatedGap(newCalculatedGap);
         setGap(newCalculatedGap);
       }
     };
 
+    // Initial run
     updateGap();
+
+    // Add resize event listener
     window.addEventListener("resize", updateGap);
 
-    return () => {
-      window.removeEventListener("resize", updateGap);
-    };
+    // Cleanup on unmount
+    return () => window.removeEventListener("resize", updateGap);
   }, []);
 
   const findIndexOfActiveOption = (event) => {
@@ -75,7 +85,8 @@ function Gallery() {
   };
 
   const calculateTranslateX = () => {
-    const translateValue = (calculatedGap + 244) * activeIndex;
+    const baseWidth = window.innerWidth < 1200 ? 80 : 244;
+    const translateValue = (calculatedGap + baseWidth) * activeIndex;
     return `-${translateValue}px`;
   };
 

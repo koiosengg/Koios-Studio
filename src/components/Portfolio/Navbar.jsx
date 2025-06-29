@@ -62,7 +62,7 @@ function Navbar() {
             <path
               d="M0 12V10H18V12H0ZM0 7V5H18V7H0ZM0 2V0H18V2H0Z"
               fill="white"
-              fill-opacity="0.8"
+              fillOpacity="0.8"
             />
           </svg>
         </div>
@@ -90,9 +90,9 @@ function Navbar() {
             <path
               d="M0.999939 11L5.99994 6L10.9999 11M10.9999 1L5.99899 6L0.999939 1"
               stroke="white"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
         </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar";
 import DesktopBanner from "../assests/Home/Desktop Banner.png";
+import MobileBanner from "../assests/Home/Mobile Banner.png";
 import Icon1 from "../assests/Home/Icon 1.png";
 import Icon2 from "../assests/Home/Icon 2.png";
 import Icon3 from "../assests/Home/Icon 3.png";
@@ -9,7 +10,14 @@ function Banner() {
   return (
     <div className="portfolio-home-banner" id="banner">
       <Navbar />
-      <img src={DesktopBanner} className="portfolio-home-banner-background" />
+      <img
+        src={DesktopBanner}
+        className="portfolio-home-banner-background notMobile"
+      />
+      <img
+        src={MobileBanner}
+        className="portfolio-home-banner-background mobile"
+      />
       <div className="portfolio-home-banner-container">
         <section>
           <h2>PORTFOLIO</h2>
