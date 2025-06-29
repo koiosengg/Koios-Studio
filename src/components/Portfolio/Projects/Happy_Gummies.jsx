@@ -112,14 +112,11 @@ function Happy_Gummies() {
             Strategies
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero platea turpis dictum
-            auctor. Diam volutpat dictum tincidunt vestibulum. Enim elementum
-            dignissim eget faucibus amet massa faucibus elit. Volutpat turpis
-            tortor purus nisl et tincidunt ultrices feugiat. Morbi quam enim sit
-            proin enim id. Quam habitant eu suspendisse sit faucibus bibendum
-            viverra tincidunt. Sed scelerisque orci ultrices volutpat fusce
-            ipsum ultricies lorem habitant. Quam lacus vitae feugiat vitae vitae
-            nisl quam tincidunt rhoncus.
+            Ensured that the banner section animations were precisely timed to
+            create a natural balloon bounce effect for the kids section and
+            smooth cloud floating in the home section. Collaborated closely with
+            the backend developer to integrate and complete the order
+            functionality, ensuring seamless user interaction and data flow.
           </p>
         </div>
       </div>

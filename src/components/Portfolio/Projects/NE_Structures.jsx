@@ -113,14 +113,12 @@ function NE_Structures() {
             Strategies
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero platea turpis dictum
-            auctor. Diam volutpat dictum tincidunt vestibulum. Enim elementum
-            dignissim eget faucibus amet massa faucibus elit. Volutpat turpis
-            tortor purus nisl et tincidunt ultrices feugiat. Morbi quam enim sit
-            proin enim id. Quam habitant eu suspendisse sit faucibus bibendum
-            viverra tincidunt. Sed scelerisque orci ultrices volutpat fusce
-            ipsum ultricies lorem habitant. Quam lacus vitae feugiat vitae vitae
-            nisl quam tincidunt rhoncus.
+            The banner background was customized to accurately reflect the grid
+            line pattern from the design, ensuring consistency across devices. A
+            dynamic gallery section was developed to showcase various client
+            projects. Dedicated pages were also built for products, services,
+            and infrastructure to present the client’s offerings in a clear and
+            organized manner.
           </p>
         </div>
       </div>

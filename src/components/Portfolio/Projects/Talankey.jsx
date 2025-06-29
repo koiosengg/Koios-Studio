@@ -78,10 +78,10 @@ function Talankey() {
             <h2>Challenges</h2>
             <p>
               With the company offering a wide range of services, aligning the
-              banner visuals with the overall layout posed a complex
-              challenge. Special attention was given to ensuring the banners not
-              only captured attention of the user but also reflected the essence
-              of each service.
+              banner visuals with the overall layout posed a complex challenge.
+              Special attention was given to ensuring the banners not only
+              captured attention of the user but also reflected the essence of
+              each service.
             </p>
           </div>
           <div className="portfolio-projects-info-set">
@@ -112,14 +112,11 @@ function Talankey() {
             Strategies
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero platea turpis dictum
-            auctor. Diam volutpat dictum tincidunt vestibulum. Enim elementum
-            dignissim eget faucibus amet massa faucibus elit. Volutpat turpis
-            tortor purus nisl et tincidunt ultrices feugiat. Morbi quam enim sit
-            proin enim id. Quam habitant eu suspendisse sit faucibus bibendum
-            viverra tincidunt. Sed scelerisque orci ultrices volutpat fusce
-            ipsum ultricies lorem habitant. Quam lacus vitae feugiat vitae vitae
-            nisl quam tincidunt rhoncus.
+            Multiple background elements were added to align with the design
+            specifications, enhancing visual depth and consistency. Smooth hover
+            transitions were implemented to ensure that text appearing beneath
+            images faded in naturally, contributing to a polished and
+            interactive user experience.
           </p>
         </div>
       </div>

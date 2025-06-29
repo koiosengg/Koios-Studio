@@ -114,14 +114,7 @@ function ISK_Auto_Industries() {
             Strategies
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero platea turpis dictum
-            auctor. Diam volutpat dictum tincidunt vestibulum. Enim elementum
-            dignissim eget faucibus amet massa faucibus elit. Volutpat turpis
-            tortor purus nisl et tincidunt ultrices feugiat. Morbi quam enim sit
-            proin enim id. Quam habitant eu suspendisse sit faucibus bibendum
-            viverra tincidunt. Sed scelerisque orci ultrices volutpat fusce
-            ipsum ultricies lorem habitant. Quam lacus vitae feugiat vitae vitae
-            nisl quam tincidunt rhoncus.
+         Developed entirely using HTML, CSS, and Vanilla JavaScript, with each page manually structured, including the navigation bar, footer, and all individual elements. The development process was time-consuming due to the extensive number of products and categories that had to be added and organized across the site.
           </p>
         </div>
       </div>

@@ -115,14 +115,7 @@ function Balaji_Proto_Tools() {
             Strategies
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero platea turpis dictum
-            auctor. Diam volutpat dictum tincidunt vestibulum. Enim elementum
-            dignissim eget faucibus amet massa faucibus elit. Volutpat turpis
-            tortor purus nisl et tincidunt ultrices feugiat. Morbi quam enim sit
-            proin enim id. Quam habitant eu suspendisse sit faucibus bibendum
-            viverra tincidunt. Sed scelerisque orci ultrices volutpat fusce
-            ipsum ultricies lorem habitant. Quam lacus vitae feugiat vitae vitae
-            nisl quam tincidunt rhoncus.
+     Faced challenges implementing a dark background theme, as some browsers default to light mode, which affected consistency across platforms. Additionally, implemented smooth scroll-to-section functionality without appending a "#" in the URL, utilizing React Router for cleaner navigation and better user experience.
           </p>
         </div>
       </div>
