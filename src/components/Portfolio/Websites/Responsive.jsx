@@ -16,10 +16,10 @@ function Responsive() {
           adipiscing tellus pretium varius nunc. Turpis morbi praesent ac velit.
           Non in adipiscing tortor.
         </p>
-        <Link to="/portfolio/website" className="portfolio-primary-button">
+        <a href="#footer" className="portfolio-primary-button">
           <div className="portfolio-primary-button-background"></div>
           <p>Your turn to shine</p>
-        </Link>
+        </a>
       </div>
       <div className="portfolio-websites-responsive-img">
         <img src={ResponsiveImg} />

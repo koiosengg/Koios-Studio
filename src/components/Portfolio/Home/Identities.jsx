@@ -23,7 +23,7 @@ function Identities() {
             velit. Non in adipiscing tortor.
           </p>
         </div>
-        <Link to="/portfolio/website" className="portfolio-secondary-button">
+        <Link to="/portfolio/branding" className="portfolio-secondary-button">
           <p>View All</p>
           <svg
             xmlns="http://www.w3.org/2000/svg"

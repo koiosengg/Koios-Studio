@@ -112,14 +112,12 @@ function Cilkencave() {
             Strategies
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero platea turpis dictum
-            auctor. Diam volutpat dictum tincidunt vestibulum. Enim elementum
-            dignissim eget faucibus amet massa faucibus elit. Volutpat turpis
-            tortor purus nisl et tincidunt ultrices feugiat. Morbi quam enim sit
-            proin enim id. Quam habitant eu suspendisse sit faucibus bibendum
-            viverra tincidunt. Sed scelerisque orci ultrices volutpat fusce
-            ipsum ultricies lorem habitant. Quam lacus vitae feugiat vitae vitae
-            nisl quam tincidunt rhoncus.
+            A key aspect of the project involved handling SVGs effectively, as
+            they were integrated into nearly every section of the design.
+            Ensuring compatibility, scalability, and clean rendering across all
+            browsers required extra attention. Additionally, implementing smooth
+            animations for the gallery section took considerable time and
+            fine-tuning to achieve the desired visual flow and performance.
           </p>
         </div>
       </div>

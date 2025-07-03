@@ -7,7 +7,7 @@ function ViewPorjects() {
     <div className="portfolio-home-view-projects">
       <img src={Background} />
       <div className="portfolio-home-view-projects-container">
-        <Link to="/portfolio/website" className="portfolio-primary-button">
+        <Link to="/portfolio/websites" className="portfolio-primary-button">
           <div className="portfolio-primary-button-background"></div>
           <p>View Projects</p>
         </Link>

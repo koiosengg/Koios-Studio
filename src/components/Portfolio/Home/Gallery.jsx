@@ -52,7 +52,7 @@ function Gallery() {
             adipiscing tellus pretium varius nunc. Turpis morbi praesent ac
             velit. Non in adipiscing tortor.
           </p>
-          <Link to="/portfolio/website" className="portfolio-secondary-button">
+          <Link to="/portfolio/applications" className="portfolio-secondary-button">
             <p>View All</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"

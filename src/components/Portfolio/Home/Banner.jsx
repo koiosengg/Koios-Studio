@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "../Navbar";
 import DesktopBanner from "../assests/Home/Desktop Banner.png";
 import MobileBanner from "../assests/Home/Mobile Banner.png";
@@ -29,10 +30,10 @@ function Banner() {
             Lorem ipsum dolor sit amet consectetur. Bibendum purus aliquam sed.
           </p>
         </section>
-        <a className="portfolio-primary-button">
+        <Link to="/portfolio/websites" className="portfolio-primary-button">
           <div className="portfolio-primary-button-background"></div>
           <p>Build Your Website with us </p>
-        </a>
+        </Link>
         <div className="portfolio-home-banner-icons">
           <img src={Icon1} className="portfolio-home-banner-icon-1" />
           <img src={Icon2} className="portfolio-home-banner-icon-2" />

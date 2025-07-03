@@ -92,7 +92,7 @@ function Services() {
           </svg>
         </div>
       </Link>
-      <Link to="/portfolio/application" className="portfolio-home-services-set">
+      <Link to="/portfolio/applications" className="portfolio-home-services-set">
         <div className="portfolio-home-services-set-icon">
           <svg
             xmlns="http://www.w3.org/2000/svg"

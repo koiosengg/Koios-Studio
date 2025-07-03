@@ -67,25 +67,39 @@ function Urban_Sphere() {
           <div className="portfolio-projects-info-set">
             <h2>Overview</h2>
             <p>
-            The website features a sleek, dark-themed interface that reflects a modern and professional image for a transportation-focused company. High-resolution vehicle visuals take center stage and the design emphasizes product categories with large visual cards and a streamlined layout.
+              The website features a sleek, dark-themed interface that reflects
+              a modern and professional image for a transportation-focused
+              company. High-resolution vehicle visuals take center stage and the
+              design emphasizes product categories with large visual cards and a
+              streamlined layout.
             </p>
           </div>
           <div className="portfolio-projects-info-set">
             <h2>Challenges</h2>
             <p>
-           The main challenge was to present multiple product segments clearly without overwhelming the user, especially with bold imagery on a dark background. Ensuring accessibility, readability, and maintaining a visual hierarchy were critical, particularly in the hero section and across the navigation.
+              The main challenge was to present multiple product segments
+              clearly without overwhelming the user, especially with bold
+              imagery on a dark background. Ensuring accessibility, readability,
+              and maintaining a visual hierarchy were critical, particularly in
+              the hero section and across the navigation.
             </p>
           </div>
           <div className="portfolio-projects-info-set">
             <h2>Approach</h2>
             <p>
-      A card-based layout was used to categorize vehicle types visually, creating intuitive navigation without relying heavily on text. This supports a content-first experience. A unified gradient dark theme enhances the premium, tech-forward feel of the brand.
+              A card-based layout was used to categorize vehicle types visually,
+              creating intuitive navigation without relying heavily on text.
+              This supports a content-first experience. A unified gradient dark
+              theme enhances the premium, tech-forward feel of the brand.
             </p>
           </div>
           <div className="portfolio-projects-info-set">
             <h2>Results</h2>
             <p>
-          The final design delivers a visually impact and user-friendly experience. It successfully communicates brand sophistication and industry focus.The contact section encourages engagement, and the overall UX flows smoothly throughout the site.
+              The final design delivers a visually impact and user-friendly
+              experience. It successfully communicates brand sophistication and
+              industry focus.The contact section encourages engagement, and the
+              overall UX flows smoothly throughout the site.
             </p>
           </div>
         </div>
@@ -98,14 +112,12 @@ function Urban_Sphere() {
             Strategies
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero platea turpis dictum
-            auctor. Diam volutpat dictum tincidunt vestibulum. Enim elementum
-            dignissim eget faucibus amet massa faucibus elit. Volutpat turpis
-            tortor purus nisl et tincidunt ultrices feugiat. Morbi quam enim sit
-            proin enim id. Quam habitant eu suspendisse sit faucibus bibendum
-            viverra tincidunt. Sed scelerisque orci ultrices volutpat fusce
-            ipsum ultricies lorem habitant. Quam lacus vitae feugiat vitae vitae
-            nisl quam tincidunt rhoncus.
+            The goal was to create a versatile template that could accommodate
+            all categories listed by the client. Special attention was given to
+            responsive design, ensuring that images retained their full
+            visibility across devices without being cropped. This required
+            thoughtful layout adjustments and flexible grid structures to
+            maintain a seamless user experience on all screen sizes.
           </p>
         </div>
       </div>

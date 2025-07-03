@@ -5,7 +5,7 @@ import Logo from "./assests/Koios Stuidos Logo.png";
 
 function Footer() {
   return (
-    <div className="portfolio-footer">
+    <div className="portfolio-footer" id="footer">
       <img
         src={DesktopBackground}
         className="portfolio-footer-background notMobile"

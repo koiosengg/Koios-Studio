@@ -113,14 +113,11 @@ function MR_Industries() {
             Strategies
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero platea turpis dictum
-            auctor. Diam volutpat dictum tincidunt vestibulum. Enim elementum
-            dignissim eget faucibus amet massa faucibus elit. Volutpat turpis
-            tortor purus nisl et tincidunt ultrices feugiat. Morbi quam enim sit
-            proin enim id. Quam habitant eu suspendisse sit faucibus bibendum
-            viverra tincidunt. Sed scelerisque orci ultrices volutpat fusce
-            ipsum ultricies lorem habitant. Quam lacus vitae feugiat vitae vitae
-            nisl quam tincidunt rhoncus.
+            Significant effort went into crafting the background elements of
+            each section, as they played a central role in the overall design
+            aesthetic. To enhance the visual storytelling, I had to learn and
+            implement scroll-based animations that aligned with the flow of the
+            layout ensuring an engaging and interactive user experience.
           </p>
         </div>
       </div>
