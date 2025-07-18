@@ -168,16 +168,21 @@ function MahiRastogi() {
                   <img src={Verified} />
                 </h1>
                 <div className="virtual-card-banner-designation">
-                  <span>Chief Design and Technology Officer</span>
+                  <span>Director and Co-founder</span>
                 </div>
               </section>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                lobortis id. Sit nibh ullamcorper in libero.
+                As Co-founder and Director of Koios Studios, I help brands build
+                meaningful digital identities through intuitive UI/UX and robust
+                development. I lead cross-functional teams to deliver design,
+                development, and branding solutions that resonate with
+                audiences. From startups to established firms, we turn ideas
+                into impactful, user-friendly platforms that drive connection
+                and growth.
               </p>
             </div>
             <a
-              href="https://www.linkedin.com/in/mahi-rastogi-project-manager/"
+              href="https://www.koiostudio.com/"
               target="_blank"
               className="virtual-card-banner-button desktop"
             >
@@ -186,7 +191,7 @@ function MahiRastogi() {
                 className="virtual-card-banner-button-background"
               />
               <section>
-                <p>View Portfolio</p>
+                <p>View Website</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="8"
@@ -210,41 +215,37 @@ function MahiRastogi() {
             <div className="virtual-card-banner-marquee white">
               <div className="virtual-card-banner-marquee-wrapper ">
                 <div className="virtual-card-banner-marquee-marquee">
-                  <p>Website Design</p>
+                  <p>Websites</p>
                   <img src={MarqueeStar} />
-                  <p>App Design</p>
+                  <p>Apps</p>
                   <img src={MarqueeStar} />
-                  <p>Responsive Design</p>
+                  <p> Social Media</p>
                   <img src={MarqueeStar} />
-                  <p>Wireframes</p>
+                  <p>Digital Marketing</p>
                   <img src={MarqueeStar} />
-                  <p>User Research</p>
+                  <p>Design</p>
                   <img src={MarqueeStar} />
-                  <p>User Experience</p>
+                  <p>Development</p>
                   <img src={MarqueeStar} />
-                  <p>User Interface</p>
+                  <p>Branding</p>
                   <img src={MarqueeStar} />
-                  <p>Design Thinking</p>
+                  <p>Logo Designing</p>
                   <img src={MarqueeStar} />
-                  <p>Typography</p>
+                  <p>SEO</p>
                   <img src={MarqueeStar} />
-                  <p>Website Design</p>
+                  <p> Meta ads</p>
                   <img src={MarqueeStar} />
-                  <p>App Design</p>
+                  <p>Google Ads</p>
                   <img src={MarqueeStar} />
-                  <p>Responsive Design</p>
+                  <p>UI/UX Designing</p>
                   <img src={MarqueeStar} />
-                  <p>Wireframes</p>
+                  <p>Flyers</p>
                   <img src={MarqueeStar} />
-                  <p>User Research</p>
+                  <p>Brochures</p>
                   <img src={MarqueeStar} />
-                  <p>User Experience</p>
+                  <p>Product Design</p>
                   <img src={MarqueeStar} />
-                  <p>User Interface</p>
-                  <img src={MarqueeStar} />
-                  <p>Design Thinking</p>
-                  <img src={MarqueeStar} />
-                  <p>Typography</p>
+                  <p>Web Apps</p>
                   <img src={MarqueeStar} />
                 </div>
               </div>
@@ -252,41 +253,37 @@ function MahiRastogi() {
             <div className="virtual-card-banner-marquee yellow">
               <div className="virtual-card-banner-marquee-wrapper ">
                 <div className="virtual-card-banner-marquee-marquee">
-                  <p>Website Design</p>
+                  <p>Websites</p>
                   <img src={MarqueeStar} />
-                  <p>App Design</p>
+                  <p>Apps</p>
                   <img src={MarqueeStar} />
-                  <p>Responsive Design</p>
+                  <p> Social Media</p>
                   <img src={MarqueeStar} />
-                  <p>Wireframes</p>
+                  <p>Digital Marketing</p>
                   <img src={MarqueeStar} />
-                  <p>User Research</p>
+                  <p>Design</p>
                   <img src={MarqueeStar} />
-                  <p>User Experience</p>
+                  <p>Development</p>
                   <img src={MarqueeStar} />
-                  <p>User Interface</p>
+                  <p>Branding</p>
                   <img src={MarqueeStar} />
-                  <p>Design Thinking</p>
+                  <p>Logo Designing</p>
                   <img src={MarqueeStar} />
-                  <p>Typography</p>
+                  <p>SEO</p>
                   <img src={MarqueeStar} />
-                  <p>Website Design</p>
+                  <p> Meta ads</p>
                   <img src={MarqueeStar} />
-                  <p>App Design</p>
+                  <p>Google Ads</p>
                   <img src={MarqueeStar} />
-                  <p>Responsive Design</p>
+                  <p>UI/UX Designing</p>
                   <img src={MarqueeStar} />
-                  <p>Wireframes</p>
+                  <p>Flyers</p>
                   <img src={MarqueeStar} />
-                  <p>User Research</p>
+                  <p>Brochures</p>
                   <img src={MarqueeStar} />
-                  <p>User Experience</p>
+                  <p>Product Design</p>
                   <img src={MarqueeStar} />
-                  <p>User Interface</p>
-                  <img src={MarqueeStar} />
-                  <p>Design Thinking</p>
-                  <img src={MarqueeStar} />
-                  <p>Typography</p>
+                  <p>Web Apps</p>
                   <img src={MarqueeStar} />
                 </div>
               </div>
@@ -304,12 +301,14 @@ function MahiRastogi() {
           className="virtual-card-about-background mobile"
         />
         <div className="virtual-card-about-container">
-          <h2>CTDO</h2>
+          <h2>Director and Co-founder</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-            lobortis id. Sit nibh ullamcorper in libero donec enim auctor. Quam
-            eleifend magna aliquet ut. Turpis gravida quis ut ipsum vestibulum
-            justo viverra.
+            Certified Scrum Master, UI/UX Designer, and Engineer with a passion
+            for user-centric design and clear communication. I thrive on
+            building purposeful digital experiences, leading diverse teams, and
+            empowering individuals. With a background in sports, literature, and
+            leadership, I bring discipline, creativity, and people-first values
+            into everything I do.
           </p>
         </div>
         <img className="star" src={DesktopStar} />
