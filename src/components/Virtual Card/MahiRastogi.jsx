@@ -33,6 +33,7 @@ import ExperienceMobileBackground from "./assets/TKS Mobile Experience.png";
 import ContactDesktopBackground from "./assets/TKS Desktop Contact.png";
 import ContactMobileBackground from "./assets/TKS Mobile Contact.png";
 import TestimonySample from "./assets/Testimony.jpg";
+import PankajSarda from "./assets/Pankaj Sarda.jpeg";
 import TestimonyStar from "./assets/Testimony Star.png";
 import TKSconnect from "./TKSconnect";
 import TKSfooter from "./TKSfooter";
@@ -130,7 +131,7 @@ function MahiRastogi() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className="virtual-card">
+    <div className="virtual-card Mahi_Rastogi">
       <div className="virtual-card-bottom-bar mobile">
         <a onClick={handleDownloadVCard} className="virtual-card-white-button">
           <p>Save Contact</p>
@@ -707,6 +708,34 @@ function MahiRastogi() {
             </div>
           </div>
         </div>
+        <a
+          href="https://wa.me/917338658118"
+          target="_blank"
+          className="virtual-card-banner-button"
+        >
+          <img
+            src={BannerButton}
+            className="virtual-card-banner-button-background"
+          />
+          <section>
+            <p>Book Now</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="8"
+              height="14"
+              viewBox="0 0 8 14"
+              fill="none"
+            >
+              <path
+                d="M1 13L7 7L1 1"
+                stroke="white"
+                strokeWidth="1.4"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </section>
+        </a>
       </div>
       {/* <div className="virtual-card-skills">
         <img
@@ -1049,21 +1078,25 @@ function MahiRastogi() {
             <div className="virtual-card-testimony-set-slide desktop">
               <div className="virtual-card-testimony-set">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                  lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
-                  Quam eleifend magna aliquet ut. Turpis gravida quis
+                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
+                  place on record your excellent work for making of flyers for
+                  my company for promotion. The work of you and your team has
+                  been extremely professional and level of satisfaction is very
+                  high. I would surely recommend your work to other RB members
+                  as well as my contact sphere
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={TestimonySample}
+                      src={PankajSarda}
                       style={{ gridArea: "box-1" }}
-                      alt="Shreyas Photo"
+                      alt="Pankaj Sarda"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Shreyas 1</h4>
-                    <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
+                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
                   </div>
                   <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
@@ -1073,21 +1106,25 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                  lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
-                  Quam eleifend magna aliquet ut. Turpis gravida quis
+                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
+                  place on record your excellent work for making of flyers for
+                  my company for promotion. The work of you and your team has
+                  been extremely professional and level of satisfaction is very
+                  high. I would surely recommend your work to other RB members
+                  as well as my contact sphere
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={TestimonySample}
+                      src={PankajSarda}
                       style={{ gridArea: "box-1" }}
-                      alt="Shreyas Photo"
+                      alt="Pankaj Sarda"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Shreyas 2</h4>
-                    <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
+                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
                   </div>
                   <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
@@ -1097,21 +1134,25 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                  lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
-                  Quam eleifend magna aliquet ut. Turpis gravida quis
+                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
+                  place on record your excellent work for making of flyers for
+                  my company for promotion. The work of you and your team has
+                  been extremely professional and level of satisfaction is very
+                  high. I would surely recommend your work to other RB members
+                  as well as my contact sphere
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={TestimonySample}
+                      src={PankajSarda}
                       style={{ gridArea: "box-1" }}
-                      alt="Shreyas Photo"
+                      alt="Pankaj Sarda"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Shreyas 3</h4>
-                    <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
+                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
                   </div>
                   <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
@@ -1121,21 +1162,25 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                  lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
-                  Quam eleifend magna aliquet ut. Turpis gravida quis
+                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
+                  place on record your excellent work for making of flyers for
+                  my company for promotion. The work of you and your team has
+                  been extremely professional and level of satisfaction is very
+                  high. I would surely recommend your work to other RB members
+                  as well as my contact sphere
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={TestimonySample}
+                      src={PankajSarda}
                       style={{ gridArea: "box-1" }}
-                      alt="Shreyas Photo"
+                      alt="Pankaj Sarda"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Shreyas 4</h4>
-                    <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
+                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
                   </div>
                   <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
@@ -1145,21 +1190,25 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                  lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
-                  Quam eleifend magna aliquet ut. Turpis gravida quis
+                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
+                  place on record your excellent work for making of flyers for
+                  my company for promotion. The work of you and your team has
+                  been extremely professional and level of satisfaction is very
+                  high. I would surely recommend your work to other RB members
+                  as well as my contact sphere
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={TestimonySample}
+                      src={PankajSarda}
                       style={{ gridArea: "box-1" }}
-                      alt="Shreyas Photo"
+                      alt="Pankaj Sarda"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Shreyas 5</h4>
-                    <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
+                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
                   </div>
                   <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
@@ -1169,21 +1218,25 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                  lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
-                  Quam eleifend magna aliquet ut. Turpis gravida quis
+                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
+                  place on record your excellent work for making of flyers for
+                  my company for promotion. The work of you and your team has
+                  been extremely professional and level of satisfaction is very
+                  high. I would surely recommend your work to other RB members
+                  as well as my contact sphere
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={TestimonySample}
+                      src={PankajSarda}
                       style={{ gridArea: "box-1" }}
-                      alt="Shreyas Photo"
+                      alt="Pankaj Sarda"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Shreyas 1</h4>
-                    <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
+                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
                   </div>
                   <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
@@ -1193,21 +1246,25 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                  lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
-                  Quam eleifend magna aliquet ut. Turpis gravida quis
+                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
+                  place on record your excellent work for making of flyers for
+                  my company for promotion. The work of you and your team has
+                  been extremely professional and level of satisfaction is very
+                  high. I would surely recommend your work to other RB members
+                  as well as my contact sphere
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={TestimonySample}
+                      src={PankajSarda}
                       style={{ gridArea: "box-1" }}
-                      alt="Shreyas Photo"
+                      alt="Pankaj Sarda"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Shreyas 2</h4>
-                    <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
+                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
                   </div>
                   <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
@@ -1217,21 +1274,25 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                  lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
-                  Quam eleifend magna aliquet ut. Turpis gravida quis
+                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
+                  place on record your excellent work for making of flyers for
+                  my company for promotion. The work of you and your team has
+                  been extremely professional and level of satisfaction is very
+                  high. I would surely recommend your work to other RB members
+                  as well as my contact sphere
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={TestimonySample}
+                      src={PankajSarda}
                       style={{ gridArea: "box-1" }}
-                      alt="Shreyas Photo"
+                      alt="Pankaj Sarda"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Shreyas 3</h4>
-                    <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
+                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
                   </div>
                   <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
@@ -1241,21 +1302,25 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                  lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
-                  Quam eleifend magna aliquet ut. Turpis gravida quis
+                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
+                  place on record your excellent work for making of flyers for
+                  my company for promotion. The work of you and your team has
+                  been extremely professional and level of satisfaction is very
+                  high. I would surely recommend your work to other RB members
+                  as well as my contact sphere
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={TestimonySample}
+                      src={PankajSarda}
                       style={{ gridArea: "box-1" }}
-                      alt="Shreyas Photo"
+                      alt="Pankaj Sarda"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Shreyas 4</h4>
-                    <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
+                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
                   </div>
                   <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
@@ -1265,21 +1330,25 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                  lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
-                  Quam eleifend magna aliquet ut. Turpis gravida quis
+                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
+                  place on record your excellent work for making of flyers for
+                  my company for promotion. The work of you and your team has
+                  been extremely professional and level of satisfaction is very
+                  high. I would surely recommend your work to other RB members
+                  as well as my contact sphere
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={TestimonySample}
+                      src={PankajSarda}
                       style={{ gridArea: "box-1" }}
-                      alt="Shreyas Photo"
+                      alt="Pankaj Sarda"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Shreyas 5</h4>
-                    <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
+                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
                   </div>
                   <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
@@ -1289,21 +1358,25 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                  lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
-                  Quam eleifend magna aliquet ut. Turpis gravida quis
+                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
+                  place on record your excellent work for making of flyers for
+                  my company for promotion. The work of you and your team has
+                  been extremely professional and level of satisfaction is very
+                  high. I would surely recommend your work to other RB members
+                  as well as my contact sphere
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={TestimonySample}
+                      src={PankajSarda}
                       style={{ gridArea: "box-1" }}
-                      alt="Shreyas Photo"
+                      alt="Pankaj Sarda"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Shreyas 1</h4>
-                    <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
+                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
                   </div>
                   <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
@@ -1313,21 +1386,25 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                  lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
-                  Quam eleifend magna aliquet ut. Turpis gravida quis
+                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
+                  place on record your excellent work for making of flyers for
+                  my company for promotion. The work of you and your team has
+                  been extremely professional and level of satisfaction is very
+                  high. I would surely recommend your work to other RB members
+                  as well as my contact sphere
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={TestimonySample}
+                      src={PankajSarda}
                       style={{ gridArea: "box-1" }}
-                      alt="Shreyas Photo"
+                      alt="Pankaj Sarda"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Shreyas 2</h4>
-                    <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
+                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
                   </div>
                   <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
@@ -1337,21 +1414,25 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                  lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
-                  Quam eleifend magna aliquet ut. Turpis gravida quis
+                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
+                  place on record your excellent work for making of flyers for
+                  my company for promotion. The work of you and your team has
+                  been extremely professional and level of satisfaction is very
+                  high. I would surely recommend your work to other RB members
+                  as well as my contact sphere
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={TestimonySample}
+                      src={PankajSarda}
                       style={{ gridArea: "box-1" }}
-                      alt="Shreyas Photo"
+                      alt="Pankaj Sarda"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Shreyas 3</h4>
-                    <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
+                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
                   </div>
                   <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
@@ -1361,165 +1442,25 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                  lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
-                  Quam eleifend magna aliquet ut. Turpis gravida quis
+                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
+                  place on record your excellent work for making of flyers for
+                  my company for promotion. The work of you and your team has
+                  been extremely professional and level of satisfaction is very
+                  high. I would surely recommend your work to other RB members
+                  as well as my contact sphere
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={TestimonySample}
+                      src={PankajSarda}
                       style={{ gridArea: "box-1" }}
-                      alt="Shreyas Photo"
+                      alt="Pankaj Sarda"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Shreyas 4</h4>
-                    <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
+                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
                   </div>
                   <div className="virtual-card-testimony-star">
                     <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                  </div>
-                </section>
-              </div>
-              <div className="virtual-card-testimony-set">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                  lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
-                  Quam eleifend magna aliquet ut. Turpis gravida quis
-                </p>
-                <section>
-                  <div className="virtual-card-testimony-info">
-                    <img
-                      src={TestimonySample}
-                      style={{ gridArea: "box-1" }}
-                      alt="Shreyas Photo"
-                    />
-                    <h4 style={{ gridArea: "box-2" }}>Shreyas 5</h4>
-                    <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
-                  </div>
-                  <div className="virtual-card-testimony-star">
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                  </div>
-                </section>
-              </div>
-              <div className="virtual-card-testimony-set">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                  lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
-                  Quam eleifend magna aliquet ut. Turpis gravida quis
-                </p>
-                <section>
-                  <div className="virtual-card-testimony-info">
-                    <img
-                      src={TestimonySample}
-                      style={{ gridArea: "box-1" }}
-                      alt="Shreyas Photo"
-                    />
-                    <h4 style={{ gridArea: "box-2" }}>Shreyas 1</h4>
-                    <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
-                  </div>
-                  <div className="virtual-card-testimony-star">
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                  </div>
-                </section>
-              </div>
-              <div className="virtual-card-testimony-set">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                  lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
-                  Quam eleifend magna aliquet ut. Turpis gravida quis
-                </p>
-                <section>
-                  <div className="virtual-card-testimony-info">
-                    <img
-                      src={TestimonySample}
-                      style={{ gridArea: "box-1" }}
-                      alt="Shreyas Photo"
-                    />
-                    <h4 style={{ gridArea: "box-2" }}>Shreyas 2</h4>
-                    <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
-                  </div>
-                  <div className="virtual-card-testimony-star">
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                  </div>
-                </section>
-              </div>
-              <div className="virtual-card-testimony-set">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                  lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
-                  Quam eleifend magna aliquet ut. Turpis gravida quis
-                </p>
-                <section>
-                  <div className="virtual-card-testimony-info">
-                    <img
-                      src={TestimonySample}
-                      style={{ gridArea: "box-1" }}
-                      alt="Shreyas Photo"
-                    />
-                    <h4 style={{ gridArea: "box-2" }}>Shreyas 3</h4>
-                    <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
-                  </div>
-                  <div className="virtual-card-testimony-star">
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                  </div>
-                </section>
-              </div>
-              <div className="virtual-card-testimony-set">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                  lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
-                  Quam eleifend magna aliquet ut. Turpis gravida quis
-                </p>
-                <section>
-                  <div className="virtual-card-testimony-info">
-                    <img
-                      src={TestimonySample}
-                      style={{ gridArea: "box-1" }}
-                      alt="Shreyas Photo"
-                    />
-                    <h4 style={{ gridArea: "box-2" }}>Shreyas 4</h4>
-                    <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
-                  </div>
-                  <div className="virtual-card-testimony-star">
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                  </div>
-                </section>
-              </div>
-              <div className="virtual-card-testimony-set">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                  lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
-                  Quam eleifend magna aliquet ut. Turpis gravida quis
-                </p>
-                <section>
-                  <div className="virtual-card-testimony-info">
-                    <img
-                      src={TestimonySample}
-                      style={{ gridArea: "box-1" }}
-                      alt="Shreyas Photo"
-                    />
-                    <h4 style={{ gridArea: "box-2" }}>Shreyas 5</h4>
-                    <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
-                  </div>
-                  <div className="virtual-card-testimony-star">
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
@@ -1531,21 +1472,25 @@ function MahiRastogi() {
             <div className="virtual-card-testimony-set-slide mobile">
               <div className="virtual-card-testimony-set">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                  lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
-                  Quam eleifend magna aliquet ut. Turpis gravida quis
+                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
+                  place on record your excellent work for making of flyers for
+                  my company for promotion. The work of you and your team has
+                  been extremely professional and level of satisfaction is very
+                  high. I would surely recommend your work to other RB members
+                  as well as my contact sphere
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={TestimonySample}
+                      src={PankajSarda}
                       style={{ gridArea: "box-1" }}
                       alt="Shreyas Photo"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Shreyas 1</h4>
-                    <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
+                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
                   </div>
                   <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
@@ -1555,22 +1500,25 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Quam eleifend magna
-                  aliquet ut. Turpis gravida quis. Lectus cursus platea lobortis
-                  id. Sit nibh ullamcorper in libero donec enim auctor. Quam
-                  eleifend magna aliquet ut. Turpis gravida quis.
+                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
+                  place on record your excellent work for making of flyers for
+                  my company for promotion. The work of you and your team has
+                  been extremely professional and level of satisfaction is very
+                  high. I would surely recommend your work to other RB members
+                  as well as my contact sphere
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={TestimonySample}
+                      src={PankajSarda}
                       style={{ gridArea: "box-1" }}
                       alt="Shreyas Photo"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Shreyas 2</h4>
-                    <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
+                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
                   </div>
                   <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
@@ -1580,21 +1528,25 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                  lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
-                  Quam eleifend magna aliquet ut. Turpis gravida quis
+                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
+                  place on record your excellent work for making of flyers for
+                  my company for promotion. The work of you and your team has
+                  been extremely professional and level of satisfaction is very
+                  high. I would surely recommend your work to other RB members
+                  as well as my contact sphere
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={TestimonySample}
+                      src={PankajSarda}
                       style={{ gridArea: "box-1" }}
                       alt="Shreyas Photo"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Shreyas 3</h4>
-                    <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
+                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
                   </div>
                   <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
@@ -1604,21 +1556,25 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                  lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
-                  Quam eleifend magna aliquet ut. Turpis gravida quis
+                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
+                  place on record your excellent work for making of flyers for
+                  my company for promotion. The work of you and your team has
+                  been extremely professional and level of satisfaction is very
+                  high. I would surely recommend your work to other RB members
+                  as well as my contact sphere
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={TestimonySample}
+                      src={PankajSarda}
                       style={{ gridArea: "box-1" }}
                       alt="Shreyas Photo"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Shreyas 4</h4>
-                    <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
+                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
                   </div>
                   <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
@@ -1628,21 +1584,25 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Lectus cursus platea
-                  lobortis id. Sit nibh ullamcorper in libero donec enim auctor.
-                  Quam eleifend magna aliquet ut. Turpis gravida quis
+                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
+                  place on record your excellent work for making of flyers for
+                  my company for promotion. The work of you and your team has
+                  been extremely professional and level of satisfaction is very
+                  high. I would surely recommend your work to other RB members
+                  as well as my contact sphere
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={TestimonySample}
+                      src={PankajSarda}
                       style={{ gridArea: "box-1" }}
                       alt="Shreyas Photo"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Shreyas 5</h4>
-                    <span style={{ gridArea: "box-3" }}>13 Dec 2024</span>
+                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
+                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
                   </div>
                   <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />
                     <img src={TestimonyStar} />

@@ -482,6 +482,10 @@ html {
   transform: translate(-50%, -50%);
 }
 
+.Mahi_Rastogi .virtual-card-about-container{
+   transform: translate(-50%, -20%);
+}
+
 .virtual-card-about-container p {
   width: 720px;
   text-align: center;
@@ -2081,6 +2085,10 @@ html {
     gap: 32px;
   }
 
+    .virtual-card-watch .virtual-card-banner-button{
+      width: auto;
+    }
+
   .virtual-card-watch-container {
     gap: 32px;
   }
@@ -2340,7 +2348,7 @@ html {
   }
 
   .virtual-card-connect {
-    padding: 40px 0px;
+    padding: 40px 0px 0px 0px;
   }
 
   .virtual-card-connect-container {
@@ -2394,7 +2402,7 @@ html {
   }
 
   .virtual-card-footer-container section img {
-    height: 12px;
+    height: 28px;
   }
 
   .virtual-card-footer-link-container {
