@@ -34,6 +34,9 @@ import ContactDesktopBackground from "./assets/TKS Desktop Contact.png";
 import ContactMobileBackground from "./assets/TKS Mobile Contact.png";
 import TestimonySample from "./assets/Testimony.jpg";
 import PankajSarda from "./assets/Pankaj Sarda.jpeg";
+import RajSakariya from "./assets/Raj Sakariya.jpg";
+import VishnuPranav from "./assets/Vishnu Pranav.jpg";
+import ShrinishTalanki from "./assets/Shrinish Talanki.jpeg";
 import TestimonyStar from "./assets/Testimony Star.png";
 import TKSconnect from "./TKSconnect";
 import TKSfooter from "./TKSfooter";
@@ -1106,22 +1109,71 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
-                  place on record your excellent work for making of flyers for
-                  my company for promotion. The work of you and your team has
-                  been extremely professional and level of satisfaction is very
-                  high. I would surely recommend your work to other RB members
-                  as well as my contact sphere
+                  I had a fantastic experience with Koios Studio when they
+                  redesigned our company website. Their team was not only
+                  professional but also incredibly creative and skilled. They
+                  truly understood our brand and created a beautiful, cohesive
+                  site that we're proud of. Our new website is intuitive and
+                  user-friendly, and it looks great on all devices. The
+                  communication was clear and timely throughout the project, and
+                  their support after launch has been outstanding. Overall,
+                  Koios Studio went above and beyond our expectations. I highly
+                  recommend them!
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={PankajSarda}
+                      src={RajSakariya}
                       style={{ gridArea: "box-1" }}
                       alt="Pankaj Sarda"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
-                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
+                    <h4 style={{ gridArea: "box-2" }}>Raj Sakariya</h4>
+                    <span style={{ gridArea: "box-3" }}>51 weeks ago</span>
+                  </div>
+                  <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                  </div>
+                </section>
+              </div>
+              <div className="virtual-card-testimony-set">
+                <p>
+                  Excellent experience working with the koios team. All the
+                  designers are very professional
+                </p>
+                <section>
+                  <div className="virtual-card-testimony-info">
+                    <img
+                      src={VishnuPranav}
+                      style={{ gridArea: "box-1" }}
+                      alt="Pankaj Sarda"
+                    />
+                    <h4 style={{ gridArea: "box-2" }}>Vishnu Pranav</h4>
+                    <span style={{ gridArea: "box-3" }}>51 weeks ago</span>
+                  </div>
+                  <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                  </div>
+                </section>
+              </div>
+              <div className="virtual-card-testimony-set">
+                <p>Young team with immense passion for their work</p>
+                <section>
+                  <div className="virtual-card-testimony-info">
+                    <img
+                      src={ShrinishTalanki}
+                      style={{ gridArea: "box-1" }}
+                      alt="Pankaj Sarda"
+                    />
+                    <h4 style={{ gridArea: "box-2" }}>Shrinish Talanki</h4>
+                    <span style={{ gridArea: "box-3" }}>51 weeks ago</span>
                   </div>
                   <div className="virtual-card-testimony-star">
                     <img src={TestimonyStar} />
@@ -1162,22 +1214,71 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
-                  place on record your excellent work for making of flyers for
-                  my company for promotion. The work of you and your team has
-                  been extremely professional and level of satisfaction is very
-                  high. I would surely recommend your work to other RB members
-                  as well as my contact sphere
+                  I had a fantastic experience with Koios Studio when they
+                  redesigned our company website. Their team was not only
+                  professional but also incredibly creative and skilled. They
+                  truly understood our brand and created a beautiful, cohesive
+                  site that we're proud of. Our new website is intuitive and
+                  user-friendly, and it looks great on all devices. The
+                  communication was clear and timely throughout the project, and
+                  their support after launch has been outstanding. Overall,
+                  Koios Studio went above and beyond our expectations. I highly
+                  recommend them!
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={PankajSarda}
+                      src={RajSakariya}
                       style={{ gridArea: "box-1" }}
                       alt="Pankaj Sarda"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
-                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
+                    <h4 style={{ gridArea: "box-2" }}>Raj Sakariya</h4>
+                    <span style={{ gridArea: "box-3" }}>51 weeks ago</span>
+                  </div>
+                  <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                  </div>
+                </section>
+              </div>
+              <div className="virtual-card-testimony-set">
+                <p>
+                  Excellent experience working with the koios team. All the
+                  designers are very professional
+                </p>
+                <section>
+                  <div className="virtual-card-testimony-info">
+                    <img
+                      src={VishnuPranav}
+                      style={{ gridArea: "box-1" }}
+                      alt="Pankaj Sarda"
+                    />
+                    <h4 style={{ gridArea: "box-2" }}>Vishnu Pranav</h4>
+                    <span style={{ gridArea: "box-3" }}>51 weeks ago</span>
+                  </div>
+                  <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                  </div>
+                </section>
+              </div>
+              <div className="virtual-card-testimony-set">
+                <p>Young team with immense passion for their work</p>
+                <section>
+                  <div className="virtual-card-testimony-info">
+                    <img
+                      src={ShrinishTalanki}
+                      style={{ gridArea: "box-1" }}
+                      alt="Pankaj Sarda"
+                    />
+                    <h4 style={{ gridArea: "box-2" }}>Shrinish Talanki</h4>
+                    <span style={{ gridArea: "box-3" }}>51 weeks ago</span>
                   </div>
                   <div className="virtual-card-testimony-star">
                     <img src={TestimonyStar} />
@@ -1218,22 +1319,71 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
-                  place on record your excellent work for making of flyers for
-                  my company for promotion. The work of you and your team has
-                  been extremely professional and level of satisfaction is very
-                  high. I would surely recommend your work to other RB members
-                  as well as my contact sphere
+                  I had a fantastic experience with Koios Studio when they
+                  redesigned our company website. Their team was not only
+                  professional but also incredibly creative and skilled. They
+                  truly understood our brand and created a beautiful, cohesive
+                  site that we're proud of. Our new website is intuitive and
+                  user-friendly, and it looks great on all devices. The
+                  communication was clear and timely throughout the project, and
+                  their support after launch has been outstanding. Overall,
+                  Koios Studio went above and beyond our expectations. I highly
+                  recommend them!
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={PankajSarda}
+                      src={RajSakariya}
                       style={{ gridArea: "box-1" }}
                       alt="Pankaj Sarda"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
-                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
+                    <h4 style={{ gridArea: "box-2" }}>Raj Sakariya</h4>
+                    <span style={{ gridArea: "box-3" }}>51 weeks ago</span>
+                  </div>
+                  <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                  </div>
+                </section>
+              </div>
+              <div className="virtual-card-testimony-set">
+                <p>
+                  Excellent experience working with the koios team. All the
+                  designers are very professional
+                </p>
+                <section>
+                  <div className="virtual-card-testimony-info">
+                    <img
+                      src={VishnuPranav}
+                      style={{ gridArea: "box-1" }}
+                      alt="Pankaj Sarda"
+                    />
+                    <h4 style={{ gridArea: "box-2" }}>Vishnu Pranav</h4>
+                    <span style={{ gridArea: "box-3" }}>51 weeks ago</span>
+                  </div>
+                  <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                  </div>
+                </section>
+              </div>
+              <div className="virtual-card-testimony-set">
+                <p>Young team with immense passion for their work</p>
+                <section>
+                  <div className="virtual-card-testimony-info">
+                    <img
+                      src={ShrinishTalanki}
+                      style={{ gridArea: "box-1" }}
+                      alt="Pankaj Sarda"
+                    />
+                    <h4 style={{ gridArea: "box-2" }}>Shrinish Talanki</h4>
+                    <span style={{ gridArea: "box-3" }}>51 weeks ago</span>
                   </div>
                   <div className="virtual-card-testimony-star">
                     <img src={TestimonyStar} />
@@ -1274,22 +1424,26 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
-                  place on record your excellent work for making of flyers for
-                  my company for promotion. The work of you and your team has
-                  been extremely professional and level of satisfaction is very
-                  high. I would surely recommend your work to other RB members
-                  as well as my contact sphere
+                  I had a fantastic experience with Koios Studio when they
+                  redesigned our company website. Their team was not only
+                  professional but also incredibly creative and skilled. They
+                  truly understood our brand and created a beautiful, cohesive
+                  site that we're proud of. Our new website is intuitive and
+                  user-friendly, and it looks great on all devices. The
+                  communication was clear and timely throughout the project, and
+                  their support after launch has been outstanding. Overall,
+                  Koios Studio went above and beyond our expectations. I highly
+                  recommend them!
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={PankajSarda}
+                      src={RajSakariya}
                       style={{ gridArea: "box-1" }}
                       alt="Pankaj Sarda"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
-                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
+                    <h4 style={{ gridArea: "box-2" }}>Raj Sakariya</h4>
+                    <span style={{ gridArea: "box-3" }}>51 weeks ago</span>
                   </div>
                   <div className="virtual-card-testimony-star">
                     <img src={TestimonyStar} />
@@ -1302,22 +1456,18 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
-                  place on record your excellent work for making of flyers for
-                  my company for promotion. The work of you and your team has
-                  been extremely professional and level of satisfaction is very
-                  high. I would surely recommend your work to other RB members
-                  as well as my contact sphere
+                  Excellent experience working with the koios team. All the
+                  designers are very professional
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={PankajSarda}
+                      src={VishnuPranav}
                       style={{ gridArea: "box-1" }}
                       alt="Pankaj Sarda"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
-                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
+                    <h4 style={{ gridArea: "box-2" }}>Vishnu Pranav</h4>
+                    <span style={{ gridArea: "box-3" }}>51 weeks ago</span>
                   </div>
                   <div className="virtual-card-testimony-star">
                     <img src={TestimonyStar} />
@@ -1329,135 +1479,16 @@ function MahiRastogi() {
                 </section>
               </div>
               <div className="virtual-card-testimony-set">
-                <p>
-                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
-                  place on record your excellent work for making of flyers for
-                  my company for promotion. The work of you and your team has
-                  been extremely professional and level of satisfaction is very
-                  high. I would surely recommend your work to other RB members
-                  as well as my contact sphere
-                </p>
+                <p>Young team with immense passion for their work</p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={PankajSarda}
+                      src={ShrinishTalanki}
                       style={{ gridArea: "box-1" }}
                       alt="Pankaj Sarda"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
-                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
-                  </div>
-                  <div className="virtual-card-testimony-star">
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                  </div>
-                </section>
-              </div>
-              <div className="virtual-card-testimony-set">
-                <p>
-                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
-                  place on record your excellent work for making of flyers for
-                  my company for promotion. The work of you and your team has
-                  been extremely professional and level of satisfaction is very
-                  high. I would surely recommend your work to other RB members
-                  as well as my contact sphere
-                </p>
-                <section>
-                  <div className="virtual-card-testimony-info">
-                    <img
-                      src={PankajSarda}
-                      style={{ gridArea: "box-1" }}
-                      alt="Pankaj Sarda"
-                    />
-                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
-                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
-                  </div>
-                  <div className="virtual-card-testimony-star">
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                  </div>
-                </section>
-              </div>
-              <div className="virtual-card-testimony-set">
-                <p>
-                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
-                  place on record your excellent work for making of flyers for
-                  my company for promotion. The work of you and your team has
-                  been extremely professional and level of satisfaction is very
-                  high. I would surely recommend your work to other RB members
-                  as well as my contact sphere
-                </p>
-                <section>
-                  <div className="virtual-card-testimony-info">
-                    <img
-                      src={PankajSarda}
-                      style={{ gridArea: "box-1" }}
-                      alt="Pankaj Sarda"
-                    />
-                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
-                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
-                  </div>
-                  <div className="virtual-card-testimony-star">
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                  </div>
-                </section>
-              </div>
-              <div className="virtual-card-testimony-set">
-                <p>
-                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
-                  place on record your excellent work for making of flyers for
-                  my company for promotion. The work of you and your team has
-                  been extremely professional and level of satisfaction is very
-                  high. I would surely recommend your work to other RB members
-                  as well as my contact sphere
-                </p>
-                <section>
-                  <div className="virtual-card-testimony-info">
-                    <img
-                      src={PankajSarda}
-                      style={{ gridArea: "box-1" }}
-                      alt="Pankaj Sarda"
-                    />
-                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
-                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
-                  </div>
-                  <div className="virtual-card-testimony-star">
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                  </div>
-                </section>
-              </div>
-              <div className="virtual-card-testimony-set">
-                <p>
-                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
-                  place on record your excellent work for making of flyers for
-                  my company for promotion. The work of you and your team has
-                  been extremely professional and level of satisfaction is very
-                  high. I would surely recommend your work to other RB members
-                  as well as my contact sphere
-                </p>
-                <section>
-                  <div className="virtual-card-testimony-info">
-                    <img
-                      src={PankajSarda}
-                      style={{ gridArea: "box-1" }}
-                      alt="Pankaj Sarda"
-                    />
-                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
-                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
+                    <h4 style={{ gridArea: "box-2" }}>Shrinish Talanki</h4>
+                    <span style={{ gridArea: "box-3" }}>51 weeks ago</span>
                   </div>
                   <div className="virtual-card-testimony-star">
                     <img src={TestimonyStar} />
@@ -1500,22 +1531,26 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
-                  place on record your excellent work for making of flyers for
-                  my company for promotion. The work of you and your team has
-                  been extremely professional and level of satisfaction is very
-                  high. I would surely recommend your work to other RB members
-                  as well as my contact sphere
+                  I had a fantastic experience with Koios Studio when they
+                  redesigned our company website. Their team was not only
+                  professional but also incredibly creative and skilled. They
+                  truly understood our brand and created a beautiful, cohesive
+                  site that we're proud of. Our new website is intuitive and
+                  user-friendly, and it looks great on all devices. The
+                  communication was clear and timely throughout the project, and
+                  their support after launch has been outstanding. Overall,
+                  Koios Studio went above and beyond our expectations. I highly
+                  recommend them!
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={PankajSarda}
+                      src={RajSakariya}
                       style={{ gridArea: "box-1" }}
-                      alt="Shreyas Photo"
+                      alt="Pankaj Sarda"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
-                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
+                    <h4 style={{ gridArea: "box-2" }}>Raj Sakariya</h4>
+                    <span style={{ gridArea: "box-3" }}>51 weeks ago</span>
                   </div>
                   <div className="virtual-card-testimony-star">
                     <img src={TestimonyStar} />
@@ -1528,22 +1563,18 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
-                  place on record your excellent work for making of flyers for
-                  my company for promotion. The work of you and your team has
-                  been extremely professional and level of satisfaction is very
-                  high. I would surely recommend your work to other RB members
-                  as well as my contact sphere
+                  Excellent experience working with the koios team. All the
+                  designers are very professional
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={PankajSarda}
+                      src={VishnuPranav}
                       style={{ gridArea: "box-1" }}
-                      alt="Shreyas Photo"
+                      alt="Pankaj Sarda"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
-                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
+                    <h4 style={{ gridArea: "box-2" }}>Vishnu Pranav</h4>
+                    <span style={{ gridArea: "box-3" }}>51 weeks ago</span>
                   </div>
                   <div className="virtual-card-testimony-star">
                     <img src={TestimonyStar} />
@@ -1555,51 +1586,16 @@ function MahiRastogi() {
                 </section>
               </div>
               <div className="virtual-card-testimony-set">
-                <p>
-                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
-                  place on record your excellent work for making of flyers for
-                  my company for promotion. The work of you and your team has
-                  been extremely professional and level of satisfaction is very
-                  high. I would surely recommend your work to other RB members
-                  as well as my contact sphere
-                </p>
+                <p>Young team with immense passion for their work</p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={PankajSarda}
+                      src={ShrinishTalanki}
                       style={{ gridArea: "box-1" }}
-                      alt="Shreyas Photo"
+                      alt="Pankaj Sarda"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
-                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
-                  </div>
-                  <div className="virtual-card-testimony-star">
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                  </div>
-                </section>
-              </div>
-              <div className="virtual-card-testimony-set">
-                <p>
-                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
-                  place on record your excellent work for making of flyers for
-                  my company for promotion. The work of you and your team has
-                  been extremely professional and level of satisfaction is very
-                  high. I would surely recommend your work to other RB members
-                  as well as my contact sphere
-                </p>
-                <section>
-                  <div className="virtual-card-testimony-info">
-                    <img
-                      src={PankajSarda}
-                      style={{ gridArea: "box-1" }}
-                      alt="Shreyas Photo"
-                    />
-                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
-                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
+                    <h4 style={{ gridArea: "box-2" }}>Shrinish Talanki</h4>
+                    <span style={{ gridArea: "box-3" }}>51 weeks ago</span>
                   </div>
                   <div className="virtual-card-testimony-star">
                     <img src={TestimonyStar} />
