@@ -161,7 +161,7 @@ function LakshitJain() {
                   <img src={Verified} />
                 </h1>
                 <div className="virtual-card-banner-designation">
-                  <span>Graphic design intern</span>
+                  <span>Graphic design </span>
                 </div>
               </section>
               <p>
@@ -305,7 +305,7 @@ function LakshitJain() {
           className="virtual-card-about-background mobile"
         />
         <div className="virtual-card-about-container">
-          <h2>Graphic Design Intern</h2>
+          <h2>Graphic Design </h2>
           <p>
             Specialize in creating eye-catching designs for print and digital
             media, including branding, social media graphics, book covers, and
@@ -604,10 +604,17 @@ function LakshitJain() {
         <h2>Work Experience</h2>
         <div className="virtual-card-experience-container">
           <div className="virtual-card-experience-set">
+            <h3>Graphic Design</h3>
+            <section>
+              <h4>Koios Stuidos</h4>
+              <p>July 2025 - Present</p>
+            </section>
+          </div>
+          <div className="virtual-card-experience-set">
             <h3>Graphic Design Intern</h3>
             <section>
               <h4>Koios Stuidos</h4>
-              <p>January 2025 - Present</p>
+              <p>January 2025 - July 2025</p>
             </section>
           </div>
           <div className="virtual-card-experience-set">
