@@ -205,7 +205,7 @@ function VishalPujar() {
           className="virtual-card-about-background mobile"
         />
         <div className="virtual-card-about-container">
-          <h2>CTO</h2>
+          <h2>Director and Co-Founder</h2>
           <p>
             Competitive, detail oriented by nature and engineer by profession.
             Work everyday to make best use of both ends to get best possible
