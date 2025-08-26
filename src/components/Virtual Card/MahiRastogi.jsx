@@ -37,6 +37,9 @@ import PankajSarda from "./assets/Pankaj Sarda.jpeg";
 import RajSakariya from "./assets/Raj Sakariya.jpg";
 import VishnuPranav from "./assets/Vishnu Pranav.jpg";
 import ShrinishTalanki from "./assets/Shrinish Talanki.jpeg";
+import MohanamManjula from "./assets/Mohanam Manjula.png";
+import PVijeyranghavan from "./assets/P Vijeyranghavan.png";
+import AshutoshMishra from "./assets/Ashutosh Mishra.png";
 import TestimonyStar from "./assets/Testimony Star.png";
 import TKSconnect from "./TKSconnect";
 import TKSfooter from "./TKSfooter";
@@ -1081,12 +1084,12 @@ function MahiRastogi() {
             <div className="virtual-card-testimony-set-slide desktop">
               <div className="virtual-card-testimony-set">
                 <p>
-                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
-                  place on record your excellent work for making of flyers for
-                  my company for promotion. The work of you and your team has
-                  been extremely professional and level of satisfaction is very
-                  high. I would surely recommend your work to other RB members
-                  as well as my contact sphere
+                  I, Pankaj Sarda, from Poonam Enterprriz would like to place on
+                  record your excellent work for making of flyers for my company
+                  for promotion. The work of you and your team has been
+                  extremely professional and level of satisfaction is very high.
+                  I would surely recommend your work to other RB members as well
+                  as my contact sphere
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
@@ -1186,12 +1189,137 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
-                  place on record your excellent work for making of flyers for
-                  my company for promotion. The work of you and your team has
-                  been extremely professional and level of satisfaction is very
-                  high. I would surely recommend your work to other RB members
-                  as well as my contact sphere
+                  I would like to appreciate your services for Logo and Flyer
+                  Upgradation by adding beautiful colours to my existing logo
+                  and make it look more attractive and pleasing. I have loved
+                  the output and I will keep referring you to my near and dear
+                  and contact sphere and RB network.
+                </p>
+                <section>
+                  <div className="virtual-card-testimony-info">
+                    <img
+                      src={PankajSarda}
+                      style={{ gridArea: "box-1" }}
+                      alt="Pankaj Sarda"
+                    />
+                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
+                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
+                  </div>
+                  <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                  </div>
+                </section>
+              </div>
+              <div className="virtual-card-testimony-set">
+                <p>
+                  We recently had the pleasure of working with Mahi or our
+                  complete brand overhaul, including website design,
+                  development, and logo creation. From the very beginning, the
+                  team impressed us with their professionalism, creativity, and
+                  ability to truly understand our vision. The website they
+                  delivered is not only visually stunning but also highly
+                  functional, with seamless navigation and a user-friendly
+                  interface. They paid close attention to detail, ensuring that
+                  every page aligned with our brand identity while also being
+                  optimized for performance, speed, and responsiveness across
+                  all devices. Their technical expertise meant that even the
+                  most complex features were implemented flawlessly, giving us a
+                  modern platform that both our team and our clients find easy
+                  to use.
+                </p>
+                <section>
+                  <div className="virtual-card-testimony-info">
+                    <img
+                      src={PVijeyranghavan}
+                      style={{ gridArea: "box-1" }}
+                      alt="P Vijeyranghavan"
+                    />
+                    <h4 style={{ gridArea: "box-2" }}>P Vijeyranghavan</h4>
+                    <span style={{ gridArea: "box-3" }}>18th August 2025</span>
+                  </div>
+                  <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                  </div>
+                </section>
+              </div>
+              <div className="virtual-card-testimony-set">
+                <p>
+                  I recently got my visiting card designed by Mahi Rastogi, and
+                  I must say, the experience was exceptional from start to
+                  finish. Her team of designers is not only highly skilled but
+                  also incredibly intuitive- they understood my vision perfectly
+                  and translated it into a design that felt both professional
+                  and personal. Mahi herself brings a unique creative flair and
+                  a deep understanding of branding, ensuring that every
+                  detail-from typography to layout-reflects the essence of your
+                  identity. The final product was elegant, impactful, and
+                  exactly what I needed to make a lasting impression. Her
+                  commitment to quality and client satisfaction truly sets her
+                  apart. If you're looking for design work that combines
+                  creativity, precision, and a touch of sophistication, I highly
+                  recommend Mahi Rastogi and her talented team.
+                </p>
+                <section>
+                  <div className="virtual-card-testimony-info">
+                    <img
+                      src={MohanamManjula}
+                      style={{ gridArea: "box-1" }}
+                      alt="Mohanam Manjula"
+                    />
+                    <h4 style={{ gridArea: "box-2" }}>Mohanam Manjula</h4>
+                    <span style={{ gridArea: "box-3" }}>15th July 2025</span>
+                  </div>
+                  <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                  </div>
+                </section>
+              </div>
+              <div className="virtual-card-testimony-set">
+                <p>
+                  Mahi Rastogi from Koios Studio offers one of the best website
+                  and app development services. They recently designed my Yoga
+                  poster, and the experience was excellent. The design and
+                  execution were really impressive.
+                </p>
+                <section>
+                  <div className="virtual-card-testimony-info">
+                    <img
+                      src={AshutoshMishra}
+                      style={{ gridArea: "box-1" }}
+                      alt="Ashutosh Mishra"
+                    />
+                    <h4 style={{ gridArea: "box-2" }}>Ashutosh Mishra</h4>
+                    <span style={{ gridArea: "box-3" }}>19th August 2025</span>
+                  </div>
+                  <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                  </div>
+                </section>
+              </div>
+              <div className="virtual-card-testimony-set">
+                <p>
+                  I, Pankaj Sarda, from Poonam Enterprriz would like to place on
+                  record your excellent work for making of flyers for my company
+                  for promotion. The work of you and your team has been
+                  extremely professional and level of satisfaction is very high.
+                  I would surely recommend your work to other RB members as well
+                  as my contact sphere
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
@@ -1291,12 +1419,11 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
-                  place on record your excellent work for making of flyers for
-                  my company for promotion. The work of you and your team has
-                  been extremely professional and level of satisfaction is very
-                  high. I would surely recommend your work to other RB members
-                  as well as my contact sphere
+                  I would like to appreciate your services for Logo and Flyer
+                  Upgradation by adding beautiful colours to my existing logo
+                  and make it look more attractive and pleasing. I have loved
+                  the output and I will keep referring you to my near and dear
+                  and contact sphere and RB network.
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
@@ -1319,26 +1446,30 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  I had a fantastic experience with Koios Studio when they
-                  redesigned our company website. Their team was not only
-                  professional but also incredibly creative and skilled. They
-                  truly understood our brand and created a beautiful, cohesive
-                  site that we're proud of. Our new website is intuitive and
-                  user-friendly, and it looks great on all devices. The
-                  communication was clear and timely throughout the project, and
-                  their support after launch has been outstanding. Overall,
-                  Koios Studio went above and beyond our expectations. I highly
-                  recommend them!
+                  We recently had the pleasure of working with Mahi or our
+                  complete brand overhaul, including website design,
+                  development, and logo creation. From the very beginning, the
+                  team impressed us with their professionalism, creativity, and
+                  ability to truly understand our vision. The website they
+                  delivered is not only visually stunning but also highly
+                  functional, with seamless navigation and a user-friendly
+                  interface. They paid close attention to detail, ensuring that
+                  every page aligned with our brand identity while also being
+                  optimized for performance, speed, and responsiveness across
+                  all devices. Their technical expertise meant that even the
+                  most complex features were implemented flawlessly, giving us a
+                  modern platform that both our team and our clients find easy
+                  to use.
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={RajSakariya}
+                      src={PVijeyranghavan}
                       style={{ gridArea: "box-1" }}
-                      alt="Pankaj Sarda"
+                      alt="P Vijeyranghavan"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Raj Sakariya</h4>
-                    <span style={{ gridArea: "box-3" }}>51 weeks ago</span>
+                    <h4 style={{ gridArea: "box-2" }}>P Vijeyranghavan</h4>
+                    <span style={{ gridArea: "box-3" }}>18th August 2025</span>
                   </div>
                   <div className="virtual-card-testimony-star">
                     <img src={TestimonyStar} />
@@ -1351,39 +1482,30 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  Excellent experience working with the koios team. All the
-                  designers are very professional
+                  I recently got my visiting card designed by Mahi Rastogi, and
+                  I must say, the experience was exceptional from start to
+                  finish. Her team of designers is not only highly skilled but
+                  also incredibly intuitive- they understood my vision perfectly
+                  and translated it into a design that felt both professional
+                  and personal. Mahi herself brings a unique creative flair and
+                  a deep understanding of branding, ensuring that every
+                  detail-from typography to layout-reflects the essence of your
+                  identity. The final product was elegant, impactful, and
+                  exactly what I needed to make a lasting impression. Her
+                  commitment to quality and client satisfaction truly sets her
+                  apart. If you're looking for design work that combines
+                  creativity, precision, and a touch of sophistication, I highly
+                  recommend Mahi Rastogi and her talented team.
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={VishnuPranav}
+                      src={MohanamManjula}
                       style={{ gridArea: "box-1" }}
-                      alt="Pankaj Sarda"
+                      alt="Mohanam Manjula"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Vishnu Pranav</h4>
-                    <span style={{ gridArea: "box-3" }}>51 weeks ago</span>
-                  </div>
-                  <div className="virtual-card-testimony-star">
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                  </div>
-                </section>
-              </div>
-              <div className="virtual-card-testimony-set">
-                <p>Young team with immense passion for their work</p>
-                <section>
-                  <div className="virtual-card-testimony-info">
-                    <img
-                      src={ShrinishTalanki}
-                      style={{ gridArea: "box-1" }}
-                      alt="Pankaj Sarda"
-                    />
-                    <h4 style={{ gridArea: "box-2" }}>Shrinish Talanki</h4>
-                    <span style={{ gridArea: "box-3" }}>51 weeks ago</span>
+                    <h4 style={{ gridArea: "box-2" }}>Mohanam Manjula</h4>
+                    <span style={{ gridArea: "box-3" }}>15th July 2025</span>
                   </div>
                   <div className="virtual-card-testimony-star">
                     <img src={TestimonyStar} />
@@ -1396,99 +1518,20 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
-                  place on record your excellent work for making of flyers for
-                  my company for promotion. The work of you and your team has
-                  been extremely professional and level of satisfaction is very
-                  high. I would surely recommend your work to other RB members
-                  as well as my contact sphere
+                  Mahi Rastogi from Koios Studio offers one of the best website
+                  and app development services. They recently designed my Yoga
+                  poster, and the experience was excellent. The design and
+                  execution were really impressive.
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
-                      src={PankajSarda}
+                      src={AshutoshMishra}
                       style={{ gridArea: "box-1" }}
-                      alt="Pankaj Sarda"
+                      alt="Ashutosh Mishra"
                     />
-                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
-                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
-                  </div>
-                  <div className="virtual-card-testimony-star">
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                  </div>
-                </section>
-              </div>
-              <div className="virtual-card-testimony-set">
-                <p>
-                  I had a fantastic experience with Koios Studio when they
-                  redesigned our company website. Their team was not only
-                  professional but also incredibly creative and skilled. They
-                  truly understood our brand and created a beautiful, cohesive
-                  site that we're proud of. Our new website is intuitive and
-                  user-friendly, and it looks great on all devices. The
-                  communication was clear and timely throughout the project, and
-                  their support after launch has been outstanding. Overall,
-                  Koios Studio went above and beyond our expectations. I highly
-                  recommend them!
-                </p>
-                <section>
-                  <div className="virtual-card-testimony-info">
-                    <img
-                      src={RajSakariya}
-                      style={{ gridArea: "box-1" }}
-                      alt="Pankaj Sarda"
-                    />
-                    <h4 style={{ gridArea: "box-2" }}>Raj Sakariya</h4>
-                    <span style={{ gridArea: "box-3" }}>51 weeks ago</span>
-                  </div>
-                  <div className="virtual-card-testimony-star">
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                  </div>
-                </section>
-              </div>
-              <div className="virtual-card-testimony-set">
-                <p>
-                  Excellent experience working with the koios team. All the
-                  designers are very professional
-                </p>
-                <section>
-                  <div className="virtual-card-testimony-info">
-                    <img
-                      src={VishnuPranav}
-                      style={{ gridArea: "box-1" }}
-                      alt="Pankaj Sarda"
-                    />
-                    <h4 style={{ gridArea: "box-2" }}>Vishnu Pranav</h4>
-                    <span style={{ gridArea: "box-3" }}>51 weeks ago</span>
-                  </div>
-                  <div className="virtual-card-testimony-star">
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                    <img src={TestimonyStar} />
-                  </div>
-                </section>
-              </div>
-              <div className="virtual-card-testimony-set">
-                <p>Young team with immense passion for their work</p>
-                <section>
-                  <div className="virtual-card-testimony-info">
-                    <img
-                      src={ShrinishTalanki}
-                      style={{ gridArea: "box-1" }}
-                      alt="Pankaj Sarda"
-                    />
-                    <h4 style={{ gridArea: "box-2" }}>Shrinish Talanki</h4>
-                    <span style={{ gridArea: "box-3" }}>51 weeks ago</span>
+                    <h4 style={{ gridArea: "box-2" }}>Ashutosh Mishra</h4>
+                    <span style={{ gridArea: "box-3" }}>19th August 2025</span>
                   </div>
                   <div className="virtual-card-testimony-star">
                     <img src={TestimonyStar} />
@@ -1503,19 +1546,19 @@ function MahiRastogi() {
             <div className="virtual-card-testimony-set-slide mobile">
               <div className="virtual-card-testimony-set">
                 <p>
-                  I, Pankaj Sarda RB 02888, from Poonam Enterprriz would like to
-                  place on record your excellent work for making of flyers for
-                  my company for promotion. The work of you and your team has
-                  been extremely professional and level of satisfaction is very
-                  high. I would surely recommend your work to other RB members
-                  as well as my contact sphere
+                  I, Pankaj Sarda, from Poonam Enterprriz would like to place on
+                  record your excellent work for making of flyers for my company
+                  for promotion. The work of you and your team has been
+                  extremely professional and level of satisfaction is very high.
+                  I would surely recommend your work to other RB members as well
+                  as my contact sphere
                 </p>
                 <section>
                   <div className="virtual-card-testimony-info">
                     <img
                       src={PankajSarda}
                       style={{ gridArea: "box-1" }}
-                      alt="Shreyas Photo"
+                      alt="Pankaj Sarda"
                     />
                     <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
                     <span style={{ gridArea: "box-3" }}>17 July 2025</span>
@@ -1596,6 +1639,131 @@ function MahiRastogi() {
                     />
                     <h4 style={{ gridArea: "box-2" }}>Shrinish Talanki</h4>
                     <span style={{ gridArea: "box-3" }}>51 weeks ago</span>
+                  </div>
+                  <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                  </div>
+                </section>
+              </div>
+              <div className="virtual-card-testimony-set">
+                <p>
+                  I would like to appreciate your services for Logo and Flyer
+                  Upgradation by adding beautiful colours to my existing logo
+                  and make it look more attractive and pleasing. I have loved
+                  the output and I will keep referring you to my near and dear
+                  and contact sphere and RB network.
+                </p>
+                <section>
+                  <div className="virtual-card-testimony-info">
+                    <img
+                      src={PankajSarda}
+                      style={{ gridArea: "box-1" }}
+                      alt="Pankaj Sarda"
+                    />
+                    <h4 style={{ gridArea: "box-2" }}>Pankaj Sarda</h4>
+                    <span style={{ gridArea: "box-3" }}>17 July 2025</span>
+                  </div>
+                  <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                  </div>
+                </section>
+              </div>
+              <div className="virtual-card-testimony-set">
+                <p>
+                  We recently had the pleasure of working with Mahi or our
+                  complete brand overhaul, including website design,
+                  development, and logo creation. From the very beginning, the
+                  team impressed us with their professionalism, creativity, and
+                  ability to truly understand our vision. The website they
+                  delivered is not only visually stunning but also highly
+                  functional, with seamless navigation and a user-friendly
+                  interface. They paid close attention to detail, ensuring that
+                  every page aligned with our brand identity while also being
+                  optimized for performance, speed, and responsiveness across
+                  all devices. Their technical expertise meant that even the
+                  most complex features were implemented flawlessly, giving us a
+                  modern platform that both our team and our clients find easy
+                  to use.
+                </p>
+                <section>
+                  <div className="virtual-card-testimony-info">
+                    <img
+                      src={PVijeyranghavan}
+                      style={{ gridArea: "box-1" }}
+                      alt="P Vijeyranghavan"
+                    />
+                    <h4 style={{ gridArea: "box-2" }}>P Vijeyranghavan</h4>
+                    <span style={{ gridArea: "box-3" }}>18th August 2025</span>
+                  </div>
+                  <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                  </div>
+                </section>
+              </div>
+              <div className="virtual-card-testimony-set">
+                <p>
+                  I recently got my visiting card designed by Mahi Rastogi, and
+                  I must say, the experience was exceptional from start to
+                  finish. Her team of designers is not only highly skilled but
+                  also incredibly intuitive- they understood my vision perfectly
+                  and translated it into a design that felt both professional
+                  and personal. Mahi herself brings a unique creative flair and
+                  a deep understanding of branding, ensuring that every
+                  detail-from typography to layout-reflects the essence of your
+                  identity. The final product was elegant, impactful, and
+                  exactly what I needed to make a lasting impression. Her
+                  commitment to quality and client satisfaction truly sets her
+                  apart. If you're looking for design work that combines
+                  creativity, precision, and a touch of sophistication, I highly
+                  recommend Mahi Rastogi and her talented team.
+                </p>
+                <section>
+                  <div className="virtual-card-testimony-info">
+                    <img
+                      src={MohanamManjula}
+                      style={{ gridArea: "box-1" }}
+                      alt="Mohanam Manjula"
+                    />
+                    <h4 style={{ gridArea: "box-2" }}>Mohanam Manjula</h4>
+                    <span style={{ gridArea: "box-3" }}>15th July 2025</span>
+                  </div>
+                  <div className="virtual-card-testimony-star">
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                    <img src={TestimonyStar} />
+                  </div>
+                </section>
+              </div>
+              <div className="virtual-card-testimony-set">
+                <p>
+                  Mahi Rastogi from Koios Studio offers one of the best website
+                  and app development services. They recently designed my Yoga
+                  poster, and the experience was excellent. The design and
+                  execution were really impressive.
+                </p>
+                <section>
+                  <div className="virtual-card-testimony-info">
+                    <img
+                      src={AshutoshMishra}
+                      style={{ gridArea: "box-1" }}
+                      alt="Ashutosh Mishra"
+                    />
+                    <h4 style={{ gridArea: "box-2" }}>Ashutosh Mishra</h4>
+                    <span style={{ gridArea: "box-3" }}>19th August 2025</span>
                   </div>
                   <div className="virtual-card-testimony-star">
                     <img src={TestimonyStar} />
