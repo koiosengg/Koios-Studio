@@ -30,9 +30,10 @@ function Numbers() {
             <span>Numbers</span> that speak for themselves
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Augue id dictum hendrerit
-            adipiscing tellus pretium varius nunc. Turpis morbi praesent ac
-            velit. Non in adipiscing tortor.
+            Proven results and measurable impact are the foundation of lasting
+            partnerships. Each project is approached with precision, delivering
+            outcomes that consistently exceed expectations and strengthen client
+            success.
           </p>
           <a href="#footer" className="portfolio-primary-button">
             <div className="portfolio-primary-button-background"></div>

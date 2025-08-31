@@ -27,7 +27,8 @@ function Banner() {
             <span>Vision to Reality</span>
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Bibendum purus aliquam sed.
+            Turning imagination into impactful designs, we ensure your brand
+            story is expressed with elegance and precision.
           </p>
         </section>
         <Link to="/portfolio/websites" className="portfolio-primary-button">

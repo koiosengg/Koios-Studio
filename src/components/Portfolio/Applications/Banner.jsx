@@ -24,7 +24,8 @@ function Banner() {
             <span>to Inspire</span>
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Bibendum purus aliquam sed.
+            Smart user friendly applications that drive innovation and inspire
+            action.
           </p>
         </section>
         <a className="portfolio-primary-button">

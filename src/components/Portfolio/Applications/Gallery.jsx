@@ -45,12 +45,13 @@ function Gallery() {
             alt="Heading Design"
           />
           <h2>
-            <span>Numbers</span> that speak for themselves
+            Your <span>Application</span> - Designed to impress
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Augue id dictum hendrerit
-            adipiscing tellus pretium varius nunc. Turpis morbi praesent ac
-            velit. Non in adipiscing tortor.
+            Every application is crafted with attention to detail, combining
+            intuitive functionality with striking design. The result is a
+            digital experience that not only meets needs but leaves a lasting
+            impression on every user.
           </p>
           <Link to="/portfolio/website" className="portfolio-secondary-button">
             <p>View All</p>

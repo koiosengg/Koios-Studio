@@ -143,6 +143,11 @@
   -webkit-text-fill-color: transparent;
 }
 
+.portfolio-home .portfolio-home-banner-container section p {
+  text-align: center;
+  max-width: 850px;
+}
+
 .portfolio-home-banner-icons {
   width: 100%;
   height: 100%;
@@ -2185,8 +2190,6 @@
   font-weight: 500;
   line-height: 140%;
 }
-
-
 
 .portfolio-projects-info-container p {
   color: rgba(255, 255, 255, 0.58);

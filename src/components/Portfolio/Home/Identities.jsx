@@ -18,9 +18,9 @@ function Identities() {
             that Stand out
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Augue id dictum hendrerit
-            adipiscing tellus pretium varius nunc. Turpis morbi praesent ac
-            velit. Non in adipiscing tortor.
+            Creating digital identities that capture attention and leave a
+            lasting impression, each design reflects the unique personality of
+            the brand while connecting meaningfully with its audience.
           </p>
         </div>
         <Link to="/portfolio/branding" className="portfolio-secondary-button">

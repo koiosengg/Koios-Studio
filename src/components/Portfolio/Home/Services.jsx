@@ -73,8 +73,9 @@ function Services() {
           <div></div>
         </div>
         <p>
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit.
+          Professionally designed websites with intuitive navigation and
+          optimized performance ensure visitors stay engaged and convert into
+          loyal clients.
         </p>
         <div className="portfolio-explore-button">
           <p>Explore</p>
@@ -92,7 +93,10 @@ function Services() {
           </svg>
         </div>
       </Link>
-      <Link to="/portfolio/applications" className="portfolio-home-services-set">
+      <Link
+        to="/portfolio/applications"
+        className="portfolio-home-services-set"
+      >
         <div className="portfolio-home-services-set-icon">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -158,8 +162,8 @@ function Services() {
           <div></div>
         </div>
         <p>
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit.
+          Secure, scalable, and user-focused development delivers solutions that
+          simplify processes and enhance user satisfaction.
         </p>
         <div className="portfolio-explore-button">
           <p>Explore</p>
@@ -243,8 +247,8 @@ function Services() {
           <div></div>
         </div>
         <p>
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit.
+          Strategic brand development with consistent visuals and messaging
+          creates a lasting impression and strengthens market positioning.
         </p>
         <div className="portfolio-explore-button">
           <p>Explore</p>
