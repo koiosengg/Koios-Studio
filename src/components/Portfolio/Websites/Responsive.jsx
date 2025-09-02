@@ -12,9 +12,11 @@ function Responsive() {
           <span>Responsive Design </span> that feels Right
         </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Augue id dictum hendrerit
-          adipiscing tellus pretium varius nunc. Turpis morbi praesent ac velit.
-          Non in adipiscing tortor.
+          Every brand deserves a digital presence that feels natural and
+          effortless across all screens. With responsive design at the core,
+          each website is crafted to engage audiences seamlessly, creating
+          experiences that not only look stunning but also connect in the right
+          way, every time.
         </p>
         <a href="#footer" className="portfolio-primary-button">
           <div className="portfolio-primary-button-background"></div>

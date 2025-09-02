@@ -24,7 +24,7 @@ function Banner() {
             <span>that connects</span>
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Bibendum purus aliquam sed.
+            Shaping brands with purpose, passion, and powerful communication.
           </p>
         </section>
         <a className="portfolio-primary-button">

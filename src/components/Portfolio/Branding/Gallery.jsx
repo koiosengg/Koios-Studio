@@ -11,6 +11,8 @@ import GalleryOption3 from "../assests/Branding/Gallery Option 3.png";
 import GalleryOption4 from "../assests/Branding/Gallery Option 4.png";
 import GalleryOption5 from "../assests/Branding/Gallery Option 5.png";
 
+import GalleryImage1 from "../assests/Branding/Gallery Image 1.png";
+import GalleryImage2 from "../assests/Branding/Gallery Image 2.png";
 function Gallery() {
   const containerRef = useRef(null);
   const [gap, setGap] = useState(0);
@@ -119,8 +121,8 @@ function Gallery() {
               transform: `translateX(${calculateTranslateX()})`,
             }}
           >
-            <div className="image-container" style={{ visibility: "hidden" }}>
-              <img />
+            <div className="image-container" style={{ cursor: "not-allowed" }}>
+              <img src={GalleryImage1} />
             </div>
             <div
               className={`image-container ${
@@ -162,9 +164,14 @@ function Gallery() {
               <div className="image-container-background"></div>
               <img src={GalleryOption5} onClick={handleOptionClick} />
             </div>
-            <div className="image-container" style={{ visibility: "hidden" }}>
-              <img />
+            <div className="image-container" style={{ cursor: "not-allowed" }}>
+              <img src={GalleryImage2} />
             </div>
+          </div>
+          <div className="portfolio-branding-gallery-indicator">
+            <p>
+              0{activeIndex + 1}/0{backgroundImages.length}
+            </p>
           </div>
         </div>
       </div>

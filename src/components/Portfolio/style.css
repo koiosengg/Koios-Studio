@@ -1652,7 +1652,6 @@
   align-items: center;
   justify-content: space-between;
   transition: all 0.5s;
-  transform: translateX(-100px);
   position: relative;
 }
 
@@ -1665,6 +1664,7 @@
   justify-content: center;
   position: relative;
   transition: all 0.3s;
+  cursor: pointer;
 }
 
 .portfolio-branding-gallery-options .image-container-background {
@@ -1732,12 +1732,16 @@
   border: 0.1px solid rgba(17, 17, 17, 0.1);
 }
 
+.portfolio-branding-gallery-options .image-container:first-child::before,
+.portfolio-branding-gallery-options .image-container:last-child::before {
+  display: none;
+}
+
 .portfolio-branding-gallery-options img {
   width: 100%;
   height: 100%;
   flex-shrink: 0;
   object-fit: cover;
-  cursor: pointer;
   transition: all 0.3s;
   position: relative;
 }
@@ -1751,6 +1755,25 @@
 
 .portfolio-branding-gallery-options .active-option::before {
   opacity: 0;
+}
+
+.portfolio-branding-gallery-indicator {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, calc(-50% + 300px));
+  z-index: 10;
+}
+
+.portfolio-branding-gallery-indicator p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 4px;
+  text-transform: uppercase;
 }
 
 /* Event Designs */

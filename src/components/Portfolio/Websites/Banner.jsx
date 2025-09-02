@@ -18,10 +18,7 @@ function Banner() {
               Websites <br />
               <span>that Wow</span>
             </h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Bibendum purus aliquam
-              sed.
-            </p>
+            <p>Building websites that inspire trust and deliver results.</p>
           </section>
           <a className="portfolio-primary-button">
             <div className="portfolio-primary-button-background"></div>
@@ -29,17 +26,18 @@ function Banner() {
           </a>
         </div>
         <div className="portfolio-websites-banner-imgs">
-          <img className="portfolio-websites-banner-img" src={DesktopBannerImg} />
+          <img
+            className="portfolio-websites-banner-img"
+            src={DesktopBannerImg}
+          />
           <img
             src={DesktopBannerImg1}
             className="portfolio-websites-banner-img-1"
-          >
-          </img>
+          ></img>
           <img
             src={DesktopBannerImg2}
             className="portfolio-websites-banner-img-2"
-          >
-          </img>
+          ></img>
         </div>
       </div>
     </div>
