@@ -535,7 +535,7 @@
 .portfolio-home-view-projects {
   width: 100%;
   display: flex;
-  padding: 100px 0px 80px 0px;
+  padding: 80px 0px 80px 0px;
   flex-direction: column;
   align-items: center;
   gap: 64px;
@@ -543,8 +543,38 @@
   position: relative;
 }
 
+.portfolio-home-view-projects-wrapper {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.portfolio-home-view-projects-marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  animation: marquee 30s linear infinite;
+}
+
+.portfolio-home-view-projects-marquee-rev {
+  flex-direction: row-reverse;
+  animation: revMarquee 30s linear infinite;
+}
+
+@keyframes revMarquee {
+  0% {
+    transform: translate3d(-50%, 0, 0);
+  }
+  100% {
+    transform: translate3d(0%, 0, 0);
+  }
+}
+
 .portfolio-home-view-projects img {
-  width: 100%;
+  width: 358px;
+  height: 268.5px;
+  flex-shrink: 0;
+  margin-left: 84px;
   object-fit: cover;
 }
 
@@ -554,6 +584,12 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(17, 17, 17, 0.85);
 }
 
 .portfolio-primary-button {
