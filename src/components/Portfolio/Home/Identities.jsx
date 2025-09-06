@@ -40,17 +40,30 @@ function Identities() {
         </Link>
       </div>
       <div className="portfolio-home-identities-container">
-        <section>
-          <img src={DigtialIdentities1} />
-        </section>
-        <section>
-          <img src={DigtialIdentities2} />
-          <img src={DigtialIdentities3} />
-        </section>
-        <section>
-          <img src={DigtialIdentities4} />
-          <img src={DigtialIdentities5} />
-        </section>
+        <div className="portfolio-home-view-projects-wrapper">
+          <div className="portfolio-home-view-projects-marquee">
+            <img src={DigtialIdentities1} />
+            <img src={DigtialIdentities2} />
+            <img src={DigtialIdentities3} />
+            <img src={DigtialIdentities4} />
+            <img src={DigtialIdentities5} />
+            <img src={DigtialIdentities1} />
+            <img src={DigtialIdentities2} />
+            <img src={DigtialIdentities3} />
+            <img src={DigtialIdentities4} />
+            <img src={DigtialIdentities5} />
+            <img src={DigtialIdentities1} />
+            <img src={DigtialIdentities2} />
+            <img src={DigtialIdentities3} />
+            <img src={DigtialIdentities4} />
+            <img src={DigtialIdentities5} />
+            <img src={DigtialIdentities1} />
+            <img src={DigtialIdentities2} />
+            <img src={DigtialIdentities3} />
+            <img src={DigtialIdentities4} />
+            <img src={DigtialIdentities5} />
+          </div>
+        </div>
       </div>
     </div>
   );

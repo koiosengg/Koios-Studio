@@ -17,8 +17,12 @@ import Cilkencave from "./Projects/Cilkencave";
 import MRIndustries from "./Projects/MR_Industries";
 import Ameya from "./Projects/Ameya";
 import LMG from "./Projects/LMG";
-import Negilu from "./Projects/Negilu"
+import Negilu from "./Projects/Negilu";
 import Airportr from "./Projects/Airportr";
+import GOAT from "./Projects/GOAT";
+import Nirmalayam from "./Projects/Nirmalayam";
+import Micronix from "./Projects/Micronix";
+import Aerovidya from "./Projects/Aerovidya";
 
 function Portfolio() {
   return (
@@ -45,8 +49,13 @@ function Portfolio() {
       <Route path="projects/MR_Industries" element={<MRIndustries />} />
       <Route path="projects/Ameya" element={<Ameya />} />
       <Route path="projects/LMG" element={<LMG />} />
-      <Route path="projects/Negilu" element={<Negilu/>} />
-      <Route path="projects/Airportr" element={<Airportr/>}/>
+      <Route path="projects/Negilu" element={<Negilu />} />
+      <Route path="projects/Airportr" element={<Airportr />} />
+      <Route path="projects/GOAT" element={<GOAT />} />
+      <Route path="projects/Nirmalayam" element={<Nirmalayam />} />
+      <Route path="projects/Micronix" element={<Micronix />} />
+      <Route path="projects/Aerovidya" element={<Aerovidya />} />
+      <Route path="*" element={<Home />} />
     </Routes>
   );
 }

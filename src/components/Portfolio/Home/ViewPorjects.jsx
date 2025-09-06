@@ -6,6 +6,11 @@ import ViewProjectsImg3 from "../assests/Home/View Projects/View Projects Img 3.
 import ViewProjectsImg4 from "../assests/Home/View Projects/View Projects Img 4.png";
 import ViewProjectsImg5 from "../assests/Home/View Projects/View Projects Img 5.png";
 import ViewProjectsImg6 from "../assests/Home/View Projects/View Projects Img 6.png";
+import ViewProjectsImg7 from "../assests/Home/View Projects/View Projects Img 7.png";
+import ViewProjectsImg8 from "../assests/Home/View Projects/View Projects Img 8.png";
+import ViewProjectsImg9 from "../assests/Home/View Projects/View Projects Img 9.png";
+import ViewProjectsImg10 from "../assests/Home/View Projects/View Projects Img 10.png";
+import ViewProjectsImg11 from "../assests/Home/View Projects/View Projects Img 11.png";
 
 function ViewPorjects() {
   return (
@@ -40,30 +45,36 @@ function ViewPorjects() {
       </div>
       <div className="portfolio-home-view-projects-wrapper">
         <div className="portfolio-home-view-projects-marquee portfolio-home-view-projects-marquee-rev">
-          <img src={ViewProjectsImg1} />
-          <img src={ViewProjectsImg2} />
-          <img src={ViewProjectsImg3} />
-          <img src={ViewProjectsImg4} />
-          <img src={ViewProjectsImg5} />
-          <img src={ViewProjectsImg6} />
-          <img src={ViewProjectsImg1} />
-          <img src={ViewProjectsImg2} />
-          <img src={ViewProjectsImg3} />
-          <img src={ViewProjectsImg4} />
-          <img src={ViewProjectsImg5} />
-          <img src={ViewProjectsImg6} />
-          <img src={ViewProjectsImg1} />
-          <img src={ViewProjectsImg2} />
-          <img src={ViewProjectsImg3} />
-          <img src={ViewProjectsImg4} />
-          <img src={ViewProjectsImg5} />
-          <img src={ViewProjectsImg6} />
-          <img src={ViewProjectsImg1} />
-          <img src={ViewProjectsImg2} />
-          <img src={ViewProjectsImg3} />
-          <img src={ViewProjectsImg4} />
-          <img src={ViewProjectsImg5} />
-          <img src={ViewProjectsImg6} />
+          <img src={ViewProjectsImg7} />
+          <img src={ViewProjectsImg8} />
+          <img src={ViewProjectsImg9} />
+          <img src={ViewProjectsImg10} />
+          <img src={ViewProjectsImg11} />
+          <img src={ViewProjectsImg7} />
+          <img src={ViewProjectsImg8} />
+          <img src={ViewProjectsImg9} />
+          <img src={ViewProjectsImg10} />
+          <img src={ViewProjectsImg11} />
+          <img src={ViewProjectsImg7} />
+          <img src={ViewProjectsImg8} />
+          <img src={ViewProjectsImg9} />
+          <img src={ViewProjectsImg10} />
+          <img src={ViewProjectsImg11} />
+          <img src={ViewProjectsImg7} />
+          <img src={ViewProjectsImg8} />
+          <img src={ViewProjectsImg9} />
+          <img src={ViewProjectsImg10} />
+          <img src={ViewProjectsImg11} />
+          <img src={ViewProjectsImg7} />
+          <img src={ViewProjectsImg8} />
+          <img src={ViewProjectsImg9} />
+          <img src={ViewProjectsImg10} />
+          <img src={ViewProjectsImg11} />
+          <img src={ViewProjectsImg7} />
+          <img src={ViewProjectsImg8} />
+          <img src={ViewProjectsImg9} />
+          <img src={ViewProjectsImg10} />
+          <img src={ViewProjectsImg11} />
         </div>
       </div>
       <div className="portfolio-home-view-projects-container">
