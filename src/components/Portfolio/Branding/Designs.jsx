@@ -64,9 +64,7 @@ function Designs() {
           <span>Event</span> Branding Designs
         </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Augue id dictum hendrerit
-          adipiscing tellus pretium varius nunc. Turpis morbi praesent ac velit.
-          Non in adipiscing tortor.
+          Visual storytelling that elevates every gathering and celebration.
         </p>
       </div>
 

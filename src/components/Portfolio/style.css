@@ -1554,6 +1554,7 @@
 .portfolio-branding-banner {
   width: 100%;
   height: auto;
+  min-height: 100svh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3114,7 +3115,7 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: 140%; 
+    line-height: 140%;
   }
 
   .portfolio-projects-info-set p {

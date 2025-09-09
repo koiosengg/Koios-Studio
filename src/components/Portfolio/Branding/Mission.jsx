@@ -29,12 +29,11 @@ function Mission() {
             alt="Section Heading"
           />
           <h2>
-            <span>Event</span> Branding Designs
+            Your Brand Our <span>Mission </span>
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Augue id dictum hendrerit
-            adipiscing tellus pretium varius nunc. Turpis morbi praesent ac
-            velit. Non in adipiscing tortor.
+            Designed with the focus on making your brand memorable and
+            impactful.
           </p>
         </div>
 
