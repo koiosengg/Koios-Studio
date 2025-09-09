@@ -80,7 +80,7 @@ function VishalPujar() {
 
     vCard.firstName = "Vishal Pujar";
     vCard.cellPhone = "+916360788781";
-    vCard.email = "vishalpujar14261@gmail.com";
+    vCard.email = "info@koiosengg.com";
     vCard.organization = "Koios Studio";
 
     const imageBase64 = await getBase64FromImage(
@@ -218,7 +218,7 @@ function VishalPujar() {
         <div className="virtual-card-reach-container">
           <section>
             <a
-              href="https://mail.google.com/mail/?view=cm&to=vishalpujar14261@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&to=info@koiosengg.com"
               target="_blank"
               className="virtual-card-reach-set"
             >
@@ -226,7 +226,7 @@ function VishalPujar() {
                 <img src={EmailIcon} />
                 <div className="virtual-card-reach-set-content">
                   <h3>Email Me</h3>
-                  <p>vishalpujar14261@gmail.com</p>
+                  <p>info@koiosengg.com</p>
                 </div>
               </div>
               <img src={AboutArrow} />
@@ -567,7 +567,7 @@ function VishalPujar() {
           </div>
         </div>
       </div>
-      <div className="virtual-card-experience">
+      {/* <div className="virtual-card-experience">
         <h2>Work Experience</h2>
         <div className="virtual-card-experience-container">
           <div className="virtual-card-experience-set">
@@ -582,7 +582,7 @@ function VishalPujar() {
           src={ExperienceDesktopBackground}
           className="virtual-card-experience-background"
         />
-      </div>
+      </div> */}
       <div className="virtual-card-contact">
         <img
           src={ContactDesktopBackground}
