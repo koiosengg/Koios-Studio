@@ -43,6 +43,11 @@ function Navbar() {
               <p>Company Branding</p>
             </Link>
           </div>
+          {/* <div className="s-nav-link-heading">
+            <Link to="/blogs" className="s-nav-link-text">
+              <p>Blogs</p>
+            </Link>
+          </div> */}
           <div className="s-contact-us">
             <Link to="/contact" className="s-nav-link-text">
               <p>Contact Us</p>
@@ -85,7 +90,10 @@ function Navbar() {
             : ""
         }`}
       >
-        <div className="s-mobile-navbar-cancel-button" onClick={toggleMobileNav}>
+        <div
+          className="s-mobile-navbar-cancel-button"
+          onClick={toggleMobileNav}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="12"
@@ -144,6 +152,17 @@ function Navbar() {
               </Link>
             </div>
           </div>
+          {/* <div className="s-mobile-navlink-set Engineering">
+            <div className="s-mobile-navlink-heading">
+              <Link
+                to="/blogs"
+                className="heading"
+                onClick={toggleMobileNav}
+              >
+                Blogs
+              </Link>
+            </div>
+          </div> */}
         </div>
         <div className="s-mobile-navlink-contact-button">
           <Link to="/contact" onClick={toggleMobileNav}>

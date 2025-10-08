@@ -9,6 +9,7 @@ import WebsiteDesigning from "./WebsiteDesigning";
 import WebsiteDevelopment from "./WebsiteDevelopment";
 import ApplicationDevelopment from "./ApplicationDevelopment";
 import CompanyBranding from "./CompanyBranding";
+import Blogs from "../Blogs/Blogs"
 import Contact from "./Contact";
 import PrivacyPolicy from "./PrivacyPolicy";
 
@@ -30,6 +31,7 @@ function Main() {
         <Route path="/web_development" element={<WebsiteDevelopment />} />
         <Route path="/app_development" element={<ApplicationDevelopment />} />
         <Route path="/company_branding" element={<CompanyBranding />} />
+        <Route path="/blogs" element={<Blogs />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/privacy_policy" element={<PrivacyPolicy />} />
         <Route path="*" element={<Home />} />
