@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import HeadingDesign from "../assests/Home/Section Heading Design.png";
 import Micronix from "../assests/Branding/Projects/Micronix.png";
 import GOATCafe from "../assests/Branding/Projects/GOAT Cafe.png";
+import Nirmalyam from "../assests/Branding/Projects/Nirmalyam.png"
 
 function projects() {
   const containerRef = useRef(null);
@@ -179,15 +180,15 @@ function projects() {
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
           <Link
-            to="/portfolio/projects/Micronix"
+            to="/portfolio/projects/Nirmalyam"
             className="portfolio-websites-projects-set"
           >
             <div className="portfolio-websites-projects-set-img">
-              <img src={Micronix} />
+              <img src={Nirmalyam} />
             </div>
             <div className="portfolio-websites-projects-set-info">
               <section>
-                <h3>Micronix</h3>
+                <h3>Nirmalyam</h3>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -205,7 +206,7 @@ function projects() {
                   />
                 </svg>
               </section>
-              <p>Brochure</p>
+              <p>Branding</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>

@@ -20,9 +20,11 @@ import LMG from "./Projects/LMG";
 import Negilu from "./Projects/Negilu";
 import Airportr from "./Projects/Airportr";
 import GOAT from "./Projects/GOAT";
-import Nirmalayam from "./Projects/Nirmalayam";
+import Nirmalyam from "./Projects/Nirmalyam";
 import Micronix from "./Projects/Micronix";
 import Aerovidya from "./Projects/Aerovidya";
+import GMW from "./Projects/GMW";
+import Coffee_Culture from "./Projects/Coffee_Culture";
 
 function Portfolio() {
   return (
@@ -52,9 +54,11 @@ function Portfolio() {
       <Route path="projects/Negilu" element={<Negilu />} />
       <Route path="projects/Airportr" element={<Airportr />} />
       <Route path="projects/GOAT" element={<GOAT />} />
-      <Route path="projects/Nirmalayam" element={<Nirmalayam />} />
+      <Route path="projects/Nirmalyam" element={<Nirmalyam />} />
       <Route path="projects/Micronix" element={<Micronix />} />
       <Route path="projects/Aerovidya" element={<Aerovidya />} />
+      <Route path="projects/GMW" element={<GMW />} />
+      <Route path="projects/Coffee_Culture" element={<Coffee_Culture/>} />
       <Route path="*" element={<Home />} />
     </Routes>
   );

@@ -308,10 +308,10 @@
   animation: marquee 30s linear infinite;
 }
 
-.portfolio-home-marquee-slide img {
+/* .portfolio-home-marquee-slide img {
   height: 48px;
   object-fit: cover;
-}
+} */
 
 /* Section Heading */
 
@@ -2700,9 +2700,9 @@
     gap: 40px;
   }
 
-  .portfolio-home-marquee-slide img {
+  /* .portfolio-home-marquee-slide img {
     height: 48px;
-  }
+  } */
 
   .portfolio-home-services {
     display: flex;
