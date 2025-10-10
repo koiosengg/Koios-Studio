@@ -7,7 +7,7 @@ import Tertiary from "../Buttons/Tertiary";
 
 function OurBlogs() {
   return (
-    <div className="template">
+    <section className="template">
       <div className="template-heading">
         <p>Our Blogs</p>
         <h2>The Koios Perspective</h2>
@@ -76,7 +76,7 @@ function OurBlogs() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

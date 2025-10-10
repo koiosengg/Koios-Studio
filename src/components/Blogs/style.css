@@ -94,6 +94,212 @@ html {
   object-fit: cover;
 }
 
+.template.gallery {
+  padding: 80px 0px;
+}
+
+.gallery-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  overflow: hidden;
+  position: relative;
+  padding-top: 135px;
+}
+
+.gallery-container span {
+  text-align: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #febe0033;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 230px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -13.8px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.gallery-set-container {
+  transform: translateX(calc(50% - 203px));
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.gallery-slide {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.gallery-set {
+  width: 406px;
+  height: 468px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 22px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-set-background {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-set .our-blogs-set-content {
+  padding: 20px;
+}
+
+.gallery-controls {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.gallery-controls-buttons {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: var(--Woodsmoke-BG-woodsmoke-bg-900, #343333);
+  transition: all 0.3s;
+}
+
+/* FAQ */
+
+.template.faq {
+  flex-direction: row;
+}
+
+.template.faq .template-heading {
+  width: 40%;
+  align-items: flex-start;
+}
+
+.template.faq .template-heading h2 {
+  text-align: left;
+}
+
+.faq-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+.faq-set {
+  width: 100%;
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 12px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: linear-gradient(
+    149deg,
+    rgba(65, 65, 65, 0.1) -0.73%,
+    rgba(18, 18, 18, 0.25) 100%
+  );
+}
+
+.faq-set {
+  cursor: pointer;
+}
+
+.faq-set.active-faq {
+  cursor: default;
+}
+
+.faq-set-heading {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  gap: 20px;
+}
+
+.faq-set-heading h3 {
+  color: var(--White-text, #fff);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.faq-set-svg {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  aspect-ratio: 1/1;
+  border-radius: 100px;
+  background: var(--Woodsmoke-BG-woodsmoke-bg-900, #343333);
+}
+
+.faq-set-svg svg {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+}
+
+.faq-set p {
+  color: var(--Grey-text-grey-text-300, #b9b9b9);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s;
+  opacity: 0;
+}
+
+.active-faq p {
+  max-height: 500px;
+  padding-top: 16px;
+  opacity: 1;
+}
+
+.active-faq svg {
+  transform: rotate(180deg);
+}
+
 /* Buttons */
 
 .tertiary-btn {
@@ -249,7 +455,7 @@ html {
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
-  align-self: stretch;
+  z-index: 1;
 }
 
 .our-blogs-set-text {

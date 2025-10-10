@@ -1,9 +1,9 @@
 import React from "react";
-import DesktopBackground from "./assets/Vision/Desktop Background.png"
+import DesktopBackground from "./assets/Vision/Desktop Background.png";
 
 function Vision() {
   return (
-    <div className="vision">
+    <section className="vision">
       <img src={DesktopBackground} className="vision-background" />
       <div className="template">
         <div className="template-heading">
@@ -22,7 +22,7 @@ function Vision() {
           the digital realm
         </p>
       </div>
-    </div>
+    </section>
   );
 }
 
