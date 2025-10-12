@@ -31,7 +31,7 @@ function Main() {
         <Route path="/web_development" element={<WebsiteDevelopment />} />
         <Route path="/app_development" element={<ApplicationDevelopment />} />
         <Route path="/company_branding" element={<CompanyBranding />} />
-        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/blogs/*" element={<Blogs />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/privacy_policy" element={<PrivacyPolicy />} />
         <Route path="*" element={<Home />} />
