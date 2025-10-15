@@ -2126,6 +2126,36 @@
   grid-column: span 3;
 }
 
+.portfolio-branding-mission-flyers {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.portfolio-branding-mission-flyers img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.portfolio-branding-mission-corporate {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.portfolio-branding-mission-corporate img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.portfolio-branding-mission-corporate img:first-child {
+  grid-column: span 2;
+}
+
 /* Applications Banner */
 
 .portfolio-applications-banner {

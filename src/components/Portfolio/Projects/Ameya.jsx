@@ -112,14 +112,11 @@ function Ameya() {
             Strategies
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero platea turpis dictum
-            auctor. Diam volutpat dictum tincidunt vestibulum. Enim elementum
-            dignissim eget faucibus amet massa faucibus elit. Volutpat turpis
-            tortor purus nisl et tincidunt ultrices feugiat. Morbi quam enim sit
-            proin enim id. Quam habitant eu suspendisse sit faucibus bibendum
-            viverra tincidunt. Sed scelerisque orci ultrices volutpat fusce
-            ipsum ultricies lorem habitant. Quam lacus vitae feugiat vitae vitae
-            nisl quam tincidunt rhoncus.
+            An user-friendly resort booking website that showcases properties
+            and stay options through visually rich layouts. The website
+            development focused on creating an intuitive user journey, from
+            browsing to booking, with seamless navigation and immersive visuals
+            that enhance engagement and elevate the overall experience.
           </p>
         </div>
       </div>

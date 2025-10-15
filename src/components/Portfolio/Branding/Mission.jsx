@@ -6,6 +6,8 @@ import Slides from "./Mission/Slides";
 import Brochure from "./Mission/Brochure";
 import Catalog from "./Mission/Catalog";
 import Listings from "./Mission/Listings";
+import Corporate from "./Mission/Corporate";
+import Flyers from "./Mission/Flyers";
 
 const componentMap = {
   Logos: <Logos />,
@@ -14,6 +16,8 @@ const componentMap = {
   Brochure: <Brochure />,
   Catalog: <Catalog />,
   Listings: <Listings />,
+  Flyers: <Flyers />,
+  Corporate: <Corporate />,
 };
 
 function Mission() {

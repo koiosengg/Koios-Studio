@@ -51,37 +51,37 @@ function Coffee_Culture() {
           <div className="portfolio-projects-info-set">
             <h2>Overview</h2>
             <p>
-              GOAT Café was designed as a youth-focused pure veg café targeting
-              Gen Z and college students. The goal was to make vegetarianism
-              feel trendy, fresh, and culturally relevant rather than
-              traditional.
+              The logo features four coffee bean shapes arranged like a flower,
+              symbolizing connection and shared experiences. Bold distressed
+              typography in red and black adds personality and depth,
+              representing both passion and authenticity
             </p>
           </div>
           <div className="portfolio-projects-info-set">
             <h2>Challenges</h2>
             <p>
-              Key challenges included avoiding the overused leaf cliché, making
-              “pure veg” look cool, and standing out in a saturated café market.
-              Scalability across digital and physical platforms was also
-              carefully addressed.
+              The challenge was to balance a sense of tradition with a
+              contemporary appeal. We needed a design that conveyed energy and
+              craftsmanship while remaining approachable and versatile across
+              print and digital platforms.
             </p>
           </div>
           <div className="portfolio-projects-info-set">
             <h2>Approach</h2>
             <p>
-              We used a leaf in the logo to symbolize purity and health, paired
-              with a bold, modern font to appeal to the college crowd. Vibrant
-              yet minimal visuals and the slang-inspired name “GOAT” created a
-              fun, relatable identity.
+              The branding aimed to capture the essence of togetherness and
+              passion that defines The Coffee Culture. Our design approach
+              focused on expressing warmth, authenticity, and community through
+              a modern yet handcrafted visual identity
             </p>
           </div>
           <div className="portfolio-projects-info-set">
             <h2>Results</h2>
             <p>
-              The brand identity came out stylish, approachable, and
-              Instagram-worthy. It balanced the café’s pure veg ethos with
-              modern design, making it memorable and attractive to its young
-              audience.
+              The final identity feels vibrant and welcoming, resonating with
+              coffee enthusiasts and casual drinkers alike. It effectively
+              communicates The Coffee Culture’s values of warmth, community, and
+              the joy of shared moments over coffee.
             </p>
           </div>
         </div>
