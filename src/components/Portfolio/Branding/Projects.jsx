@@ -2,9 +2,11 @@ import React, { useRef, useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import HeadingDesign from "../assests/Home/Section Heading Design.png";
 import Micronix from "../assests/Branding/Projects/Micronix.png";
+import Nirmalyam from "../assests/Branding/Projects/Nirmalyam.png";
 import GOATCafe from "../assests/Branding/Projects/GOAT Cafe.png";
-import Nirmalyam from "../assests/Branding/Projects/Nirmalyam.png"
-
+import Aerovidya from "../assests/Branding/Projects/Aerovidya.png";
+import Motard from "../assests/Branding/Projects/Motard.png";
+import CoffeeCulture from "../assests/Branding/Projects/Coffee Culture.png";
 function projects() {
   const containerRef = useRef(null);
   const [slideIndex, setSlideIndex] = useState(0);
@@ -16,7 +18,7 @@ function projects() {
   );
 
   const location = useLocation();
-  const isProjectPage = location.pathname.startsWith("/portfolio/projects");
+  const isProjectPage = location.pathname.startsWith("/portfolio/branding");
 
   useEffect(() => {
     const updateLayout = () => {
@@ -118,7 +120,7 @@ function projects() {
           }}
         >
           <Link
-            to="/portfolio/projects/Micronix"
+            to="/portfolio/branding/Micronix"
             className="portfolio-websites-projects-set"
           >
             <div className="portfolio-websites-projects-set-img">
@@ -149,38 +151,7 @@ function projects() {
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
           <Link
-            to="/portfolio/projects/GOAT-Cafe"
-            className="portfolio-websites-projects-set"
-          >
-            <div className="portfolio-websites-projects-set-img">
-              <img src={GOATCafe} />
-            </div>
-            <div className="portfolio-websites-projects-set-info">
-              <section>
-                <h3>GOAT Cafe</h3>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                >
-                  <path
-                    d="M14 16L18 12M18 12L14 8M18 12H6"
-                    stroke="white"
-                    strokeWidth="2"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </section>
-              <p>Branding</p>
-            </div>
-            <div className="portfolio-websites-projects-set-glow"></div>
-          </Link>
-          <Link
-            to="/portfolio/projects/Nirmalyam"
+            to="/portfolio/branding/Nirmalyam"
             className="portfolio-websites-projects-set"
           >
             <div className="portfolio-websites-projects-set-img">
@@ -211,7 +182,7 @@ function projects() {
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
           <Link
-            to="/portfolio/projects/GOAT-Cafe"
+            to="/portfolio/branding/GOAT"
             className="portfolio-websites-projects-set"
           >
             <div className="portfolio-websites-projects-set-img">
@@ -242,15 +213,15 @@ function projects() {
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
           <Link
-            to="/portfolio/projects/Micronix"
+            to="/portfolio/branding/Aerovidya"
             className="portfolio-websites-projects-set"
           >
             <div className="portfolio-websites-projects-set-img">
-              <img src={Micronix} />
+              <img src={Aerovidya} />
             </div>
             <div className="portfolio-websites-projects-set-info">
               <section>
-                <h3>Micronix</h3>
+                <h3>Aerovidya</h3>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -268,20 +239,51 @@ function projects() {
                   />
                 </svg>
               </section>
-              <p>Brochure</p>
+              <p>Branding</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
           <Link
-            to="/portfolio/projects/GOAT-Cafe"
+            to="/portfolio/branding/Motard"
             className="portfolio-websites-projects-set"
           >
             <div className="portfolio-websites-projects-set-img">
-              <img src={GOATCafe} />
+              <img src={Motard} />
             </div>
             <div className="portfolio-websites-projects-set-info">
               <section>
-                <h3>GOAT Cafe</h3>
+                <h3>Motard</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M14 16L18 12M18 12L14 8M18 12H6"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </section>
+              <p>Branding</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/branding/Coffee_Culture"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={CoffeeCulture} />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Coffee Culture</h3>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"

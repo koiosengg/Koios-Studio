@@ -9,6 +9,7 @@ import Sidebar from "./Sidebar";
 import Identities from "./Home/Identities";
 import FAQ from "./Home/FAQ";
 import Gallery from "./Home/Gallery";
+import Testimony from "./Home/Testimony";
 
 function Home() {
   const [isOnBanner, setIsOnBanner] = useState(true);
@@ -40,6 +41,7 @@ function Home() {
       <Gallery />
       <Identities />
       <FAQ />
+      <Testimony />
       <Footer />
     </div>
   );
