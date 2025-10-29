@@ -218,7 +218,7 @@ function Projects() {
                   />
                 </svg>
               </section>
-              <p>Lorem ipsum dolor amet</p>
+              <p>EV an Automobile Go-kart</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
@@ -249,7 +249,7 @@ function Projects() {
                   />
                 </svg>
               </section>
-              <p>Lorem ipsum dolor amet</p>
+              <p>Semi Conductor Industry</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
@@ -280,7 +280,7 @@ function Projects() {
                   />
                 </svg>
               </section>
-              <p>Lorem ipsum dolor amet</p>
+              <p>Logistics Solutions</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>

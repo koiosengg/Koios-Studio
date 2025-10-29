@@ -146,7 +146,7 @@ function projects() {
                   />
                 </svg>
               </section>
-              <p>Brochure</p>
+              <p>EV Batteries</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
@@ -177,7 +177,7 @@ function projects() {
                   />
                 </svg>
               </section>
-              <p>Branding</p>
+              <p>Food Industry</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
@@ -208,7 +208,7 @@ function projects() {
                   />
                 </svg>
               </section>
-              <p>Branding</p>
+              <p>Food Industry</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
@@ -270,7 +270,7 @@ function projects() {
                   />
                 </svg>
               </section>
-              <p>Branding</p>
+              <p>Biking Club and Gear</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
@@ -301,7 +301,7 @@ function projects() {
                   />
                 </svg>
               </section>
-              <p>Branding</p>
+              <p>Food Industry</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
