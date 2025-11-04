@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import DesktopBanner from "../assests/Websites/Desktop Banner.png";
 import DesktopBannerImg from "../assests/Websites/Desktop Banner Img.png";
 import DesktopBannerImg1 from "../assests/Websites/Desktop Banner Img 1.png";
@@ -20,10 +21,10 @@ function Banner() {
             </h1>
             <p>Building websites that inspire trust and deliver results.</p>
           </section>
-          <a className="portfolio-primary-button">
+          <Link to="/contact" className="portfolio-primary-button">
             <div className="portfolio-primary-button-background"></div>
             <p>Build Your Website with us </p>
-          </a>
+          </Link>
         </div>
         <div className="portfolio-websites-banner-imgs">
           <img

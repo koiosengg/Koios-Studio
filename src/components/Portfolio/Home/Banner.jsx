@@ -31,7 +31,7 @@ function Banner() {
             story is expressed with elegance and precision.
           </p>
         </section>
-        <Link to="/portfolio/websites" className="portfolio-primary-button">
+        <Link to="/contact" className="portfolio-primary-button">
           <div className="portfolio-primary-button-background"></div>
           <p>Build Your Website with us </p>
         </Link>
