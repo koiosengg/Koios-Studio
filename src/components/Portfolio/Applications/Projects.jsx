@@ -54,7 +54,7 @@ function projects() {
   };
 
   return (
-    <div className="portfolio-websites-projects portfolio-applications">
+    <div className="portfolio-websites-projects portfolio-applications" id="projects">
       <div className="portfolio-websites-projects-heading">
         <div className="portfolio-section-heading">
           <img src={HeadingDesign} className="portfolio-section-heading-img" />

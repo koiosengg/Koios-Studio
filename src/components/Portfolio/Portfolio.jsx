@@ -17,6 +17,10 @@ import Fourstor from "./Projects/Fourstor";
 import Talankey from "./Projects/Talankey";
 import Urban_Sphere from "./Projects/Urban_Sphere";
 import Cilkencave from "./Projects/Cilkencave";
+import Balaji_Proto_Tools from "./Projects/Balaji_Proto_Tools";
+import MR_Industries from "./Projects/MR_Industries";
+import Ameya from "./Projects/Ameya";
+import GMW from "./Projects/GMW";
 
 // 🪄 Branding Projects
 import GOAT from "./Projects/GOAT";
@@ -30,12 +34,9 @@ import Motard from "./Projects/Motard";
 import LMG from "./Projects/LMG";
 import Negilu from "./Projects/Negilu";
 import Airportr from "./Projects/Airportr";
+import IdaviFoods from "./Projects/IdaviFoods";
 
 // ⚙️ Miscellaneous / Product Projects
-import Balaji_Proto_Tools from "./Projects/Balaji_Proto_Tools";
-import MR_Industries from "./Projects/MR_Industries";
-import Ameya from "./Projects/Ameya";
-import GMW from "./Projects/GMW";
 
 function Portfolio() {
   return (
@@ -58,6 +59,13 @@ function Portfolio() {
       <Route path="/websites/Talankey" element={<Talankey />} />
       <Route path="/websites/Urban_Sphere" element={<Urban_Sphere />} />
       <Route path="/websites/Cilkencave" element={<Cilkencave />} />
+      <Route
+        path="/websites/Balaji_Proto_Tools"
+        element={<Balaji_Proto_Tools />}
+      />
+      <Route path="/websites/MR_Industries" element={<MR_Industries />} />
+      <Route path="/websites/GMW" element={<GMW />} />
+      <Route path="/websites/Ameya" element={<Ameya />} />
 
       {/* 🪄 Branding */}
       <Route path="/branding/GOAT" element={<GOAT />} />
@@ -71,15 +79,7 @@ function Portfolio() {
       <Route path="/applications/LMG" element={<LMG />} />
       <Route path="/applications/Negilu" element={<Negilu />} />
       <Route path="/applications/Airportr" element={<Airportr />} />
-
-      {/* ⚙️ Other Projects */}
-      <Route
-        path="/projects/Balaji_Proto_Tools"
-        element={<Balaji_Proto_Tools />}
-      />
-      <Route path="/projects/MR_Industries" element={<MR_Industries />} />
-      <Route path="/projects/Ameya" element={<Ameya />} />
-      <Route path="/projects/GMW" element={<GMW />} />
+      <Route path="/applications/Idavi_Foods" element={<IdaviFoods />} />
 
       {/* 🏠 Fallback */}
       <Route path="*" element={<Home />} />

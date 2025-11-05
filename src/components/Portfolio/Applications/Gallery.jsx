@@ -53,7 +53,7 @@ function Gallery() {
             digital experience that not only meets needs but leaves a lasting
             impression on every user.
           </p>
-          <Link to="/portfolio/website" className="portfolio-secondary-button">
+          <a href="#projects" className="portfolio-secondary-button">
             <p>View All</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +67,7 @@ function Gallery() {
                 fill="white"
               />
             </svg>
-          </Link>
+          </a>
         </div>
 
         <div className="portfolio-home-gallery-imgs">

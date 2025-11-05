@@ -49,10 +49,6 @@ function LMG() {
             </h1>
             <p>Tourism and Hospitality</p>
           </section>
-          <a className="portfolio-primary-button">
-            <div className="portfolio-primary-button-background"></div>
-            <p>Visit Website </p>
-          </a>
         </div>
       </div>
       <Sidebar isOnBanner={isOnBanner} />
@@ -142,7 +138,7 @@ function LMG() {
             <img src={Img22} alt="LMG Project Image" />
             <img src={Img23} alt="LMG Project Image" />
           </section>
-               <section>
+          <section>
             <img src={Img31} alt="LMG Project Image" />
             <img src={Img32} alt="LMG Project Image" />
             <img src={Img33} alt="LMG Project Image" />

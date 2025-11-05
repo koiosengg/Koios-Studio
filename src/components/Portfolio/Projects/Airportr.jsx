@@ -49,10 +49,6 @@ function Airportr() {
             </h1>
             <p>Goods Tracking App</p>
           </section>
-          <a className="portfolio-primary-button">
-            <div className="portfolio-primary-button-background"></div>
-            <p>Visit Website </p>
-          </a>
         </div>
       </div>
       <Sidebar isOnBanner={isOnBanner} />
