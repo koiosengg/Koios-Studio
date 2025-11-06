@@ -20,6 +20,7 @@ import Cilkencave from "./Projects/Cilkencave";
 import Balaji_Proto_Tools from "./Projects/Balaji_Proto_Tools";
 import MR_Industries from "./Projects/MR_Industries";
 import Ameya from "./Projects/Ameya";
+import XLR8 from "./Projects/XLR8";
 import GMW from "./Projects/GMW";
 
 // 🪄 Branding Projects
@@ -64,6 +65,7 @@ function Portfolio() {
         element={<Balaji_Proto_Tools />}
       />
       <Route path="/websites/MR_Industries" element={<MR_Industries />} />
+      <Route path="/websites/XLR8" element={<XLR8 />} />
       <Route path="/websites/GMW" element={<GMW />} />
       <Route path="/websites/Ameya" element={<Ameya />} />
 
