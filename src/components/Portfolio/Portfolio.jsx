@@ -21,7 +21,10 @@ import Balaji_Proto_Tools from "./Projects/Balaji_Proto_Tools";
 import MR_Industries from "./Projects/MR_Industries";
 import Ameya from "./Projects/Ameya";
 import XLR8 from "./Projects/XLR8";
+import Akarswift from "./Projects/Akarswift";
 import GMW from "./Projects/GMW";
+import SIMMFA from "./Projects/SIMMFA";
+import Clayful_Homes from "./Projects/Clayful_Homes";
 
 // 🪄 Branding Projects
 import GOAT from "./Projects/GOAT";
@@ -66,8 +69,11 @@ function Portfolio() {
       />
       <Route path="/websites/MR_Industries" element={<MR_Industries />} />
       <Route path="/websites/XLR8" element={<XLR8 />} />
+      <Route path="/websites/Akarswift" element={<Akarswift />} />
       <Route path="/websites/GMW" element={<GMW />} />
       <Route path="/websites/Ameya" element={<Ameya />} />
+      <Route path="/websites/SIMMFA" element={<SIMMFA />} />
+      <Route path="/websites/Clayful_Homes" element={<Clayful_Homes />} />
 
       {/* 🪄 Branding */}
       <Route path="/branding/GOAT" element={<GOAT />} />

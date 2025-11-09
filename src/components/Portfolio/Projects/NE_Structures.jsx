@@ -45,7 +45,11 @@ function NE_Structures() {
             </h1>
             <p>Construction Industries</p>
           </section>
-          <a className="portfolio-primary-button">
+          <a
+            href="https://nestructures.co/"
+            target="_blank"
+            className="portfolio-primary-button"
+          >
             <div className="portfolio-primary-button-background"></div>
             <p>Visit Website </p>
           </a>

@@ -45,7 +45,11 @@ function Cilkencave() {
             </h1>
             <p>Semi Conductor Industry</p>
           </section>
-          <a className="portfolio-primary-button">
+          <a
+            href="https://cilkencave.com/"
+            target="_blank"
+            className="portfolio-primary-button"
+          >
             <div className="portfolio-primary-button-background"></div>
             <p>Visit Website </p>
           </a>

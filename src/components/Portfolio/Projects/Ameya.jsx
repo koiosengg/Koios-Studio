@@ -45,7 +45,11 @@ function Ameya() {
             </h1>
             <p>Homestays and Hospitality</p>
           </section>
-          <a className="portfolio-primary-button">
+          <a
+            href="https://ameyacoorg.com/"
+            target="_blank"
+            className="portfolio-primary-button"
+          >
             <div className="portfolio-primary-button-background"></div>
             <p>Visit Website </p>
           </a>

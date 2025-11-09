@@ -45,7 +45,11 @@ function Fourstor() {
             </h1>
             <p>Automation Industry</p>
           </section>
-          <a className="portfolio-primary-button">
+          <a
+            href="https://fourstor.in/"
+            target="_blank"
+            className="portfolio-primary-button"
+          >
             <div className="portfolio-primary-button-background"></div>
             <p>Visit Website </p>
           </a>

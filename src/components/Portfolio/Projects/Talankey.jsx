@@ -45,10 +45,10 @@ function Talankey() {
             </h1>
             <p>Mechanical / Manufacturing Industry</p>
           </section>
-          <a className="portfolio-primary-button">
+          {/* <a className="portfolio-primary-button">
             <div className="portfolio-primary-button-background"></div>
             <p>Visit Website </p>
-          </a>
+          </a> */}
         </div>
       </div>
       <Sidebar isOnBanner={isOnBanner} />

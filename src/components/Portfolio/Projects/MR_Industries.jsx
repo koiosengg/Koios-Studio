@@ -45,7 +45,11 @@ function MR_Industries() {
             </h1>
             <p>Automotive Wiring Harness Manufacturing Industry</p>
           </section>
-          <a className="portfolio-primary-button">
+          <a
+            href="https://www.mrindustries.in.net/"
+            target="_blank"
+            className="portfolio-primary-button"
+          >
             <div className="portfolio-primary-button-background"></div>
             <p>Visit Website </p>
           </a>

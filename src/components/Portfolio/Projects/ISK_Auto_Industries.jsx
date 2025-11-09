@@ -43,11 +43,13 @@ function ISK_Auto_Industries() {
             <h1>
               <span>ISK Auto Industries </span>
             </h1>
-            <p>
-             Automotive Component Manufacturers
-            </p>
+            <p>Automotive Component Manufacturers</p>
           </section>
-          <a className="portfolio-primary-button">
+          <a
+            href="https://www.iskauto.in/"
+            target="_blank"
+            className="portfolio-primary-button"
+          >
             <div className="portfolio-primary-button-background"></div>
             <p>Visit Website </p>
           </a>
@@ -114,7 +116,11 @@ function ISK_Auto_Industries() {
             Strategies
           </h2>
           <p>
-         Developed entirely using HTML, CSS, and Vanilla JavaScript, with each page manually structured, including the navigation bar, footer, and all individual elements. The development process was time-consuming due to the extensive number of products and categories that had to be added and organized across the site.
+            Developed entirely using HTML, CSS, and Vanilla JavaScript, with
+            each page manually structured, including the navigation bar, footer,
+            and all individual elements. The development process was
+            time-consuming due to the extensive number of products and
+            categories that had to be added and organized across the site.
           </p>
         </div>
       </div>

@@ -16,7 +16,9 @@ import UrbanSphere from "../assests/Websites/Projects/Urban Sphere.png";
 import BalajiProtoTools from "../assests/Websites/Projects/Balaji Proto Tools.png";
 import MRIndustries from "../assests/Websites/Projects/MR Industries.png";
 import GMW from "../assests/Websites/Projects/GMW.png";
-import Ameya from "..//assests/Websites/Projects/Ameya.png";
+import Ameya from "../assests/Websites/Projects/Ameya.png";
+import SIMMFA from "../assests/Websites/Projects/SIMMFA.png";
+import Clayful_Homes from "../assests/Websites/Projects/Clayful Homes.png"
 
 function Projects() {
   const containerRef = useRef(null);
@@ -622,6 +624,68 @@ function Projects() {
                 </svg>
               </section>
               <p>Homestays and Hospitality</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/websites/SIMMFA"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={SIMMFA} />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>SIMMFA</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M14 16L18 12M18 12L14 8M18 12H6"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </section>
+              <p>Music Academy</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+             <Link
+            to="/portfolio/websites/Clayful_Homes"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={Clayful_Homes} />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Clayful Homes</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M14 16L18 12M18 12L14 8M18 12H6"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </section>
+              <p>Pottery E-commerce</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>

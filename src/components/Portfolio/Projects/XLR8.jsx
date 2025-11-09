@@ -45,10 +45,10 @@ function XLR8() {
             </h1>
             <p>Sports Industry</p>
           </section>
-          <a className="portfolio-primary-button">
+          {/* <a className="portfolio-primary-button">
             <div className="portfolio-primary-button-background"></div>
             <p>Visit Website </p>
-          </a>
+          </a> */}
         </div>
       </div>
       <Sidebar isOnBanner={isOnBanner} />
