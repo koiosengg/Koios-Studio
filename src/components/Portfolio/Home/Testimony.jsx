@@ -2,6 +2,10 @@ import React, { useState, useRef } from "react";
 import DesktopBackground from "../assests/Home/Desktop Numbers.png";
 import HeadingDesign from "../assests/Home/Section Heading Design.png";
 import Testimony1 from "../assests/Home/Testimony/Testimony 1.png";
+import Testimony2 from "../assests/Home/Testimony/Testimony 2.png";
+import Testimony3 from "../assests/Home/Testimony/Testimony 3.png";
+import Testimony4 from "../assests/Home/Testimony/Testimony 4.png";
+
 function Testimony() {
   const [cursorPos, setCursorPos] = useState({ x: 250, y: 250 });
   const divRef = useRef(null);
@@ -28,9 +32,7 @@ function Testimony() {
           <h2>
             Hear Our <br className="notMobile" /> <span>Happy Clients</span>
           </h2>
-          <p>
-           Discover how our solutions have made a difference.
-          </p>
+          <p>Discover how our solutions have made a difference.</p>
         </div>
         <div
           className="portfolio-home-numbers-div"
@@ -58,31 +60,30 @@ function Testimony() {
           <div className="portfolio-testimony-container">
             <div className="portfolio-testimony-set">
               <p>
-                Lorem ipsum dolor sit amet consectetur Augue id dictum hendrerit
-                adipiscing tellus pretium varius
+                I had a fantastic experience with Koios Studio when they
+                redesigned our company website. Their team was not only
+                professional but also incredibly creative and skilled.
               </p>
               <img src={Testimony1} alt="Testimony Person Image" />
             </div>
             <div className="portfolio-testimony-set">
-              <p>
-                Lorem ipsum dolor sit amet consectetur Augue id dictum hendrerit
-                adipiscing tellus pretium varius
-              </p>
-              <img src={Testimony1} alt="Testimony Person Image" />
+              <p>Highly professional team very creative at work</p>
+              <img src={Testimony2} alt="Testimony Person Image" />
             </div>
             <div className="portfolio-testimony-set">
               <p>
-                Lorem ipsum dolor sit amet consectetur Augue id dictum hendrerit
-                adipiscing tellus pretium varius
+                Dedicated and highly motivated professionals who work smart and
+                work hard to deliver excellent results with an approachable and
+                adaptive attitude.
               </p>
-              <img src={Testimony1} alt="Testimony Person Image" />
+              <img src={Testimony3} alt="Testimony Person Image" />
             </div>
             <div className="portfolio-testimony-set">
               <p>
-                Lorem ipsum dolor sit amet consectetur Augue id dictum hendrerit
-                adipiscing tellus pretium varius
+                Excellent experience working with the koios team. All the
+                designers are very professional
               </p>
-              <img src={Testimony1} alt="Testimony Person Image" />
+              <img src={Testimony4} alt="Testimony Person Image" />
             </div>
           </div>
         </div>

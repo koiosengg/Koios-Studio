@@ -6,6 +6,7 @@ import DigtialIdentities2 from "../assests/Home/Digtial Identities 2.png";
 import DigtialIdentities3 from "../assests/Home/Digtial Identities 3.png";
 import DigtialIdentities4 from "../assests/Home/Digtial Identities 4.png";
 import DigtialIdentities5 from "../assests/Home/Digtial Identities 5.png";
+import DigtialIdentities6 from "../assests/Home/Digtial Identities 6.png";
 
 function Identities() {
   return (
@@ -47,21 +48,25 @@ function Identities() {
             <img src={DigtialIdentities3} />
             <img src={DigtialIdentities4} />
             <img src={DigtialIdentities5} />
+            <img src={DigtialIdentities6} />
             <img src={DigtialIdentities1} />
             <img src={DigtialIdentities2} />
             <img src={DigtialIdentities3} />
             <img src={DigtialIdentities4} />
             <img src={DigtialIdentities5} />
+            <img src={DigtialIdentities6} />
             <img src={DigtialIdentities1} />
             <img src={DigtialIdentities2} />
             <img src={DigtialIdentities3} />
             <img src={DigtialIdentities4} />
             <img src={DigtialIdentities5} />
+            <img src={DigtialIdentities6} />
             <img src={DigtialIdentities1} />
             <img src={DigtialIdentities2} />
             <img src={DigtialIdentities3} />
             <img src={DigtialIdentities4} />
             <img src={DigtialIdentities5} />
+            <img src={DigtialIdentities6} />
           </div>
         </div>
       </div>
