@@ -301,17 +301,17 @@
 
 .portfolio-home-marquee-slide {
   white-space: nowrap;
-  overflow: hidden;
   display: inline-flex;
   align-items: center;
   gap: 96px;
-  animation: marquee 30s linear infinite;
+  animation: marquee 10s linear infinite;
 }
 
-/* .portfolio-home-marquee-slide img {
-  height: 48px;
+.portfolio-home-marquee-slide img {
+  width: 100%;
+  max-height: 100px;
   object-fit: cover;
-} */
+}
 
 /* Section Heading */
 
@@ -1116,7 +1116,7 @@
   line-height: normal;
   transition: all 0.3s;
   opacity: 0;
-    pointer-events: none;
+  pointer-events: none;
   position: absolute;
   transform: translateX(calc(-100% - 32px));
 }
