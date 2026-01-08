@@ -715,7 +715,7 @@ function MahiRastogi() {
           </div>
         </div>
         <a
-          href="https://wa.me/917338658118"
+          href="https://calendar.app.google/ah4xFJQQ94T2HWWe8"
           target="_blank"
           className="virtual-card-banner-button"
         >
