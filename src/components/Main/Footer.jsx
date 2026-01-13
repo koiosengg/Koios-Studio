@@ -113,7 +113,7 @@ function Footer() {
                 strokeLinejoin="round"
               />
             </svg>
-            <p>Mail to</p>
+            <p>Email now</p>
           </div>
         </div>
       </div>
