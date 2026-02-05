@@ -215,7 +215,7 @@ function Footer() {
             </div>
           </a>
           <a
-            href="https://maps.app.goo.gl/iJr65KCFonfXSV2z6"
+            href="https://maps.app.goo.gl/Ug5DpBKpAW9bUKka6"
             target="_blank"
             className="p-location-div"
           >
