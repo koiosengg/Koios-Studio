@@ -14,11 +14,18 @@ function projects() {
   const [totalSlides, setTotalSlides] = useState(0);
 
   const [visibleSlides, setVisibleSlides] = useState(
-    window.innerWidth < 1200 ? 1 : 3
+    window.innerWidth < 1200 ? 1 : 3,
   );
 
   const location = useLocation();
-  const isProjectPage = location.pathname.startsWith("/portfolio/branding");
+  const path = location.pathname;
+
+  const projectTitle =
+    path === "/portfolio/branding"
+      ? "Projects"
+      : path.startsWith("/portfolio/branding/")
+        ? "Our Other Projects"
+        : "";
 
   useEffect(() => {
     const updateLayout = () => {
@@ -27,7 +34,7 @@ function projects() {
 
       if (containerRef.current) {
         const sets = containerRef.current.querySelectorAll(
-          ".portfolio-websites-projects-set"
+          ".portfolio-websites-projects-set",
         );
         setTotalSlides(sets.length);
         const containerWidth = containerRef.current.offsetWidth;
@@ -59,7 +66,7 @@ function projects() {
       <div className="portfolio-websites-projects-heading">
         <div className="portfolio-section-heading">
           <img src={HeadingDesign} className="portfolio-section-heading-img" />
-          <h2>{isProjectPage ? "Our Other Projects" : "Projects"}</h2>
+          <h2>{projectTitle}</h2>
         </div>
         <div className="portfolio-websites-projects-controls">
           <button

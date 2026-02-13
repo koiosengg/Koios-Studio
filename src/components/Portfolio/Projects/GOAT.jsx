@@ -7,7 +7,7 @@ import Img1 from "../assests/Projects/GOAT/Image 1.png";
 import Img21 from "../assests/Projects/GOAT/Image 2.1.png";
 import Img22 from "../assests/Projects/GOAT/Image 2.2.png";
 import Img3 from "../assests/Projects/GOAT/Image 3.png";
-import Projects from "../Websites/Projects";
+import Projects from "../Branding/Projects";
 import Footer from "../Footer";
 
 function GOAT() {

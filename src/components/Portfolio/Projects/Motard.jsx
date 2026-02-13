@@ -9,7 +9,7 @@ import Img21 from "../assests/Projects/Motard/Image 2.1.png";
 import Img22 from "../assests/Projects/Motard/Image 2.2.png";
 import Img31 from "../assests/Projects/Motard/Image 3.1.png";
 import Img32 from "../assests/Projects/Motard/Image 3.2.png";
-import Projects from "../Websites/Projects";
+import Projects from "../Branding/Projects";
 import Footer from "../Footer";
 
 function Motard() {
@@ -91,7 +91,7 @@ function Motard() {
 
       <div className="portfolio-projects-gallery">
         <div className="portfolio-projects-gallery-container branding">
-            <section>
+          <section>
             <img src={Img11} alt="Motard Project Image" />
             <img src={Img12} alt="Motard Project Image" />
           </section>
@@ -99,7 +99,7 @@ function Motard() {
             <img src={Img21} alt="Motard Project Image" />
             <img src={Img22} alt="Motard Project Image" />
           </section>
-           <section>
+          <section>
             <img src={Img31} alt="Motard Project Image" />
             <img src={Img32} alt="Motard Project Image" />
           </section>

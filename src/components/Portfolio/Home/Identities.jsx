@@ -7,6 +7,12 @@ import DigtialIdentities3 from "../assests/Home/Digtial Identities 3.png";
 import DigtialIdentities4 from "../assests/Home/Digtial Identities 4.png";
 import DigtialIdentities5 from "../assests/Home/Digtial Identities 5.png";
 import DigtialIdentities6 from "../assests/Home/Digtial Identities 6.png";
+import DigtialIdentities7 from "../assests/Home/Digtial Identities 7.png";
+import DigtialIdentities8 from "../assests/Home/Digtial Identities 8.png";
+import DigtialIdentities9 from "../assests/Home/Digtial Identities 9.png";
+import DigtialIdentities10 from "../assests/Home/Digtial Identities 10.png";
+import DigtialIdentities11 from "../assests/Home/Digtial Identities 11.png";
+import DigtialIdentities12 from "../assests/Home/Digtial Identities 12.png";
 
 function Identities() {
   return (
@@ -49,24 +55,48 @@ function Identities() {
             <img src={DigtialIdentities4} />
             <img src={DigtialIdentities5} />
             <img src={DigtialIdentities6} />
+            <img src={DigtialIdentities7} />
+            <img src={DigtialIdentities8} />
+            <img src={DigtialIdentities9} />
+            <img src={DigtialIdentities10} />
+            <img src={DigtialIdentities11} />
+            <img src={DigtialIdentities12} />
             <img src={DigtialIdentities1} />
             <img src={DigtialIdentities2} />
             <img src={DigtialIdentities3} />
             <img src={DigtialIdentities4} />
             <img src={DigtialIdentities5} />
             <img src={DigtialIdentities6} />
+            <img src={DigtialIdentities7} />
+            <img src={DigtialIdentities8} />
+            <img src={DigtialIdentities9} />
+            <img src={DigtialIdentities10} />
+            <img src={DigtialIdentities11} />
+            <img src={DigtialIdentities12} />
             <img src={DigtialIdentities1} />
             <img src={DigtialIdentities2} />
             <img src={DigtialIdentities3} />
             <img src={DigtialIdentities4} />
             <img src={DigtialIdentities5} />
             <img src={DigtialIdentities6} />
+            <img src={DigtialIdentities7} />
+            <img src={DigtialIdentities8} />
+            <img src={DigtialIdentities9} />
+            <img src={DigtialIdentities10} />
+            <img src={DigtialIdentities11} />
+            <img src={DigtialIdentities12} />
             <img src={DigtialIdentities1} />
             <img src={DigtialIdentities2} />
             <img src={DigtialIdentities3} />
             <img src={DigtialIdentities4} />
             <img src={DigtialIdentities5} />
             <img src={DigtialIdentities6} />
+            <img src={DigtialIdentities7} />
+            <img src={DigtialIdentities8} />
+            <img src={DigtialIdentities9} />
+            <img src={DigtialIdentities10} />
+            <img src={DigtialIdentities11} />
+            <img src={DigtialIdentities12} />
           </div>
         </div>
       </div>

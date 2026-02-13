@@ -40,7 +40,6 @@ import Negilu from "./Projects/Negilu";
 import Airportr from "./Projects/Airportr";
 import IdaviFoods from "./Projects/IdaviFoods";
 
-// ⚙️ Miscellaneous / Product Projects
 
 function Portfolio() {
   return (

@@ -8,7 +8,7 @@ import Img2 from "../assests/Projects/Nirmalyam/Image 2.png";
 import Img31 from "../assests/Projects/Nirmalyam/Image 3.1.png";
 import Img32 from "../assests/Projects/Nirmalyam/Image 3.2.png";
 import Img4 from "../assests/Projects/Nirmalyam/Image 4.png";
-import Projects from "../Websites/Projects";
+import Projects from "../Branding/Projects";
 import Footer from "../Footer";
 
 function Nirmalyam() {

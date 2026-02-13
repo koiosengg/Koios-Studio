@@ -12,7 +12,7 @@ import Img23 from "../assests/Projects/Micronix/Image 2.3.png";
 import Img31 from "../assests/Projects/Micronix/Image 3.1.png";
 import Img32 from "../assests/Projects/Micronix/Image 3.2.png";
 import Img33 from "../assests/Projects/Micronix/Image 3.3.png";
-import Projects from "../Websites/Projects";
+import Projects from "../Branding/Projects";
 import Footer from "../Footer";
 
 function Micronix() {

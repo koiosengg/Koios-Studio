@@ -18,7 +18,7 @@ import MRIndustries from "../assests/Websites/Projects/MR Industries.png";
 import GMW from "../assests/Websites/Projects/GMW.png";
 import Ameya from "../assests/Websites/Projects/Ameya.png";
 import SIMMFA from "../assests/Websites/Projects/SIMMFA.png";
-import Clayful_Homes from "../assests/Websites/Projects/Clayful Homes.png"
+import Clayful_Homes from "../assests/Websites/Projects/Clayful Homes.png";
 
 function Projects() {
   const containerRef = useRef(null);
@@ -27,11 +27,18 @@ function Projects() {
   const [totalSlides, setTotalSlides] = useState(0);
 
   const [visibleSlides, setVisibleSlides] = useState(
-    window.innerWidth < 1200 ? 1 : 4
+    window.innerWidth < 1200 ? 1 : 4,
   );
 
   const location = useLocation();
-  const isProjectPage = location.pathname.startsWith("/portfolio/websites");
+  const path = location.pathname;
+
+  const projectTitle =
+    path === "/portfolio/websites"
+      ? "Projects"
+      : path.startsWith("/portfolio/websites/")
+        ? "Our Other Projects"
+        : "";
 
   useEffect(() => {
     const updateLayout = () => {
@@ -40,7 +47,7 @@ function Projects() {
 
       if (containerRef.current) {
         const sets = containerRef.current.querySelectorAll(
-          ".portfolio-websites-projects-set"
+          ".portfolio-websites-projects-set",
         );
         setTotalSlides(sets.length);
         const containerWidth = containerRef.current.offsetWidth;
@@ -72,7 +79,7 @@ function Projects() {
       <div className="portfolio-websites-projects-heading">
         <div className="portfolio-section-heading">
           <img src={HeadingDesign} className="portfolio-section-heading-img" />
-          <h2>{isProjectPage ? "Our Other Projects" : "Projects"}</h2>
+          <h2>{projectTitle}</h2>
         </div>
         <div className="portfolio-websites-projects-controls">
           <button
@@ -133,37 +140,6 @@ function Projects() {
           }}
         >
           <Link
-            to="/portfolio/websites/NE_Structures"
-            className="portfolio-websites-projects-set"
-          >
-            <div className="portfolio-websites-projects-set-img">
-              <img src={NEStructures} />
-            </div>
-            <div className="portfolio-websites-projects-set-info">
-              <section>
-                <h3>NE Structures</h3>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                >
-                  <path
-                    d="M14 16L18 12M18 12L14 8M18 12H6"
-                    stroke="white"
-                    strokeWidth="2"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </section>
-              <p>Construction Industries</p>
-            </div>
-            <div className="portfolio-websites-projects-set-glow"></div>
-          </Link>
-          <Link
             to="/portfolio/websites/Mobiglide"
             className="portfolio-websites-projects-set"
           >
@@ -195,15 +171,15 @@ function Projects() {
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
           <Link
-            to="/portfolio/websites/XLR8"
+            to="/portfolio/websites/NE_Structures"
             className="portfolio-websites-projects-set"
           >
             <div className="portfolio-websites-projects-set-img">
-              <img src={XLR8} />
+              <img src={NEStructures} />
             </div>
             <div className="portfolio-websites-projects-set-info">
               <section>
-                <h3>XLR8</h3>
+                <h3>NE Structures</h3>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -221,69 +197,7 @@ function Projects() {
                   />
                 </svg>
               </section>
-              <p>EV an Automobile Go-kart</p>
-            </div>
-            <div className="portfolio-websites-projects-set-glow"></div>
-          </Link>
-          <Link
-            to="/portfolio/websites/Cilkencave"
-            className="portfolio-websites-projects-set"
-          >
-            <div className="portfolio-websites-projects-set-img">
-              <img src={Cilkencave} />
-            </div>
-            <div className="portfolio-websites-projects-set-info">
-              <section>
-                <h3>Cilkencave</h3>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                >
-                  <path
-                    d="M14 16L18 12M18 12L14 8M18 12H6"
-                    stroke="white"
-                    strokeWidth="2"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </section>
-              <p>Semi Conductor Industry</p>
-            </div>
-            <div className="portfolio-websites-projects-set-glow"></div>
-          </Link>
-          <Link
-            to="/portfolio/websites/Akarswift"
-            className="portfolio-websites-projects-set"
-          >
-            <div className="portfolio-websites-projects-set-img">
-              <img src={Akarswift} />
-            </div>
-            <div className="portfolio-websites-projects-set-info">
-              <section>
-                <h3>Akarswift</h3>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                >
-                  <path
-                    d="M14 16L18 12M18 12L14 8M18 12H6"
-                    stroke="white"
-                    strokeWidth="2"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </section>
-              <p>Logistics Solutions</p>
+              <p>Construction Industries</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
@@ -318,7 +232,37 @@ function Projects() {
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
-
+          <Link
+            to="/portfolio/websites/Balaji_Proto_Tools"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={BalajiProtoTools} />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Balaji Proto Tools</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M14 16L18 12M18 12L14 8M18 12H6"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </section>
+              <p>Automotive and Manufacturing Industry</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
           <Link
             to="/portfolio/websites/Happy_Gummies"
             className="portfolio-websites-projects-set"
@@ -350,13 +294,16 @@ function Projects() {
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
-          <Link to="/" className="portfolio-websites-projects-set">
+          <Link
+            to="/portfolio/websites/Fourstor"
+            className="portfolio-websites-projects-set"
+          >
             <div className="portfolio-websites-projects-set-img">
-              <img src={Koiostudio} />
+              <img src={Fourstor} />
             </div>
             <div className="portfolio-websites-projects-set-info">
               <section>
-                <h3>Koiostudio</h3>
+                <h3>Fourstor</h3>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -409,69 +356,6 @@ function Projects() {
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
-          <a
-            href="https://www.koiosengg.com/"
-            target="_blank"
-            className="portfolio-websites-projects-set"
-          >
-            <div className="portfolio-websites-projects-set-img">
-              <img src={KoiosEngineering} />
-            </div>
-            <div className="portfolio-websites-projects-set-info">
-              <section>
-                <h3>Koios Engineering</h3>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                >
-                  <path
-                    d="M14 16L18 12M18 12L14 8M18 12H6"
-                    stroke="white"
-                    strokeWidth="2"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </section>
-              <p>Mechanical / Manufacturing Industry</p>
-            </div>
-            <div className="portfolio-websites-projects-set-glow"></div>
-          </a>
-          <Link
-            to="/portfolio/websites/Fourstor"
-            className="portfolio-websites-projects-set"
-          >
-            <div className="portfolio-websites-projects-set-img">
-              <img src={Fourstor} />
-            </div>
-            <div className="portfolio-websites-projects-set-info">
-              <section>
-                <h3>Fourstor</h3>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                >
-                  <path
-                    d="M14 16L18 12M18 12L14 8M18 12H6"
-                    stroke="white"
-                    strokeWidth="2"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </section>
-              <p>Automation Industry</p>
-            </div>
-            <div className="portfolio-websites-projects-set-glow"></div>
-          </Link>
           <Link
             to="/portfolio/websites/Urban_Sphere"
             className="portfolio-websites-projects-set"
@@ -503,16 +387,17 @@ function Projects() {
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
+
           <Link
-            to="/portfolio/websites/Balaji_Proto_Tools"
+            to="/portfolio/websites/Cilkencave"
             className="portfolio-websites-projects-set"
           >
             <div className="portfolio-websites-projects-set-img">
-              <img src={BalajiProtoTools} />
+              <img src={Cilkencave} />
             </div>
             <div className="portfolio-websites-projects-set-info">
               <section>
-                <h3>Balaji Proto Tools</h3>
+                <h3>Cilkencave</h3>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -530,7 +415,7 @@ function Projects() {
                   />
                 </svg>
               </section>
-              <p>Automotive and Manufacturing Industry</p>
+              <p>Semi Conductor Industry</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
@@ -628,15 +513,15 @@ function Projects() {
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
           <Link
-            to="/portfolio/websites/SIMMFA"
+            to="/portfolio/websites/XLR8"
             className="portfolio-websites-projects-set"
           >
             <div className="portfolio-websites-projects-set-img">
-              <img src={SIMMFA} />
+              <img src={XLR8} />
             </div>
             <div className="portfolio-websites-projects-set-info">
               <section>
-                <h3>SIMMFA</h3>
+                <h3>XLR8</h3>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -654,11 +539,42 @@ function Projects() {
                   />
                 </svg>
               </section>
-              <p>Music Academy</p>
+              <p>EV an Automobile Go-kart</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
-             <Link
+          <Link
+            to="/portfolio/websites/Akarswift"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={Akarswift} />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Akarswift</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M14 16L18 12M18 12L14 8M18 12H6"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </section>
+              <p>Logistics Solutions</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
             to="/portfolio/websites/Clayful_Homes"
             className="portfolio-websites-projects-set"
           >
@@ -689,6 +605,98 @@ function Projects() {
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
+          <Link
+            to="/portfolio/websites/SIMMFA"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={SIMMFA} />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>SIMMFA</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M14 16L18 12M18 12L14 8M18 12H6"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </section>
+              <p>Music Academy</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link to="/" className="portfolio-websites-projects-set">
+            <div className="portfolio-websites-projects-set-img">
+              <img src={Koiostudio} />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Koiostudio</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M14 16L18 12M18 12L14 8M18 12H6"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </section>
+              <p>Automation Industry</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+
+          <a
+            href="https://www.koiosengg.com/"
+            target="_blank"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={KoiosEngineering} />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Koios Engineering</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M14 16L18 12M18 12L14 8M18 12H6"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </section>
+              <p>Mechanical / Manufacturing Industry</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </a>
         </div>
       </div>
     </div>
