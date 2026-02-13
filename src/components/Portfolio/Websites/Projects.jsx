@@ -19,6 +19,8 @@ import GMW from "../assests/Websites/Projects/GMW.png";
 import Ameya from "../assests/Websites/Projects/Ameya.png";
 import SIMMFA from "../assests/Websites/Projects/SIMMFA.png";
 import Clayful_Homes from "../assests/Websites/Projects/Clayful Homes.png";
+import ScaleCraft from "../assests/Websites/Projects/Scale Craft.png";
+import MachineMovers from "../assests/Websites/Projects/Machine Movers.png";
 
 function Projects() {
   const containerRef = useRef(null);
@@ -633,6 +635,68 @@ function Projects() {
                 </svg>
               </section>
               <p>Music Academy</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/websites/Scale_Craft"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={ScaleCraft} />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Scale Craft</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M14 16L18 12M18 12L14 8M18 12H6"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </section>
+              <p>F&B Business Consultancy</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/websites/Machine_Movers"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={MachineMovers} />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Machine Movers</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M14 16L18 12M18 12L14 8M18 12H6"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </section>
+              <p>Branding Consultancy</p>
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>

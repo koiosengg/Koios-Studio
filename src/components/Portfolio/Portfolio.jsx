@@ -25,6 +25,7 @@ import Akarswift from "./Projects/Akarswift";
 import GMW from "./Projects/GMW";
 import SIMMFA from "./Projects/SIMMFA";
 import Clayful_Homes from "./Projects/Clayful_Homes";
+import Scale_Craft from "./Projects/Scale_Craft";
 
 // 🪄 Branding Projects
 import GOAT from "./Projects/GOAT";
@@ -39,7 +40,7 @@ import LMG from "./Projects/LMG";
 import Negilu from "./Projects/Negilu";
 import Airportr from "./Projects/Airportr";
 import IdaviFoods from "./Projects/IdaviFoods";
-
+import Machine_Movers from "./Projects/Machine_Movers";
 
 function Portfolio() {
   return (
@@ -73,6 +74,8 @@ function Portfolio() {
       <Route path="/websites/Ameya" element={<Ameya />} />
       <Route path="/websites/SIMMFA" element={<SIMMFA />} />
       <Route path="/websites/Clayful_Homes" element={<Clayful_Homes />} />
+      <Route path="/websites/Scale_Craft" element={<Scale_Craft />} />
+      <Route path="/websites/Machine_Movers" element={<Machine_Movers />} />
 
       {/* 🪄 Branding */}
       <Route path="/branding/GOAT" element={<GOAT />} />
