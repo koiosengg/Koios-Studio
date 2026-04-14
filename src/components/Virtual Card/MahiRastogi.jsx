@@ -94,7 +94,7 @@ function MahiRastogi() {
     vCard.organization = "Koios Studio";
 
     const imageBase64 = await getBase64FromImage(
-      `${window.location.origin}/MahiRastogi.jpg`
+      `${window.location.origin}/MahiRastogi.jpg`,
     );
     vCard.photo.embedFromString(imageBase64, "image/jpg");
 
@@ -122,7 +122,7 @@ function MahiRastogi() {
             reader.onloadend = () => resolve(reader.result.split(",")[1]);
             reader.onerror = reject;
             reader.readAsDataURL(blob);
-          })
+          }),
       );
   };
 
@@ -143,7 +143,7 @@ function MahiRastogi() {
           <p>Save Contact</p>
         </a>
         <a
-          href="https://www.linkedin.com/in/mahi-rastogi-project-manager/"
+          href="https://www.linkedin.com/in/mahi-rastogi-koiostudio/"
           target="_blank"
           className="virtual-card-banner-button"
         >
@@ -438,7 +438,7 @@ function MahiRastogi() {
         <h2>Find and Follow</h2>
         <div className="virtual-card-find-container">
           <a
-            href="https://www.linkedin.com/in/mahi-rastogi-project-manager/"
+            href="https://www.linkedin.com/in/mahi-rastogi-koiostudio"
             target="_blank"
             className="virtual-card-find-set"
           >
