@@ -7,7 +7,7 @@ import BannerDesktopBackround from "./assets/TKS Desktop Banner.png";
 import BannerMobileBackround from "./assets/TKS Mobile Banner.png";
 import Verified from "./assets/Verified.png";
 import BannerButton from "./assets/TKS Banner Button Background.png";
-import PersonPhoto from "/MahiRastogi.jpg";
+import PersonPhoto from "/MahiRastogi.png";
 import MarqueeStar from "./assets/Marquee Star.png";
 import AboutDesktopBackground from "./assets/TKS Desktop About.png";
 import AboutMobileBackground from "./assets/TKS Mobile About.png";
