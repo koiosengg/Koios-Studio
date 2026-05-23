@@ -74,7 +74,7 @@ function MudigetiSantosh() {
     vCard.firstName = "M Santosh";
     vCard.cellPhone = "+919347744815";
     vCard.email = "sunny962002@gmail.com";
-    vCard.organization = "Koios Studio";
+    vCard.organization = "koiostudio";
 
     const imageBase64 = await getBase64FromImage(
       `${window.location.origin}/MudigetiSantosh.jpg`
@@ -150,7 +150,7 @@ function MudigetiSantosh() {
           <div className="virtual-card-banner-left">
             <div className="virtual-card-banner-left-text">
               <section>
-                <img src={Logo} alt="Koios Studios Logo" />
+                <img src={Logo} alt="koiostudio Logo" />
                 <h1>
                   Mudigeti Santosh
                   <img src={Verified} />

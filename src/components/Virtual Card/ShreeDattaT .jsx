@@ -83,7 +83,7 @@ function ShreeDattaT() {
     vCard.firstName = "Shree Datta T";
     vCard.cellPhone = "+918884599729";
     vCard.email = "Info@koiosengg.com";
-    vCard.organization = "Koios Studio";
+    vCard.organization = "koiostudio";
 
     const imageBase64 = await getBase64FromImage(
       `${window.location.origin}/ShreeDattaT.jpg`

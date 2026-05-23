@@ -79,7 +79,7 @@ function AbhayNayak() {
     vCard.firstName = "Abhay Nayak";
     vCard.cellPhone = "+919902765986";
     vCard.email = "abhaynayak0307@gmail.com";
-    vCard.organization = "Koios Studio";
+    vCard.organization = "koiostudio";
 
     const imageBase64 = await getBase64FromImage(
       `${window.location.origin}/AbhayNayak.jpeg`
@@ -155,7 +155,7 @@ function AbhayNayak() {
           <div className="virtual-card-banner-left">
             <div className="virtual-card-banner-left-text">
               <section>
-                <img src={Logo} alt="Koios Studios Logo" />
+                <img src={Logo} alt="koiostudio Logo" />
                 <h1>
                   Abhay Nayak
                   <img src={Verified} />
@@ -670,7 +670,7 @@ function AbhayNayak() {
           <div className="virtual-card-experience-set">
             <h3>UX Designer</h3>
             <section>
-              <h4>Koios Stuidos</h4>
+              <h4>koiostudio</h4>
               <p>June 2024 - Present</p>
             </section>
           </div>

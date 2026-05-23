@@ -17,7 +17,7 @@ function Main() {
   return (
     <>
       <Helmet>
-        <title>Koios Studios</title>
+        <title>koiostudio</title>
         <meta
           name="description"
           content="Explore Koios' Website Designing services including responsive design and UI/UX development."

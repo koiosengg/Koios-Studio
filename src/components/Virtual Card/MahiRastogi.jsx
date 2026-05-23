@@ -91,7 +91,7 @@ function MahiRastogi() {
     vCard.firstName = "Mahi Rastogi";
     vCard.cellPhone = "+917338658118";
     vCard.email = "info@koiostudio.com";
-    vCard.organization = "Koios Studio";
+    vCard.organization = "koiostudio";
 
     const imageBase64 = await getBase64FromImage(
       `${window.location.origin}/MahiRastogi.jpg`,
@@ -169,7 +169,7 @@ function MahiRastogi() {
           <div className="virtual-card-banner-left">
             <div className="virtual-card-banner-left-text">
               <section>
-                <img src={Logo} alt="Koios Studios Logo" />
+                <img src={Logo} alt="koiostudio Logo" />
                 <h1>
                   Mahi Rastogi
                   <img src={Verified} />
@@ -179,7 +179,7 @@ function MahiRastogi() {
                 </div>
               </section>
               <p>
-                As Co-founder and Director of Koios Studios, I help brands build
+                As Co-founder and Director of koiostudio, I help brands build
                 meaningful digital identities through intuitive UI/UX and robust
                 development. I lead cross-functional teams to deliver design,
                 development, and branding solutions that resonate with
@@ -1112,7 +1112,7 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  I had a fantastic experience with Koios Studio when they
+                  I had a fantastic experience with koiostudio when they
                   redesigned our company website. Their team was not only
                   professional but also incredibly creative and skilled. They
                   truly understood our brand and created a beautiful, cohesive
@@ -1120,7 +1120,7 @@ function MahiRastogi() {
                   user-friendly, and it looks great on all devices. The
                   communication was clear and timely throughout the project, and
                   their support after launch has been outstanding. Overall,
-                  Koios Studio went above and beyond our expectations. I highly
+                  koiostudio went above and beyond our expectations. I highly
                   recommend them!
                 </p>
                 <section>
@@ -1288,7 +1288,7 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  Mahi Rastogi from Koios Studio offers one of the best website
+                  Mahi Rastogi from koiostudio offers one of the best website
                   and app development services. They recently designed my Yoga
                   poster, and the experience was excellent. The design and
                   execution were really impressive.
@@ -1342,7 +1342,7 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  I had a fantastic experience with Koios Studio when they
+                  I had a fantastic experience with koiostudio when they
                   redesigned our company website. Their team was not only
                   professional but also incredibly creative and skilled. They
                   truly understood our brand and created a beautiful, cohesive
@@ -1350,7 +1350,7 @@ function MahiRastogi() {
                   user-friendly, and it looks great on all devices. The
                   communication was clear and timely throughout the project, and
                   their support after launch has been outstanding. Overall,
-                  Koios Studio went above and beyond our expectations. I highly
+                  koiostudio went above and beyond our expectations. I highly
                   recommend them!
                 </p>
                 <section>
@@ -1518,7 +1518,7 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  Mahi Rastogi from Koios Studio offers one of the best website
+                  Mahi Rastogi from koiostudio offers one of the best website
                   and app development services. They recently designed my Yoga
                   poster, and the experience was excellent. The design and
                   execution were really impressive.
@@ -1574,7 +1574,7 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  I had a fantastic experience with Koios Studio when they
+                  I had a fantastic experience with koiostudio when they
                   redesigned our company website. Their team was not only
                   professional but also incredibly creative and skilled. They
                   truly understood our brand and created a beautiful, cohesive
@@ -1582,7 +1582,7 @@ function MahiRastogi() {
                   user-friendly, and it looks great on all devices. The
                   communication was clear and timely throughout the project, and
                   their support after launch has been outstanding. Overall,
-                  Koios Studio went above and beyond our expectations. I highly
+                  koiostudio went above and beyond our expectations. I highly
                   recommend them!
                 </p>
                 <section>
@@ -1750,7 +1750,7 @@ function MahiRastogi() {
               </div>
               <div className="virtual-card-testimony-set">
                 <p>
-                  Mahi Rastogi from Koios Studio offers one of the best website
+                  Mahi Rastogi from koiostudio offers one of the best website
                   and app development services. They recently designed my Yoga
                   poster, and the experience was excellent. The design and
                   execution were really impressive.

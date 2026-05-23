@@ -10,7 +10,7 @@ function TKSfooter() {
       <div className="virtual-card-footer-container">
         <section>
           <Link to="/">
-            <img src={Logo} alt="Koios Studio Logo" />
+            <img src={Logo} alt="koiostudio Logo" />
           </Link>
           <div className="virtual-card-footer-link-container">
             <a href="#">Privacy Policy</a>
@@ -22,7 +22,7 @@ function TKSfooter() {
         <section>
           <p>© {currentYear} Reserved </p>
           <span>
-            Crafted by <Link to="/">Koios Studio</Link>
+            Crafted by <Link to="/">koiostudio</Link>
           </span>
         </section>
       </div>

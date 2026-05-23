@@ -81,7 +81,7 @@ function VishalPujar() {
     vCard.firstName = "Vishal Pujar";
     vCard.cellPhone = "+916360788781";
     vCard.email = "info@koiosengg.com";
-    vCard.organization = "Koios Studio";
+    vCard.organization = "koiostudio";
 
     const imageBase64 = await getBase64FromImage(
       `${window.location.origin}/VishalPujar.jpeg`

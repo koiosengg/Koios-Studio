@@ -84,7 +84,7 @@ function TemplateTKS() {
     vCard.firstName = "M Sunny";
     vCard.cellPhone = "+919347744407";
     vCard.email = "sunny92002@gmail.com";
-    vCard.organization = "Koios Studio";
+    vCard.organization = "koiostudio";
 
     const imageBase64 = await getBase64FromImage(
       `${window.location.origin}/TemplatePerson.png`
@@ -158,7 +158,7 @@ function TemplateTKS() {
           <div className="virtual-card-banner-left">
             <div className="virtual-card-banner-left-text">
               <section>
-                <img src={Logo} alt="Koios Studios Logo" />
+                <img src={Logo} alt="koiostudio Logo" />
                 <h1>
                   Daniel Jacob
                   <img src={Verified} />
@@ -1747,7 +1747,7 @@ function TemplateTKS() {
         <div className="virtual-card-footer-container">
           <section>
             <Link to="/">
-              <img src={Logo} alt="Koios Studio Logo" />
+              <img src={Logo} alt="koiostudio Logo" />
             </Link>
 
             <div className="virtual-card-footer-link-container">
@@ -1760,7 +1760,7 @@ function TemplateTKS() {
           <section>
             <p>© {currentYear} Reserved </p>
             <span>
-              Crafted by <Link to="/">Koios Studio</Link>
+              Crafted by <Link to="/">koiostudio</Link>
             </span>
           </section>
         </div>

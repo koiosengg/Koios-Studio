@@ -3,7 +3,7 @@ import React from "react";
 function PrivacyPolicy() {
   return (
     <div class="p-privacy-policy-main">
-      <h1>KOIOS STUDIOS</h1>
+      <h1>koiostudio</h1>
       <br />
       <br />
       <h1 class="p-privacy-policy-text">PRIVACY POLICY</h1>

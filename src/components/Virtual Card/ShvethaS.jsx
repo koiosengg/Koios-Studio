@@ -79,7 +79,7 @@ function ShvethaS() {
     vCard.firstName = "Shvetha S";
     vCard.cellPhone = "+916381384343";
     vCard.email = "shvethanila@gmail.com";
-    vCard.organization = "Koios Studio";
+    vCard.organization = "koiostudio";
 
     const imageBase64 = await getBase64FromImage(
       `${window.location.origin}/ShvethaS.png`
@@ -155,7 +155,7 @@ function ShvethaS() {
           <div className="virtual-card-banner-left">
             <div className="virtual-card-banner-left-text">
               <section>
-                <img src={Logo} alt="Koios Studios Logo" />
+                <img src={Logo} alt="koiostudio Logo" />
                 <h1>
                   Shvetha S
                   <img src={Verified} />
@@ -616,7 +616,7 @@ function ShvethaS() {
           <div className="virtual-card-experience-set">
             <h3>UX Designer</h3>
             <section>
-              <h4>Koios Stuidos</h4>
+              <h4>koiostudio</h4>
               <p>March 2024 - Present</p>
             </section>
           </div>

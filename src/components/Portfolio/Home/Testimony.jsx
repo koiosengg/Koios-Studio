@@ -60,7 +60,7 @@ function Testimony() {
           <div className="portfolio-testimony-container">
             <div className="portfolio-testimony-set">
               <p>
-                I had a fantastic experience with Koios Studio when they
+                I had a fantastic experience with koiostudio when they
                 redesigned our company website. Their team was not only
                 professional but also incredibly creative and skilled.
               </p>

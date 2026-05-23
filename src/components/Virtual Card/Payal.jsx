@@ -79,7 +79,7 @@ function Payal() {
     vCard.firstName = "Payal Sunilrao Kathiwale ";
     vCard.cellPhone = "+917385312748";
     vCard.email = "kathiwalepayal@gmail.com";
-    vCard.organization = "Koios Studio";
+    vCard.organization = "koiostudio";
 
     const imageBase64 = await getBase64FromImage(
       `${window.location.origin}/Payal.jpeg`
@@ -155,7 +155,7 @@ function Payal() {
           <div className="virtual-card-banner-left">
             <div className="virtual-card-banner-left-text">
               <section>
-                <img src={Logo} alt="Koios Studios Logo" />
+                <img src={Logo} alt="koiostudio Logo" />
                 <h1>
                   Payal Sunilrao Kathiwale
                   <img src={Verified} />
@@ -642,7 +642,7 @@ function Payal() {
           <div className="virtual-card-experience-set">
             <h3>Business Development Executive</h3>
             <section>
-              <h4>Koios Studio </h4>
+              <h4>koiostudio </h4>
               <p>July 2024 - Present</p>
             </section>
           </div>

@@ -80,7 +80,7 @@ function TemplateKES() {
     vCard.firstName = "M Santosh";
     vCard.cellPhone = "+919347744407";
     vCard.email = "sunny92002@gmail.com";
-    vCard.organization = "Koios Studio";
+    vCard.organization = "koiostudio";
 
     const imageBase64 = await getBase64FromImage(
       `${window.location.origin}/TemplatePerson.png`
@@ -1390,7 +1390,7 @@ function TemplateKES() {
         <div className="virtual-card-footer-container">
           <section>
             <Link to="/">
-              <img src={TKSLogo} alt="Koios Studio Logo" />
+              <img src={TKSLogo} alt="koiostudio Logo" />
             </Link>
 
             <div className="virtual-card-footer-link-container">
@@ -1403,7 +1403,7 @@ function TemplateKES() {
           <section>
             <p>© {currentYear} Reserved </p>
             <span>
-              Crafted by <Link to="/">Koios Studio</Link>
+              Crafted by <Link to="/">koiostudio</Link>
             </span>
           </section>
         </div>
