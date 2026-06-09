@@ -71,41 +71,50 @@ function Scale_Craft() {
           <div className="portfolio-projects-info-set">
             <h2>Overview</h2>
             <p>
-              This project involved designing a conversion-focused website for
-              an F&B growth consultancy that helps brands scale operations,
-              revenue, and decision-making. The goal was to create a strong
-              founder-led narrative, build trust with data-backed proof, and
-              clearly communicate services to restaurant and food brand owners.
+             ScaleCraft was designed as a growth
+              consulting platform for emerging F&B brands, 
+              combining strategy with hands-on execution.
+              The goal was to create a clear and
+              professional digital experience that simplifies
+              complex services while building trust and
+              enabling scalable, data-driven growth.
             </p>
           </div>
           <div className="portfolio-projects-info-set">
             <h2>Challenges</h2>
             <p>
-              The key challenge was balancing large amounts of information
-              (services, results, founder story, and trust signals) without
-              overwhelming the user. Another challenge was maintaining
-              credibility and professionalism while keeping the layout visually
-              engaging for a fast-scrolling audience.
+              The primary challenge was to simplify complex
+               consulting services into a clear and engaging 
+               experience while maintaining credibility.
+                It was important to balance strategic depth 
+                with easy understanding, ensuring the platform
+                 appealed to founders and communicated 
+                value without overwhelming them.
             </p>
           </div>
           <div className="portfolio-projects-info-set">
             <h2>Approach</h2>
             <p>
-              Followed a user-first approach by mapping the founder journey,
-              client pain points, and business goals into a clear content
-              hierarchy. The design focuses on bold typography, minimal
-              sections, visual storytelling, and strategic CTAs to guide users
-              from awareness to action smoothly.
+              The approach focused on creating a clean,
+               structured layout with strong visual
+                hierarchy and concise content.
+                 Services were organized into clear
+                  sections, supported by case studies
+                   and simple messaging to make the
+                    platform intuitive, professional,
+                     and easy to navigate.
             </p>
           </div>
           <div className="portfolio-projects-info-set">
             <h2>Results</h2>
             <p>
-              The final design delivers a clear value proposition, improved
-              scannability, and strong trust-building through metrics,
-              testimonials, and founder presence. The structured flow and
-              consistent visual language help users quickly understand the
-              offering and encourage higher engagement and inquiries.
+              The final design delivers a clear and
+               user-friendly experience that effectively
+                communicates services and builds trust. 
+                It improves content clarity, enhances
+                 engagement, and positions ScaleCraft
+                  as a reliable partner for scalable
+                   and sustainable business growth.
             </p>
           </div>
         </div>
@@ -118,12 +127,12 @@ function Scale_Craft() {
             Strategies
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Neque eget enim sed in morbi
-            suspendisse ullamcorper auctor. Semper proin in ut magna quis amet
-            dignissim. Ultricies fringilla non pulvinar adipiscing tempus
-            malesuada quis facilisi. Viverra malesuada dis hendrerit aenean.
-            Orci diam pretium vitae et et amet. Nunc quisque ultrices facilisi
-            fames arcu libero rhoncus.
+            The platform was built using a modular and 
+            scalable design system to ensure consistency
+             and flexibility. It supports easy content
+              updates, responsive performance across
+               devices, and future expansion with
+                analytics and additional service integrations.
           </p>
         </div>
       </div>
