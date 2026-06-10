@@ -72,8 +72,8 @@ function Navbar() {
           isMobileNavOpen
             ? "activeMobileNavbar"
             : hasToggled
-            ? "nonactiveMobileNavbar"
-            : ""
+              ? "nonactiveMobileNavbar"
+              : ""
         }`}
       >
         <div
@@ -117,7 +117,13 @@ function Navbar() {
               Contact Us
             </Link>
             <section>
-              <a onClick={handleLinkClick}>
+              <a
+                href="https://www.instagram.com/koiostudio"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={handleLinkClick}
+                aria-label="koiostudio Instagram"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="19"
@@ -131,7 +137,13 @@ function Navbar() {
                   />
                 </svg>
               </a>
-              <a onClick={handleLinkClick}>
+              <a
+                href="https://www.linkedin.com/company/koiostudio/"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={handleLinkClick}
+                aria-label="koiostudio LinkedIn"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="19"
