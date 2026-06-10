@@ -1,4 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import Img1 from "../../assets/Home/Mobile Application/Img1.webp";
 import Img2 from "../../assets/Home/Mobile Application/Img2.webp";
 
@@ -61,7 +62,7 @@ function MobileApplication() {
               <img
                 loading="lazy"
                 src={img}
-                alt={`slide-${index}`}
+                alt={`Mobile App Development Showcase slide ${index + 1}`}
                 key={index}
               />
             ))}
@@ -114,10 +115,13 @@ function MobileApplication() {
           We engineer applications across diverse industries, prioritizing
           user-friendly interfaces. From concept to deployment, we optimize
           functionality for seamless user experience, empowering businesses to
-          thrive in the digital age.
+          thrive in the digital age.
         </p>
 
-        <a href="./website designing.html">
+        <Link
+          to="/app_development"
+          aria-label="Explore Mobile Application Development Services"
+        >
           <span>Explore More</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -131,7 +135,7 @@ function MobileApplication() {
               fill="#FFBF00"
             />
           </svg>
-        </a>
+        </Link>
       </div>
     </div>
   );

@@ -12,21 +12,21 @@ function Marquee() {
   return (
     <div className="s-horizontal-marquee">
       <div className="s-horizontal-marquee-container">
-        <img src={DesktopFrame} className="s-horizontal-marquee-frame" />
+        <img src={DesktopFrame} className="s-horizontal-marquee-frame" alt="Desktop showcase frame" />
         <div className="s-horizontal-marquee-wrapper">
           <div className="s-horizontal-marquee-marquee">
-            <img src={Img1} />
-            <img src={Img2} />
-            <img src={Img3} />
-            <img src={Img4} />
-            <img src={Img5} />
-            <img src={Img6} />
-            <img src={Img1} />
-            <img src={Img2} />
-            <img src={Img3} />
-            <img src={Img4} />
-            <img src={Img5} />
-            <img src={Img6} />
+            <img src={Img1} alt="koiostudio Showcase project screenshot 1" />
+            <img src={Img2} alt="koiostudio Showcase project screenshot 2" />
+            <img src={Img3} alt="koiostudio Showcase project screenshot 3" />
+            <img src={Img4} alt="koiostudio Showcase project screenshot 4" />
+            <img src={Img5} alt="koiostudio Showcase project screenshot 5" />
+            <img src={Img6} alt="koiostudio Showcase project screenshot 6" />
+            <img src={Img1} alt="koiostudio Showcase project screenshot 1 duplicate" />
+            <img src={Img2} alt="koiostudio Showcase project screenshot 2 duplicate" />
+            <img src={Img3} alt="koiostudio Showcase project screenshot 3 duplicate" />
+            <img src={Img4} alt="koiostudio Showcase project screenshot 4 duplicate" />
+            <img src={Img5} alt="koiostudio Showcase project screenshot 5 duplicate" />
+            <img src={Img6} alt="koiostudio Showcase project screenshot 6 duplicate" />
           </div>
         </div>
       </div>
@@ -40,7 +40,7 @@ function Marquee() {
             engaging experiences.
           </p>
         </section>
-        <Link to="/portfolio" className="p-mail-button">
+        <Link to="/portfolio" className="p-mail-button" aria-label="Explore our full portfolio of projects">
           <p>Explore Now</p>
           <svg
             xmlns="http://www.w3.org/2000/svg"

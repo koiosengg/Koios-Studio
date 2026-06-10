@@ -19,8 +19,8 @@ function Navbar() {
   return (
     <>
       <div className="s-navbar">
-        <Link to="/" className="s-logo-container">
-          <img src={Logo} />
+        <Link to="/" className="s-logo-container" aria-label="koiostudio Homepage">
+          <img src={Logo} alt="koiostudio Logo" />
         </Link>
         <div className="s-nav-link">
           <div className="s-nav-link-heading">

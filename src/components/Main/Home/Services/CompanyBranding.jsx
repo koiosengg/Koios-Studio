@@ -1,4 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import Img1 from "../../assets/Home/Company Branding/Img1.webp";
 import Img2 from "../../assets/Home/Company Branding/Img2.webp";
 
@@ -61,7 +62,7 @@ function CompanyBranding() {
               <img
                 loading="lazy"
                 src={img}
-                alt={`slide-${index}`}
+                alt={`Company Branding Showcase slide ${index + 1}`}
                 key={index}
               />
             ))}
@@ -117,7 +118,7 @@ function CompanyBranding() {
           across industries.
         </p>
 
-        <a href="./website designing.html">
+        <Link to="/company_branding" aria-label="Explore Company Branding Services">
           <span>Explore More</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -131,7 +132,7 @@ function CompanyBranding() {
               fill="#FFBF00"
             />
           </svg>
-        </a>
+        </Link>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import Img1 from "../../assets/Home/Website Development/Img1.webp";
 import Img2 from "../../assets/Home/Website Development/Img2.webp";
 import Img3 from "../../assets/Home/Website Development/Img3.webp";
@@ -62,7 +63,7 @@ function WebsiteDevelopment() {
               <img
                 loading="lazy"
                 src={img}
-                alt={`slide-${index}`}
+                alt={`Website Development Showcase slide ${index + 1}`}
                 key={index}
               />
             ))}
@@ -114,11 +115,14 @@ function WebsiteDevelopment() {
         <p className="subpage-desc">
           We specialize in website development, offering both static and dynamic
           solutions. From sleek, informative static sites to dynamic platforms
-          with interactive features, we engineer digital spaces that
-          engage and impress.
+          with interactive features, we engineer digital spaces that engage and
+          impress.
         </p>
 
-        <a href="./website designing.html">
+        <Link
+          to="/web_development"
+          aria-label="Explore Website Development Services"
+        >
           <span>Explore More</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -132,7 +136,7 @@ function WebsiteDevelopment() {
               fill="#FFBF00"
             />
           </svg>
-        </a>
+        </Link>
       </div>
     </div>
   );
