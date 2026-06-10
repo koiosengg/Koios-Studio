@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import Banner from "./Applications/Banner";
 import Sidebar from "./Sidebar";
 import Footer from "./Footer";
@@ -27,6 +28,10 @@ function Applications() {
 
   return (
     <div className="portfolio">
+      <Helmet>
+        <title>App Development Portfolio - koiostudio</title>
+        <meta name="description" content="Explore advanced standalone, web, and ecosystem mobile applications developed by koiostudio for iOS, Android, and web admin consoles." />
+      </Helmet>
       <Banner />
       <Sidebar isOnBanner={isOnBanner} />
       <Numbers />

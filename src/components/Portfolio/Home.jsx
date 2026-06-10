@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import Banner from "./Home/Banner";
 import Marquee from "./Home/Marquee";
 import Numbers from "./Home/Numbers";
@@ -33,6 +34,10 @@ function Home() {
 
   return (
     <div className="portfolio portfolio-home">
+      <Helmet>
+        <title>Portfolio - koiostudio</title>
+        <meta name="description" content="Explore the design portfolio of koiostudio. We craft premium websites, mobile applications, and company branding solutions with precision and elegance." />
+      </Helmet>
       <Banner />
       <Sidebar isOnBanner={isOnBanner} />
       <Marquee />

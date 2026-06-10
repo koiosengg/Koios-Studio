@@ -25,7 +25,7 @@ function Numbers() {
     <div className="portfolio-home-numbers">
       <div className="portfolio-home-numbers-container">
         <div className="portfolio-section-heading">
-          <img src={HeadingDesign} className="portfolio-section-heading-img" />
+          <img src={HeadingDesign} className="portfolio-section-heading-img" alt="Decorative heading line design" />
           <h2>
             <span>Numbers</span> that speak for themselves
           </h2>
@@ -35,7 +35,7 @@ function Numbers() {
             outcomes that consistently exceed expectations and strengthen client
             success.
           </p>
-          <a href="#footer" className="portfolio-primary-button">
+          <a href="#footer" className="portfolio-primary-button" aria-label="Scroll to footer contact information">
             <div className="portfolio-primary-button-background"></div>
             <p>My turn to shine</p>
           </a>
@@ -48,6 +48,7 @@ function Numbers() {
           <img
             src={DesktopBackground}
             className="portfolio-home-numbers-background"
+            alt="Desktop showcase stats background"
           />
           <div
             className="portfolio-home-cursor-glow"

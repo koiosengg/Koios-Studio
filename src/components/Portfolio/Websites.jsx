@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import Banner from "./Websites/Banner";
 import Sidebar from "./Sidebar";
 import Footer from "./Footer";
@@ -25,6 +26,10 @@ function Websites() {
   }, []);
   return (
     <div className="portfolio portfolio-website">
+      <Helmet>
+        <title>Web Design & Development Portfolio - koiostudio</title>
+        <meta name="description" content="View stunning websites designed and developed by koiostudio. From high-performance corporate sites to custom MERN-stack and e-commerce platforms." />
+      </Helmet>
       <Banner />
       <Sidebar isOnBanner={isOnBanner} />
       <Responsive />

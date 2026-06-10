@@ -7,11 +7,11 @@ function Sidebar({ isOnBanner }) {
       <div className="portfolio-sidebar-container">
         <nav>
           <section>
-            <Link to="/portfolio/websites">Websites</Link>
+            <Link to="/portfolio/websites" aria-label="View koiostudio portfolio websites">Websites</Link>
             <span></span>
-            <Link to="/portfolio/applications">Applications</Link>
+            <Link to="/portfolio/applications" aria-label="View koiostudio portfolio applications">Applications</Link>
             <span></span>
-            <Link to="/portfolio/branding">Branding</Link>
+            <Link to="/portfolio/branding" aria-label="View koiostudio portfolio branding">Branding</Link>
           </section>
         </nav>
       </div>

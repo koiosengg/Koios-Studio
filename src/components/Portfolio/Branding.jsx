@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import Banner from "./Branding/Banner";
 import Sidebar from "./Sidebar";
 import Footer from "./Footer";
@@ -27,6 +28,10 @@ function Branding() {
   }, []);
   return (
     <div className="portfolio portfolio-branding">
+      <Helmet>
+        <title>Branding & Identity Portfolio - koiostudio</title>
+        <meta name="description" content="Explore company branding solutions by koiostudio. View custom corporate identities, logo designs, branding manuals, flyers, brochures, and packages." />
+      </Helmet>
       <Banner />
       <Sidebar isOnBanner={isOnBanner} />
       <Gallery />

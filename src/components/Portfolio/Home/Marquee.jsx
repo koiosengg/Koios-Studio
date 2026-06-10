@@ -21,54 +21,27 @@ import MarqueeImg19 from "../assests/Home/Marquee/Marquee  (19).png";
 import MarqueeImg20 from "../assests/Home/Marquee/Marquee  (20).png";
 
 function Marquee() {
+  const marqueeImages = [
+    MarqueeImg1, MarqueeImg2, MarqueeImg3, MarqueeImg4, MarqueeImg5,
+    MarqueeImg6, MarqueeImg7, MarqueeImg8, MarqueeImg9, MarqueeImg10,
+    MarqueeImg11, MarqueeImg12, MarqueeImg13, MarqueeImg14, MarqueeImg15,
+    MarqueeImg16, MarqueeImg17, MarqueeImg18, MarqueeImg19, MarqueeImg20
+  ];
+
   return (
     <div className="portfolio-home-marquee">
       <div className="portfolio-home-marquee-container">
         <div className="portfolio-home-marquee-track">
           <div className="portfolio-home-marquee-slide">
-            <img src={MarqueeImg1} />
-            <img src={MarqueeImg2} />
-            <img src={MarqueeImg3} />
-            <img src={MarqueeImg4} />
-            <img src={MarqueeImg5} />
-            <img src={MarqueeImg6} />
-            <img src={MarqueeImg7} />
-            <img src={MarqueeImg8} />
-            <img src={MarqueeImg9} />
-            <img src={MarqueeImg10} />
-            <img src={MarqueeImg11} />
-            <img src={MarqueeImg12} />
-            <img src={MarqueeImg13} />
-            <img src={MarqueeImg14} />
-            <img src={MarqueeImg15} />
-            <img src={MarqueeImg16} />
-            <img src={MarqueeImg17} />
-            <img src={MarqueeImg18} />
-            <img src={MarqueeImg19} />
-            <img src={MarqueeImg20} />
+            {marqueeImages.map((img, i) => (
+              <img key={`slide1-${i}`} src={img} alt={`koiostudio client logo ${i + 1}`} />
+            ))}
           </div>
 
           <div className="portfolio-home-marquee-slide">
-            <img src={MarqueeImg1} />
-            <img src={MarqueeImg2} />
-            <img src={MarqueeImg3} />
-            <img src={MarqueeImg4} />
-            <img src={MarqueeImg5} />
-            <img src={MarqueeImg6} />
-            <img src={MarqueeImg7} />
-            <img src={MarqueeImg8} />
-            <img src={MarqueeImg9} />
-            <img src={MarqueeImg10} />
-            <img src={MarqueeImg11} />
-            <img src={MarqueeImg12} />
-            <img src={MarqueeImg13} />
-            <img src={MarqueeImg14} />
-            <img src={MarqueeImg15} />
-            <img src={MarqueeImg16} />
-            <img src={MarqueeImg17} />
-            <img src={MarqueeImg18} />
-            <img src={MarqueeImg19} />
-            <img src={MarqueeImg20} />
+            {marqueeImages.map((img, i) => (
+              <img key={`slide2-${i}`} src={img} alt={`koiostudio client logo ${i + 1} duplicate`} />
+            ))}
           </div>
         </div>
       </div>

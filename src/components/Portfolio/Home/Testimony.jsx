@@ -28,7 +28,7 @@ function Testimony() {
     <div className="portfolio-home-numbers portfolio-testimony">
       <div className="portfolio-home-numbers-container">
         <div className="portfolio-section-heading">
-          <img src={HeadingDesign} className="portfolio-section-heading-img" />
+          <img src={HeadingDesign} alt="koiostudio section heading design border" className="portfolio-section-heading-img" />
           <h2>
             Hear Our <br className="notMobile" /> <span>Happy Clients</span>
           </h2>
@@ -41,6 +41,7 @@ function Testimony() {
         >
           <img
             src={DesktopBackground}
+            alt="koiostudio client testimonials background"
             className="portfolio-home-numbers-background"
           />
           <div
@@ -64,11 +65,11 @@ function Testimony() {
                 redesigned our company website. Their team was not only
                 professional but also incredibly creative and skilled.
               </p>
-              <img src={Testimony1} alt="Testimony Person Image" />
+              <img src={Testimony1} alt="koiostudio client testimonial one" />
             </div>
             <div className="portfolio-testimony-set">
               <p>Highly professional team very creative at work</p>
-              <img src={Testimony2} alt="Testimony Person Image" />
+              <img src={Testimony2} alt="koiostudio client testimonial two" />
             </div>
             <div className="portfolio-testimony-set">
               <p>
@@ -76,14 +77,14 @@ function Testimony() {
                 work hard to deliver excellent results with an approachable and
                 adaptive attitude.
               </p>
-              <img src={Testimony3} alt="Testimony Person Image" />
+              <img src={Testimony3} alt="koiostudio client testimonial three" />
             </div>
             <div className="portfolio-testimony-set">
               <p>
                 Excellent experience working with the koios team. All the
                 designers are very professional
               </p>
-              <img src={Testimony4} alt="Testimony Person Image" />
+              <img src={Testimony4} alt="koiostudio client testimonial four" />
             </div>
           </div>
         </div>

@@ -41,26 +41,32 @@ function Socials() {
     >
       <img
         src={DesktopBackground}
-        alt="Desktop Background"
+        alt="koiostudio social section desktop background"
         className="portfolio-socials-background desktop"
       />
       <img
         src={MobileBackground}
-        alt="Desktop Background"
+        alt="koiostudio social section mobile background"
         className="portfolio-socials-background mobile"
       />
       <img
         src={BackgroundLeft}
-        alt="Background Left"
+        alt="koiostudio social section background left design"
         className="portfolio-socials-background-left"
       />
       <img
         src={BackgroundRight}
-        alt="Background Right"
+        alt="koiostudio social section background right design"
         className="portfolio-socials-background-right"
       />
-      <a className="portfolio-socials-set portfolio-socials-set-1">
-        <img src={SetBackground} alt="Set Background" />
+      <a
+        className="portfolio-socials-set portfolio-socials-set-1"
+        href="https://www.koiostudio.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Visit koiostudio website"
+      >
+        <img src={SetBackground} alt="koiostudio website link background" />
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="48"
@@ -76,8 +82,14 @@ function Socials() {
           />
         </svg>
       </a>
-      <a className="portfolio-socials-set portfolio-socials-set-2">
-        <img src={SetBackground} alt="Set Background" />
+      <a
+        className="portfolio-socials-set portfolio-socials-set-2"
+        href="https://www.facebook.com/profile.php?id=61570978105729"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Visit koiostudio facebook page"
+      >
+        <img src={SetBackground} alt="koiostudio facebook link background" />
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="40"
@@ -92,14 +104,20 @@ function Socials() {
             />
           </g>
           <defs>
-            <clipPath id="clip0_342_4496">
+            <clipPath id="clip0_342_4496)">
               <rect width="40" height="40" fill="white" />
             </clipPath>
           </defs>
         </svg>
       </a>
-      <a className="portfolio-socials-set portfolio-socials-set-3">
-        <img src={SetBackground} alt="Set Background" />
+      <a
+        className="portfolio-socials-set portfolio-socials-set-3"
+        href="https://www.instagram.com/koiostudio"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Visit koiostudio instagram page"
+      >
+        <img src={SetBackground} alt="koiostudio instagram link background" />
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="48"
@@ -113,8 +131,14 @@ function Socials() {
           />
         </svg>
       </a>
-      <a className="portfolio-socials-set portfolio-socials-set-4">
-        <img src={SetBackground} alt="Set Background" />
+      <a
+        className="portfolio-socials-set portfolio-socials-set-4"
+        href="https://www.linkedin.com/company/koiostudio/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Visit koiostudio linkedin page"
+      >
+        <img src={SetBackground} alt="koiostudio linkedin link background" />
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="48"

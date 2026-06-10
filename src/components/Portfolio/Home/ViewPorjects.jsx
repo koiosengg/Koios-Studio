@@ -13,72 +13,36 @@ import ViewProjectsImg10 from "../assests/Home/View Projects/View Projects Img 1
 import ViewProjectsImg11 from "../assests/Home/View Projects/View Projects Img 11.png";
 
 function ViewPorjects() {
+  const track1 = [
+    ViewProjectsImg1, ViewProjectsImg2, ViewProjectsImg3,
+    ViewProjectsImg4, ViewProjectsImg5, ViewProjectsImg6
+  ];
+  const track1Images = [...track1, ...track1, ...track1, ...track1];
+
+  const track2 = [
+    ViewProjectsImg7, ViewProjectsImg8, ViewProjectsImg9,
+    ViewProjectsImg10, ViewProjectsImg11
+  ];
+  const track2Images = [...track2, ...track2, ...track2, ...track2, ...track2, ...track2];
+
   return (
     <div className="portfolio-home-view-projects">
       <div className="portfolio-home-view-projects-wrapper">
         <div className="portfolio-home-view-projects-marquee">
-          <img src={ViewProjectsImg1} />
-          <img src={ViewProjectsImg2} />
-          <img src={ViewProjectsImg3} />
-          <img src={ViewProjectsImg4} />
-          <img src={ViewProjectsImg5} />
-          <img src={ViewProjectsImg6} />
-          <img src={ViewProjectsImg1} />
-          <img src={ViewProjectsImg2} />
-          <img src={ViewProjectsImg3} />
-          <img src={ViewProjectsImg4} />
-          <img src={ViewProjectsImg5} />
-          <img src={ViewProjectsImg6} />
-          <img src={ViewProjectsImg1} />
-          <img src={ViewProjectsImg2} />
-          <img src={ViewProjectsImg3} />
-          <img src={ViewProjectsImg4} />
-          <img src={ViewProjectsImg5} />
-          <img src={ViewProjectsImg6} />
-          <img src={ViewProjectsImg1} />
-          <img src={ViewProjectsImg2} />
-          <img src={ViewProjectsImg3} />
-          <img src={ViewProjectsImg4} />
-          <img src={ViewProjectsImg5} />
-          <img src={ViewProjectsImg6} />
+          {track1Images.map((img, idx) => (
+            <img key={`t1-${idx}`} src={img} alt={`koiostudio showcase screenshot ${idx + 1}`} />
+          ))}
         </div>
       </div>
       <div className="portfolio-home-view-projects-wrapper">
         <div className="portfolio-home-view-projects-marquee portfolio-home-view-projects-marquee-rev">
-          <img src={ViewProjectsImg7} />
-          <img src={ViewProjectsImg8} />
-          <img src={ViewProjectsImg9} />
-          <img src={ViewProjectsImg10} />
-          <img src={ViewProjectsImg11} />
-          <img src={ViewProjectsImg7} />
-          <img src={ViewProjectsImg8} />
-          <img src={ViewProjectsImg9} />
-          <img src={ViewProjectsImg10} />
-          <img src={ViewProjectsImg11} />
-          <img src={ViewProjectsImg7} />
-          <img src={ViewProjectsImg8} />
-          <img src={ViewProjectsImg9} />
-          <img src={ViewProjectsImg10} />
-          <img src={ViewProjectsImg11} />
-          <img src={ViewProjectsImg7} />
-          <img src={ViewProjectsImg8} />
-          <img src={ViewProjectsImg9} />
-          <img src={ViewProjectsImg10} />
-          <img src={ViewProjectsImg11} />
-          <img src={ViewProjectsImg7} />
-          <img src={ViewProjectsImg8} />
-          <img src={ViewProjectsImg9} />
-          <img src={ViewProjectsImg10} />
-          <img src={ViewProjectsImg11} />
-          <img src={ViewProjectsImg7} />
-          <img src={ViewProjectsImg8} />
-          <img src={ViewProjectsImg9} />
-          <img src={ViewProjectsImg10} />
-          <img src={ViewProjectsImg11} />
+          {track2Images.map((img, idx) => (
+            <img key={`t2-${idx}`} src={img} alt={`koiostudio showcase screenshot ${idx + 7}`} />
+          ))}
         </div>
       </div>
       <div className="portfolio-home-view-projects-container">
-        <Link to="/portfolio/websites" className="portfolio-primary-button">
+        <Link to="/portfolio/websites" className="portfolio-primary-button" aria-label="View all portfolio projects">
           <div className="portfolio-primary-button-background"></div>
           <p>View Projects</p>
         </Link>

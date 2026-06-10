@@ -5,7 +5,7 @@ function FAQ() {
   return (
     <div className="portfolio-home-faq">
       <div className="portfolio-section-heading">
-        <img src={HeadingDesign} className="portfolio-section-heading-img" />
+        <img src={HeadingDesign} alt="koiostudio section heading design border" className="portfolio-section-heading-img" />
         <h2>
           When it comes to building Brands , we <span>got you </span> covered !
         </h2>

@@ -42,7 +42,7 @@ function Gallery() {
           <img
             src={HeadingDesign}
             className="portfolio-section-heading-img"
-            alt="Heading Design"
+            alt="Decorative heading line design"
           />
           <h2>
             Your <span>Application</span> - Designed to impress
@@ -56,6 +56,7 @@ function Gallery() {
           <Link
             to="/portfolio/applications"
             className="portfolio-secondary-button"
+            aria-label="View all application projects"
           >
             <p>View All</p>
             <svg
@@ -78,7 +79,7 @@ function Gallery() {
             <img
               src={GalleryArrow}
               className="portfolio-home-gallery-arrow"
-              alt="Arrow"
+              alt="Indicator arrow pointing to thumbnails"
             />
           )}
           {imageData.map((img, index) => (
@@ -91,14 +92,14 @@ function Gallery() {
               }`}
               onClick={() => handleImageClick(index)}
             >
-              <img src={img.thumb} alt={`Gallery ${index + 1}`} />
+              <img src={img.thumb} alt={`Application UI design screenshot thumbnail ${index + 1}`} />
             </div>
           ))}
         </div>
       </div>
 
       <div className="portfolio-home-gallery-right">
-        <img src={selectedImage} alt="Selected Gallery" />
+        <img src={selectedImage} alt="Selected application UI design screenshot showcase" />
       </div>
     </div>
   );

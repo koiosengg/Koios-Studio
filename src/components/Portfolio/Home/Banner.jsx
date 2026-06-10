@@ -13,10 +13,12 @@ function Banner() {
       <Navbar />
       <img
         src={DesktopBanner}
+        alt="koiostudio desktop banner"
         className="portfolio-home-banner-background notMobile"
       />
       <img
         src={MobileBanner}
+        alt="koiostudio mobile banner"
         className="portfolio-home-banner-background mobile"
       />
       <div className="portfolio-home-banner-container">
@@ -31,14 +33,14 @@ function Banner() {
             story is expressed with elegance and precision.
           </p>
         </section>
-        <Link to="/contact" className="portfolio-primary-button">
+        <Link to="/contact" className="portfolio-primary-button" aria-label="Build your website with koiostudio">
           <div className="portfolio-primary-button-background"></div>
           <p>Build Your Website with us </p>
         </Link>
         <div className="portfolio-home-banner-icons">
-          <img src={Icon1} className="portfolio-home-banner-icon-1" />
-          <img src={Icon2} className="portfolio-home-banner-icon-2" />
-          <img src={Icon3} className="portfolio-home-banner-icon-3" />
+          <img src={Icon1} alt="koiostudio design icon one" className="portfolio-home-banner-icon-1" />
+          <img src={Icon2} alt="koiostudio design icon two" className="portfolio-home-banner-icon-2" />
+          <img src={Icon3} alt="koiostudio design icon three" className="portfolio-home-banner-icon-3" />
         </div>
       </div>
     </div>

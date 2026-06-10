@@ -15,11 +15,18 @@ import DigtialIdentities11 from "../assests/Home/Digtial Identities 11.png";
 import DigtialIdentities12 from "../assests/Home/Digtial Identities 12.png";
 
 function Identities() {
+  const identityImages = [
+    DigtialIdentities1, DigtialIdentities2, DigtialIdentities3, DigtialIdentities4,
+    DigtialIdentities5, DigtialIdentities6, DigtialIdentities7, DigtialIdentities8,
+    DigtialIdentities9, DigtialIdentities10, DigtialIdentities11, DigtialIdentities12
+  ];
+  const marqueeImages = [...identityImages, ...identityImages, ...identityImages, ...identityImages];
+
   return (
     <div className="portfolio-home-identities">
       <div className="portfolio-home-identities-heading">
         <div className="portfolio-section-heading">
-          <img src={HeadingDesign} className="portfolio-section-heading-img" />
+          <img src={HeadingDesign} className="portfolio-section-heading-img" alt="Decorative heading line design" />
           <h2>
             Designing <span>Digital Identities </span>
             that Stand out
@@ -30,7 +37,7 @@ function Identities() {
             the brand while connecting meaningfully with its audience.
           </p>
         </div>
-        <Link to="/portfolio/branding" className="portfolio-secondary-button">
+        <Link to="/portfolio/branding" className="portfolio-secondary-button" aria-label="View all digital identity projects">
           <p>View All</p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -49,54 +56,9 @@ function Identities() {
       <div className="portfolio-home-identities-container">
         <div className="portfolio-home-view-projects-wrapper">
           <div className="portfolio-home-view-projects-marquee">
-            <img src={DigtialIdentities1} />
-            <img src={DigtialIdentities2} />
-            <img src={DigtialIdentities3} />
-            <img src={DigtialIdentities4} />
-            <img src={DigtialIdentities5} />
-            <img src={DigtialIdentities6} />
-            <img src={DigtialIdentities7} />
-            <img src={DigtialIdentities8} />
-            <img src={DigtialIdentities9} />
-            <img src={DigtialIdentities10} />
-            <img src={DigtialIdentities11} />
-            <img src={DigtialIdentities12} />
-            <img src={DigtialIdentities1} />
-            <img src={DigtialIdentities2} />
-            <img src={DigtialIdentities3} />
-            <img src={DigtialIdentities4} />
-            <img src={DigtialIdentities5} />
-            <img src={DigtialIdentities6} />
-            <img src={DigtialIdentities7} />
-            <img src={DigtialIdentities8} />
-            <img src={DigtialIdentities9} />
-            <img src={DigtialIdentities10} />
-            <img src={DigtialIdentities11} />
-            <img src={DigtialIdentities12} />
-            <img src={DigtialIdentities1} />
-            <img src={DigtialIdentities2} />
-            <img src={DigtialIdentities3} />
-            <img src={DigtialIdentities4} />
-            <img src={DigtialIdentities5} />
-            <img src={DigtialIdentities6} />
-            <img src={DigtialIdentities7} />
-            <img src={DigtialIdentities8} />
-            <img src={DigtialIdentities9} />
-            <img src={DigtialIdentities10} />
-            <img src={DigtialIdentities11} />
-            <img src={DigtialIdentities12} />
-            <img src={DigtialIdentities1} />
-            <img src={DigtialIdentities2} />
-            <img src={DigtialIdentities3} />
-            <img src={DigtialIdentities4} />
-            <img src={DigtialIdentities5} />
-            <img src={DigtialIdentities6} />
-            <img src={DigtialIdentities7} />
-            <img src={DigtialIdentities8} />
-            <img src={DigtialIdentities9} />
-            <img src={DigtialIdentities10} />
-            <img src={DigtialIdentities11} />
-            <img src={DigtialIdentities12} />
+            {marqueeImages.map((img, idx) => (
+              <img key={`ident-${idx}`} src={img} alt={`koiostudio brand identity screenshot ${idx + 1}`} />
+            ))}
           </div>
         </div>
       </div>

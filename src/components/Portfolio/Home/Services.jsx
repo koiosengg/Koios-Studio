@@ -7,7 +7,7 @@ import Branding from "../assests/Home/Services Branding Icon.png";
 function Services() {
   return (
     <div className="portfolio-home-services">
-      <Link to="/portfolio/websites" className="portfolio-home-services-set">
+      <Link to="/portfolio/websites" className="portfolio-home-services-set" aria-label="View Website Portfolio">
         <div className="portfolio-home-services-set-icon">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +65,7 @@ function Services() {
               </linearGradient>
             </defs>
           </svg>
-          <img src={Website} />
+          <img src={Website} alt="Websites Icon" />
         </div>
         <h2>Websites</h2>
         <div className="portfolio-home-services-set-line">
@@ -96,6 +96,7 @@ function Services() {
       <Link
         to="/portfolio/applications"
         className="portfolio-home-services-set"
+        aria-label="View Application Portfolio"
       >
         <div className="portfolio-home-services-set-icon">
           <svg
@@ -154,7 +155,7 @@ function Services() {
               </linearGradient>
             </defs>
           </svg>
-          <img src={Application} />
+          <img src={Application} alt="Applications Icon" />
         </div>
         <h2>Application</h2>
         <div className="portfolio-home-services-set-line">
@@ -181,7 +182,7 @@ function Services() {
           </svg>
         </div>
       </Link>
-      <Link to="/portfolio/branding" className="portfolio-home-services-set">
+      <Link to="/portfolio/branding" className="portfolio-home-services-set" aria-label="View Branding Portfolio">
         <div className="portfolio-home-services-set-icon">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -239,7 +240,7 @@ function Services() {
               </linearGradient>
             </defs>
           </svg>
-          <img src={Branding} />
+          <img src={Branding} alt="Branding Icon" />
         </div>
         <h2>Branding</h2>
         <div className="portfolio-home-services-set-line">
