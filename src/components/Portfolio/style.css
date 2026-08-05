@@ -1791,6 +1791,7 @@
   align-items: flex-start;
   gap: 12px;
   overflow: hidden;
+  padding-left: 160px;
 }
 
 .portfolio-websites-projects-container-slide {
@@ -1888,6 +1889,7 @@
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
+  line-clamp: 1;
   overflow: hidden;
   color: rgba(255, 255, 255, 0.9);
   text-overflow: ellipsis;
@@ -3543,6 +3545,7 @@
 
   .portfolio-websites-projects-container {
     gap: 0px;
+    padding-left: 0px;
   }
 
   .portfolio-websites-projects-set {

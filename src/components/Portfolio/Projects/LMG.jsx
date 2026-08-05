@@ -55,14 +55,7 @@ function LMG() {
       <div className="portfolio-projects-cover">
         <img src={Cover} alt="LMG Cover" />
       </div>
-      <div className="portfolio-projects-info-container">
-        <div className="portfolio-section-heading">
-          <img src={HeadingDesign} className="portfolio-section-heading-img" />
-          <h2>
-            <span>Design </span>
-            Secrets
-          </h2>
-        </div>
+      <div className="portfolio-projects-info-container branding">
         <div className="portfolio-projects-info">
           <div className="portfolio-projects-info-set">
             <h2>Overview</h2>
@@ -100,25 +93,6 @@ function LMG() {
               satisfaction.
             </p>
           </div>
-        </div>
-      </div>
-      <div className="portfolio-projects-info-container">
-        <div className="portfolio-section-heading">
-          <img src={HeadingDesign} className="portfolio-section-heading-img" />
-          <h2>
-            <span>Development </span>
-            Strategies
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Libero platea turpis dictum
-            auctor. Diam volutpat dictum tincidunt vestibulum. Enim elementum
-            dignissim eget faucibus amet massa faucibus elit. Volutpat turpis
-            tortor purus nisl et tincidunt ultrices feugiat. Morbi quam enim sit
-            proin enim id. Quam habitant eu suspendisse sit faucibus bibendum
-            viverra tincidunt. Sed scelerisque orci ultrices volutpat fusce
-            ipsum ultricies lorem habitant. Quam lacus vitae feugiat vitae vitae
-            nisl quam tincidunt rhoncus.
-          </p>
         </div>
       </div>
 

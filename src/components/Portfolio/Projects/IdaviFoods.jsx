@@ -55,14 +55,7 @@ function IdaviFoods() {
       <div className="portfolio-projects-cover">
         <img src={Cover} alt="Idavi Foods Cover" />
       </div>
-      <div className="portfolio-projects-info-container">
-        <div className="portfolio-section-heading">
-          <img src={HeadingDesign} className="portfolio-section-heading-img" />
-          <h2>
-            <span>Design </span>
-            Secrets
-          </h2>
-        </div>
+      <div className="portfolio-projects-info-container branding">
         <div className="portfolio-projects-info">
           <div className="portfolio-projects-info-set">
             <h2>Overview</h2>
@@ -100,22 +93,6 @@ function IdaviFoods() {
               through clear design and reliability.
             </p>
           </div>
-        </div>
-      </div>
-      <div className="portfolio-projects-info-container">
-        <div className="portfolio-section-heading">
-          <img src={HeadingDesign} className="portfolio-section-heading-img" />
-          <h2>
-            <span>Development </span>
-            Strategies
-          </h2>
-          <p>
-            The app was developed using a responsive and scalable architecture
-            focused on speed, security, and user convenience. Optimized assets,
-            streamlined navigation, and integrated payment gateways enhanced
-            overall usability, while analytics and SEO tools supported customer
-            insights and growth.
-          </p>
         </div>
       </div>
 

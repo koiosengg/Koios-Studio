@@ -34,6 +34,11 @@ import Micronix from "./Projects/Micronix";
 import Aerovidya from "./Projects/Aerovidya";
 import Coffee_Culture from "./Projects/Coffee_Culture";
 import Motard from "./Projects/Motard";
+import Smilevieu from "./Projects/Smilevieu";
+import Voltus from "./Projects/Voltus";
+import Green_Tara from "./Projects/Green_Tara";
+import SPINTeQ from "./Projects/SPINTeQ";
+import Itel from "./Projects/Itel";
 
 // 💻 Application Projects
 import LMG from "./Projects/LMG";
@@ -84,6 +89,11 @@ function Portfolio() {
       <Route path="/branding/Aerovidya" element={<Aerovidya />} />
       <Route path="/branding/Coffee_Culture" element={<Coffee_Culture />} />
       <Route path="/branding/Motard" element={<Motard />} />
+      <Route path="/branding/Smilevieu" element={<Smilevieu />} />
+      <Route path="/branding/Voltus" element={<Voltus />} />
+      <Route path="/branding/Green_Tara" element={<Green_Tara />} />
+      <Route path="/branding/SPINTeQ" element={<SPINTeQ />} />
+      <Route path="/branding/Itel" element={<Itel />} />
 
       {/* 💻 Applications */}
       <Route path="/applications/LMG" element={<LMG />} />

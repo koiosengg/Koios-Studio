@@ -6,7 +6,7 @@ import Negilu from "../assests/Applications/Projects/Negilu.png";
 import IdaviFoods from "../assests/Applications/Projects/Idavi Foods.png";
 import Airportr from "../assests/Applications/Projects/Airportr.png";
 
-function projects() {
+function Projects() {
   const containerRef = useRef(null);
   const [slideIndex, setSlideIndex] = useState(0);
   const [slideWidth, setSlideWidth] = useState(0);
@@ -36,7 +36,7 @@ function projects() {
           ".portfolio-websites-projects-set",
         );
         setTotalSlides(sets.length);
-        const containerWidth = containerRef.current.offsetWidth;
+        const containerWidth = containerRef.current.clientWidth;
         const calculatedWidth =
           (containerWidth - 12 * (newVisibleSlides - 1)) / newVisibleSlides;
         setSlideWidth(calculatedWidth);
@@ -252,10 +252,100 @@ function projects() {
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </Link>
+          <Link
+            to="/portfolio/branding/Smilevieu"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={LMG} alt="Smilevieu" />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Smilevieu</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M14 16L18 12M18 12L14 8M18 12H6" stroke="white" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </section>
+              <p>Healthcare & Branding</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/branding/Voltus"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={LMG} alt="Voltus" />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Voltus</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M14 16L18 12M18 12L14 8M18 12H6" stroke="white" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </section>
+              <p>Energy & Technology</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/branding/Green_Tara"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={LMG} alt="Green Tara" />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Green Tara</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M14 16L18 12M18 12L14 8M18 12H6" stroke="white" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </section>
+              <p>Eco Wellness</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/branding/SPINTeQ"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={LMG} alt="SPINTeQ" />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>SPINTeQ</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M14 16L18 12M18 12L14 8M18 12H6" stroke="white" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </section>
+              <p>Engineering & Automation</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/branding/Itel"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={LMG} alt="Itel" />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Itel</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M14 16L18 12M18 12L14 8M18 12H6" stroke="white" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </section>
+              <p>Telecom & Devices</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
         </div>
       </div>
     </div>
   );
 }
 
-export default projects;
+export default Projects;

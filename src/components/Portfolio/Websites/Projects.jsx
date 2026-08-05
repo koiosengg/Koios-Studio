@@ -21,6 +21,19 @@ import SIMMFA from "../assests/Websites/Projects/SIMMFA.png";
 import Clayful_Homes from "../assests/Websites/Projects/Clayful Homes.png";
 import ScaleCraft from "../assests/Websites/Projects/Scale Craft.png";
 import MachineMovers from "../assests/Websites/Projects/Machine Movers.png";
+import AirportrImg from "../assests/Applications/Projects/Airportr.png";
+import LMGImg from "../assests/Applications/Projects/LMG.png";
+import NegiluImg from "../assests/Applications/Projects/Negilu.png";
+import IdaviFoodsImg from "../assests/Applications/Projects/Idavi Foods.png";
+import MicronixImg from "../assests/Branding/Projects/Micronix.png";
+import NirmalyamImg from "../assests/Branding/Projects/Nirmalyam.png";
+import GOATImg from "../assests/Branding/Projects/GOAT Cafe.png";
+import AerovidyaImg from "../assests/Branding/Projects/Aerovidya.png";
+import MotardImg from "../assests/Branding/Projects/Motard.png";
+import CoffeeCultureImg from "../assests/Branding/Projects/Coffee Culture.png";
+import SmilevieuImg from "../assests/Projects/Smilevieu/3.png";
+import VoltusImg from "../assests/Projects/Voltus/voltus1.png";
+import GreenTaraImg from "../assests/Projects/Green Tara/1.png";
 
 function Projects() {
   const containerRef = useRef(null);
@@ -52,7 +65,7 @@ function Projects() {
           ".portfolio-websites-projects-set",
         );
         setTotalSlides(sets.length);
-        const containerWidth = containerRef.current.offsetWidth;
+        const containerWidth = containerRef.current.clientWidth;
         const calculatedWidth =
           (containerWidth - 12 * (newVisibleSlides - 1)) / newVisibleSlides;
         setSlideWidth(calculatedWidth);
@@ -761,6 +774,278 @@ function Projects() {
             </div>
             <div className="portfolio-websites-projects-set-glow"></div>
           </a>
+
+          {/* Additional Projects */}
+          <Link
+            to="/portfolio/applications/Airportr"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={AirportrImg} alt="Airportr" />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Airportr</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M14 16L18 12M18 12L14 8M18 12H6" stroke="white" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </section>
+              <p>Goods Tracking App</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/applications/LMG"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={LMGImg} alt="LMG" />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>LMG</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M14 16L18 12M18 12L14 8M18 12H6" stroke="white" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </section>
+              <p>Tourism & Hospitality</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/applications/Negilu"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={NegiluImg} alt="Negilu" />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Negilu</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M14 16L18 12M18 12L14 8M18 12H6" stroke="white" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </section>
+              <p>Agriculture & Agritech</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/applications/Idavi_Foods"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={IdaviFoodsImg} alt="Idavi Foods" />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Idavi Foods</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M14 16L18 12M18 12L14 8M18 12H6" stroke="white" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </section>
+              <p>Food Industry</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/branding/Micronix"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={MicronixImg} alt="Micronix" />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Micronix</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M14 16L18 12M18 12L14 8M18 12H6" stroke="white" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </section>
+              <p>EV Batteries</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/branding/Nirmalyam"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={NirmalyamImg} alt="Nirmalyam" />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Nirmalyam</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M14 16L18 12M18 12L14 8M18 12H6" stroke="white" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </section>
+              <p>Food Industry</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/branding/GOAT"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={GOATImg} alt="GOAT Cafe" />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>GOAT Cafe</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M14 16L18 12M18 12L14 8M18 12H6" stroke="white" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </section>
+              <p>Food Industry</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/branding/Aerovidya"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={AerovidyaImg} alt="Aerovidya" />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Aerovidya</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M14 16L18 12M18 12L14 8M18 12H6" stroke="white" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </section>
+              <p>Branding</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/branding/Coffee_Culture"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={CoffeeCultureImg} alt="Coffee Culture" />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Coffee Culture</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M14 16L18 12M18 12L14 8M18 12H6" stroke="white" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </section>
+              <p>Food Industry</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/branding/Motard"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={MotardImg} alt="Motard" />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Motard</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M14 16L18 12M18 12L14 8M18 12H6" stroke="white" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </section>
+              <p>Biking Club & Gear</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/branding/Smilevieu"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={SmilevieuImg} alt="Smilevieu" />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Smilevieu</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M14 16L18 12M18 12L14 8M18 12H6" stroke="white" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </section>
+              <p>Healthcare & Branding</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/branding/Voltus"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={VoltusImg} alt="Voltus" />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Voltus</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M14 16L18 12M18 12L14 8M18 12H6" stroke="white" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </section>
+              <p>Energy & Technology</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/branding/Green_Tara"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={GreenTaraImg} alt="Green Tara" />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Green Tara</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M14 16L18 12M18 12L14 8M18 12H6" stroke="white" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </section>
+              <p>Eco Wellness</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/branding/SPINTeQ"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={MicronixImg} alt="SPINTeQ" />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>SPINTeQ</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M14 16L18 12M18 12L14 8M18 12H6" stroke="white" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </section>
+              <p>Engineering & Automation</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
+          <Link
+            to="/portfolio/branding/Itel"
+            className="portfolio-websites-projects-set"
+          >
+            <div className="portfolio-websites-projects-set-img">
+              <img src={MicronixImg} alt="Itel" />
+            </div>
+            <div className="portfolio-websites-projects-set-info">
+              <section>
+                <h3>Itel</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M14 16L18 12M18 12L14 8M18 12H6" stroke="white" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </section>
+              <p>Telecom & Devices</p>
+            </div>
+            <div className="portfolio-websites-projects-set-glow"></div>
+          </Link>
         </div>
       </div>
     </div>
